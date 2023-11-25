@@ -1,31 +1,30 @@
-package mobileclientassetmanagement.src.entity.location;
+package entity.location;
 
+import dbmanager.DataManager;
+
+import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 
 public class LocationImpl implements LocationInterface{
 
-    @Override
-    public Location get(Integer locationID) {
-        return null;
-    }
+    private Map<Integer, Location> locationData;
 
+    LocationImpl() {
+        this.locationData = DataManager.getLocationData();
+    }
     @Override
     public void add(Location location) {
-
+        locationData.put(location.getLocationID(), location);
     }
 
     @Override
     public void update(Integer locationID, Location location) {
-
+        locationData.put(locationID, location);
     }
 
     @Override
     public void delete(Integer locationID) {
-
-    }
-
-    @Override
-    public List<Location> getAll() {
-        return null;
+       locationData.remove(locationID);
     }
 }
