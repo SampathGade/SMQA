@@ -5,28 +5,25 @@ import java.util.List;
 
 public class CategoryImpl implements CategoryInterface {
 
-    @Override
-    public Category get(Integer categoryID) {
-        return null;
+    private Map<Integer, Category> categoryData;
+
+    CategoryImpl() {
+        this.categoryData = DataManager.getCategoryData();
     }
+
 
     @Override
     public void add(Category category) {
-
+        categoryData.put(category.getCategoryID(), category);
     }
 
     @Override
     public void update(Integer categoryID, Category category) {
-
+        categoryData.put(categoryID, category);
     }
 
     @Override
     public void delete(Integer categoryID) {
-
-    }
-
-    @Override
-    public List<Category> getAll() {
-        return null;
+        categoryData.remove(categoryID);
     }
 }

@@ -13,5 +13,8 @@ public class Constants {
     public static final String ROLE_TECHNICIAN_STRING = "Technician";
 
     public static final Integer USER = 1;
+    public static final String USER_DATA_CSV = "Userdata.csv";
+    public static final String CATEGORY_DATA_CSV = "categorydata.csv";
+    public static final Integer CATEGORY = 6;
 
 }

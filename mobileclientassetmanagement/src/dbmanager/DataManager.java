@@ -11,4 +11,6 @@ public class DataManager
     public static Map<Integer, User> getUserData(){
         return userDataMap;
     }
+    private static Map<Integer, Category> categoryDataMap = new HashMap<>();
+    public static Map<Integer, Category> getCategoryData(){return categoryDataMap;}
 }
