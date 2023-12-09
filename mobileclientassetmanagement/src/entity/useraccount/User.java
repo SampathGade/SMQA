@@ -1,5 +1,7 @@
 package mobileclientassetmanagement.src.entity.useraccount;
 
+import mobileclientassetmanagement.src.entity.role.UserRole;
+
 public class User
 {
     private Integer userID;
