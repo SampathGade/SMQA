@@ -1,4 +1,4 @@
-package entity.assetrequest;
+package mobileclientassetmanagement.src.entity.assetrequest;
 
 public class AssetRequestUtil {
     public static final Integer OPEN = 0;

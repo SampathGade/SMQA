@@ -1,6 +1,7 @@
-package entity.assetrequest;
+package mobileclientassetmanagement.src.entity.assetrequest;
 
-import dbmanager.DataManager;
+
+import mobileclientassetmanagement.src.dbmanager.DataManager;
 
 import java.util.ArrayList;
 import java.util.List;

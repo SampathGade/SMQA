@@ -1,4 +1,4 @@
-package entity.assetrequest;
+package mobileclientassetmanagement.src.entity.assetrequest;
 
 public enum AssetRequestStatus {
     OPEN(AssetRequestUtil.OPEN, AssetRequestUtil.OPEN_STRING),

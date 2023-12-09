@@ -1,4 +1,4 @@
-package entity.assetrequest;
+package mobileclientassetmanagement.src.entity.assetrequest;
 import status.Status;
 
 public class AssetRequestStatusImpl extends Status {

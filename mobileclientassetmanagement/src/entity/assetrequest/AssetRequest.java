@@ -1,4 +1,4 @@
-package entity.assetrequest;
+package mobileclientassetmanagement.src.entity.assetrequest;
 
 import entity.asset.Asset;
 import entity.useraccount.User;
