@@ -147,6 +147,19 @@ public class UserHandler implements Handler
         catch (Exception e) { System.out.println("Please provide valid Input");}
     }
     
+    private void handleImport(Scanner scanner) {
+        System.out.println("Please provide Absolute Path to Import");
+        scanner.nextLine();
+        String filePath = scanner.nextLine();
+        ImportFactory.getHandler(Constants.USER).handleImport(filePath);
+        System.out.println("Import Successfully Completed");
+    }
+
+    private void handleExport() {
+        Map<Integer, User> assetDataMap = DataManager.getUserData();
+        ExportFactory.getHandler(Constants.USER).handleExport(assetDataMap, "");
+    }
+    
     private static void displayUserDetailsVertical(User user) {
         System.out.println("\nUser details:");
         System.out.println("UserID: " +user.getUserID());
