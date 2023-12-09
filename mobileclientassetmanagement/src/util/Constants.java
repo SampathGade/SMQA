@@ -12,4 +12,6 @@ public class Constants {
     public static final String ROLE_ASSET_USER_STRING = "Asset User";
     public static final String ROLE_TECHNICIAN_STRING = "Technician";
 
+    public static final Integer USER = 1;
+
 }

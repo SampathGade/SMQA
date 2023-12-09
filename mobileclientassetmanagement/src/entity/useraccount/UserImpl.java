@@ -5,28 +5,22 @@ import java.util.List;
 
 public class UserImpl implements UserInterface {
 
-    @Override
-    public User get(Integer userID) {
-        return null;
+    private Map<Integer, User> userData;
+    UserImpl() {
+        this.userData = DataManager.getUserData();
     }
-
     @Override
     public void add(User user) {
-
+        userData.put(user.getUserID(), user);
     }
 
     @Override
     public void update(Integer userID, User user) {
-
+        userData.put(userID, user);
     }
 
     @Override
     public void delete(Integer userID) {
-
-    }
-
-    @Override
-    public List<User> getAll() {
-        return null;
+        userData.remove(userID);
     }
 }
