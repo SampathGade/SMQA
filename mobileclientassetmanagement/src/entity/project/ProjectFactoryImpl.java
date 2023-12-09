@@ -1,4 +1,4 @@
-package mobileclientassetmanagement.src.entity.project;
+package entity.project;
 
 public class ProjectFactoryImpl implements ProjectFactory{
     @Override
