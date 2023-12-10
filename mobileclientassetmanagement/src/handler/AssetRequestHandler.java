@@ -17,7 +17,7 @@ import java.time.LocalDate;
 import java.time.ZoneId;
 import java.util.*;
 
-import entity.assetrequest.AssetRequest;
+import mobileclientassetmanagement.src.entity.assetrequest.AssetRequest;
 
 public class AssetRequestHandler implements Handler {
 
@@ -81,6 +81,9 @@ public class AssetRequestHandler implements Handler {
                 }
                 else if(assetRequestHandlerMap.get(option).startsWith("Approve Asset Request")) {
                     approveAssetRequest();
+                }
+                else if(assetRequestHandlerMap.get(option).startsWith("Approve Asset Request")) {
+                    rejectAssetRequest();
                 }
                 else if(assetRequestHandlerMap.get(option).startsWith("Comment on Asset Request")) {
                     commentOnAssetRequest();
@@ -231,6 +234,13 @@ public class AssetRequestHandler implements Handler {
         providedAssetRequest.setRequesterAssignee(AppUtil.getCurrentUser());
         StatusFactory.getObject(Constants.ASSET_REQUEST).approve(providedAssetRequest);
         System.out.println("Request Approved Successfully!!!");
+    }
+    
+    private void rejectAssetRequest() {
+        AssetRequest providedAssetRequest = getRequestForApproveOrReject();
+        providedAssetRequest.setRequesterAssignee(AppUtil.getCurrentUser());
+        StatusFactory.getObject(Constants.ASSET_REQUEST).reject(providedAssetRequest);
+        System.out.println("Request Rejected!");
     }
     
     private void commentOnAssetRequest() {

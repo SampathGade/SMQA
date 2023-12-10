@@ -16,5 +16,13 @@ public class AssetRequestStatusImpl extends Status{
 	        AssetRequestInterface assetRequestInterface = new AssetRequestFactoryImpl().createAssetRequest();
 	        assetRequestInterface.update(requestID, assetRequest);
 	    }
-
+	   @Override
+	    public void reject(Object entity) {
+	        AssetRequest assetRequest = (AssetRequest) entity;
+	        Integer requestID = assetRequest.getRequestID();
+	        Integer rejectedStatusCode = AssetRequestStatus.REJECTED.getStatusCode();
+	        assetRequest.setRequestStatus(rejectedStatusCode);
+	        AssetRequestInterface assetRequestInterface = new AssetRequestFactoryImpl().createAssetRequest();
+	        assetRequestInterface.update(requestID, assetRequest);
+	    }
 }

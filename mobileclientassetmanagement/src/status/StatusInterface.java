@@ -6,6 +6,7 @@ public interface StatusInterface {
 
     void markAsExpired(Object entity);
     void approve(Object entity);
+    void reject(Object entity);
     void decommision(Object entity);
     void close(Object entity);
     void markAsPaid(Object entity);

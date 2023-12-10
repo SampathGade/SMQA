@@ -23,6 +23,9 @@ public abstract class Status implements StatusInterface {
     public void approve(Object entity) { }
     
     @Override
+    public void reject(Object entity) { }
+    
+    @Override
     public void push(Object entity) {}
 
 }
