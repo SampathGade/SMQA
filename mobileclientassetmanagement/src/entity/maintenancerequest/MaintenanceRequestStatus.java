@@ -27,17 +27,6 @@ public enum MaintenanceRequestStatus {
             if(maintenanceRequestStatus.getStatusCode() == statusCode) {
                 return maintenanceRequestStatus.getStatusName();
             }
-        }
-        throw new IllegalArgumentException("No StatusName for the statuscode");
+        } throw new IllegalArgumentException("No StatusName for the statuscode");
     }
-
-    public static int getStatusCode(String statusName) {
-        for(MaintenanceRequestStatus maintenanceRequestStatus : MaintenanceRequestStatus.values()){
-            if(maintenanceRequestStatus.getStatusName().equals(statusName)) {
-                return maintenanceRequestStatus.getStatusCode();
-            }
-        }
-        throw new IllegalArgumentException("No StatusCode for the StatusName");
-    }
-
 }

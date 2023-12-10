@@ -12,8 +12,9 @@ public class MaintenanceRequestImpl implements MaintenanceRequestInterface{
 
     private Map<Integer, MaintenanceRequest> maintenanceRequestData;
     MaintenanceRequestImpl() {
-
+        this.maintenanceRequestData = DataManager.getMaintenanceRequestData();
     }
+
 
     @Override
     public void add(MaintenanceRequest maintenanceRequest) {

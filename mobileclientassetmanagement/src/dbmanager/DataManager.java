@@ -23,6 +23,7 @@ public class DataManager
     private static Map<Integer, Category> categoryDataMap = new HashMap<>();
     private static Map<Integer, PurchaseOrder> purchaseOrderDataMap = new HashMap<>();
     private static Map<Integer, Asset> assetDataMap = new HashMap<>();
+    private static Map<Integer, MaintenanceRequest> maintenanceRequestDataMap = new HashMap<>();
 
     public static Map<Integer, User> getUserData(){
         return userDataMap;
@@ -53,5 +54,25 @@ public class DataManager
     public static Map<Integer, AssetRequest> getAssetRequestData(Boolean isSelf, String requesterName) {
         if(!isSelf) return getAssetRequestData();
         return getAssetRequestData(requesterName);
+    }
+
+    public static Map<Integer, MaintenanceRequest> getMaintenanceRequestData() {return maintenanceRequestDataMap;}
+    public static Map<Integer, MaintenanceRequest> getMaintenanceRequestData(String requesterName) {
+        return maintenanceRequestDataMap.entrySet().stream()
+                .filter(entry -> {MaintenanceRequest maintenanceRequest = entry.getValue();
+                    return maintenanceRequest.getRequesterName() != null && maintenanceRequest.getRequesterName().getName().equals(requesterName);})
+                .collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
+    }
+
+    public static Map<Integer, MaintenanceRequest> getMaintenanceRequestData(Boolean isSelf, String requesterName, Integer status) {
+        return getMaintenanceRequestData(isSelf, requesterName).entrySet().stream()
+                .filter(entry -> {MaintenanceRequest maintenanceRequest = entry.getValue();
+                    return maintenanceRequest.getRequestStatus().equals(status);})
+                .collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
+    }
+
+    public static Map<Integer, MaintenanceRequest> getMaintenanceRequestData(Boolean isSelf, String requesterName) {
+        if(!isSelf) return getMaintenanceRequestData();
+        return getMaintenanceRequestData(requesterName);
     }
 }

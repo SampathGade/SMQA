@@ -15,7 +15,6 @@ public class MaintenanceRequest {
     private User requesterAssignee;
 
     private List<Asset> assetAffected;
-    private Date requestClosedDate;
     private List<Comment> commentList;
 
     public MaintenanceRequest() {
@@ -26,10 +25,6 @@ public class MaintenanceRequest {
 
         private User commenterName;
 
-        public Comment() {
-
-        }
-
         public Comment(String commentString, User commenterName) {
             this.commentString = commentString;
             this.commenterName = commenterName;
@@ -39,16 +34,8 @@ public class MaintenanceRequest {
             return commentString;
         }
 
-        public void setCommentString(String commentString) {
-            this.commentString = commentString;
-        }
-
         public User getCommenterName() {
             return commenterName;
-        }
-
-        public void setCommenterName(User commenterName) {
-            this.commenterName = commenterName;
         }
     }
 
@@ -107,14 +94,6 @@ public class MaintenanceRequest {
 
     public void setAssetAffected(List<Asset> assetAffected) {
         this.assetAffected = assetAffected;
-    }
-
-    public Date getRequestClosedDate() {
-        return requestClosedDate;
-    }
-
-    public void setRequestClosedDate(Date requestClosedDate) {
-        this.requestClosedDate = requestClosedDate;
     }
 
     public List<Comment> getCommentList() {
