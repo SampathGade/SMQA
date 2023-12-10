@@ -1,0 +1,48 @@
+# Test Categories
+LocationManagement:
+    CreateNewLocation.
+    RetrieveExistingLocation.
+    UpdateLocationDetails.
+    DeleteExistingLocation.
+    ExitLocationHandler.
+
+# Test Choices
+CreateNewLocation: [empty]
+RetrieveExistingLocation: [single] [multiple]
+UpdateLocationDetails: [single] [multiple]
+DeleteExistingLocation: [single] [multiple]
+ExitLocationHandler: [empty]
+
+# Test Properties
+CreateNewLocation. [property LocationCreationSuccess]
+RetrieveExistingLocation. [property LocationRetrievalSuccess]
+UpdateLocationDetails. [property LocationUpdateSuccess]
+DeleteExistingLocation. [property LocationDeletionSuccess]
+ExitLocationHandler. [property ExitSuccess]
+
+# Test Conditions
+CreateNewLocation. [if LocationCreationSuccess] [error]
+RetrieveExistingLocation. [if !LocationRetrievalSuccess] [error]
+UpdateLocationDetails. [if !LocationUpdateSuccess] [error]
+DeleteExistingLocation. [if !LocationDeletionSuccess] [error]
+ExitLocationHandler. [if !ExitSuccess] [error]
+
+# Example Constraints
+CreateNewLocation. [if LocationCreationSuccess] [property NewLocationIDProvided]
+CreateNewLocation. [if LocationCreationSuccess] [property NewLocationNameProvided]
+CreateNewLocation. [if LocationCreationSuccess] [property NewLocationDescriptionProvided]
+
+RetrieveExistingLocation. [if LocationRetrievalSuccess] [property ExistingLocationIDProvided]
+
+UpdateLocationDetails. [if LocationUpdateSuccess] [property UpdatedLocationIDProvided]
+UpdateLocationDetails. [if LocationUpdateSuccess] [property UpdatedLocationNameProvided]
+UpdateLocationDetails. [if LocationUpdateSuccess] [property UpdatedLocationDescriptionProvided]
+
+DeleteExistingLocation. [if LocationDeletionSuccess] [property LocationToDeleteIDProvided]
+
+ExitLocationHandler. [if ExitSuccess]
+
+# Additional Constraints 
+CreateNewLocation. [if LocationCreationSuccess] [property NewLocationCapacityProvided]
+UpdateLocationDetails. [if LocationUpdateSuccess] [property UpdatedLocationCapacityProvided]
+DeleteExistingLocation. [if LocationDeletionSuccess] [property LocationDeletedCapacityProvided]

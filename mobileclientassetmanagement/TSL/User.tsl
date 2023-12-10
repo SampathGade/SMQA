@@ -1,0 +1,60 @@
+# Test Categories
+UserManagement:
+    CreateNewUser.
+    RetrieveExistingUser.
+    UpdateUserDetails.
+    DeleteExistingUser.
+    ImportUserRecords.
+    ExportUserDetails.
+    ExitUserHandler.
+
+# Test Choices
+CreateNewUser: [empty]
+RetrieveExistingUser: [single] [multiple]
+UpdateUserDetails: [single] [multiple]
+DeleteExistingUser: [single] [multiple]
+ImportUserRecords: [empty]
+ExportUserDetails: [empty]
+ExitUserHandler: [empty]
+
+# Test Properties
+CreateNewUser. [property UserCreationSuccess]
+RetrieveExistingUser. [property UserRetrievalSuccess]
+UpdateUserDetails. [property UserUpdateSuccess]
+DeleteExistingUser. [property UserDeletionSuccess]
+ImportUserRecords. [property UserImportSuccess]
+ExportUserDetails. [property UserExportSuccess]
+ExitUserHandler. [property ExitSuccess]
+
+# Test Conditions
+CreateNewUser. [if UserCreationSuccess] [error]
+RetrieveExistingUser. [if !UserRetrievalSuccess] [error]
+UpdateUserDetails. [if !UserUpdateSuccess] [error]
+DeleteExistingUser. [if !UserDeletionSuccess] [error]
+ImportUserRecords. [if !UserImportSuccess] [error]
+ExportUserDetails. [if !UserExportSuccess] [error]
+ExitUserHandler. [if !ExitSuccess] [error]
+
+# Example Constraints
+CreateNewUser. [if UserCreationSuccess] [property NewUserNameProvided]
+CreateNewUser. [if UserCreationSuccess] [property NewUserEmailProvided]
+CreateNewUser. [if UserCreationSuccess] [property NewUserRoleProvided]
+CreateNewUser. [if UserCreationSuccess] [property NewUserJobTitleProvided]
+CreateNewUser. [if UserCreationSuccess] [property NewUserDescriptionProvided]
+
+RetrieveExistingUser. [if UserRetrievalSuccess] [property ExistingUserIDProvided]
+
+UpdateUserDetails. [if UserUpdateSuccess] [property UpdatedUserIDProvided]
+UpdateUserDetails. [if UserUpdateSuccess] [property UpdatedUserNameProvided]
+UpdateUserDetails. [if UserUpdateSuccess] [property UpdatedUserEmailProvided]
+UpdateUserDetails. [if UserUpdateSuccess] [property UpdatedUserRoleProvided]
+UpdateUserDetails. [if UserUpdateSuccess] [property UpdatedUserJobTitleProvided]
+UpdateUserDetails. [if UserUpdateSuccess] [property UpdatedUserDescriptionProvided]
+
+DeleteExistingUser. [if UserDeletionSuccess] [property UserToDeleteIDProvided]
+
+ImportUserRecords. [if UserImportSuccess] [property ImportFilePathProvided]
+
+ExportUserDetails. [if UserExportSuccess] [property ExportFilePathProvided]
+
+ExitUserHandler. [if ExitSuccess]

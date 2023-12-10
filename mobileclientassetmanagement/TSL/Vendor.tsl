@@ -1,0 +1,63 @@
+# Test Categories
+VendorManagement:
+    CreateNewVendor.
+    RetrieveExistingVendor.
+    UpdateVendorDetails.
+    DeleteExistingVendor.
+    AssociateProductWithVendor.
+    ImportVendorData.
+    ExportVendorData.
+    ExitVendorHandler.
+
+# Test Choices
+CreateNewVendor: [empty]
+RetrieveExistingVendor: [single] [multiple]
+UpdateVendorDetails: [single] [multiple]
+DeleteExistingVendor: [single] [multiple]
+AssociateProductWithVendor: [empty]
+ImportVendorData: [empty]
+ExportVendorData: [empty]
+ExitVendorHandler: [empty]
+
+# Test Properties
+CreateNewVendor. [property VendorCreationSuccess]
+RetrieveExistingVendor. [property VendorRetrievalSuccess]
+UpdateVendorDetails. [property VendorUpdateSuccess]
+DeleteExistingVendor. [property VendorDeletionSuccess]
+AssociateProductWithVendor. [property ProductAssociationSuccess]
+ImportVendorData. [property VendorImportSuccess]
+ExportVendorData. [property VendorExportSuccess]
+ExitVendorHandler. [property ExitSuccess]
+
+# Test Conditions
+CreateNewVendor. [if VendorCreationSuccess] [error]
+RetrieveExistingVendor. [if !VendorRetrievalSuccess] [error]
+UpdateVendorDetails. [if !VendorUpdateSuccess] [error]
+DeleteExistingVendor. [if !VendorDeletionSuccess] [error]
+AssociateProductWithVendor. [if !ProductAssociationSuccess] [error]
+ImportVendorData. [if !VendorImportSuccess] [error]
+ExportVendorData. [if !VendorExportSuccess] [error]
+ExitVendorHandler. [if !ExitSuccess] [error]
+
+# Example Constraints
+CreateNewVendor. [if VendorCreationSuccess] [property NewVendorIDProvided]
+CreateNewVendor. [if VendorCreationSuccess] [property NewVendorNameProvided]
+CreateNewVendor. [if VendorCreationSuccess] [property NewVendorEmailProvided]
+CreateNewVendor. [if VendorCreationSuccess] [property NewVendorAddressProvided]
+
+RetrieveExistingVendor. [if VendorRetrievalSuccess] [property ExistingVendorIDProvided]
+
+UpdateVendorDetails. [if VendorUpdateSuccess] [property UpdatedVendorIDProvided]
+UpdateVendorDetails. [if VendorUpdateSuccess] [property UpdatedVendorNameProvided]
+UpdateVendorDetails. [if VendorUpdateSuccess] [property UpdatedVendorEmailProvided]
+UpdateVendorDetails. [if VendorUpdateSuccess] [property UpdatedVendorAddressProvided]
+
+DeleteExistingVendor. [if VendorDeletionSuccess] [property VendorToDeleteIDProvided]
+
+AssociateProductWithVendor. [if ProductAssociationSuccess] [property VendorAssociatedProductProvided]
+
+ImportVendorData. [if VendorImportSuccess] [property ImportedVendorDataCountProvided]
+
+ExportVendorData. [if VendorExportSuccess]
+
+ExitVendorHandler. [if ExitSuccess]

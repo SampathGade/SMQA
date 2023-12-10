@@ -1,0 +1,204 @@
+
+Test Case 1  		<error>  (follows [if])
+   ExitPurchaseOrderHandler :  CreateNewPurchaseOrder
+
+
+Test Case 2  		<error>  (follows [if])
+   ExitPurchaseOrderHandler :  RetrieveExistingPurchaseOrder
+
+
+Test Case 3  		<error>  (follows [if])
+   ExitPurchaseOrderHandler :  UpdatePurchaseOrderDetails
+
+
+Test Case 4  		<error>  (follows [if])
+   ExitPurchaseOrderHandler :  DeleteExistingPurchaseOrder
+
+
+Test Case 5  		<error>  (follows [if])
+   ExitPurchaseOrderHandler :  MarkAsPaidPurchaseOrder
+
+
+Test Case 6  		<error>  (follows [if])
+   ExitPurchaseOrderHandler :  ExitPurchaseOrderHandler
+
+
+Test Case 7  		(Key = 1.1.)
+   PurchaseOrderManagement       :  CreateNewPurchaseOrder
+   ExitPurchaseOrderHandler      :  CreateNewPurchaseOrder
+
+
+Test Case 8  		(Key = 1.2.)
+   PurchaseOrderManagement       :  CreateNewPurchaseOrder
+   ExitPurchaseOrderHandler      :  RetrieveExistingPurchaseOrder
+
+
+Test Case 9  		(Key = 1.3.)
+   PurchaseOrderManagement       :  CreateNewPurchaseOrder
+   ExitPurchaseOrderHandler      :  UpdatePurchaseOrderDetails
+
+
+Test Case 10 		(Key = 1.4.)
+   PurchaseOrderManagement       :  CreateNewPurchaseOrder
+   ExitPurchaseOrderHandler      :  DeleteExistingPurchaseOrder
+
+
+Test Case 11 		(Key = 1.5.)
+   PurchaseOrderManagement       :  CreateNewPurchaseOrder
+   ExitPurchaseOrderHandler      :  MarkAsPaidPurchaseOrder
+
+
+Test Case 12 		(Key = 1.6.)
+   PurchaseOrderManagement       :  CreateNewPurchaseOrder
+   ExitPurchaseOrderHandler      :  ExitPurchaseOrderHandler
+
+
+Test Case 13 		(Key = 2.1.)
+   PurchaseOrderManagement       :  RetrieveExistingPurchaseOrder
+   ExitPurchaseOrderHandler      :  CreateNewPurchaseOrder
+
+
+Test Case 14 		(Key = 2.2.)
+   PurchaseOrderManagement       :  RetrieveExistingPurchaseOrder
+   ExitPurchaseOrderHandler      :  RetrieveExistingPurchaseOrder
+
+
+Test Case 15 		(Key = 2.3.)
+   PurchaseOrderManagement       :  RetrieveExistingPurchaseOrder
+   ExitPurchaseOrderHandler      :  UpdatePurchaseOrderDetails
+
+
+Test Case 16 		(Key = 2.4.)
+   PurchaseOrderManagement       :  RetrieveExistingPurchaseOrder
+   ExitPurchaseOrderHandler      :  DeleteExistingPurchaseOrder
+
+
+Test Case 17 		(Key = 2.5.)
+   PurchaseOrderManagement       :  RetrieveExistingPurchaseOrder
+   ExitPurchaseOrderHandler      :  MarkAsPaidPurchaseOrder
+
+
+Test Case 18 		(Key = 2.6.)
+   PurchaseOrderManagement       :  RetrieveExistingPurchaseOrder
+   ExitPurchaseOrderHandler      :  ExitPurchaseOrderHandler
+
+
+Test Case 19 		(Key = 3.1.)
+   PurchaseOrderManagement       :  UpdatePurchaseOrderDetails
+   ExitPurchaseOrderHandler      :  CreateNewPurchaseOrder
+
+
+Test Case 20 		(Key = 3.2.)
+   PurchaseOrderManagement       :  UpdatePurchaseOrderDetails
+   ExitPurchaseOrderHandler      :  RetrieveExistingPurchaseOrder
+
+
+Test Case 21 		(Key = 3.3.)
+   PurchaseOrderManagement       :  UpdatePurchaseOrderDetails
+   ExitPurchaseOrderHandler      :  UpdatePurchaseOrderDetails
+
+
+Test Case 22 		(Key = 3.4.)
+   PurchaseOrderManagement       :  UpdatePurchaseOrderDetails
+   ExitPurchaseOrderHandler      :  DeleteExistingPurchaseOrder
+
+
+Test Case 23 		(Key = 3.5.)
+   PurchaseOrderManagement       :  UpdatePurchaseOrderDetails
+   ExitPurchaseOrderHandler      :  MarkAsPaidPurchaseOrder
+
+
+Test Case 24 		(Key = 3.6.)
+   PurchaseOrderManagement       :  UpdatePurchaseOrderDetails
+   ExitPurchaseOrderHandler      :  ExitPurchaseOrderHandler
+
+
+Test Case 25 		(Key = 4.1.)
+   PurchaseOrderManagement       :  DeleteExistingPurchaseOrder
+   ExitPurchaseOrderHandler      :  CreateNewPurchaseOrder
+
+
+Test Case 26 		(Key = 4.2.)
+   PurchaseOrderManagement       :  DeleteExistingPurchaseOrder
+   ExitPurchaseOrderHandler      :  RetrieveExistingPurchaseOrder
+
+
+Test Case 27 		(Key = 4.3.)
+   PurchaseOrderManagement       :  DeleteExistingPurchaseOrder
+   ExitPurchaseOrderHandler      :  UpdatePurchaseOrderDetails
+
+
+Test Case 28 		(Key = 4.4.)
+   PurchaseOrderManagement       :  DeleteExistingPurchaseOrder
+   ExitPurchaseOrderHandler      :  DeleteExistingPurchaseOrder
+
+
+Test Case 29 		(Key = 4.5.)
+   PurchaseOrderManagement       :  DeleteExistingPurchaseOrder
+   ExitPurchaseOrderHandler      :  MarkAsPaidPurchaseOrder
+
+
+Test Case 30 		(Key = 4.6.)
+   PurchaseOrderManagement       :  DeleteExistingPurchaseOrder
+   ExitPurchaseOrderHandler      :  ExitPurchaseOrderHandler
+
+
+Test Case 31 		(Key = 5.1.)
+   PurchaseOrderManagement       :  MarkAsPaidPurchaseOrder
+   ExitPurchaseOrderHandler      :  CreateNewPurchaseOrder
+
+
+Test Case 32 		(Key = 5.2.)
+   PurchaseOrderManagement       :  MarkAsPaidPurchaseOrder
+   ExitPurchaseOrderHandler      :  RetrieveExistingPurchaseOrder
+
+
+Test Case 33 		(Key = 5.3.)
+   PurchaseOrderManagement       :  MarkAsPaidPurchaseOrder
+   ExitPurchaseOrderHandler      :  UpdatePurchaseOrderDetails
+
+
+Test Case 34 		(Key = 5.4.)
+   PurchaseOrderManagement       :  MarkAsPaidPurchaseOrder
+   ExitPurchaseOrderHandler      :  DeleteExistingPurchaseOrder
+
+
+Test Case 35 		(Key = 5.5.)
+   PurchaseOrderManagement       :  MarkAsPaidPurchaseOrder
+   ExitPurchaseOrderHandler      :  MarkAsPaidPurchaseOrder
+
+
+Test Case 36 		(Key = 5.6.)
+   PurchaseOrderManagement       :  MarkAsPaidPurchaseOrder
+   ExitPurchaseOrderHandler      :  ExitPurchaseOrderHandler
+
+
+Test Case 37 		(Key = 6.1.)
+   PurchaseOrderManagement       :  ExitPurchaseOrderHandler
+   ExitPurchaseOrderHandler      :  CreateNewPurchaseOrder
+
+
+Test Case 38 		(Key = 6.2.)
+   PurchaseOrderManagement       :  ExitPurchaseOrderHandler
+   ExitPurchaseOrderHandler      :  RetrieveExistingPurchaseOrder
+
+
+Test Case 39 		(Key = 6.3.)
+   PurchaseOrderManagement       :  ExitPurchaseOrderHandler
+   ExitPurchaseOrderHandler      :  UpdatePurchaseOrderDetails
+
+
+Test Case 40 		(Key = 6.4.)
+   PurchaseOrderManagement       :  ExitPurchaseOrderHandler
+   ExitPurchaseOrderHandler      :  DeleteExistingPurchaseOrder
+
+
+Test Case 41 		(Key = 6.5.)
+   PurchaseOrderManagement       :  ExitPurchaseOrderHandler
+   ExitPurchaseOrderHandler      :  MarkAsPaidPurchaseOrder
+
+
+Test Case 42 		(Key = 6.6.)
+   PurchaseOrderManagement       :  ExitPurchaseOrderHandler
+   ExitPurchaseOrderHandler      :  ExitPurchaseOrderHandler
+

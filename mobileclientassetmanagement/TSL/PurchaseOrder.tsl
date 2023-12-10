@@ -1,0 +1,55 @@
+# Test Categories
+PurchaseOrderManagement:
+    CreateNewPurchaseOrder.
+    RetrieveExistingPurchaseOrder.
+    UpdatePurchaseOrderDetails.
+    DeleteExistingPurchaseOrder.
+    MarkAsPaidPurchaseOrder.
+    ExitPurchaseOrderHandler.
+
+# Test Choices
+CreateNewPurchaseOrder: [empty]
+RetrieveExistingPurchaseOrder: [single] [multiple]
+UpdatePurchaseOrderDetails: [single] [multiple]
+DeleteExistingPurchaseOrder: [single] [multiple]
+MarkAsPaidPurchaseOrder: [empty]
+ExitPurchaseOrderHandler: [empty]
+
+# Test Properties
+CreateNewPurchaseOrder. [property PurchaseOrderCreationSuccess]
+RetrieveExistingPurchaseOrder. [property PurchaseOrderRetrievalSuccess]
+UpdatePurchaseOrderDetails. [property PurchaseOrderUpdateSuccess]
+DeleteExistingPurchaseOrder. [property PurchaseOrderDeletionSuccess]
+MarkAsPaidPurchaseOrder. [property PurchaseOrderMarkAsPaidSuccess]
+ExitPurchaseOrderHandler. [property ExitSuccess]
+
+# Test Conditions
+CreateNewPurchaseOrder. [if PurchaseOrderCreationSuccess] [error]
+RetrieveExistingPurchaseOrder. [if !PurchaseOrderRetrievalSuccess] [error]
+UpdatePurchaseOrderDetails. [if !PurchaseOrderUpdateSuccess] [error]
+DeleteExistingPurchaseOrder. [if !PurchaseOrderDeletionSuccess] [error]
+MarkAsPaidPurchaseOrder. [if !PurchaseOrderMarkAsPaidSuccess] [error]
+ExitPurchaseOrderHandler. [if !ExitSuccess] [error]
+
+# Example Constraints
+CreateNewPurchaseOrder. [if PurchaseOrderCreationSuccess] [property NewPurchaseOrderIDProvided]
+CreateNewPurchaseOrder. [if PurchaseOrderCreationSuccess] [property NewPurchaseOrderDateProvided]
+CreateNewPurchaseOrder. [if PurchaseOrderCreationSuccess] [property NewPurchaseOrderBillingAddressProvided]
+CreateNewPurchaseOrder. [if PurchaseOrderCreationSuccess] [property NewPurchaseOrderVendorProvided]
+CreateNewPurchaseOrder. [if PurchaseOrderCreationSuccess] [property NewPurchaseOrderItemsProvided]
+CreateNewPurchaseOrder. [if PurchaseOrderCreationSuccess] [property NewPurchaseOrderTotalCostProvided]
+
+RetrieveExistingPurchaseOrder. [if PurchaseOrderRetrievalSuccess] [property ExistingPurchaseOrderIDProvided]
+
+UpdatePurchaseOrderDetails. [if PurchaseOrderUpdateSuccess] [property UpdatedPurchaseOrderIDProvided]
+UpdatePurchaseOrderDetails. [if PurchaseOrderUpdateSuccess] [property UpdatedPurchaseOrderDateProvided]
+UpdatePurchaseOrderDetails. [if PurchaseOrderUpdateSuccess] [property UpdatedPurchaseOrderBillingAddressProvided]
+UpdatePurchaseOrderDetails. [if PurchaseOrderUpdateSuccess] [property UpdatedPurchaseOrderVendorProvided]
+UpdatePurchaseOrderDetails. [if PurchaseOrderUpdateSuccess] [property UpdatedPurchaseOrderItemsProvided]
+UpdatePurchaseOrderDetails. [if PurchaseOrderUpdateSuccess] [property UpdatedPurchaseOrderTotalCostProvided]
+
+DeleteExistingPurchaseOrder. [if PurchaseOrderDeletionSuccess] [property PurchaseOrderToDeleteIDProvided]
+
+MarkAsPaidPurchaseOrder. [if PurchaseOrderMarkAsPaidSuccess]
+
+ExitPurchaseOrderHandler. [if ExitSuccess]

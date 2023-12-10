@@ -1,0 +1,36 @@
+# Categories
+CategoryHandler:
+    HandleCreate.
+    HandleRetrieve.
+    HandleUpdate.
+    HandleDelete.
+
+# Choices
+HandleCreate: [single]
+HandleRetrieve: [single]
+HandleUpdate: [single]
+HandleDelete: [single]
+
+# Property Lists
+HandleCreate. [property CategoryCreated]
+HandleRetrieve. [property CategoryRetrieved]
+HandleUpdate. [property CategoryUpdated]
+HandleDelete. [property CategoryDeleted]
+
+# Expressions
+HandleCreate. [if !CategoryCreated] [error]
+HandleRetrieve. [if !CategoryRetrieved] [error]
+HandleUpdate. [if !CategoryUpdated] [error]
+HandleDelete. [if !CategoryDeleted] [error]
+
+# Example Constraints
+HandleCreate. [if CategoryCreated] [property CategoryNameSet]
+HandleCreate. [if CategoryCreated] [property CategoryIDSet]
+
+HandleRetrieve. [if CategoryRetrieved] [property CategoryIDSet]
+HandleRetrieve. [if CategoryRetrieved] [property CategoryNameSet]
+
+HandleUpdate. [if CategoryUpdated] [property CategoryIDSet]
+HandleUpdate. [if CategoryUpdated] [property CategoryNameSet]
+
+HandleDelete. [if CategoryDeleted] [property CategoryIDSet]

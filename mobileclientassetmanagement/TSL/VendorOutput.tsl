@@ -1,0 +1,352 @@
+
+Test Case 1  		<error>  (follows [if])
+   ExitVendorHandler :  CreateNewVendor
+
+
+Test Case 2  		<error>  (follows [if])
+   ExitVendorHandler :  RetrieveExistingVendor
+
+
+Test Case 3  		<error>  (follows [if])
+   ExitVendorHandler :  UpdateVendorDetails
+
+
+Test Case 4  		<error>  (follows [if])
+   ExitVendorHandler :  DeleteExistingVendor
+
+
+Test Case 5  		<error>  (follows [if])
+   ExitVendorHandler :  AssociateProductWithVendor
+
+
+Test Case 6  		<error>  (follows [if])
+   ExitVendorHandler :  ImportVendorData
+
+
+Test Case 7  		<error>  (follows [if])
+   ExitVendorHandler :  ExportVendorData
+
+
+Test Case 8  		<error>  (follows [if])
+   ExitVendorHandler :  ExitVendorHandler
+
+
+Test Case 9  		(Key = 1.1.)
+   VendorManagement           :  CreateNewVendor
+   ExitVendorHandler          :  CreateNewVendor
+
+
+Test Case 10 		(Key = 1.2.)
+   VendorManagement           :  CreateNewVendor
+   ExitVendorHandler          :  RetrieveExistingVendor
+
+
+Test Case 11 		(Key = 1.3.)
+   VendorManagement           :  CreateNewVendor
+   ExitVendorHandler          :  UpdateVendorDetails
+
+
+Test Case 12 		(Key = 1.4.)
+   VendorManagement           :  CreateNewVendor
+   ExitVendorHandler          :  DeleteExistingVendor
+
+
+Test Case 13 		(Key = 1.5.)
+   VendorManagement           :  CreateNewVendor
+   ExitVendorHandler          :  AssociateProductWithVendor
+
+
+Test Case 14 		(Key = 1.6.)
+   VendorManagement           :  CreateNewVendor
+   ExitVendorHandler          :  ImportVendorData
+
+
+Test Case 15 		(Key = 1.7.)
+   VendorManagement           :  CreateNewVendor
+   ExitVendorHandler          :  ExportVendorData
+
+
+Test Case 16 		(Key = 1.8.)
+   VendorManagement           :  CreateNewVendor
+   ExitVendorHandler          :  ExitVendorHandler
+
+
+Test Case 17 		(Key = 2.1.)
+   VendorManagement           :  RetrieveExistingVendor
+   ExitVendorHandler          :  CreateNewVendor
+
+
+Test Case 18 		(Key = 2.2.)
+   VendorManagement           :  RetrieveExistingVendor
+   ExitVendorHandler          :  RetrieveExistingVendor
+
+
+Test Case 19 		(Key = 2.3.)
+   VendorManagement           :  RetrieveExistingVendor
+   ExitVendorHandler          :  UpdateVendorDetails
+
+
+Test Case 20 		(Key = 2.4.)
+   VendorManagement           :  RetrieveExistingVendor
+   ExitVendorHandler          :  DeleteExistingVendor
+
+
+Test Case 21 		(Key = 2.5.)
+   VendorManagement           :  RetrieveExistingVendor
+   ExitVendorHandler          :  AssociateProductWithVendor
+
+
+Test Case 22 		(Key = 2.6.)
+   VendorManagement           :  RetrieveExistingVendor
+   ExitVendorHandler          :  ImportVendorData
+
+
+Test Case 23 		(Key = 2.7.)
+   VendorManagement           :  RetrieveExistingVendor
+   ExitVendorHandler          :  ExportVendorData
+
+
+Test Case 24 		(Key = 2.8.)
+   VendorManagement           :  RetrieveExistingVendor
+   ExitVendorHandler          :  ExitVendorHandler
+
+
+Test Case 25 		(Key = 3.1.)
+   VendorManagement           :  UpdateVendorDetails
+   ExitVendorHandler          :  CreateNewVendor
+
+
+Test Case 26 		(Key = 3.2.)
+   VendorManagement           :  UpdateVendorDetails
+   ExitVendorHandler          :  RetrieveExistingVendor
+
+
+Test Case 27 		(Key = 3.3.)
+   VendorManagement           :  UpdateVendorDetails
+   ExitVendorHandler          :  UpdateVendorDetails
+
+
+Test Case 28 		(Key = 3.4.)
+   VendorManagement           :  UpdateVendorDetails
+   ExitVendorHandler          :  DeleteExistingVendor
+
+
+Test Case 29 		(Key = 3.5.)
+   VendorManagement           :  UpdateVendorDetails
+   ExitVendorHandler          :  AssociateProductWithVendor
+
+
+Test Case 30 		(Key = 3.6.)
+   VendorManagement           :  UpdateVendorDetails
+   ExitVendorHandler          :  ImportVendorData
+
+
+Test Case 31 		(Key = 3.7.)
+   VendorManagement           :  UpdateVendorDetails
+   ExitVendorHandler          :  ExportVendorData
+
+
+Test Case 32 		(Key = 3.8.)
+   VendorManagement           :  UpdateVendorDetails
+   ExitVendorHandler          :  ExitVendorHandler
+
+
+Test Case 33 		(Key = 4.1.)
+   VendorManagement           :  DeleteExistingVendor
+   ExitVendorHandler          :  CreateNewVendor
+
+
+Test Case 34 		(Key = 4.2.)
+   VendorManagement           :  DeleteExistingVendor
+   ExitVendorHandler          :  RetrieveExistingVendor
+
+
+Test Case 35 		(Key = 4.3.)
+   VendorManagement           :  DeleteExistingVendor
+   ExitVendorHandler          :  UpdateVendorDetails
+
+
+Test Case 36 		(Key = 4.4.)
+   VendorManagement           :  DeleteExistingVendor
+   ExitVendorHandler          :  DeleteExistingVendor
+
+
+Test Case 37 		(Key = 4.5.)
+   VendorManagement           :  DeleteExistingVendor
+   ExitVendorHandler          :  AssociateProductWithVendor
+
+
+Test Case 38 		(Key = 4.6.)
+   VendorManagement           :  DeleteExistingVendor
+   ExitVendorHandler          :  ImportVendorData
+
+
+Test Case 39 		(Key = 4.7.)
+   VendorManagement           :  DeleteExistingVendor
+   ExitVendorHandler          :  ExportVendorData
+
+
+Test Case 40 		(Key = 4.8.)
+   VendorManagement           :  DeleteExistingVendor
+   ExitVendorHandler          :  ExitVendorHandler
+
+
+Test Case 41 		(Key = 5.1.)
+   VendorManagement           :  AssociateProductWithVendor
+   ExitVendorHandler          :  CreateNewVendor
+
+
+Test Case 42 		(Key = 5.2.)
+   VendorManagement           :  AssociateProductWithVendor
+   ExitVendorHandler          :  RetrieveExistingVendor
+
+
+Test Case 43 		(Key = 5.3.)
+   VendorManagement           :  AssociateProductWithVendor
+   ExitVendorHandler          :  UpdateVendorDetails
+
+
+Test Case 44 		(Key = 5.4.)
+   VendorManagement           :  AssociateProductWithVendor
+   ExitVendorHandler          :  DeleteExistingVendor
+
+
+Test Case 45 		(Key = 5.5.)
+   VendorManagement           :  AssociateProductWithVendor
+   ExitVendorHandler          :  AssociateProductWithVendor
+
+
+Test Case 46 		(Key = 5.6.)
+   VendorManagement           :  AssociateProductWithVendor
+   ExitVendorHandler          :  ImportVendorData
+
+
+Test Case 47 		(Key = 5.7.)
+   VendorManagement           :  AssociateProductWithVendor
+   ExitVendorHandler          :  ExportVendorData
+
+
+Test Case 48 		(Key = 5.8.)
+   VendorManagement           :  AssociateProductWithVendor
+   ExitVendorHandler          :  ExitVendorHandler
+
+
+Test Case 49 		(Key = 6.1.)
+   VendorManagement           :  ImportVendorData
+   ExitVendorHandler          :  CreateNewVendor
+
+
+Test Case 50 		(Key = 6.2.)
+   VendorManagement           :  ImportVendorData
+   ExitVendorHandler          :  RetrieveExistingVendor
+
+
+Test Case 51 		(Key = 6.3.)
+   VendorManagement           :  ImportVendorData
+   ExitVendorHandler          :  UpdateVendorDetails
+
+
+Test Case 52 		(Key = 6.4.)
+   VendorManagement           :  ImportVendorData
+   ExitVendorHandler          :  DeleteExistingVendor
+
+
+Test Case 53 		(Key = 6.5.)
+   VendorManagement           :  ImportVendorData
+   ExitVendorHandler          :  AssociateProductWithVendor
+
+
+Test Case 54 		(Key = 6.6.)
+   VendorManagement           :  ImportVendorData
+   ExitVendorHandler          :  ImportVendorData
+
+
+Test Case 55 		(Key = 6.7.)
+   VendorManagement           :  ImportVendorData
+   ExitVendorHandler          :  ExportVendorData
+
+
+Test Case 56 		(Key = 6.8.)
+   VendorManagement           :  ImportVendorData
+   ExitVendorHandler          :  ExitVendorHandler
+
+
+Test Case 57 		(Key = 7.1.)
+   VendorManagement           :  ExportVendorData
+   ExitVendorHandler          :  CreateNewVendor
+
+
+Test Case 58 		(Key = 7.2.)
+   VendorManagement           :  ExportVendorData
+   ExitVendorHandler          :  RetrieveExistingVendor
+
+
+Test Case 59 		(Key = 7.3.)
+   VendorManagement           :  ExportVendorData
+   ExitVendorHandler          :  UpdateVendorDetails
+
+
+Test Case 60 		(Key = 7.4.)
+   VendorManagement           :  ExportVendorData
+   ExitVendorHandler          :  DeleteExistingVendor
+
+
+Test Case 61 		(Key = 7.5.)
+   VendorManagement           :  ExportVendorData
+   ExitVendorHandler          :  AssociateProductWithVendor
+
+
+Test Case 62 		(Key = 7.6.)
+   VendorManagement           :  ExportVendorData
+   ExitVendorHandler          :  ImportVendorData
+
+
+Test Case 63 		(Key = 7.7.)
+   VendorManagement           :  ExportVendorData
+   ExitVendorHandler          :  ExportVendorData
+
+
+Test Case 64 		(Key = 7.8.)
+   VendorManagement           :  ExportVendorData
+   ExitVendorHandler          :  ExitVendorHandler
+
+
+Test Case 65 		(Key = 8.1.)
+   VendorManagement           :  ExitVendorHandler
+   ExitVendorHandler          :  CreateNewVendor
+
+
+Test Case 66 		(Key = 8.2.)
+   VendorManagement           :  ExitVendorHandler
+   ExitVendorHandler          :  RetrieveExistingVendor
+
+
+Test Case 67 		(Key = 8.3.)
+   VendorManagement           :  ExitVendorHandler
+   ExitVendorHandler          :  UpdateVendorDetails
+
+
+Test Case 68 		(Key = 8.4.)
+   VendorManagement           :  ExitVendorHandler
+   ExitVendorHandler          :  DeleteExistingVendor
+
+
+Test Case 69 		(Key = 8.5.)
+   VendorManagement           :  ExitVendorHandler
+   ExitVendorHandler          :  AssociateProductWithVendor
+
+
+Test Case 70 		(Key = 8.6.)
+   VendorManagement           :  ExitVendorHandler
+   ExitVendorHandler          :  ImportVendorData
+
+
+Test Case 71 		(Key = 8.7.)
+   VendorManagement           :  ExitVendorHandler
+   ExitVendorHandler          :  ExportVendorData
+
+
+Test Case 72 		(Key = 8.8.)
+   VendorManagement           :  ExitVendorHandler
+   ExitVendorHandler          :  ExitVendorHandler
+

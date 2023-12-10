@@ -1,0 +1,68 @@
+# Test Categories
+MaintenanceRequestManagement:
+    CreateNewMaintenanceRequest.
+    RetrieveExistingMaintenanceRequest.
+    UpdateMaintenanceRequestDetails.
+    DeleteExistingMaintenanceRequest.
+    ViewOpenMaintenanceRequest.
+    ViewAllMaintenanceRequest.
+    CloseMaintenanceRequest.
+    CommentOnMaintenanceRequest.
+    ExitMaintenanceRequestHandler.
+
+# Test Choices
+CreateNewMaintenanceRequest: [empty]
+RetrieveExistingMaintenanceRequest: [single] [multiple]
+UpdateMaintenanceRequestDetails: [single] [multiple]
+DeleteExistingMaintenanceRequest: [single] [multiple]
+ViewOpenMaintenanceRequest: [empty]
+ViewAllMaintenanceRequest: [empty]
+CloseMaintenanceRequest: [single] [multiple]
+CommentOnMaintenanceRequest: [single] [multiple]
+ExitMaintenanceRequestHandler: [empty]
+
+# Test Properties
+CreateNewMaintenanceRequest. [property MaintenanceRequestCreationSuccess]
+RetrieveExistingMaintenanceRequest. [property MaintenanceRequestRetrievalSuccess]
+UpdateMaintenanceRequestDetails. [property MaintenanceRequestUpdateSuccess]
+DeleteExistingMaintenanceRequest. [property MaintenanceRequestDeletionSuccess]
+ViewOpenMaintenanceRequest. [property OpenMaintenanceRequestViewSuccess]
+ViewAllMaintenanceRequest. [property AllMaintenanceRequestViewSuccess]
+CloseMaintenanceRequest. [property MaintenanceRequestClosureSuccess]
+CommentOnMaintenanceRequest. [property MaintenanceRequestCommentSuccess]
+ExitMaintenanceRequestHandler. [property ExitSuccess]
+
+# Test Conditions
+CreateNewMaintenanceRequest. [if MaintenanceRequestCreationSuccess] [error]
+RetrieveExistingMaintenanceRequest. [if !MaintenanceRequestRetrievalSuccess] [error]
+UpdateMaintenanceRequestDetails. [if !MaintenanceRequestUpdateSuccess] [error]
+DeleteExistingMaintenanceRequest. [if !MaintenanceRequestDeletionSuccess] [error]
+ViewOpenMaintenanceRequest. [if !OpenMaintenanceRequestViewSuccess] [error]
+ViewAllMaintenanceRequest. [if !AllMaintenanceRequestViewSuccess] [error]
+CloseMaintenanceRequest. [if !MaintenanceRequestClosureSuccess] [error]
+CommentOnMaintenanceRequest. [if !MaintenanceRequestCommentSuccess] [error]
+ExitMaintenanceRequestHandler. [if !ExitSuccess] [error]
+
+# Example Constraints
+CreateNewMaintenanceRequest. [if MaintenanceRequestCreationSuccess] [property NewMaintenanceRequestIDProvided]
+CreateNewMaintenanceRequest. [if MaintenanceRequestCreationSuccess] [property NewMaintenanceRequestDescriptionProvided]
+CreateNewMaintenanceRequest. [if MaintenanceRequestCreationSuccess] [property NewMaintenanceRequestAssetListProvided]
+
+RetrieveExistingMaintenanceRequest. [if MaintenanceRequestRetrievalSuccess] [property ExistingMaintenanceRequestIDProvided]
+
+UpdateMaintenanceRequestDetails. [if MaintenanceRequestUpdateSuccess] [property UpdatedMaintenanceRequestIDProvided]
+UpdateMaintenanceRequestDetails. [if MaintenanceRequestUpdateSuccess] [property UpdatedMaintenanceRequestDescriptionProvided]
+UpdateMaintenanceRequestDetails. [if MaintenanceRequestUpdateSuccess] [property UpdatedMaintenanceRequestAssetListProvided]
+
+DeleteExistingMaintenanceRequest. [if MaintenanceRequestDeletionSuccess] [property MaintenanceRequestToDeleteIDProvided]
+
+ViewOpenMaintenanceRequest. [if OpenMaintenanceRequestViewSuccess]
+
+ViewAllMaintenanceRequest. [if AllMaintenanceRequestViewSuccess]
+
+CloseMaintenanceRequest. [if MaintenanceRequestClosureSuccess] [property ClosedMaintenanceRequestIDProvided]
+
+CommentOnMaintenanceRequest. [if MaintenanceRequestCommentSuccess] [property MaintenanceRequestIDForCommentProvided]
+CommentOnMaintenanceRequest. [if MaintenanceRequestCommentSuccess] [property CommentStringProvided]
+
+ExitMaintenanceRequestHandler. [if ExitSuccess]

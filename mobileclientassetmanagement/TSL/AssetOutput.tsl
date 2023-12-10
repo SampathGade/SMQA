@@ -1,0 +1,270 @@
+
+Test Case 1  		<error>  (follows [if])
+   ExitAssetHandler :  CreateNewAsset
+
+
+Test Case 2  		<error>  (follows [if])
+   ExitAssetHandler :  RetrieveExistingAsset
+
+
+Test Case 3  		<error>  (follows [if])
+   ExitAssetHandler :  UpdateAssetDetails
+
+
+Test Case 4  		<error>  (follows [if])
+   ExitAssetHandler :  DeleteExistingAsset
+
+
+Test Case 5  		<error>  (follows [if])
+   ExitAssetHandler :  ExitAssetHandler
+
+
+Test Case 6  		(Key = 1.1.)
+   AssetManagement       :  CreateNewAsset
+   ExitAssetHandler      :  CreateNewAsset
+
+
+Test Case 7  		(Key = 1.2.)
+   AssetManagement       :  CreateNewAsset
+   ExitAssetHandler      :  RetrieveExistingAsset
+
+
+Test Case 8  		(Key = 1.3.)
+   AssetManagement       :  CreateNewAsset
+   ExitAssetHandler      :  RetrieveExistingAsset
+
+
+Test Case 9  		(Key = 1.4.)
+   AssetManagement       :  CreateNewAsset
+   ExitAssetHandler      :  UpdateAssetDetails
+
+
+Test Case 10 		(Key = 1.5.)
+   AssetManagement       :  CreateNewAsset
+   ExitAssetHandler      :  UpdateAssetDetails
+
+
+Test Case 11 		(Key = 1.6.)
+   AssetManagement       :  CreateNewAsset
+   ExitAssetHandler      :  UpdateAssetDetails
+
+
+Test Case 12 		(Key = 1.7.)
+   AssetManagement       :  CreateNewAsset
+   ExitAssetHandler      :  DeleteExistingAsset
+
+
+Test Case 13 		(Key = 1.8.)
+   AssetManagement       :  CreateNewAsset
+   ExitAssetHandler      :  DeleteExistingAsset
+
+
+Test Case 14 		(Key = 1.9.)
+   AssetManagement       :  CreateNewAsset
+   ExitAssetHandler      :  ExitAssetHandler
+
+
+Test Case 15 		(Key = 1.11.)
+   AssetManagement       :  CreateNewAsset
+   ExitAssetHandler      :  CreateNewAsset
+
+
+Test Case 16 		(Key = 2.1.)
+   AssetManagement       :  RetrieveExistingAsset
+   ExitAssetHandler      :  CreateNewAsset
+
+
+Test Case 17 		(Key = 2.2.)
+   AssetManagement       :  RetrieveExistingAsset
+   ExitAssetHandler      :  RetrieveExistingAsset
+
+
+Test Case 18 		(Key = 2.3.)
+   AssetManagement       :  RetrieveExistingAsset
+   ExitAssetHandler      :  RetrieveExistingAsset
+
+
+Test Case 19 		(Key = 2.4.)
+   AssetManagement       :  RetrieveExistingAsset
+   ExitAssetHandler      :  UpdateAssetDetails
+
+
+Test Case 20 		(Key = 2.5.)
+   AssetManagement       :  RetrieveExistingAsset
+   ExitAssetHandler      :  UpdateAssetDetails
+
+
+Test Case 21 		(Key = 2.6.)
+   AssetManagement       :  RetrieveExistingAsset
+   ExitAssetHandler      :  UpdateAssetDetails
+
+
+Test Case 22 		(Key = 2.7.)
+   AssetManagement       :  RetrieveExistingAsset
+   ExitAssetHandler      :  DeleteExistingAsset
+
+
+Test Case 23 		(Key = 2.8.)
+   AssetManagement       :  RetrieveExistingAsset
+   ExitAssetHandler      :  DeleteExistingAsset
+
+
+Test Case 24 		(Key = 2.9.)
+   AssetManagement       :  RetrieveExistingAsset
+   ExitAssetHandler      :  ExitAssetHandler
+
+
+Test Case 25 		(Key = 2.11.)
+   AssetManagement       :  RetrieveExistingAsset
+   ExitAssetHandler      :  CreateNewAsset
+
+
+Test Case 26 		(Key = 3.1.)
+   AssetManagement       :  UpdateAssetDetails
+   ExitAssetHandler      :  CreateNewAsset
+
+
+Test Case 27 		(Key = 3.2.)
+   AssetManagement       :  UpdateAssetDetails
+   ExitAssetHandler      :  RetrieveExistingAsset
+
+
+Test Case 28 		(Key = 3.3.)
+   AssetManagement       :  UpdateAssetDetails
+   ExitAssetHandler      :  RetrieveExistingAsset
+
+
+Test Case 29 		(Key = 3.4.)
+   AssetManagement       :  UpdateAssetDetails
+   ExitAssetHandler      :  UpdateAssetDetails
+
+
+Test Case 30 		(Key = 3.5.)
+   AssetManagement       :  UpdateAssetDetails
+   ExitAssetHandler      :  UpdateAssetDetails
+
+
+Test Case 31 		(Key = 3.6.)
+   AssetManagement       :  UpdateAssetDetails
+   ExitAssetHandler      :  UpdateAssetDetails
+
+
+Test Case 32 		(Key = 3.7.)
+   AssetManagement       :  UpdateAssetDetails
+   ExitAssetHandler      :  DeleteExistingAsset
+
+
+Test Case 33 		(Key = 3.8.)
+   AssetManagement       :  UpdateAssetDetails
+   ExitAssetHandler      :  DeleteExistingAsset
+
+
+Test Case 34 		(Key = 3.9.)
+   AssetManagement       :  UpdateAssetDetails
+   ExitAssetHandler      :  ExitAssetHandler
+
+
+Test Case 35 		(Key = 3.11.)
+   AssetManagement       :  UpdateAssetDetails
+   ExitAssetHandler      :  CreateNewAsset
+
+
+Test Case 36 		(Key = 4.1.)
+   AssetManagement       :  DeleteExistingAsset
+   ExitAssetHandler      :  CreateNewAsset
+
+
+Test Case 37 		(Key = 4.2.)
+   AssetManagement       :  DeleteExistingAsset
+   ExitAssetHandler      :  RetrieveExistingAsset
+
+
+Test Case 38 		(Key = 4.3.)
+   AssetManagement       :  DeleteExistingAsset
+   ExitAssetHandler      :  RetrieveExistingAsset
+
+
+Test Case 39 		(Key = 4.4.)
+   AssetManagement       :  DeleteExistingAsset
+   ExitAssetHandler      :  UpdateAssetDetails
+
+
+Test Case 40 		(Key = 4.5.)
+   AssetManagement       :  DeleteExistingAsset
+   ExitAssetHandler      :  UpdateAssetDetails
+
+
+Test Case 41 		(Key = 4.6.)
+   AssetManagement       :  DeleteExistingAsset
+   ExitAssetHandler      :  UpdateAssetDetails
+
+
+Test Case 42 		(Key = 4.7.)
+   AssetManagement       :  DeleteExistingAsset
+   ExitAssetHandler      :  DeleteExistingAsset
+
+
+Test Case 43 		(Key = 4.8.)
+   AssetManagement       :  DeleteExistingAsset
+   ExitAssetHandler      :  DeleteExistingAsset
+
+
+Test Case 44 		(Key = 4.9.)
+   AssetManagement       :  DeleteExistingAsset
+   ExitAssetHandler      :  ExitAssetHandler
+
+
+Test Case 45 		(Key = 4.11.)
+   AssetManagement       :  DeleteExistingAsset
+   ExitAssetHandler      :  CreateNewAsset
+
+
+Test Case 46 		(Key = 5.1.)
+   AssetManagement       :  ExitAssetHandler
+   ExitAssetHandler      :  CreateNewAsset
+
+
+Test Case 47 		(Key = 5.2.)
+   AssetManagement       :  ExitAssetHandler
+   ExitAssetHandler      :  RetrieveExistingAsset
+
+
+Test Case 48 		(Key = 5.3.)
+   AssetManagement       :  ExitAssetHandler
+   ExitAssetHandler      :  RetrieveExistingAsset
+
+
+Test Case 49 		(Key = 5.4.)
+   AssetManagement       :  ExitAssetHandler
+   ExitAssetHandler      :  UpdateAssetDetails
+
+
+Test Case 50 		(Key = 5.5.)
+   AssetManagement       :  ExitAssetHandler
+   ExitAssetHandler      :  UpdateAssetDetails
+
+
+Test Case 51 		(Key = 5.6.)
+   AssetManagement       :  ExitAssetHandler
+   ExitAssetHandler      :  UpdateAssetDetails
+
+
+Test Case 52 		(Key = 5.7.)
+   AssetManagement       :  ExitAssetHandler
+   ExitAssetHandler      :  DeleteExistingAsset
+
+
+Test Case 53 		(Key = 5.8.)
+   AssetManagement       :  ExitAssetHandler
+   ExitAssetHandler      :  DeleteExistingAsset
+
+
+Test Case 54 		(Key = 5.9.)
+   AssetManagement       :  ExitAssetHandler
+   ExitAssetHandler      :  ExitAssetHandler
+
+
+Test Case 55 		(Key = 5.11.)
+   AssetManagement       :  ExitAssetHandler
+   ExitAssetHandler      :  CreateNewAsset
+

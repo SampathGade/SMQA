@@ -1,0 +1,273 @@
+
+Test Case 1  		<error>  (follows [if])
+   ExitUserHandler :  CreateNewUser
+
+
+Test Case 2  		<error>  (follows [if])
+   ExitUserHandler :  RetrieveExistingUser
+
+
+Test Case 3  		<error>  (follows [if])
+   ExitUserHandler :  UpdateUserDetails
+
+
+Test Case 4  		<error>  (follows [if])
+   ExitUserHandler :  DeleteExistingUser
+
+
+Test Case 5  		<error>  (follows [if])
+   ExitUserHandler :  ImportUserRecords
+
+
+Test Case 6  		<error>  (follows [if])
+   ExitUserHandler :  ExportUserDetails
+
+
+Test Case 7  		<error>  (follows [if])
+   ExitUserHandler :  ExitUserHandler
+
+
+Test Case 8  		(Key = 1.1.)
+   UserManagement       :  CreateNewUser
+   ExitUserHandler      :  CreateNewUser
+
+
+Test Case 9  		(Key = 1.2.)
+   UserManagement       :  CreateNewUser
+   ExitUserHandler      :  RetrieveExistingUser
+
+
+Test Case 10 		(Key = 1.3.)
+   UserManagement       :  CreateNewUser
+   ExitUserHandler      :  UpdateUserDetails
+
+
+Test Case 11 		(Key = 1.4.)
+   UserManagement       :  CreateNewUser
+   ExitUserHandler      :  DeleteExistingUser
+
+
+Test Case 12 		(Key = 1.5.)
+   UserManagement       :  CreateNewUser
+   ExitUserHandler      :  ImportUserRecords
+
+
+Test Case 13 		(Key = 1.6.)
+   UserManagement       :  CreateNewUser
+   ExitUserHandler      :  ExportUserDetails
+
+
+Test Case 14 		(Key = 1.7.)
+   UserManagement       :  CreateNewUser
+   ExitUserHandler      :  ExitUserHandler
+
+
+Test Case 15 		(Key = 2.1.)
+   UserManagement       :  RetrieveExistingUser
+   ExitUserHandler      :  CreateNewUser
+
+
+Test Case 16 		(Key = 2.2.)
+   UserManagement       :  RetrieveExistingUser
+   ExitUserHandler      :  RetrieveExistingUser
+
+
+Test Case 17 		(Key = 2.3.)
+   UserManagement       :  RetrieveExistingUser
+   ExitUserHandler      :  UpdateUserDetails
+
+
+Test Case 18 		(Key = 2.4.)
+   UserManagement       :  RetrieveExistingUser
+   ExitUserHandler      :  DeleteExistingUser
+
+
+Test Case 19 		(Key = 2.5.)
+   UserManagement       :  RetrieveExistingUser
+   ExitUserHandler      :  ImportUserRecords
+
+
+Test Case 20 		(Key = 2.6.)
+   UserManagement       :  RetrieveExistingUser
+   ExitUserHandler      :  ExportUserDetails
+
+
+Test Case 21 		(Key = 2.7.)
+   UserManagement       :  RetrieveExistingUser
+   ExitUserHandler      :  ExitUserHandler
+
+
+Test Case 22 		(Key = 3.1.)
+   UserManagement       :  UpdateUserDetails
+   ExitUserHandler      :  CreateNewUser
+
+
+Test Case 23 		(Key = 3.2.)
+   UserManagement       :  UpdateUserDetails
+   ExitUserHandler      :  RetrieveExistingUser
+
+
+Test Case 24 		(Key = 3.3.)
+   UserManagement       :  UpdateUserDetails
+   ExitUserHandler      :  UpdateUserDetails
+
+
+Test Case 25 		(Key = 3.4.)
+   UserManagement       :  UpdateUserDetails
+   ExitUserHandler      :  DeleteExistingUser
+
+
+Test Case 26 		(Key = 3.5.)
+   UserManagement       :  UpdateUserDetails
+   ExitUserHandler      :  ImportUserRecords
+
+
+Test Case 27 		(Key = 3.6.)
+   UserManagement       :  UpdateUserDetails
+   ExitUserHandler      :  ExportUserDetails
+
+
+Test Case 28 		(Key = 3.7.)
+   UserManagement       :  UpdateUserDetails
+   ExitUserHandler      :  ExitUserHandler
+
+
+Test Case 29 		(Key = 4.1.)
+   UserManagement       :  DeleteExistingUser
+   ExitUserHandler      :  CreateNewUser
+
+
+Test Case 30 		(Key = 4.2.)
+   UserManagement       :  DeleteExistingUser
+   ExitUserHandler      :  RetrieveExistingUser
+
+
+Test Case 31 		(Key = 4.3.)
+   UserManagement       :  DeleteExistingUser
+   ExitUserHandler      :  UpdateUserDetails
+
+
+Test Case 32 		(Key = 4.4.)
+   UserManagement       :  DeleteExistingUser
+   ExitUserHandler      :  DeleteExistingUser
+
+
+Test Case 33 		(Key = 4.5.)
+   UserManagement       :  DeleteExistingUser
+   ExitUserHandler      :  ImportUserRecords
+
+
+Test Case 34 		(Key = 4.6.)
+   UserManagement       :  DeleteExistingUser
+   ExitUserHandler      :  ExportUserDetails
+
+
+Test Case 35 		(Key = 4.7.)
+   UserManagement       :  DeleteExistingUser
+   ExitUserHandler      :  ExitUserHandler
+
+
+Test Case 36 		(Key = 5.1.)
+   UserManagement       :  ImportUserRecords
+   ExitUserHandler      :  CreateNewUser
+
+
+Test Case 37 		(Key = 5.2.)
+   UserManagement       :  ImportUserRecords
+   ExitUserHandler      :  RetrieveExistingUser
+
+
+Test Case 38 		(Key = 5.3.)
+   UserManagement       :  ImportUserRecords
+   ExitUserHandler      :  UpdateUserDetails
+
+
+Test Case 39 		(Key = 5.4.)
+   UserManagement       :  ImportUserRecords
+   ExitUserHandler      :  DeleteExistingUser
+
+
+Test Case 40 		(Key = 5.5.)
+   UserManagement       :  ImportUserRecords
+   ExitUserHandler      :  ImportUserRecords
+
+
+Test Case 41 		(Key = 5.6.)
+   UserManagement       :  ImportUserRecords
+   ExitUserHandler      :  ExportUserDetails
+
+
+Test Case 42 		(Key = 5.7.)
+   UserManagement       :  ImportUserRecords
+   ExitUserHandler      :  ExitUserHandler
+
+
+Test Case 43 		(Key = 6.1.)
+   UserManagement       :  ExportUserDetails
+   ExitUserHandler      :  CreateNewUser
+
+
+Test Case 44 		(Key = 6.2.)
+   UserManagement       :  ExportUserDetails
+   ExitUserHandler      :  RetrieveExistingUser
+
+
+Test Case 45 		(Key = 6.3.)
+   UserManagement       :  ExportUserDetails
+   ExitUserHandler      :  UpdateUserDetails
+
+
+Test Case 46 		(Key = 6.4.)
+   UserManagement       :  ExportUserDetails
+   ExitUserHandler      :  DeleteExistingUser
+
+
+Test Case 47 		(Key = 6.5.)
+   UserManagement       :  ExportUserDetails
+   ExitUserHandler      :  ImportUserRecords
+
+
+Test Case 48 		(Key = 6.6.)
+   UserManagement       :  ExportUserDetails
+   ExitUserHandler      :  ExportUserDetails
+
+
+Test Case 49 		(Key = 6.7.)
+   UserManagement       :  ExportUserDetails
+   ExitUserHandler      :  ExitUserHandler
+
+
+Test Case 50 		(Key = 7.1.)
+   UserManagement       :  ExitUserHandler
+   ExitUserHandler      :  CreateNewUser
+
+
+Test Case 51 		(Key = 7.2.)
+   UserManagement       :  ExitUserHandler
+   ExitUserHandler      :  RetrieveExistingUser
+
+
+Test Case 52 		(Key = 7.3.)
+   UserManagement       :  ExitUserHandler
+   ExitUserHandler      :  UpdateUserDetails
+
+
+Test Case 53 		(Key = 7.4.)
+   UserManagement       :  ExitUserHandler
+   ExitUserHandler      :  DeleteExistingUser
+
+
+Test Case 54 		(Key = 7.5.)
+   UserManagement       :  ExitUserHandler
+   ExitUserHandler      :  ImportUserRecords
+
+
+Test Case 55 		(Key = 7.6.)
+   UserManagement       :  ExitUserHandler
+   ExitUserHandler      :  ExportUserDetails
+
+
+Test Case 56 		(Key = 7.7.)
+   UserManagement       :  ExitUserHandler
+   ExitUserHandler      :  ExitUserHandler
+

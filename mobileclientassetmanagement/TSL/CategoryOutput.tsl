@@ -1,0 +1,96 @@
+
+Test Case 1  		<error>  (follows [if])
+   HandleDelete :  HandleCreate
+
+
+Test Case 2  		<error>  (follows [if])
+   HandleDelete :  HandleRetrieve
+
+
+Test Case 3  		<error>  (follows [if])
+   HandleDelete :  HandleUpdate
+
+
+Test Case 4  		<error>  (follows [if])
+   HandleDelete :  HandleDelete
+
+
+Test Case 5  		(Key = 1.1.)
+   CategoryHandler :  HandleCreate
+   HandleDelete    :  HandleCreate
+
+
+Test Case 6  		(Key = 1.2.)
+   CategoryHandler :  HandleCreate
+   HandleDelete    :  HandleRetrieve
+
+
+Test Case 7  		(Key = 1.3.)
+   CategoryHandler :  HandleCreate
+   HandleDelete    :  HandleUpdate
+
+
+Test Case 8  		(Key = 1.4.)
+   CategoryHandler :  HandleCreate
+   HandleDelete    :  HandleDelete
+
+
+Test Case 9  		(Key = 2.1.)
+   CategoryHandler :  HandleRetrieve
+   HandleDelete    :  HandleCreate
+
+
+Test Case 10 		(Key = 2.2.)
+   CategoryHandler :  HandleRetrieve
+   HandleDelete    :  HandleRetrieve
+
+
+Test Case 11 		(Key = 2.3.)
+   CategoryHandler :  HandleRetrieve
+   HandleDelete    :  HandleUpdate
+
+
+Test Case 12 		(Key = 2.4.)
+   CategoryHandler :  HandleRetrieve
+   HandleDelete    :  HandleDelete
+
+
+Test Case 13 		(Key = 3.1.)
+   CategoryHandler :  HandleUpdate
+   HandleDelete    :  HandleCreate
+
+
+Test Case 14 		(Key = 3.2.)
+   CategoryHandler :  HandleUpdate
+   HandleDelete    :  HandleRetrieve
+
+
+Test Case 15 		(Key = 3.3.)
+   CategoryHandler :  HandleUpdate
+   HandleDelete    :  HandleUpdate
+
+
+Test Case 16 		(Key = 3.4.)
+   CategoryHandler :  HandleUpdate
+   HandleDelete    :  HandleDelete
+
+
+Test Case 17 		(Key = 4.1.)
+   CategoryHandler :  HandleDelete
+   HandleDelete    :  HandleCreate
+
+
+Test Case 18 		(Key = 4.2.)
+   CategoryHandler :  HandleDelete
+   HandleDelete    :  HandleRetrieve
+
+
+Test Case 19 		(Key = 4.3.)
+   CategoryHandler :  HandleDelete
+   HandleDelete    :  HandleUpdate
+
+
+Test Case 20 		(Key = 4.4.)
+   CategoryHandler :  HandleDelete
+   HandleDelete    :  HandleDelete
+
