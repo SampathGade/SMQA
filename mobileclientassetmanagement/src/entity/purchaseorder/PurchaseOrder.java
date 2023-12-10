@@ -1,6 +1,6 @@
-package mobileclientassetmanagement.src.entity.purchaseorder;
+package entity.purchaseorder;
 
-import mobileclientassetmanagement.src.entity.vendor.Vendor;
+import entity.vendor.Vendor;
 
 import java.math.BigDecimal;
 import java.util.Date;
@@ -14,6 +14,8 @@ public class PurchaseOrder {
 
     private BigDecimal totalCost;
 
+    private Integer status;
+
     private List<Item> orderItems;
 
     public static final class Item {
@@ -23,11 +25,6 @@ public class PurchaseOrder {
 
         public Item() {
 
-        }
-        public Item(String itemName, Integer quantity, BigDecimal price){
-           this.itemName = itemName;
-           this.quantity = quantity;
-           this.price = price;
         }
         public String getItemName() {
             return itemName;
@@ -56,15 +53,6 @@ public class PurchaseOrder {
 
     public PurchaseOrder() {
 
-    }
-
-    public PurchaseOrder(Integer orderID, Date orderDate, String billingAddress, Vendor orderVendor, BigDecimal totalCost, List<Item> orderItems) {
-        this.orderID = orderID;
-        this.orderDate = orderDate;
-        this.billingAddress = billingAddress;
-        this.orderVendor = orderVendor;
-        this.totalCost = totalCost;
-        this.orderItems = orderItems;
     }
 
     public Integer getOrderID() {
@@ -113,5 +101,12 @@ public class PurchaseOrder {
 
     public void setOrderItems(List<Item> orderItems) {
         this.orderItems = orderItems;
+    }
+    public Integer getStatus() {
+        return status;
+    }
+
+    public void setStatus(Integer status) {
+        this.status = status;
     }
 }

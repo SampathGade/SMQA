@@ -1,6 +1,6 @@
-package mobileclientassetmanagement.src.entity.purchaseorder;
+package entity.purchaseorder;
 
-import mobileclientassetmanagement.src.dbmanager.DataManager;
+import dbmanager.DataManager;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,10 +11,8 @@ public class PurchaseOrderImpl implements PurchaseOrderInterface{
     PurchaseOrderImpl() {
         this.purchaseOrderData = DataManager.getPurchaseOrderData();
     }
-
-
-@Override
-public void add(PurchaseOrder purchaseOrder) {
+    @Override
+    public void add(PurchaseOrder purchaseOrder) {
         purchaseOrderData.put(purchaseOrder.getOrderID(), purchaseOrder);
     }
 
@@ -27,5 +25,4 @@ public void add(PurchaseOrder purchaseOrder) {
     public void delete(Integer orderID) {
         purchaseOrderData.remove(orderID);
     }
-
 }
