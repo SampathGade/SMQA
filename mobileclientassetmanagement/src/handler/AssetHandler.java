@@ -9,6 +9,8 @@ import mobileclientassetmanagement.src.status.StatusFactory;
 import mobileclientassetmanagement.src.util.AccessUtil;
 import mobileclientassetmanagement.src.util.AppUtil;
 import mobileclientassetmanagement.src.util.Constants;
+import mobileclientassetmanagement.src.util.exports.ExportFactory;
+import mobileclientassetmanagement.src.util.imports.ImportFactory;
 
 import java.lang.reflect.Field;
 import java.text.SimpleDateFormat;
@@ -80,6 +82,12 @@ public class AssetHandler implements Handler {
                 }
                 else if(assetHandlerMap.get(option).startsWith("Mark Asset as Decommission")) {
                     markAsDecommission();
+                }
+                else if(assetHandlerMap.get(option).startsWith("Import")) {
+                    handleImport(scanner);
+                }
+                else if(assetHandlerMap.get(option).startsWith("Export")) {
+                    handleExport();
                 }
                 else if(assetHandlerMap.get(option).startsWith("Exit")) {
                     return;
@@ -241,6 +249,20 @@ public class AssetHandler implements Handler {
         Asset assetToBeDecommissioned = handleRetrieve();
         StatusFactory.getObject(Constants.ASSET).decommision(assetToBeDecommissioned);
         System.out.println("Marked As Decommissioned!");
+    }
+
+    private void handleImport(Scanner scanner) {
+        System.out.println("Please provide Absolute Path to Import");
+        scanner.nextLine();
+        String filePath = scanner.nextLine();
+        ImportFactory.getHandler(Constants.ASSET).handleImport(filePath);
+        System.out.println("Import Successfully Completed");
+    }
+
+    private void handleExport() {
+        Map<Integer, Asset> assetDataMap = DataManager.getAssetData();
+        ExportFactory.getHandler(Constants.ASSET).handleExport(assetDataMap, "");
+        System.out.println("Export Completed");
     }
 
     private static void displayAssetDetailsVertical(Asset asset) {

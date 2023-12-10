@@ -1,6 +1,7 @@
 package mobileclientassetmanagement.src.util.imports;
 
 
+import mobileclientassetmanagement.src.entity.asset.AssetImportHandler;
 import mobileclientassetmanagement.src.entity.location.LocationImportHandler;
 import mobileclientassetmanagement.src.entity.product.ProductImportHandler;
 import mobileclientassetmanagement.src.entity.project.ProjectImportHandler;
@@ -11,6 +12,8 @@ public class ImportFactory {
         switch (type) {
             case 1:
                 return new UserImportHandler();
+            case 2:
+                return new AssetImportHandler();
             case 7:
                 return new LocationImportHandler();
             case 8:
