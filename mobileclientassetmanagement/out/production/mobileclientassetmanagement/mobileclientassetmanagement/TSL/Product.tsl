@@ -1,0 +1,45 @@
+# Test Categories
+ProductManagement:
+    CreateNewProduct.
+    RetrieveExistingProduct.
+    UpdateProductDetails.
+    DeleteExistingProduct.
+    ExitProductHandler.
+
+# Test Choices
+CreateNewProduct: [empty]
+RetrieveExistingProduct: [single] [multiple]
+UpdateProductDetails: [single] [multiple]
+DeleteExistingProduct: [single] [multiple]
+ExitProductHandler: [empty]
+
+# Test Properties
+CreateNewProduct. [property ProductCreationSuccess]
+RetrieveExistingProduct. [property ProductRetrievalSuccess]
+UpdateProductDetails. [property ProductUpdateSuccess]
+DeleteExistingProduct. [property ProductDeletionSuccess]
+ExitProductHandler. [property ExitSuccess]
+
+# Test Conditions
+CreateNewProduct. [if ProductCreationSuccess] [error]
+RetrieveExistingProduct. [if !ProductRetrievalSuccess] [error]
+UpdateProductDetails. [if !ProductUpdateSuccess] [error]
+DeleteExistingProduct. [if !ProductDeletionSuccess] [error]
+ExitProductHandler. [if !ExitSuccess] [error]
+
+# Example Constraints
+CreateNewProduct. [if ProductCreationSuccess] [property NewProductIDProvided]
+CreateNewProduct. [if ProductCreationSuccess] [property NewProductNameProvided]
+CreateNewProduct. [if ProductCreationSuccess] [property NewProductDescriptionProvided]
+CreateNewProduct. [if ProductCreationSuccess] [property NewProductCostProvided]
+
+RetrieveExistingProduct. [if ProductRetrievalSuccess] [property ExistingProductIDProvided]
+
+UpdateProductDetails. [if ProductUpdateSuccess] [property UpdatedProductIDProvided]
+UpdateProductDetails. [if ProductUpdateSuccess] [property UpdatedProductNameProvided]
+UpdateProductDetails. [if ProductUpdateSuccess] [property UpdatedProductDescriptionProvided]
+UpdateProductDetails. [if ProductUpdateSuccess] [property UpdatedProductCostProvided]
+
+DeleteExistingProduct. [if ProductDeletionSuccess] [property ProductToDeleteIDProvided]
+
+ExitProductHandler. [if ExitSuccess]

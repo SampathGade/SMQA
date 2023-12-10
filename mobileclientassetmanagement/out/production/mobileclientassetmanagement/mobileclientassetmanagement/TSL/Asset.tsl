@@ -1,0 +1,56 @@
+# Test Categories
+AssetManagement:
+    CreateNewAsset.
+    RetrieveExistingAsset.
+    UpdateAssetDetails.
+    DeleteExistingAsset.
+    ExitAssetHandler.
+
+# Test Choices
+CreateNewAsset: [empty]
+RetrieveExistingAsset: [single] [multiple]
+UpdateAssetDetails: [single] [multiple]
+DeleteExistingAsset: [single] [multiple]
+ExitAssetHandler: [empty]
+
+# Test Properties
+CreateNewAsset. [property AssetCreationSuccess]
+RetrieveExistingAsset. [property AssetRetrievalSuccess]
+RetrieveExistingAsset. [property MultipleAssetIDsProvided] [property MultipleAssetsRetrieved]
+UpdateAssetDetails. [property AssetUpdateSuccess]
+UpdateAssetDetails. [property UpdatedFieldIsStatus]
+UpdateAssetDetails. [property UpdatedFieldIsLocation]
+DeleteExistingAsset. [property AssetDeletionSuccess]
+DeleteExistingAsset. [property AssociatedDataExists]
+ExitAssetHandler. [property ExitSuccess]
+
+# Test Conditions
+CreateNewAsset. [if AssetCreationSuccess] [error]
+CreateNewAsset. [if !AssetCreationSuccess] [property AssetCreationFailureReasonProvided]
+RetrieveExistingAsset. [if !AssetRetrievalSuccess] [error]
+RetrieveExistingAsset. [if MultipleAssetIDsProvided] [property MultipleAssetsRetrieved]
+UpdateAssetDetails. [if !AssetUpdateSuccess] [error]
+UpdateAssetDetails. [if AssetUpdateSuccess && UpdatedFieldIsStatus] [property AssetStatusUpdatedSuccessfully]
+UpdateAssetDetails. [if AssetUpdateSuccess && UpdatedFieldIsLocation] [property AssetLocationUpdatedSuccessfully]
+DeleteExistingAsset. [if !AssetDeletionSuccess] [error]
+DeleteExistingAsset. [if AssetDeletionSuccess && AssociatedDataExists] [property AssociatedDataDeletionFailureReasonProvided]
+ExitAssetHandler. [if !ExitSuccess] [error]
+
+# Example Constraints
+CreateNewAsset. [if AssetCreationSuccess] [property NewAssetIDProvided]
+CreateNewAsset. [if AssetCreationSuccess] [property NewAssetNameProvided]
+CreateNewAsset. [if AssetCreationSuccess] [property NewAssetCategoryProvided]
+CreateNewAsset. [if AssetCreationSuccess] [property NewAssetModelProvided]
+CreateNewAsset. [if AssetCreationSuccess] [property NewAssetDescriptionProvided]
+
+RetrieveExistingAsset. [if AssetRetrievalSuccess] [property ExistingAssetIDProvided]
+RetrieveExistingAsset. [if MultipleAssetIDsProvided] [property MultipleAssetIDsProvided]
+
+UpdateAssetDetails. [if AssetUpdateSuccess] [property UpdatedAssetIDProvided]
+UpdateAssetDetails. [if AssetUpdateSuccess && UpdatedFieldIsStatus] [property UpdatedAssetStatusProvided]
+UpdateAssetDetails. [if AssetUpdateSuccess && UpdatedFieldIsLocation] [property UpdatedAssetLocationProvided]
+
+DeleteExistingAsset. [if AssetDeletionSuccess] [property AssetToDeleteIDProvided]
+DeleteExistingAsset. [if AssetDeletionSuccess && AssociatedDataExists] [property AssociatedDataDeletionFailureReasonProvided]
+
+ExitAssetHandler. [if ExitSuccess]

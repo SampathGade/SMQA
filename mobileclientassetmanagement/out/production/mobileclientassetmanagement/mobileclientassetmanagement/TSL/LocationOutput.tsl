@@ -1,0 +1,145 @@
+
+Test Case 1  		<error>  (follows [if])
+   ExitLocationHandler :  CreateNewLocation
+
+
+Test Case 2  		<error>  (follows [if])
+   ExitLocationHandler :  RetrieveExistingLocation
+
+
+Test Case 3  		<error>  (follows [if])
+   ExitLocationHandler :  UpdateLocationDetails
+
+
+Test Case 4  		<error>  (follows [if])
+   ExitLocationHandler :  DeleteExistingLocation
+
+
+Test Case 5  		<error>  (follows [if])
+   ExitLocationHandler :  ExitLocationHandler
+
+
+Test Case 6  		(Key = 1.1.)
+   LocationManagement       :  CreateNewLocation
+   ExitLocationHandler      :  CreateNewLocation
+
+
+Test Case 7  		(Key = 1.2.)
+   LocationManagement       :  CreateNewLocation
+   ExitLocationHandler      :  RetrieveExistingLocation
+
+
+Test Case 8  		(Key = 1.3.)
+   LocationManagement       :  CreateNewLocation
+   ExitLocationHandler      :  UpdateLocationDetails
+
+
+Test Case 9  		(Key = 1.4.)
+   LocationManagement       :  CreateNewLocation
+   ExitLocationHandler      :  DeleteExistingLocation
+
+
+Test Case 10 		(Key = 1.5.)
+   LocationManagement       :  CreateNewLocation
+   ExitLocationHandler      :  ExitLocationHandler
+
+
+Test Case 11 		(Key = 2.1.)
+   LocationManagement       :  RetrieveExistingLocation
+   ExitLocationHandler      :  CreateNewLocation
+
+
+Test Case 12 		(Key = 2.2.)
+   LocationManagement       :  RetrieveExistingLocation
+   ExitLocationHandler      :  RetrieveExistingLocation
+
+
+Test Case 13 		(Key = 2.3.)
+   LocationManagement       :  RetrieveExistingLocation
+   ExitLocationHandler      :  UpdateLocationDetails
+
+
+Test Case 14 		(Key = 2.4.)
+   LocationManagement       :  RetrieveExistingLocation
+   ExitLocationHandler      :  DeleteExistingLocation
+
+
+Test Case 15 		(Key = 2.5.)
+   LocationManagement       :  RetrieveExistingLocation
+   ExitLocationHandler      :  ExitLocationHandler
+
+
+Test Case 16 		(Key = 3.1.)
+   LocationManagement       :  UpdateLocationDetails
+   ExitLocationHandler      :  CreateNewLocation
+
+
+Test Case 17 		(Key = 3.2.)
+   LocationManagement       :  UpdateLocationDetails
+   ExitLocationHandler      :  RetrieveExistingLocation
+
+
+Test Case 18 		(Key = 3.3.)
+   LocationManagement       :  UpdateLocationDetails
+   ExitLocationHandler      :  UpdateLocationDetails
+
+
+Test Case 19 		(Key = 3.4.)
+   LocationManagement       :  UpdateLocationDetails
+   ExitLocationHandler      :  DeleteExistingLocation
+
+
+Test Case 20 		(Key = 3.5.)
+   LocationManagement       :  UpdateLocationDetails
+   ExitLocationHandler      :  ExitLocationHandler
+
+
+Test Case 21 		(Key = 4.1.)
+   LocationManagement       :  DeleteExistingLocation
+   ExitLocationHandler      :  CreateNewLocation
+
+
+Test Case 22 		(Key = 4.2.)
+   LocationManagement       :  DeleteExistingLocation
+   ExitLocationHandler      :  RetrieveExistingLocation
+
+
+Test Case 23 		(Key = 4.3.)
+   LocationManagement       :  DeleteExistingLocation
+   ExitLocationHandler      :  UpdateLocationDetails
+
+
+Test Case 24 		(Key = 4.4.)
+   LocationManagement       :  DeleteExistingLocation
+   ExitLocationHandler      :  DeleteExistingLocation
+
+
+Test Case 25 		(Key = 4.5.)
+   LocationManagement       :  DeleteExistingLocation
+   ExitLocationHandler      :  ExitLocationHandler
+
+
+Test Case 26 		(Key = 5.1.)
+   LocationManagement       :  ExitLocationHandler
+   ExitLocationHandler      :  CreateNewLocation
+
+
+Test Case 27 		(Key = 5.2.)
+   LocationManagement       :  ExitLocationHandler
+   ExitLocationHandler      :  RetrieveExistingLocation
+
+
+Test Case 28 		(Key = 5.3.)
+   LocationManagement       :  ExitLocationHandler
+   ExitLocationHandler      :  UpdateLocationDetails
+
+
+Test Case 29 		(Key = 5.4.)
+   LocationManagement       :  ExitLocationHandler
+   ExitLocationHandler      :  DeleteExistingLocation
+
+
+Test Case 30 		(Key = 5.5.)
+   LocationManagement       :  ExitLocationHandler
+   ExitLocationHandler      :  ExitLocationHandler
+

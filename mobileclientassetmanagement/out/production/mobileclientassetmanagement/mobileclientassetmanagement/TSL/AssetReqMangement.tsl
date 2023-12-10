@@ -1,0 +1,74 @@
+# Test Categories
+AssetRequestManagement:
+    CreateNewAssetRequest.
+    RetrieveExistingAssetRequest.
+    UpdateAssetRequestDetails.
+    DeleteExistingAssetRequest.
+    ViewOpenAssetRequest.
+    ViewAllAssetRequest.
+    ApproveAssetRequest.
+    RejectAssetRequest.
+    CommentOnAssetRequest.
+    ExitAssetRequestHandler.
+
+# Test Choices
+CreateNewAssetRequest: [empty]
+RetrieveExistingAssetRequest: [single] [multiple]
+UpdateAssetRequestDetails: [single] [multiple]
+DeleteExistingAssetRequest: [single] [multiple]
+ViewOpenAssetRequest: [empty]
+ViewAllAssetRequest: [empty]
+ApproveAssetRequest: [single] [multiple]
+RejectAssetRequest: [single] [multiple]
+CommentOnAssetRequest: [single] [multiple]
+ExitAssetRequestHandler: [empty]
+
+# Test Properties
+CreateNewAssetRequest. [property AssetRequestCreationSuccess]
+RetrieveExistingAssetRequest. [property AssetRequestRetrievalSuccess]
+UpdateAssetRequestDetails. [property AssetRequestUpdateSuccess]
+DeleteExistingAssetRequest. [property AssetRequestDeletionSuccess]
+ViewOpenAssetRequest. [property OpenAssetRequestViewSuccess]
+ViewAllAssetRequest. [property AllAssetRequestViewSuccess]
+ApproveAssetRequest. [property AssetRequestApprovalSuccess]
+RejectAssetRequest. [property AssetRequestRejectionSuccess]
+CommentOnAssetRequest. [property AssetRequestCommentSuccess]
+ExitAssetRequestHandler. [property ExitSuccess]
+
+# Test Conditions
+CreateNewAssetRequest. [if AssetRequestCreationSuccess] [error]
+RetrieveExistingAssetRequest. [if !AssetRequestRetrievalSuccess] [error]
+UpdateAssetRequestDetails. [if !AssetRequestUpdateSuccess] [error]
+DeleteExistingAssetRequest. [if !AssetRequestDeletionSuccess] [error]
+ViewOpenAssetRequest. [if !OpenAssetRequestViewSuccess] [error]
+ViewAllAssetRequest. [if !AllAssetRequestViewSuccess] [error]
+ApproveAssetRequest. [if !AssetRequestApprovalSuccess] [error]
+RejectAssetRequest. [if !AssetRequestRejectionSuccess] [error]
+CommentOnAssetRequest. [if !AssetRequestCommentSuccess] [error]
+ExitAssetRequestHandler. [if !ExitSuccess] [error]
+
+# Example Constraints
+CreateNewAssetRequest. [if AssetRequestCreationSuccess] [property NewAssetRequestIDProvided]
+CreateNewAssetRequest. [if AssetRequestCreationSuccess] [property NewAssetRequestDescriptionProvided]
+CreateNewAssetRequest. [if AssetRequestCreationSuccess] [property NewAssetRequestAssetListProvided]
+
+RetrieveExistingAssetRequest. [if AssetRequestRetrievalSuccess] [property ExistingAssetRequestIDProvided]
+
+UpdateAssetRequestDetails. [if AssetRequestUpdateSuccess] [property UpdatedAssetRequestIDProvided]
+UpdateAssetRequestDetails. [if AssetRequestUpdateSuccess] [property UpdatedAssetRequestDescriptionProvided]
+UpdateAssetRequestDetails. [if AssetRequestUpdateSuccess] [property UpdatedAssetRequestAssetListProvided]
+
+DeleteExistingAssetRequest. [if AssetRequestDeletionSuccess] [property AssetRequestToDeleteIDProvided]
+
+ViewOpenAssetRequest. [if OpenAssetRequestViewSuccess]
+
+ViewAllAssetRequest. [if AllAssetRequestViewSuccess]
+
+ApproveAssetRequest. [if AssetRequestApprovalSuccess] [property ApprovedAssetRequestIDProvided]
+
+RejectAssetRequest. [if AssetRequestRejectionSuccess] [property RejectedAssetRequestIDProvided]
+
+CommentOnAssetRequest. [if AssetRequestCommentSuccess] [property AssetRequestIDForCommentProvided]
+CommentOnAssetRequest. [if AssetRequestCommentSuccess] [property CommentStringProvided]
+
+ExitAssetRequestHandler. [if ExitSuccess]

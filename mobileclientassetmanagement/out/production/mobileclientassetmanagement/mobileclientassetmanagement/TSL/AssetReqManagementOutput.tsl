@@ -1,0 +1,540 @@
+
+Test Case 1  		<error>  (follows [if])
+   ExitAssetRequestHandler :  CreateNewAssetRequest
+
+
+Test Case 2  		<error>  (follows [if])
+   ExitAssetRequestHandler :  RetrieveExistingAssetRequest
+
+
+Test Case 3  		<error>  (follows [if])
+   ExitAssetRequestHandler :  UpdateAssetRequestDetails
+
+
+Test Case 4  		<error>  (follows [if])
+   ExitAssetRequestHandler :  DeleteExistingAssetRequest
+
+
+Test Case 5  		<error>  (follows [if])
+   ExitAssetRequestHandler :  ViewOpenAssetRequest
+
+
+Test Case 6  		<error>  (follows [if])
+   ExitAssetRequestHandler :  ViewAllAssetRequest
+
+
+Test Case 7  		<error>  (follows [if])
+   ExitAssetRequestHandler :  ApproveAssetRequest
+
+
+Test Case 8  		<error>  (follows [if])
+   ExitAssetRequestHandler :  RejectAssetRequest
+
+
+Test Case 9  		<error>  (follows [if])
+   ExitAssetRequestHandler :  CommentOnAssetRequest
+
+
+Test Case 10 		<error>  (follows [if])
+   ExitAssetRequestHandler :  ExitAssetRequestHandler
+
+
+Test Case 11 		(Key = 1.1.)
+   AssetRequestManagement       :  CreateNewAssetRequest
+   ExitAssetRequestHandler      :  CreateNewAssetRequest
+
+
+Test Case 12 		(Key = 1.2.)
+   AssetRequestManagement       :  CreateNewAssetRequest
+   ExitAssetRequestHandler      :  RetrieveExistingAssetRequest
+
+
+Test Case 13 		(Key = 1.3.)
+   AssetRequestManagement       :  CreateNewAssetRequest
+   ExitAssetRequestHandler      :  UpdateAssetRequestDetails
+
+
+Test Case 14 		(Key = 1.4.)
+   AssetRequestManagement       :  CreateNewAssetRequest
+   ExitAssetRequestHandler      :  DeleteExistingAssetRequest
+
+
+Test Case 15 		(Key = 1.5.)
+   AssetRequestManagement       :  CreateNewAssetRequest
+   ExitAssetRequestHandler      :  ViewOpenAssetRequest
+
+
+Test Case 16 		(Key = 1.6.)
+   AssetRequestManagement       :  CreateNewAssetRequest
+   ExitAssetRequestHandler      :  ViewAllAssetRequest
+
+
+Test Case 17 		(Key = 1.7.)
+   AssetRequestManagement       :  CreateNewAssetRequest
+   ExitAssetRequestHandler      :  ApproveAssetRequest
+
+
+Test Case 18 		(Key = 1.8.)
+   AssetRequestManagement       :  CreateNewAssetRequest
+   ExitAssetRequestHandler      :  RejectAssetRequest
+
+
+Test Case 19 		(Key = 1.9.)
+   AssetRequestManagement       :  CreateNewAssetRequest
+   ExitAssetRequestHandler      :  CommentOnAssetRequest
+
+
+Test Case 20 		(Key = 1.10.)
+   AssetRequestManagement       :  CreateNewAssetRequest
+   ExitAssetRequestHandler      :  ExitAssetRequestHandler
+
+
+Test Case 21 		(Key = 2.1.)
+   AssetRequestManagement       :  RetrieveExistingAssetRequest
+   ExitAssetRequestHandler      :  CreateNewAssetRequest
+
+
+Test Case 22 		(Key = 2.2.)
+   AssetRequestManagement       :  RetrieveExistingAssetRequest
+   ExitAssetRequestHandler      :  RetrieveExistingAssetRequest
+
+
+Test Case 23 		(Key = 2.3.)
+   AssetRequestManagement       :  RetrieveExistingAssetRequest
+   ExitAssetRequestHandler      :  UpdateAssetRequestDetails
+
+
+Test Case 24 		(Key = 2.4.)
+   AssetRequestManagement       :  RetrieveExistingAssetRequest
+   ExitAssetRequestHandler      :  DeleteExistingAssetRequest
+
+
+Test Case 25 		(Key = 2.5.)
+   AssetRequestManagement       :  RetrieveExistingAssetRequest
+   ExitAssetRequestHandler      :  ViewOpenAssetRequest
+
+
+Test Case 26 		(Key = 2.6.)
+   AssetRequestManagement       :  RetrieveExistingAssetRequest
+   ExitAssetRequestHandler      :  ViewAllAssetRequest
+
+
+Test Case 27 		(Key = 2.7.)
+   AssetRequestManagement       :  RetrieveExistingAssetRequest
+   ExitAssetRequestHandler      :  ApproveAssetRequest
+
+
+Test Case 28 		(Key = 2.8.)
+   AssetRequestManagement       :  RetrieveExistingAssetRequest
+   ExitAssetRequestHandler      :  RejectAssetRequest
+
+
+Test Case 29 		(Key = 2.9.)
+   AssetRequestManagement       :  RetrieveExistingAssetRequest
+   ExitAssetRequestHandler      :  CommentOnAssetRequest
+
+
+Test Case 30 		(Key = 2.10.)
+   AssetRequestManagement       :  RetrieveExistingAssetRequest
+   ExitAssetRequestHandler      :  ExitAssetRequestHandler
+
+
+Test Case 31 		(Key = 3.1.)
+   AssetRequestManagement       :  UpdateAssetRequestDetails
+   ExitAssetRequestHandler      :  CreateNewAssetRequest
+
+
+Test Case 32 		(Key = 3.2.)
+   AssetRequestManagement       :  UpdateAssetRequestDetails
+   ExitAssetRequestHandler      :  RetrieveExistingAssetRequest
+
+
+Test Case 33 		(Key = 3.3.)
+   AssetRequestManagement       :  UpdateAssetRequestDetails
+   ExitAssetRequestHandler      :  UpdateAssetRequestDetails
+
+
+Test Case 34 		(Key = 3.4.)
+   AssetRequestManagement       :  UpdateAssetRequestDetails
+   ExitAssetRequestHandler      :  DeleteExistingAssetRequest
+
+
+Test Case 35 		(Key = 3.5.)
+   AssetRequestManagement       :  UpdateAssetRequestDetails
+   ExitAssetRequestHandler      :  ViewOpenAssetRequest
+
+
+Test Case 36 		(Key = 3.6.)
+   AssetRequestManagement       :  UpdateAssetRequestDetails
+   ExitAssetRequestHandler      :  ViewAllAssetRequest
+
+
+Test Case 37 		(Key = 3.7.)
+   AssetRequestManagement       :  UpdateAssetRequestDetails
+   ExitAssetRequestHandler      :  ApproveAssetRequest
+
+
+Test Case 38 		(Key = 3.8.)
+   AssetRequestManagement       :  UpdateAssetRequestDetails
+   ExitAssetRequestHandler      :  RejectAssetRequest
+
+
+Test Case 39 		(Key = 3.9.)
+   AssetRequestManagement       :  UpdateAssetRequestDetails
+   ExitAssetRequestHandler      :  CommentOnAssetRequest
+
+
+Test Case 40 		(Key = 3.10.)
+   AssetRequestManagement       :  UpdateAssetRequestDetails
+   ExitAssetRequestHandler      :  ExitAssetRequestHandler
+
+
+Test Case 41 		(Key = 4.1.)
+   AssetRequestManagement       :  DeleteExistingAssetRequest
+   ExitAssetRequestHandler      :  CreateNewAssetRequest
+
+
+Test Case 42 		(Key = 4.2.)
+   AssetRequestManagement       :  DeleteExistingAssetRequest
+   ExitAssetRequestHandler      :  RetrieveExistingAssetRequest
+
+
+Test Case 43 		(Key = 4.3.)
+   AssetRequestManagement       :  DeleteExistingAssetRequest
+   ExitAssetRequestHandler      :  UpdateAssetRequestDetails
+
+
+Test Case 44 		(Key = 4.4.)
+   AssetRequestManagement       :  DeleteExistingAssetRequest
+   ExitAssetRequestHandler      :  DeleteExistingAssetRequest
+
+
+Test Case 45 		(Key = 4.5.)
+   AssetRequestManagement       :  DeleteExistingAssetRequest
+   ExitAssetRequestHandler      :  ViewOpenAssetRequest
+
+
+Test Case 46 		(Key = 4.6.)
+   AssetRequestManagement       :  DeleteExistingAssetRequest
+   ExitAssetRequestHandler      :  ViewAllAssetRequest
+
+
+Test Case 47 		(Key = 4.7.)
+   AssetRequestManagement       :  DeleteExistingAssetRequest
+   ExitAssetRequestHandler      :  ApproveAssetRequest
+
+
+Test Case 48 		(Key = 4.8.)
+   AssetRequestManagement       :  DeleteExistingAssetRequest
+   ExitAssetRequestHandler      :  RejectAssetRequest
+
+
+Test Case 49 		(Key = 4.9.)
+   AssetRequestManagement       :  DeleteExistingAssetRequest
+   ExitAssetRequestHandler      :  CommentOnAssetRequest
+
+
+Test Case 50 		(Key = 4.10.)
+   AssetRequestManagement       :  DeleteExistingAssetRequest
+   ExitAssetRequestHandler      :  ExitAssetRequestHandler
+
+
+Test Case 51 		(Key = 5.1.)
+   AssetRequestManagement       :  ViewOpenAssetRequest
+   ExitAssetRequestHandler      :  CreateNewAssetRequest
+
+
+Test Case 52 		(Key = 5.2.)
+   AssetRequestManagement       :  ViewOpenAssetRequest
+   ExitAssetRequestHandler      :  RetrieveExistingAssetRequest
+
+
+Test Case 53 		(Key = 5.3.)
+   AssetRequestManagement       :  ViewOpenAssetRequest
+   ExitAssetRequestHandler      :  UpdateAssetRequestDetails
+
+
+Test Case 54 		(Key = 5.4.)
+   AssetRequestManagement       :  ViewOpenAssetRequest
+   ExitAssetRequestHandler      :  DeleteExistingAssetRequest
+
+
+Test Case 55 		(Key = 5.5.)
+   AssetRequestManagement       :  ViewOpenAssetRequest
+   ExitAssetRequestHandler      :  ViewOpenAssetRequest
+
+
+Test Case 56 		(Key = 5.6.)
+   AssetRequestManagement       :  ViewOpenAssetRequest
+   ExitAssetRequestHandler      :  ViewAllAssetRequest
+
+
+Test Case 57 		(Key = 5.7.)
+   AssetRequestManagement       :  ViewOpenAssetRequest
+   ExitAssetRequestHandler      :  ApproveAssetRequest
+
+
+Test Case 58 		(Key = 5.8.)
+   AssetRequestManagement       :  ViewOpenAssetRequest
+   ExitAssetRequestHandler      :  RejectAssetRequest
+
+
+Test Case 59 		(Key = 5.9.)
+   AssetRequestManagement       :  ViewOpenAssetRequest
+   ExitAssetRequestHandler      :  CommentOnAssetRequest
+
+
+Test Case 60 		(Key = 5.10.)
+   AssetRequestManagement       :  ViewOpenAssetRequest
+   ExitAssetRequestHandler      :  ExitAssetRequestHandler
+
+
+Test Case 61 		(Key = 6.1.)
+   AssetRequestManagement       :  ViewAllAssetRequest
+   ExitAssetRequestHandler      :  CreateNewAssetRequest
+
+
+Test Case 62 		(Key = 6.2.)
+   AssetRequestManagement       :  ViewAllAssetRequest
+   ExitAssetRequestHandler      :  RetrieveExistingAssetRequest
+
+
+Test Case 63 		(Key = 6.3.)
+   AssetRequestManagement       :  ViewAllAssetRequest
+   ExitAssetRequestHandler      :  UpdateAssetRequestDetails
+
+
+Test Case 64 		(Key = 6.4.)
+   AssetRequestManagement       :  ViewAllAssetRequest
+   ExitAssetRequestHandler      :  DeleteExistingAssetRequest
+
+
+Test Case 65 		(Key = 6.5.)
+   AssetRequestManagement       :  ViewAllAssetRequest
+   ExitAssetRequestHandler      :  ViewOpenAssetRequest
+
+
+Test Case 66 		(Key = 6.6.)
+   AssetRequestManagement       :  ViewAllAssetRequest
+   ExitAssetRequestHandler      :  ViewAllAssetRequest
+
+
+Test Case 67 		(Key = 6.7.)
+   AssetRequestManagement       :  ViewAllAssetRequest
+   ExitAssetRequestHandler      :  ApproveAssetRequest
+
+
+Test Case 68 		(Key = 6.8.)
+   AssetRequestManagement       :  ViewAllAssetRequest
+   ExitAssetRequestHandler      :  RejectAssetRequest
+
+
+Test Case 69 		(Key = 6.9.)
+   AssetRequestManagement       :  ViewAllAssetRequest
+   ExitAssetRequestHandler      :  CommentOnAssetRequest
+
+
+Test Case 70 		(Key = 6.10.)
+   AssetRequestManagement       :  ViewAllAssetRequest
+   ExitAssetRequestHandler      :  ExitAssetRequestHandler
+
+
+Test Case 71 		(Key = 7.1.)
+   AssetRequestManagement       :  ApproveAssetRequest
+   ExitAssetRequestHandler      :  CreateNewAssetRequest
+
+
+Test Case 72 		(Key = 7.2.)
+   AssetRequestManagement       :  ApproveAssetRequest
+   ExitAssetRequestHandler      :  RetrieveExistingAssetRequest
+
+
+Test Case 73 		(Key = 7.3.)
+   AssetRequestManagement       :  ApproveAssetRequest
+   ExitAssetRequestHandler      :  UpdateAssetRequestDetails
+
+
+Test Case 74 		(Key = 7.4.)
+   AssetRequestManagement       :  ApproveAssetRequest
+   ExitAssetRequestHandler      :  DeleteExistingAssetRequest
+
+
+Test Case 75 		(Key = 7.5.)
+   AssetRequestManagement       :  ApproveAssetRequest
+   ExitAssetRequestHandler      :  ViewOpenAssetRequest
+
+
+Test Case 76 		(Key = 7.6.)
+   AssetRequestManagement       :  ApproveAssetRequest
+   ExitAssetRequestHandler      :  ViewAllAssetRequest
+
+
+Test Case 77 		(Key = 7.7.)
+   AssetRequestManagement       :  ApproveAssetRequest
+   ExitAssetRequestHandler      :  ApproveAssetRequest
+
+
+Test Case 78 		(Key = 7.8.)
+   AssetRequestManagement       :  ApproveAssetRequest
+   ExitAssetRequestHandler      :  RejectAssetRequest
+
+
+Test Case 79 		(Key = 7.9.)
+   AssetRequestManagement       :  ApproveAssetRequest
+   ExitAssetRequestHandler      :  CommentOnAssetRequest
+
+
+Test Case 80 		(Key = 7.10.)
+   AssetRequestManagement       :  ApproveAssetRequest
+   ExitAssetRequestHandler      :  ExitAssetRequestHandler
+
+
+Test Case 81 		(Key = 8.1.)
+   AssetRequestManagement       :  RejectAssetRequest
+   ExitAssetRequestHandler      :  CreateNewAssetRequest
+
+
+Test Case 82 		(Key = 8.2.)
+   AssetRequestManagement       :  RejectAssetRequest
+   ExitAssetRequestHandler      :  RetrieveExistingAssetRequest
+
+
+Test Case 83 		(Key = 8.3.)
+   AssetRequestManagement       :  RejectAssetRequest
+   ExitAssetRequestHandler      :  UpdateAssetRequestDetails
+
+
+Test Case 84 		(Key = 8.4.)
+   AssetRequestManagement       :  RejectAssetRequest
+   ExitAssetRequestHandler      :  DeleteExistingAssetRequest
+
+
+Test Case 85 		(Key = 8.5.)
+   AssetRequestManagement       :  RejectAssetRequest
+   ExitAssetRequestHandler      :  ViewOpenAssetRequest
+
+
+Test Case 86 		(Key = 8.6.)
+   AssetRequestManagement       :  RejectAssetRequest
+   ExitAssetRequestHandler      :  ViewAllAssetRequest
+
+
+Test Case 87 		(Key = 8.7.)
+   AssetRequestManagement       :  RejectAssetRequest
+   ExitAssetRequestHandler      :  ApproveAssetRequest
+
+
+Test Case 88 		(Key = 8.8.)
+   AssetRequestManagement       :  RejectAssetRequest
+   ExitAssetRequestHandler      :  RejectAssetRequest
+
+
+Test Case 89 		(Key = 8.9.)
+   AssetRequestManagement       :  RejectAssetRequest
+   ExitAssetRequestHandler      :  CommentOnAssetRequest
+
+
+Test Case 90 		(Key = 8.10.)
+   AssetRequestManagement       :  RejectAssetRequest
+   ExitAssetRequestHandler      :  ExitAssetRequestHandler
+
+
+Test Case 91 		(Key = 9.1.)
+   AssetRequestManagement       :  CommentOnAssetRequest
+   ExitAssetRequestHandler      :  CreateNewAssetRequest
+
+
+Test Case 92 		(Key = 9.2.)
+   AssetRequestManagement       :  CommentOnAssetRequest
+   ExitAssetRequestHandler      :  RetrieveExistingAssetRequest
+
+
+Test Case 93 		(Key = 9.3.)
+   AssetRequestManagement       :  CommentOnAssetRequest
+   ExitAssetRequestHandler      :  UpdateAssetRequestDetails
+
+
+Test Case 94 		(Key = 9.4.)
+   AssetRequestManagement       :  CommentOnAssetRequest
+   ExitAssetRequestHandler      :  DeleteExistingAssetRequest
+
+
+Test Case 95 		(Key = 9.5.)
+   AssetRequestManagement       :  CommentOnAssetRequest
+   ExitAssetRequestHandler      :  ViewOpenAssetRequest
+
+
+Test Case 96 		(Key = 9.6.)
+   AssetRequestManagement       :  CommentOnAssetRequest
+   ExitAssetRequestHandler      :  ViewAllAssetRequest
+
+
+Test Case 97 		(Key = 9.7.)
+   AssetRequestManagement       :  CommentOnAssetRequest
+   ExitAssetRequestHandler      :  ApproveAssetRequest
+
+
+Test Case 98 		(Key = 9.8.)
+   AssetRequestManagement       :  CommentOnAssetRequest
+   ExitAssetRequestHandler      :  RejectAssetRequest
+
+
+Test Case 99 		(Key = 9.9.)
+   AssetRequestManagement       :  CommentOnAssetRequest
+   ExitAssetRequestHandler      :  CommentOnAssetRequest
+
+
+Test Case 100		(Key = 9.10.)
+   AssetRequestManagement       :  CommentOnAssetRequest
+   ExitAssetRequestHandler      :  ExitAssetRequestHandler
+
+
+Test Case 101		(Key = 10.1.)
+   AssetRequestManagement       :  ExitAssetRequestHandler
+   ExitAssetRequestHandler      :  CreateNewAssetRequest
+
+
+Test Case 102		(Key = 10.2.)
+   AssetRequestManagement       :  ExitAssetRequestHandler
+   ExitAssetRequestHandler      :  RetrieveExistingAssetRequest
+
+
+Test Case 103		(Key = 10.3.)
+   AssetRequestManagement       :  ExitAssetRequestHandler
+   ExitAssetRequestHandler      :  UpdateAssetRequestDetails
+
+
+Test Case 104		(Key = 10.4.)
+   AssetRequestManagement       :  ExitAssetRequestHandler
+   ExitAssetRequestHandler      :  DeleteExistingAssetRequest
+
+
+Test Case 105		(Key = 10.5.)
+   AssetRequestManagement       :  ExitAssetRequestHandler
+   ExitAssetRequestHandler      :  ViewOpenAssetRequest
+
+
+Test Case 106		(Key = 10.6.)
+   AssetRequestManagement       :  ExitAssetRequestHandler
+   ExitAssetRequestHandler      :  ViewAllAssetRequest
+
+
+Test Case 107		(Key = 10.7.)
+   AssetRequestManagement       :  ExitAssetRequestHandler
+   ExitAssetRequestHandler      :  ApproveAssetRequest
+
+
+Test Case 108		(Key = 10.8.)
+   AssetRequestManagement       :  ExitAssetRequestHandler
+   ExitAssetRequestHandler      :  RejectAssetRequest
+
+
+Test Case 109		(Key = 10.9.)
+   AssetRequestManagement       :  ExitAssetRequestHandler
+   ExitAssetRequestHandler      :  CommentOnAssetRequest
+
+
+Test Case 110		(Key = 10.10.)
+   AssetRequestManagement       :  ExitAssetRequestHandler
+   ExitAssetRequestHandler      :  ExitAssetRequestHandler
+

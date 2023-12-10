@@ -1,0 +1,145 @@
+
+Test Case 1  		<error>  (follows [if])
+   ExitProjectHandler :  CreateNewProject
+
+
+Test Case 2  		<error>  (follows [if])
+   ExitProjectHandler :  RetrieveExistingProject
+
+
+Test Case 3  		<error>  (follows [if])
+   ExitProjectHandler :  UpdateProjectDetails
+
+
+Test Case 4  		<error>  (follows [if])
+   ExitProjectHandler :  DeleteExistingProject
+
+
+Test Case 5  		<error>  (follows [if])
+   ExitProjectHandler :  ExitProjectHandler
+
+
+Test Case 6  		(Key = 1.1.)
+   ProjectManagement       :  CreateNewProject
+   ExitProjectHandler      :  CreateNewProject
+
+
+Test Case 7  		(Key = 1.2.)
+   ProjectManagement       :  CreateNewProject
+   ExitProjectHandler      :  RetrieveExistingProject
+
+
+Test Case 8  		(Key = 1.3.)
+   ProjectManagement       :  CreateNewProject
+   ExitProjectHandler      :  UpdateProjectDetails
+
+
+Test Case 9  		(Key = 1.4.)
+   ProjectManagement       :  CreateNewProject
+   ExitProjectHandler      :  DeleteExistingProject
+
+
+Test Case 10 		(Key = 1.5.)
+   ProjectManagement       :  CreateNewProject
+   ExitProjectHandler      :  ExitProjectHandler
+
+
+Test Case 11 		(Key = 2.1.)
+   ProjectManagement       :  RetrieveExistingProject
+   ExitProjectHandler      :  CreateNewProject
+
+
+Test Case 12 		(Key = 2.2.)
+   ProjectManagement       :  RetrieveExistingProject
+   ExitProjectHandler      :  RetrieveExistingProject
+
+
+Test Case 13 		(Key = 2.3.)
+   ProjectManagement       :  RetrieveExistingProject
+   ExitProjectHandler      :  UpdateProjectDetails
+
+
+Test Case 14 		(Key = 2.4.)
+   ProjectManagement       :  RetrieveExistingProject
+   ExitProjectHandler      :  DeleteExistingProject
+
+
+Test Case 15 		(Key = 2.5.)
+   ProjectManagement       :  RetrieveExistingProject
+   ExitProjectHandler      :  ExitProjectHandler
+
+
+Test Case 16 		(Key = 3.1.)
+   ProjectManagement       :  UpdateProjectDetails
+   ExitProjectHandler      :  CreateNewProject
+
+
+Test Case 17 		(Key = 3.2.)
+   ProjectManagement       :  UpdateProjectDetails
+   ExitProjectHandler      :  RetrieveExistingProject
+
+
+Test Case 18 		(Key = 3.3.)
+   ProjectManagement       :  UpdateProjectDetails
+   ExitProjectHandler      :  UpdateProjectDetails
+
+
+Test Case 19 		(Key = 3.4.)
+   ProjectManagement       :  UpdateProjectDetails
+   ExitProjectHandler      :  DeleteExistingProject
+
+
+Test Case 20 		(Key = 3.5.)
+   ProjectManagement       :  UpdateProjectDetails
+   ExitProjectHandler      :  ExitProjectHandler
+
+
+Test Case 21 		(Key = 4.1.)
+   ProjectManagement       :  DeleteExistingProject
+   ExitProjectHandler      :  CreateNewProject
+
+
+Test Case 22 		(Key = 4.2.)
+   ProjectManagement       :  DeleteExistingProject
+   ExitProjectHandler      :  RetrieveExistingProject
+
+
+Test Case 23 		(Key = 4.3.)
+   ProjectManagement       :  DeleteExistingProject
+   ExitProjectHandler      :  UpdateProjectDetails
+
+
+Test Case 24 		(Key = 4.4.)
+   ProjectManagement       :  DeleteExistingProject
+   ExitProjectHandler      :  DeleteExistingProject
+
+
+Test Case 25 		(Key = 4.5.)
+   ProjectManagement       :  DeleteExistingProject
+   ExitProjectHandler      :  ExitProjectHandler
+
+
+Test Case 26 		(Key = 5.1.)
+   ProjectManagement       :  ExitProjectHandler
+   ExitProjectHandler      :  CreateNewProject
+
+
+Test Case 27 		(Key = 5.2.)
+   ProjectManagement       :  ExitProjectHandler
+   ExitProjectHandler      :  RetrieveExistingProject
+
+
+Test Case 28 		(Key = 5.3.)
+   ProjectManagement       :  ExitProjectHandler
+   ExitProjectHandler      :  UpdateProjectDetails
+
+
+Test Case 29 		(Key = 5.4.)
+   ProjectManagement       :  ExitProjectHandler
+   ExitProjectHandler      :  DeleteExistingProject
+
+
+Test Case 30 		(Key = 5.5.)
+   ProjectManagement       :  ExitProjectHandler
+   ExitProjectHandler      :  ExitProjectHandler
+

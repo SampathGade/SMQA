@@ -1,0 +1,24 @@
+# Test Categories
+ProfileManagement:
+    ViewUserProfile.
+    ExitProfileHandler.
+
+# Test Choices
+ViewUserProfile: [empty]
+ExitProfileHandler: [empty]
+
+# Test Properties
+ViewUserProfile. [property UserProfileViewSuccess]
+ExitProfileHandler. [property ExitSuccess]
+
+# Test Conditions
+ViewUserProfile. [if !UserProfileViewSuccess] [error]
+ExitProfileHandler. [if !ExitSuccess] [error]
+
+# Example Constraints
+ViewUserProfile. [if UserProfileViewSuccess] [property UserIDProvided]
+ViewUserProfile. [if UserProfileViewSuccess] [property UserNameProvided]
+ViewUserProfile. [if UserProfileViewSuccess] [property UserEmailIDProvided]
+ViewUserProfile. [if UserProfileViewSuccess] [property UserRoleProvided]
+ViewUserProfile. [if UserProfileViewSuccess] [property UserJobTitleProvided]
+ViewUserProfile. [if UserProfileViewSuccess] [property UserDescriptionProvided]

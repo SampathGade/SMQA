@@ -111,7 +111,7 @@ public class AssetRequestHandlerTest {
     }
 
     @Test
-    public void handleViewOpenAssetRequest() {
+    public void handleExecuteForViewOpenAssetRequest() {
         try {
             String testInput = "5\n1\n";
             InputStream inputStream = new ByteArrayInputStream(testInput.getBytes());
@@ -131,7 +131,7 @@ public class AssetRequestHandlerTest {
     }
 
     @Test
-    public void handleViewAllAssetRequest() {
+    public void handleExecuteForViewAllAssetRequest() {
         try {
             String testInput = "6\n";
             InputStream inputStream = new ByteArrayInputStream(testInput.getBytes());
@@ -151,7 +151,7 @@ public class AssetRequestHandlerTest {
     }
 
     @Test
-    public void handleApproveAssetRequest() {
+    public void handleExecuteForApproveAssetRequest() {
         try {
             String testInput = "7\n1\n";
             InputStream inputStream = new ByteArrayInputStream(testInput.getBytes());
@@ -172,7 +172,7 @@ public class AssetRequestHandlerTest {
     }
 
     @Test
-    public void handleRejectAssetRequest() {
+    public void handleExecuteForRejectAssetRequest() {
         try {
             String testInput = "8\n1\n";
             InputStream inputStream = new ByteArrayInputStream(testInput.getBytes());
@@ -193,7 +193,7 @@ public class AssetRequestHandlerTest {
     }
 
     @Test
-    public void handleCommentAssetRequest() {
+    public void handleExecuteForCommentAssetRequest() {
         try {
             String testInput = "9\n1\nTest Comment 2\n";
             InputStream inputStream = new ByteArrayInputStream(testInput.getBytes());

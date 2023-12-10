@@ -1,0 +1,28 @@
+
+Test Case 1  		<error>  (follows [if])
+   ExitProfileHandler :  ViewUserProfile
+
+
+Test Case 2  		<error>  (follows [if])
+   ExitProfileHandler :  ExitProfileHandler
+
+
+Test Case 3  		(Key = 1.1.)
+   ProfileManagement  :  ViewUserProfile
+   ExitProfileHandler :  ViewUserProfile
+
+
+Test Case 4  		(Key = 1.2.)
+   ProfileManagement  :  ViewUserProfile
+   ExitProfileHandler :  ExitProfileHandler
+
+
+Test Case 5  		(Key = 2.1.)
+   ProfileManagement  :  ExitProfileHandler
+   ExitProfileHandler :  ViewUserProfile
+
+
+Test Case 6  		(Key = 2.2.)
+   ProfileManagement  :  ExitProfileHandler
+   ExitProfileHandler :  ExitProfileHandler
+

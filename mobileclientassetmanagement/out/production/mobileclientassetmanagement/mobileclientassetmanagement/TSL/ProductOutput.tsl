@@ -1,0 +1,145 @@
+
+Test Case 1  		<error>  (follows [if])
+   ExitProductHandler :  CreateNewProduct
+
+
+Test Case 2  		<error>  (follows [if])
+   ExitProductHandler :  RetrieveExistingProduct
+
+
+Test Case 3  		<error>  (follows [if])
+   ExitProductHandler :  UpdateProductDetails
+
+
+Test Case 4  		<error>  (follows [if])
+   ExitProductHandler :  DeleteExistingProduct
+
+
+Test Case 5  		<error>  (follows [if])
+   ExitProductHandler :  ExitProductHandler
+
+
+Test Case 6  		(Key = 1.1.)
+   ProductManagement       :  CreateNewProduct
+   ExitProductHandler      :  CreateNewProduct
+
+
+Test Case 7  		(Key = 1.2.)
+   ProductManagement       :  CreateNewProduct
+   ExitProductHandler      :  RetrieveExistingProduct
+
+
+Test Case 8  		(Key = 1.3.)
+   ProductManagement       :  CreateNewProduct
+   ExitProductHandler      :  UpdateProductDetails
+
+
+Test Case 9  		(Key = 1.4.)
+   ProductManagement       :  CreateNewProduct
+   ExitProductHandler      :  DeleteExistingProduct
+
+
+Test Case 10 		(Key = 1.5.)
+   ProductManagement       :  CreateNewProduct
+   ExitProductHandler      :  ExitProductHandler
+
+
+Test Case 11 		(Key = 2.1.)
+   ProductManagement       :  RetrieveExistingProduct
+   ExitProductHandler      :  CreateNewProduct
+
+
+Test Case 12 		(Key = 2.2.)
+   ProductManagement       :  RetrieveExistingProduct
+   ExitProductHandler      :  RetrieveExistingProduct
+
+
+Test Case 13 		(Key = 2.3.)
+   ProductManagement       :  RetrieveExistingProduct
+   ExitProductHandler      :  UpdateProductDetails
+
+
+Test Case 14 		(Key = 2.4.)
+   ProductManagement       :  RetrieveExistingProduct
+   ExitProductHandler      :  DeleteExistingProduct
+
+
+Test Case 15 		(Key = 2.5.)
+   ProductManagement       :  RetrieveExistingProduct
+   ExitProductHandler      :  ExitProductHandler
+
+
+Test Case 16 		(Key = 3.1.)
+   ProductManagement       :  UpdateProductDetails
+   ExitProductHandler      :  CreateNewProduct
+
+
+Test Case 17 		(Key = 3.2.)
+   ProductManagement       :  UpdateProductDetails
+   ExitProductHandler      :  RetrieveExistingProduct
+
+
+Test Case 18 		(Key = 3.3.)
+   ProductManagement       :  UpdateProductDetails
+   ExitProductHandler      :  UpdateProductDetails
+
+
+Test Case 19 		(Key = 3.4.)
+   ProductManagement       :  UpdateProductDetails
+   ExitProductHandler      :  DeleteExistingProduct
+
+
+Test Case 20 		(Key = 3.5.)
+   ProductManagement       :  UpdateProductDetails
+   ExitProductHandler      :  ExitProductHandler
+
+
+Test Case 21 		(Key = 4.1.)
+   ProductManagement       :  DeleteExistingProduct
+   ExitProductHandler      :  CreateNewProduct
+
+
+Test Case 22 		(Key = 4.2.)
+   ProductManagement       :  DeleteExistingProduct
+   ExitProductHandler      :  RetrieveExistingProduct
+
+
+Test Case 23 		(Key = 4.3.)
+   ProductManagement       :  DeleteExistingProduct
+   ExitProductHandler      :  UpdateProductDetails
+
+
+Test Case 24 		(Key = 4.4.)
+   ProductManagement       :  DeleteExistingProduct
+   ExitProductHandler      :  DeleteExistingProduct
+
+
+Test Case 25 		(Key = 4.5.)
+   ProductManagement       :  DeleteExistingProduct
+   ExitProductHandler      :  ExitProductHandler
+
+
+Test Case 26 		(Key = 5.1.)
+   ProductManagement       :  ExitProductHandler
+   ExitProductHandler      :  CreateNewProduct
+
+
+Test Case 27 		(Key = 5.2.)
+   ProductManagement       :  ExitProductHandler
+   ExitProductHandler      :  RetrieveExistingProduct
+
+
+Test Case 28 		(Key = 5.3.)
+   ProductManagement       :  ExitProductHandler
+   ExitProductHandler      :  UpdateProductDetails
+
+
+Test Case 29 		(Key = 5.4.)
+   ProductManagement       :  ExitProductHandler
+   ExitProductHandler      :  DeleteExistingProduct
+
+
+Test Case 30 		(Key = 5.5.)
+   ProductManagement       :  ExitProductHandler
+   ExitProductHandler      :  ExitProductHandler
+

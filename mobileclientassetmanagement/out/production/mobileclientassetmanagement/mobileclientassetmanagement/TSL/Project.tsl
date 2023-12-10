@@ -1,0 +1,45 @@
+# Test Categories
+ProjectManagement:
+    CreateNewProject.
+    RetrieveExistingProject.
+    UpdateProjectDetails.
+    DeleteExistingProject.
+    ExitProjectHandler.
+
+# Test Choices
+CreateNewProject: [empty]
+RetrieveExistingProject: [single] [multiple]
+UpdateProjectDetails: [single] [multiple]
+DeleteExistingProject: [single] [multiple]
+ExitProjectHandler: [empty]
+
+# Test Properties
+CreateNewProject. [property ProjectCreationSuccess]
+RetrieveExistingProject. [property ProjectRetrievalSuccess]
+UpdateProjectDetails. [property ProjectUpdateSuccess]
+DeleteExistingProject. [property ProjectDeletionSuccess]
+ExitProjectHandler. [property ExitSuccess]
+
+# Test Conditions
+CreateNewProject. [if ProjectCreationSuccess] [error]
+RetrieveExistingProject. [if !ProjectRetrievalSuccess] [error]
+UpdateProjectDetails. [if !ProjectUpdateSuccess] [error]
+DeleteExistingProject. [if !ProjectDeletionSuccess] [error]
+ExitProjectHandler. [if !ExitSuccess] [error]
+
+# Example Constraints
+CreateNewProject. [if ProjectCreationSuccess] [property NewProjectIDProvided]
+CreateNewProject. [if ProjectCreationSuccess] [property NewProjectNameProvided]
+CreateNewProject. [if ProjectCreationSuccess] [property NewProjectDescriptionProvided]
+CreateNewProject. [if ProjectCreationSuccess] [property NewProjectOwnerProvided]
+
+RetrieveExistingProject. [if ProjectRetrievalSuccess] [property ExistingProjectIDProvided]
+
+UpdateProjectDetails. [if ProjectUpdateSuccess] [property UpdatedProjectIDProvided]
+UpdateProjectDetails. [if ProjectUpdateSuccess] [property UpdatedProjectNameProvided]
+UpdateProjectDetails. [if ProjectUpdateSuccess] [property UpdatedProjectDescriptionProvided]
+UpdateProjectDetails. [if ProjectUpdateSuccess] [property UpdatedProjectOwnerProvided]
+
+DeleteExistingProject. [if ProjectDeletionSuccess] [property ProjectToDeleteIDProvided]
+
+ExitProjectHandler. [if ExitSuccess]
