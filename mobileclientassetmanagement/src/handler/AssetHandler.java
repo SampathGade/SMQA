@@ -5,6 +5,7 @@ import mobileclientassetmanagement.src.entity.category.Category;
 import mobileclientassetmanagement.src.entity.location.Location;
 import mobileclientassetmanagement.src.entity.project.Project;
 import mobileclientassetmanagement.src.entity.useraccount.User;
+import mobileclientassetmanagement.src.status.StatusFactory;
 import mobileclientassetmanagement.src.util.AccessUtil;
 import mobileclientassetmanagement.src.util.AppUtil;
 import mobileclientassetmanagement.src.util.Constants;
@@ -67,6 +68,12 @@ public class AssetHandler implements Handler {
                 }
                 else if(assetHandlerMap.get(option).startsWith("Delete")) {
                     handleDelete();
+                }
+                else if(assetHandlerMap.get(option).startsWith("Tag Asset By User")) {
+                    handleAssignByUser();
+                }
+                else if(assetHandlerMap.get(option).startsWith("Tag Asset By Project")) {
+                    handleAssignByProject();
                 }
                 else if(assetHandlerMap.get(option).startsWith("Exit")) {
                     return;
@@ -189,6 +196,34 @@ public class AssetHandler implements Handler {
         for (Map.Entry<Integer, String> entry : assetHandlerMap.entrySet()) {
             System.out.println(entry.getKey() + ". " + entry.getValue());
         }
+    }
+
+    private void handleAssignByUser() {
+        Asset assetToBeAssigned = handleRetrieve();
+        Map<Integer, User> userDataMap = DataManager.getUserData();
+        System.out.println("Displaying All Users");
+        for(User user:userDataMap.values()) {
+            System.out.println(user.getUserID() + "." + user.getName());
+        }
+        System.out.println("Choose User");
+        Integer userID = scanner.nextInt();
+        User assetOwner = userDataMap.get(userID);
+        StatusFactory.getObject(Constants.ASSET).assign(assetToBeAssigned, assetOwner);
+        System.out.println("Asset Assigned to user" + assetOwner.getName() + " Successfully");
+    }
+
+    private void handleAssignByProject() {
+        Asset assetToBeAssigned = handleRetrieve();
+        Map<Integer, Project> projectDataMap = DataManager.getProjectData();
+        System.out.println("Displaying All Projets");
+        for(Project project : projectDataMap.values()) {
+            System.out.println(project.getProjectID() + "." + project.getProjectName());
+        }
+        System.out.println("Choose Project");
+        Integer projectID = scanner.nextInt();
+        Project assetOwner = projectDataMap.get(projectID);
+        StatusFactory.getObject(Constants.ASSET).assign(assetToBeAssigned, assetOwner);
+        System.out.println("Asset Assigned to project " + assetOwner.getProjectName() + " Successfully");
     }
 
     private static void displayAssetDetailsVertical(Asset asset) {
