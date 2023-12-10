@@ -1,0 +1,20 @@
+1,Laptops,Assets related to laptop devices for employees
+2,Desktops,Assets related to desktop computers in the office
+3,Servers,Assets related to server machines hosting critical applications
+4,Printers,Assets related to printers and scanners for printing and scanning tasks
+5,NetworkDevices,Assets related to network devices such as routers and switches for connectivity
+6,SoftwareLicenses,Assets related to software licenses for various applications
+7,Accessories,Assets related to computer accessories like mice, keyboards, and cables
+8,SecurityEquipment,Assets related to security equipment including cameras and access control systems
+9,MobileDevices,Assets related to mobile devices such as phones and tablets for remote work
+10,DataStorage,Assets related to data storage devices including hard drives and SSDs
+11,Monitors,Assets related to computer monitors for display purposes
+12,ConferenceRoomEquipment,Assets related to conference room equipment like projectors and audio systems
+13,VirtualizationInfrastructure,Assets related to virtualization infrastructure for efficient resource management
+14,ITTrainingMaterials,Assets related to IT training materials and resources
+15,BackupSystems,Assets related to backup systems for data protection
+16,CloudServices,Assets related to cloud services and subscriptions
+17,Workstations,Assets related to individual workstations for employees
+18,DataCenterHardware,Assets related to hardware in the data center
+19,UPS,Assets related to uninterruptible power supply (UPS) for power backup
+20,VoIPPhones,Assets related to Voice over Internet Protocol (VoIP) phones for communication
