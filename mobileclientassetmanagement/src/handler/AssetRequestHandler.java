@@ -17,6 +17,8 @@ import java.time.LocalDate;
 import java.time.ZoneId;
 import java.util.*;
 
+import entity.assetrequest.AssetRequest;
+
 public class AssetRequestHandler implements Handler {
 
     private Map<Integer, String> assetRequestHandlerMap;
@@ -76,6 +78,9 @@ public class AssetRequestHandler implements Handler {
                 }
                 else if(assetRequestHandlerMap.get(option).startsWith("View All Asset Request")) {
                     handleViewAllAssetRequest();
+                }
+                else if(assetRequestHandlerMap.get(option).startsWith("Approve Asset Request")) {
+                    approveAssetRequest();
                 }
                 else if(assetRequestHandlerMap.get(option).startsWith("Comment on Asset Request")) {
                     commentOnAssetRequest();
@@ -221,7 +226,13 @@ public class AssetRequestHandler implements Handler {
         AssetRequest providedAssetRequest = assetRequestDataMap.get(providedID);
         return providedAssetRequest;
     }
-
+    private void approveAssetRequest() {
+        AssetRequest providedAssetRequest = getRequestForApproveOrReject();
+        providedAssetRequest.setRequesterAssignee(AppUtil.getCurrentUser());
+        StatusFactory.getObject(Constants.ASSET_REQUEST).approve(providedAssetRequest);
+        System.out.println("Request Approved Successfully!!!");
+    }
+    
     private void commentOnAssetRequest() {
         String roleName = AppUtil.getCurrentUser().getUserRole().getRoleName();
         Boolean isSelf = !(roleName.equals(Constants.ROLE_ADMIN_STRING) || roleName.equals(Constants.ROLE_ASSET_MANAGER_STRING));

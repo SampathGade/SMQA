@@ -20,6 +20,9 @@ public abstract class Status implements StatusInterface {
     public void markAsPaid(Object entity) { }
     
     @Override
+    public void approve(Object entity) { }
+    
+    @Override
     public void push(Object entity) {}
 
 }
