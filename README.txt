@@ -4,6 +4,7 @@ Prerequisites
 - Eclipse IDE installed
 - Java Development Kit (JDK) installed
 - JUnit 5 Library for test coverage
+- Randoop jar
 
 Setup and Run
 Unzip the Project:
