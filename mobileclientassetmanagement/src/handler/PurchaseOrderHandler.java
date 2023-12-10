@@ -59,7 +59,9 @@ public class PurchaseOrderHandler implements Handler {
                 else if(purchaseOrderHandlerMap.get(option).startsWith("Delete")) {
                     handleDelete();
                 }
-            
+                else if(purchaseOrderHandlerMap.get(option).startsWith("Mark As Paid")) {
+                    markAsPaid();
+                }
                 else if(purchaseOrderHandlerMap.get(option).startsWith("Exit")) {
                     return;
                 }
@@ -207,6 +209,15 @@ public class PurchaseOrderHandler implements Handler {
             System.out.print(":\t");
             displayPurchaseOrderDetailsHorizotal(purchaseOrder);
         }
+    }
+
+    private void markAsPaid() {
+        Map<Integer, PurchaseOrder> purchaseOrderDataMap =  DataManager.getPurchaseOrderData(PurchaseOrderStatus.OPEN.getStatusCode());
+        displayRequest(purchaseOrderDataMap);
+        int providedID = scanner.nextInt();
+        PurchaseOrder providedOrder = purchaseOrderDataMap.get(providedID);
+        StatusFactory.getObject(Constants.PURCHASE_REQUEST).markAsPaid(providedOrder);
+        System.out.println("Order Paid Successfully!!!");
     }
     
     private static void displayPurchaseOrderDetailsVertical(PurchaseOrder purchaseOrder) {

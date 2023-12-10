@@ -7,7 +7,9 @@ public class StatusFactory {
             case 2:
                 return new AssetStatusImpl();
             case 4:
-                return new MaintenanceRequestStatusImpl();    
+                return new MaintenanceRequestStatusImpl();
+            case 5:
+                return new PurchaseOrderStatusImpl();
             default:
                 throw new IllegalArgumentException("Invalid type..");
         }
