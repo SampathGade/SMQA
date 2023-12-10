@@ -89,6 +89,9 @@ public class AssetHandler implements Handler {
                 else if(assetHandlerMap.get(option).startsWith("Export")) {
                     handleExport();
                 }
+                 else if(assetHandlerMap.get(option).startsWith("Move")) {
+                    moveAsset();
+                }
                 else if(assetHandlerMap.get(option).startsWith("Exit")) {
                     return;
                 }
@@ -263,6 +266,20 @@ public class AssetHandler implements Handler {
         Map<Integer, Asset> assetDataMap = DataManager.getAssetData();
         ExportFactory.getHandler(Constants.ASSET).handleExport(assetDataMap, "");
         System.out.println("Export Completed");
+    }
+
+    private void moveAsset() {
+        Asset assetToBeMoved = handleRetrieve();
+        System.out.println("Displaying All Locations");
+        Map<Integer, Location> locationDataMap = DataManager.getLocationData();
+        for(Location location : locationDataMap.values()) {
+            System.out.println(location.getLocationID() + "." + location.getLocationName());
+        }
+        System.out.println("Choose Location");
+        Integer locationID = scanner.nextInt();
+        Location location = locationDataMap.get(locationID);
+        assetToBeMoved.setAssetLocation(location);
+        System.out.println("Asset Moved to Location " + location.getLocationName() + " successfully!");
     }
 
     private static void displayAssetDetailsVertical(Asset asset) {
