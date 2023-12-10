@@ -14,4 +14,14 @@ public class AssetStatusImpl extends Status {
         AssetInterface assetInterface = new AssetFactoryImpl().createAsset();
         assetInterface.update(assetID, asset);
     }
+
+    @Override
+    public void markAsExpired(Object entity) {
+        Asset asset = (Asset) entity;
+        Integer assetID = asset.getAssetID();
+        Integer expiredStatusCode = AssetStatus.EXPIRED.getStatusCode();
+        asset.setAssetStatus(expiredStatusCode);
+        AssetInterface assetInterface = new AssetFactoryImpl().createAsset();
+        assetInterface.update(assetID, asset);
+    }
 }

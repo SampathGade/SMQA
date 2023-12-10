@@ -75,6 +75,9 @@ public class AssetHandler implements Handler {
                 else if(assetHandlerMap.get(option).startsWith("Tag Asset By Project")) {
                     handleAssignByProject();
                 }
+                else if(assetHandlerMap.get(option).startsWith("Mark Asset As Expired")) {
+                    markAsExpired();
+                }
                 else if(assetHandlerMap.get(option).startsWith("Exit")) {
                     return;
                 }
@@ -224,6 +227,12 @@ public class AssetHandler implements Handler {
         Project assetOwner = projectDataMap.get(projectID);
         StatusFactory.getObject(Constants.ASSET).assign(assetToBeAssigned, assetOwner);
         System.out.println("Asset Assigned to project " + assetOwner.getProjectName() + " Successfully");
+    }
+
+    private void markAsExpired() {
+        Asset assetToBeExpired = handleRetrieve();
+        StatusFactory.getObject(Constants.ASSET).markAsExpired(assetToBeExpired);
+        System.out.println("Marked As Expired!");
     }
 
     private static void displayAssetDetailsVertical(Asset asset) {

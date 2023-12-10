@@ -7,4 +7,7 @@ public abstract class Status implements StatusInterface {
 
     @Override
     public void unAssign(Object entity) { }
+
+    @Override
+    public void markAsExpired(Object entity) {}
 }
