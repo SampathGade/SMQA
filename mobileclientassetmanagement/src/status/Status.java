@@ -13,4 +13,7 @@ public abstract class Status implements StatusInterface {
 
     @Override
     public void decommision(Object entity) { }
+
+    @Override
+    public void close(Object entity) {}
 }

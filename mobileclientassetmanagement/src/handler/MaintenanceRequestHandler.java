@@ -77,6 +77,12 @@ public class MaintenanceRequestHandler implements Handler {
                 else if(maintenanceRequestHandlerMap.get(option).startsWith("View All Maintenance Request")) {
                     handleViewAllMaintenanceRequest();
                 }
+                else if(maintenanceRequestHandlerMap.get(option).startsWith("Close Maintenance Request")) {
+                    closeMaintenanceRequest();
+                }
+                else if(maintenanceRequestHandlerMap.get(option).startsWith("Comment on Maintenance Request")) {
+                    commentOnMaintenanceRequest();
+                }
                 else if(maintenanceRequestHandlerMap.get(option).startsWith("Exit")) {
                     return;
                 }
@@ -210,7 +216,43 @@ public class MaintenanceRequestHandler implements Handler {
         Map<Integer, MaintenanceRequest> maintenanceRequestDataMap = DataManager.getMaintenanceRequestData();
         displayRequest(maintenanceRequestDataMap);
     }
-    
+
+    private MaintenanceRequest getRequestForClose() {
+        Map<Integer, MaintenanceRequest> maintenanceRequestDataMap =  DataManager.getMaintenanceRequestData(Boolean.FALSE, null, MaintenanceRequestStatus.OPEN.getStatusCode());
+        displayRequest(maintenanceRequestDataMap);
+        int providedID = scanner.nextInt();
+        MaintenanceRequest providedMaintenanceRequest = maintenanceRequestDataMap.get(providedID);
+        return providedMaintenanceRequest;
+    }
+
+    private void closeMaintenanceRequest() {
+        MaintenanceRequest providedMaintenanceRequest = getRequestForClose();
+        providedMaintenanceRequest.setRequesterAssignee(AppUtil.getCurrentUser());
+        StatusFactory.getObject(Constants.MAINTENANCE_REQUEST).close(providedMaintenanceRequest);
+        System.out.println("Request Closed !!!");
+    }
+
+
+
+    private void commentOnMaintenanceRequest() {
+        String roleName = AppUtil.getCurrentUser().getUserRole().getRoleName();
+        Boolean isSelf = !(roleName.equals(Constants.ROLE_ADMIN_STRING) || roleName.equals(Constants.ROLE_ASSET_MANAGER_STRING));
+        Map<Integer, MaintenanceRequest> maintenanceRequestDataMap = DataManager.getMaintenanceRequestData(isSelf, AppUtil.getCurrentUser().getName());
+        displayRequest(maintenanceRequestDataMap);
+        int providedID = scanner.nextInt();
+        MaintenanceRequest providedMaintenanceRequest = maintenanceRequestDataMap.get(providedID);
+        System.out.println("\nEnter Comment");
+        scanner.nextLine();
+        String comment = scanner.nextLine();
+        MaintenanceRequest.Comment maintenanceRequestComment = new MaintenanceRequest.Comment(comment, AppUtil.getCurrentUser());
+        if(providedMaintenanceRequest.getCommentList() == null && providedMaintenanceRequest.getCommentList().isEmpty()) {
+            providedMaintenanceRequest.setCommentList(new ArrayList<>());
+        }
+        List<MaintenanceRequest.Comment> commentList = new ArrayList<>(providedMaintenanceRequest.getCommentList());
+        commentList.add(maintenanceRequestComment);
+        providedMaintenanceRequest.setCommentList(commentList);
+    }
+
     private static void displayMaintenanceRequestDetailsVertical(MaintenanceRequest maintenanceRequest) {
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat(AppUtil.DATE_PATTERN);
         System.out.println("\nMaintenanceRequest details:");

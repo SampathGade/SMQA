@@ -6,6 +6,8 @@ public class StatusFactory {
         switch (objectType) {
             case 2:
                 return new AssetStatusImpl();
+            case 4:
+                return new MaintenanceRequestStatusImpl();    
             default:
                 throw new IllegalArgumentException("Invalid type..");
         }
