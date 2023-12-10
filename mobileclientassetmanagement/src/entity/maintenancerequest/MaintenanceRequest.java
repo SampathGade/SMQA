@@ -1,8 +1,6 @@
-package entity.maintenancerequest;
-
-
-import entity.asset.Asset;
-import entity.useraccount.User;
+package mobileclientassetmanagement.src.entity.maintenancerequest;
+import mobileclientassetmanagement.src.entity.asset.Asset;
+import mobileclientassetmanagement.src.entity.useraccount.User;
 
 import java.util.Date;
 import java.util.List;

@@ -1,7 +1,8 @@
 package mobileclientassetmanagement.src.entity.assetrequest;
 
-import entity.asset.Asset;
-import entity.useraccount.User;
+
+import mobileclientassetmanagement.src.entity.asset.Asset;
+import mobileclientassetmanagement.src.entity.useraccount.User;
 
 import java.util.Date;
 import java.util.List;

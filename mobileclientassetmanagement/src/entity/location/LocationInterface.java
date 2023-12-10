@@ -1,4 +1,4 @@
-package entity.location;
+package mobileclientassetmanagement.src.entity.location;
 import java.util.List;
 
 public interface LocationInterface {

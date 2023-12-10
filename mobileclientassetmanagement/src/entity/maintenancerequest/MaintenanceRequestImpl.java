@@ -1,6 +1,8 @@
-package entity.maintenancerequest;
+package mobileclientassetmanagement.src.entity.maintenancerequest;
 
-import dbmanager.DataManager;
+
+
+import mobileclientassetmanagement.src.dbmanager.DataManager;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -10,11 +12,7 @@ public class MaintenanceRequestImpl implements MaintenanceRequestInterface{
 
     private Map<Integer, MaintenanceRequest> maintenanceRequestData;
     MaintenanceRequestImpl() {
-        this.maintenanceRequestData = DataManager.getMaintenanceRequestData();
-    }
-    @Override
-    public MaintenanceRequest get(Integer requestID) {
-        return maintenanceRequestData.get(requestID);
+
     }
 
     @Override
@@ -30,10 +28,5 @@ public class MaintenanceRequestImpl implements MaintenanceRequestInterface{
     @Override
     public void delete(Integer requestID) {
         maintenanceRequestData.remove(requestID);
-    }
-
-    @Override
-    public List<MaintenanceRequest> getAll() {
-        return new ArrayList<>(maintenanceRequestData.values());
     }
 }

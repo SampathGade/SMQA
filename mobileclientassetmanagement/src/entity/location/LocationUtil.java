@@ -1,9 +1,8 @@
-package entity.location;
-
-import dbmanager.DataManager;
-import util.AppUtil;
-import util.Constants;
-import util.imports.ImportFactory;
+package mobileclientassetmanagement.src.entity.location;
+import mobileclientassetmanagement.src.dbmanager.DataManager;
+import mobileclientassetmanagement.src.util.AppUtil;
+import mobileclientassetmanagement.src.util.Constants;
+import mobileclientassetmanagement.src.util.imports.ImportFactory;
 
 import java.io.ByteArrayInputStream;
 import java.nio.file.Paths;

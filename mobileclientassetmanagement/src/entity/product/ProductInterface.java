@@ -1,4 +1,4 @@
-package entity.product;
+package mobileclientassetmanagement.src.entity.product;
 
 import java.util.List;
 

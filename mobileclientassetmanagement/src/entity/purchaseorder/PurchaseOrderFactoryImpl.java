@@ -1,4 +1,4 @@
-package entity.purchaseorder;
+package mobileclientassetmanagement.src.entity.purchaseorder;
 
 public class PurchaseOrderFactoryImpl implements PurchaseOrderFactory{
     @Override

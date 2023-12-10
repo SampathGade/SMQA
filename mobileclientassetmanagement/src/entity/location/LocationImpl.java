@@ -1,9 +1,5 @@
-package entity.location;
-
-import dbmanager.DataManager;
-
-import java.util.ArrayList;
-import java.util.List;
+package mobileclientassetmanagement.src.entity.location;
+import mobileclientassetmanagement.src.dbmanager.DataManager;
 import java.util.Map;
 
 public class LocationImpl implements LocationInterface{

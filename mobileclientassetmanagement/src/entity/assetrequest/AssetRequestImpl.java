@@ -14,10 +14,7 @@ public class AssetRequestImpl implements AssetRequestInterface {
     AssetRequestImpl() {
         this.assetRequestData = DataManager.getAssetRequestData();
     }
-    @Override
-    public AssetRequest get(Integer requestID) {
-        return assetRequestData.get(requestID);
-    }
+
 
     @Override
     public void add(AssetRequest assetRequest) {
@@ -32,10 +29,5 @@ public class AssetRequestImpl implements AssetRequestInterface {
     @Override
     public void delete(Integer requestID) {
       assetRequestData.remove(requestID);
-    }
-
-    @Override
-    public List<AssetRequest> getAll() {
-        return new ArrayList<>(assetRequestData.values());
     }
 }

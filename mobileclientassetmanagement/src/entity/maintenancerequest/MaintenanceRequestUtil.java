@@ -1,4 +1,4 @@
-package entity.maintenancerequest;
+package mobileclientassetmanagement.src.entity.maintenancerequest;
 
 public class MaintenanceRequestUtil {
     public static final Integer OPEN = 0;

@@ -1,17 +1,16 @@
-package handler;
+package mobileclientassetmanagement.src.handler;
 
-import dbmanager.DataManager;
-import entity.category.CategoryUtil;
-import entity.location.Location;
-import entity.location.LocationFactoryImpl;
-import entity.location.LocationInterface;
-import entity.location.LocationUtil;
-import entity.useraccount.User;
-import util.AccessUtil;
-import util.AppUtil;
-import util.Constants;
-import util.exports.ExportFactory;
-import util.imports.ImportFactory;
+import mobileclientassetmanagement.src.dbmanager.DataManager;
+import mobileclientassetmanagement.src.entity.location.Location;
+import mobileclientassetmanagement.src.entity.location.LocationFactoryImpl;
+import mobileclientassetmanagement.src.entity.location.LocationInterface;
+import mobileclientassetmanagement.src.entity.location.LocationUtil;
+import mobileclientassetmanagement.src.entity.useraccount.User;
+import mobileclientassetmanagement.src.util.AccessUtil;
+import mobileclientassetmanagement.src.util.AppUtil;
+import mobileclientassetmanagement.src.util.Constants;
+import mobileclientassetmanagement.src.util.exports.ExportFactory;
+import mobileclientassetmanagement.src.util.imports.ImportFactory;
 
 import java.lang.reflect.Field;
 import java.util.Map;

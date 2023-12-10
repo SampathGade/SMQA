@@ -1,13 +1,11 @@
-package entity.project;
+package mobileclientassetmanagement.src.entity.project;
 
 import com.opencsv.CSVReader;
-import dbmanager.DataManager;
-import entity.role.UserRole;
-import entity.useraccount.User;
-import entity.useraccount.UserUtil;
-import util.imports.ImportInterface;
-
-import java.io.FileNotFoundException;
+import mobileclientassetmanagement.src.dbmanager.DataManager;
+import mobileclientassetmanagement.src.entity.role.UserRole;
+import mobileclientassetmanagement.src.entity.useraccount.User;
+import mobileclientassetmanagement.src.entity.useraccount.UserUtil;
+import mobileclientassetmanagement.src.util.imports.ImportInterface;
 import java.io.FileReader;
 import java.util.List;
 import java.util.Map;

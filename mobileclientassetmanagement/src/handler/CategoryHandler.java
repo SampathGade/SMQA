@@ -1,5 +1,19 @@
 package mobileclientassetmanagement.src.handler;
 
+import mobileclientassetmanagement.src.dbmanager.DataManager;
+import mobileclientassetmanagement.src.entity.category.Category;
+import mobileclientassetmanagement.src.entity.category.CategoryFactoryImpl;
+import mobileclientassetmanagement.src.entity.category.CategoryInterface;
+import mobileclientassetmanagement.src.entity.category.CategoryUtil;
+import mobileclientassetmanagement.src.entity.useraccount.User;
+import mobileclientassetmanagement.src.util.AccessUtil;
+import mobileclientassetmanagement.src.util.AppUtil;
+import mobileclientassetmanagement.src.util.Constants;
+
+import java.lang.reflect.Field;
+import java.util.Map;
+import java.util.Scanner;
+
 public class CategoryHandler implements Handler {
 
     private Map<Integer, String> categoryHandlerMap;

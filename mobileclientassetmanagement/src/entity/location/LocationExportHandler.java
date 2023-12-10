@@ -1,10 +1,8 @@
-package entity.location;
+package mobileclientassetmanagement.src.entity.location;
 
 import com.opencsv.CSVWriter;
-import util.AppUtil;
-import util.exports.ExportInterface;
-
-import java.io.FileNotFoundException;
+import mobileclientassetmanagement.src.util.AppUtil;
+import mobileclientassetmanagement.src.util.exports.ExportInterface;
 import java.io.FileWriter;
 import java.util.Map;
 

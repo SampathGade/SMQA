@@ -1,10 +1,8 @@
-package entity.product;
+package mobileclientassetmanagement.src.entity.product;
 
 import com.opencsv.CSVReader;
-import dbmanager.DataManager;
-import util.imports.ImportInterface;
-
-import java.io.FileNotFoundException;
+import mobileclientassetmanagement.src.dbmanager.DataManager;
+import mobileclientassetmanagement.src.util.imports.ImportInterface;
 import java.io.FileReader;
 import java.math.BigDecimal;
 import java.util.List;

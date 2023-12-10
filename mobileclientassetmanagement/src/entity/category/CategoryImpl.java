@@ -1,7 +1,10 @@
 package mobileclientassetmanagement.src.entity.category;
 
 
+import mobileclientassetmanagement.src.dbmanager.DataManager;
+
 import java.util.List;
+import java.util.Map;
 
 public class CategoryImpl implements CategoryInterface {
 

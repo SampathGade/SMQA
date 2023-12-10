@@ -1,9 +1,6 @@
-package entity.project;
+package mobileclientassetmanagement.src.entity.project;
 
-import dbmanager.DataManager;
-
-import java.util.ArrayList;
-import java.util.List;
+import mobileclientassetmanagement.src.dbmanager.DataManager;
 import java.util.Map;
 
 public class ProjectImpl implements ProjectInterface {

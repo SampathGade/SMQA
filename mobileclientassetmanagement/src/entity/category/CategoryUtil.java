@@ -1,6 +1,18 @@
 package mobileclientassetmanagement.src.entity.category;
 
 
+import mobileclientassetmanagement.src.dbmanager.DataManager;
+import mobileclientassetmanagement.src.util.AppUtil;
+import mobileclientassetmanagement.src.util.Constants;
+import mobileclientassetmanagement.src.util.imports.ImportFactory;
+
+import java.io.ByteArrayInputStream;
+import java.nio.file.Paths;
+import java.util.Arrays;
+import java.util.List;
+import java.util.Map;
+import java.util.Scanner;
+
 public class CategoryUtil {
     public static final String[] EXPORT_HEADER = {"CategoryID", "CategoryName", "CategoryDescription"};
     public static final List<String> SKIPPED_INPUT_FIELDS = Arrays.asList("categoryID");

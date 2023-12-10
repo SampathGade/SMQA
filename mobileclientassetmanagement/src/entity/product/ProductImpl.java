@@ -1,9 +1,6 @@
-package entity.product;
+package mobileclientassetmanagement.src.entity.product;
 
-import dbmanager.DataManager;
-
-import java.util.ArrayList;
-import java.util.List;
+import mobileclientassetmanagement.src.dbmanager.DataManager;
 import java.util.Map;
 
 public class ProductImpl implements ProductInterface{

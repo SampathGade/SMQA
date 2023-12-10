@@ -1,4 +1,4 @@
-package entity.location;
+package mobileclientassetmanagement.src.entity.location;
 
 public class LocationFactoryImpl implements LocationFactory{
     @Override

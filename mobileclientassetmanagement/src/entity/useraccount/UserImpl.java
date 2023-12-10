@@ -1,7 +1,9 @@
 package mobileclientassetmanagement.src.entity.useraccount;
 
 
-import java.util.List;
+import mobileclientassetmanagement.src.dbmanager.DataManager;
+
+import java.util.Map;
 
 public class UserImpl implements UserInterface {
 

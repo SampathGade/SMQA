@@ -1,6 +1,18 @@
 package mobileclientassetmanagement.src.entity.useraccount;
 
 
+import mobileclientassetmanagement.src.dbmanager.DataManager;
+import mobileclientassetmanagement.src.util.AppUtil;
+import mobileclientassetmanagement.src.util.Constants;
+import mobileclientassetmanagement.src.util.imports.ImportFactory;
+
+import java.io.ByteArrayInputStream;
+import java.nio.file.Paths;
+import java.util.Arrays;
+import java.util.List;
+import java.util.Map;
+import java.util.Scanner;
+
 public class UserUtil {
     public static final List<String> SKIPPED_INPUT_FIELDS = Arrays.asList("userID");
 

@@ -1,4 +1,4 @@
-package entity.maintenancerequest;
+package mobileclientassetmanagement.src.entity.maintenancerequest;
 
 
 public enum MaintenanceRequestStatus {

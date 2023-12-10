@@ -1,7 +1,6 @@
-package entity.purchaseorder;
-
-import dbmanager.DataManager;
-import util.Constants;
+package mobileclientassetmanagement.src.entity.purchaseorder;
+import mobileclientassetmanagement.src.dbmanager.DataManager;
+import mobileclientassetmanagement.src.util.Constants;
 
 import java.util.Arrays;
 import java.util.List;

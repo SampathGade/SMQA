@@ -1,6 +1,21 @@
 package mobileclientassetmanagement.src.handler;
 
 
+import mobileclientassetmanagement.src.dbmanager.DataManager;
+import mobileclientassetmanagement.src.entity.role.UserRole;
+import mobileclientassetmanagement.src.entity.useraccount.User;
+import mobileclientassetmanagement.src.entity.useraccount.UserFactoryImpl;
+import mobileclientassetmanagement.src.entity.useraccount.UserInterface;
+import mobileclientassetmanagement.src.entity.useraccount.UserUtil;
+import mobileclientassetmanagement.src.util.AccessUtil;
+import mobileclientassetmanagement.src.util.AppUtil;
+import mobileclientassetmanagement.src.util.Constants;
+import mobileclientassetmanagement.src.util.exports.ExportFactory;
+import mobileclientassetmanagement.src.util.imports.ImportFactory;
+
+import java.lang.reflect.Field;
+import java.util.Map;
+import java.util.Scanner;
 
 public class UserHandler implements Handler
 {

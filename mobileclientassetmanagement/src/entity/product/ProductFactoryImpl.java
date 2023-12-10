@@ -1,4 +1,4 @@
-package entity.product;
+package mobileclientassetmanagement.src.entity.product;
 
 public class ProductFactoryImpl implements ProductFactory{
     @Override

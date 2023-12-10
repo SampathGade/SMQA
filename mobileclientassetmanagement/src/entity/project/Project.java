@@ -1,6 +1,7 @@
-package entity.project;
+package mobileclientassetmanagement.src.entity.project;
 
-import entity.useraccount.User;
+
+import mobileclientassetmanagement.src.entity.useraccount.User;
 
 public class Project {
     private Integer projectID;
