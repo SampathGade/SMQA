@@ -2,7 +2,6 @@ package mobileclientassetmanagement.src.handler;
 
 import mobileclientassetmanagement.src.dbmanager.DataManager;
 import mobileclientassetmanagement.src.entity.asset.Asset;
-import mobileclientassetmanagement.src.entity.asset.AssetUtil;
 import mobileclientassetmanagement.src.entity.assetrequest.*;
 import mobileclientassetmanagement.src.entity.useraccount.User;
 import mobileclientassetmanagement.src.status.StatusFactory;

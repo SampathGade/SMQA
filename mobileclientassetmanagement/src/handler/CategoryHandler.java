@@ -9,6 +9,8 @@ import mobileclientassetmanagement.src.entity.useraccount.User;
 import mobileclientassetmanagement.src.util.AccessUtil;
 import mobileclientassetmanagement.src.util.AppUtil;
 import mobileclientassetmanagement.src.util.Constants;
+import mobileclientassetmanagement.src.util.exports.ExportFactory;
+import mobileclientassetmanagement.src.util.imports.ImportFactory;
 
 import java.lang.reflect.Field;
 import java.util.Map;
@@ -59,6 +61,12 @@ public class CategoryHandler implements Handler {
                 }
                 else if(categoryHandlerMap.get(option).startsWith("Delete")) {
                     handleDelete();
+                }
+                else if(categoryHandlerMap.get(option).startsWith("Import")) {
+                    handleImport(scanner);
+                }
+                else if(categoryHandlerMap.get(option).startsWith("Export")) {
+                    handleExport();
                 }
                 else if(categoryHandlerMap.get(option).startsWith("Exit")) {
                     return;
@@ -147,6 +155,20 @@ public class CategoryHandler implements Handler {
             }
         }
         catch (Exception e) { System.out.println("Please provide valid Input");}
+    }
+
+    private void handleImport(Scanner scanner) {
+        System.out.println("Please provide Absolute Path to Import");
+        scanner.nextLine();
+        String filePath = scanner.nextLine();
+        ImportFactory.getHandler(Constants.CATEGORY).handleImport(filePath);
+        System.out.println("Import Successfully Completed");
+    }
+
+    private void handleExport() {
+        Map<Integer, Category> categoryDataMap = DataManager.getCategoryData();
+        ExportFactory.getHandler(Constants.CATEGORY).handleExport(categoryDataMap, "");
+        System.out.println("Export Completed");
     }
     
     private static void displayCategoryDetailsVertical(Category category) {

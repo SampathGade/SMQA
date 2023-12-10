@@ -1,12 +1,10 @@
 package mobileclientassetmanagement.src.entity.vendor;
 
 
-import java.util.List;
+
 import java.util.Map;
 
 import mobileclientassetmanagement.src.dbmanager.DataManager;
-import mobileclientassetmanagement.src.entity.vendor.Vendor;
-import mobileclientassetmanagement.src.entity.vendor.VendorInterface;
 
 public class VendorImpl implements VendorInterface {
     private Map<Integer, Vendor> vendorData;

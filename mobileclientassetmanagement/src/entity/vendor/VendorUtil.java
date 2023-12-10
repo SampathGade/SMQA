@@ -8,7 +8,6 @@ import java.util.Map;
 import java.util.Scanner;
 
 import mobileclientassetmanagement.src.dbmanager.DataManager;
-import mobileclientassetmanagement.src.entity.vendor.Vendor;
 import mobileclientassetmanagement.src.util.AppUtil;
 import mobileclientassetmanagement.src.util.Constants;
 import mobileclientassetmanagement.src.util.imports.ImportFactory;

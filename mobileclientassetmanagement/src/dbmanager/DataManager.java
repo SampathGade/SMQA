@@ -28,6 +28,11 @@ public class DataManager
     private static Map<Integer, MaintenanceRequest> maintenanceRequestDataMap = new HashMap<>();
     private static Map<Integer, Vendor> vendorDataMap = new HashMap<>();
 
+    private DataManager()
+    {
+
+    }
+
     public static Map<Integer, User> getUserData(){
         return userDataMap;
     }

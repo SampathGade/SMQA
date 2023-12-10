@@ -1,10 +1,10 @@
-1,Laptop,Laptop,Model11,High-performance laptop,Room101,01-01-2023,01-01-2024
-2,Printer,Printer,Model23,Fast color printer,Room102,01-02-2023,01-02-2024
-3,Desktop,Desktop,ModelYZ,Powerful desktop computer,Room103,01-03-2023,01-03-2024
-4,Monitor,Monitor,Model789,High-resolution monitor,Room104,01-04-2023,01-04-2024
-5,Projector,Projector,Model777,HD projector for presentations,Room105,01-05-2023,01-05-2024
-6,Scanner,Scanner,Model69,Document scanner,Room106,01-06-2023,01-06-2024
-7,Phone,Phone,Model11,Smartphone with advanced features,Room107,01-07-2023,01-07-2024
-8,Tablet,Tablet,Model5000,Portable tablet device,Room108,01-08-2023,01-08-2024
-9,Server,Server,Model200D,Enterprise-grade server,Room109,01-09-2023,01-09-2024
-10,Camera,Camera,ModelMark2,Professional-grade camera,Room110,01-10-2023,01-10-2024
+1,Laptop,Laptop,ModelABC,High-performance laptop,Room101,2022-01-01,2024-01-01
+2,Printer,Printer,ModelXYZ,Fast color printer,Room102,2022-02-01,2024-02-01
+3,Desktop,Desktop,Model123,Powerful desktop computer,Room103,2022-03-01,2024-03-01
+4,Monitor,Monitor,Model456,High-resolution monitor,Room104,2022-04-01,2024-04-01
+5,Projector,Projector,Model789,HD projector for presentations,Room105,2022-05-01,2024-05-01
+6,Scanner,Scanner,ModelDEF,Document scanner,Room106,2022-06-01,2024-06-01
+7,Phone,Phone,ModelGHI,Smartphone with advanced features,Room107,2022-07-01,2024-07-01
+8,Tablet,Tablet,ModelJKL,Portable tablet device,Room108,2022-08-01,2024-08-01
+9,Server,Server,ModelMNO,Enterprise-grade server,Room109,2022-09-01,2024-09-01
+10,Camera,Camera,ModelPQR,Professional-grade camera,Room110,2022-10-01,2024-10-01

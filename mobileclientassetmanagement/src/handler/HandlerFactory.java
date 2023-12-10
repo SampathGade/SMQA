@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class HandlerFactory
 {
-    private static final String HANDLER = "handler.";
+    private static final String HANDLER = "mobileclientassetmanagement.src.handler.";
     public static Handler instantiateHandler(String handlerName) throws ClassNotFoundException, NoSuchMethodException, InvocationTargetException, InstantiationException, IllegalAccessException {
         Class<?> handlerClassName = Class.forName(HANDLER+handlerName); return (Handler) handlerClassName.getDeclaredConstructor().newInstance();
     }

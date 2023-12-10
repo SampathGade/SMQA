@@ -63,6 +63,12 @@ public class UserHandler implements Handler
                 else if(userHandlerMap.get(option).startsWith("Delete")) {
                     handleDelete();
                 }
+                else if(userHandlerMap.get(option).startsWith("Import")) {
+                    handleImport(scanner);
+                }
+                else if(userHandlerMap.get(option).startsWith("Export")) {
+                    handleExport();
+                }
                 else if(userHandlerMap.get(option).startsWith("Exit")) {
                     return;
                 }

@@ -3,9 +3,6 @@ package mobileclientassetmanagement.src.entity.maintenancerequest;
 
 
 import mobileclientassetmanagement.src.dbmanager.DataManager;
-
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Map;
 
 public class MaintenanceRequestImpl implements MaintenanceRequestInterface{

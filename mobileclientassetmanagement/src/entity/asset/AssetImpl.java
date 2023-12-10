@@ -2,8 +2,6 @@ package mobileclientassetmanagement.src.entity.asset;
 
 
 import mobileclientassetmanagement.src.dbmanager.DataManager;
-
-import java.util.List;
 import java.util.Map;
 
 public class AssetImpl implements AssetInterface{
