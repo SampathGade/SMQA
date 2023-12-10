@@ -8,4 +8,5 @@ public interface StatusInterface {
     void decommision(Object entity);
     void close(Object entity);
     void markAsPaid(Object entity);
+    void push(Object entity);
 }

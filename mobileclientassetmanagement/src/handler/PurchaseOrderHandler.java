@@ -62,6 +62,9 @@ public class PurchaseOrderHandler implements Handler {
                 else if(purchaseOrderHandlerMap.get(option).startsWith("Mark As Paid")) {
                     markAsPaid();
                 }
+                else if(purchaseOrderHandlerMap.get(option).startsWith("Push Item To Asset")) {
+                    pushItem();
+                }
                 else if(purchaseOrderHandlerMap.get(option).startsWith("Exit")) {
                     return;
                 }
@@ -218,6 +221,15 @@ public class PurchaseOrderHandler implements Handler {
         PurchaseOrder providedOrder = purchaseOrderDataMap.get(providedID);
         StatusFactory.getObject(Constants.PURCHASE_REQUEST).markAsPaid(providedOrder);
         System.out.println("Order Paid Successfully!!!");
+    }
+
+    private void pushItem() {
+        Map<Integer, PurchaseOrder> purchaseOrderDataMap =  DataManager.getPurchaseOrderData(PurchaseOrderStatus.PAID.getStatusCode());
+        displayRequest(purchaseOrderDataMap);
+        int providedID = scanner.nextInt();
+        PurchaseOrder providedOrder = purchaseOrderDataMap.get(providedID);
+        StatusFactory.getObject(Constants.PURCHASE_REQUEST).push(providedOrder);
+        System.out.println("Item Pushed Successfully!!!");
     }
     
     private static void displayPurchaseOrderDetailsVertical(PurchaseOrder purchaseOrder) {
