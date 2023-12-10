@@ -24,4 +24,14 @@ public class AssetStatusImpl extends Status {
         AssetInterface assetInterface = new AssetFactoryImpl().createAsset();
         assetInterface.update(assetID, asset);
     }
+
+    @Override
+    public void decommision(Object entity) {
+        Asset asset = (Asset) entity;
+        Integer assetID = asset.getAssetID();
+        Integer decommissionStatusCode = AssetStatus.DECOMMISSIONED.getStatusCode();
+        asset.setAssetStatus(decommissionStatusCode);
+        AssetInterface assetInterface = new AssetFactoryImpl().createAsset();
+        assetInterface.update(assetID, asset);
+    }
 }

@@ -78,6 +78,9 @@ public class AssetHandler implements Handler {
                 else if(assetHandlerMap.get(option).startsWith("Mark Asset As Expired")) {
                     markAsExpired();
                 }
+                else if(assetHandlerMap.get(option).startsWith("Mark Asset as Decommission")) {
+                    markAsDecommission();
+                }
                 else if(assetHandlerMap.get(option).startsWith("Exit")) {
                     return;
                 }
@@ -233,6 +236,11 @@ public class AssetHandler implements Handler {
         Asset assetToBeExpired = handleRetrieve();
         StatusFactory.getObject(Constants.ASSET).markAsExpired(assetToBeExpired);
         System.out.println("Marked As Expired!");
+    }
+    private void markAsDecommission() {
+        Asset assetToBeDecommissioned = handleRetrieve();
+        StatusFactory.getObject(Constants.ASSET).decommision(assetToBeDecommissioned);
+        System.out.println("Marked As Decommissioned!");
     }
 
     private static void displayAssetDetailsVertical(Asset asset) {

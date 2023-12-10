@@ -5,4 +5,5 @@ public interface StatusInterface {
     void unAssign(Object entity);
 
     void markAsExpired(Object entity);
+    void decommision(Object entity);
 }
