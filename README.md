@@ -3,6 +3,7 @@ MOBILE ASSET MANAGEMENT SYSTEM
 - Eclipse IDE installed
 - Java Development Kit (JDK) installed
 - JUnit 5 Library for test coverage
+- Randoop Jar
 
 Setup and Run
 Unzip the Project:
