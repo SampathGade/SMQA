@@ -1,16 +1,16 @@
 package whiteboxtest;
 
-import mobileclientassetmanagement.src.dbmanager.DataManager;
-import mobileclientassetmanagement.src.entity.role.UserRole;
-import mobileclientassetmanagement.src.entity.useraccount.User;
-import mobileclientassetmanagement.src.entity.useraccount.UserFactoryImpl;
-import mobileclientassetmanagement.src.entity.useraccount.UserInterface;
-import mobileclientassetmanagement.src.entity.useraccount.UserUtil;
-import mobileclientassetmanagement.src.handler.UserHandler;
 
+import mobileclientassetmanagement.src.dbmanager.DataManager;
+import mobileclientassetmanagement.src.entity.category.Category;
+import mobileclientassetmanagement.src.entity.category.CategoryFactoryImpl;
+import mobileclientassetmanagement.src.entity.category.CategoryInterface;
+import mobileclientassetmanagement.src.entity.category.CategoryUtil;
+import mobileclientassetmanagement.src.entity.useraccount.UserUtil;
+import mobileclientassetmanagement.src.handler.CategoryHandler;
+import mobileclientassetmanagement.src.util.AppUtil;
 import org.junit.Before;
 import org.junit.Test;
-import mobileclientassetmanagement.src.util.AppUtil;
 
 import java.io.ByteArrayInputStream;
 import java.io.InputStream;
@@ -18,7 +18,7 @@ import java.util.Scanner;
 
 import static org.junit.Assert.*;
 
-public class UserHandlerTest {
+public class CategoryHandlerTest {
     @Before
     public void setUp() {
         AppUtil.setIsFromTest(true);
@@ -29,13 +29,13 @@ public class UserHandlerTest {
     @Test
     public void handleExecuteForCreate() {
         try {
-            String testInput = "1\nLeo\nleo@email.com\n1\nmanager\ndescription test";
+            String testInput = "1\nMobile Phone\nMobile Phone Description\n";
             InputStream inputStream = new ByteArrayInputStream(testInput.getBytes());
             Scanner scanner = new Scanner(inputStream);
             AppUtil.setCurrentUser(DataManager.getUserData().get(1));
-            UserHandler userHandler = new UserHandler(scanner);
-            userHandler.setCanRunAgain(false);
-            userHandler.execute();
+            CategoryHandler categoryHandler = new CategoryHandler(scanner);
+            categoryHandler.setCanRunAgain(false);
+            categoryHandler.execute();
         }
         catch (Exception e) {
             assertFalse(true);
@@ -52,10 +52,11 @@ public class UserHandlerTest {
             InputStream inputStream = new ByteArrayInputStream(testInput.getBytes());
             Scanner scanner = new Scanner(inputStream);
             AppUtil.setCurrentUser(DataManager.getUserData().get(1));
-            addTestUser();
-            UserHandler userHandler = new UserHandler(scanner);
-            userHandler.setCanRunAgain(false);
-            userHandler.execute();
+            Category category = addTestCategory();
+            CategoryHandler categoryHandler = new CategoryHandler(scanner);
+            categoryHandler.setCanRunAgain(false);
+            categoryHandler.execute();
+            assertNotNull(category);
         }
         catch (Exception e) {
             assertFalse(true);
@@ -72,10 +73,10 @@ public class UserHandlerTest {
             InputStream inputStream = new ByteArrayInputStream(testInput.getBytes());
             Scanner scanner = new Scanner(inputStream);
             AppUtil.setCurrentUser(DataManager.getUserData().get(1));
-            addTestUser();
-            UserHandler userHandler = new UserHandler(scanner);
-            userHandler.setCanRunAgain(false);
-            userHandler.execute();
+            addTestCategory();
+            CategoryHandler categoryHandler = new CategoryHandler(scanner);
+            categoryHandler.setCanRunAgain(false);
+            categoryHandler.execute();
         }
         catch (Exception e) {
             assertFalse(true);
@@ -92,11 +93,11 @@ public class UserHandlerTest {
             InputStream inputStream = new ByteArrayInputStream(testInput.getBytes());
             Scanner scanner = new Scanner(inputStream);
             AppUtil.setCurrentUser(DataManager.getUserData().get(1));
-            User user = addTestUser();
-            UserHandler userHandler = new UserHandler(scanner);
-            userHandler.setCanRunAgain(false);
-            userHandler.execute();
-            assertFalse(user.getUserID() == null);
+            Category category = addTestCategory();
+            CategoryHandler categoryHandler = new CategoryHandler(scanner);
+            categoryHandler.setCanRunAgain(false);
+            categoryHandler.execute();
+            assertFalse( category.getCategoryID()== null);
         }
         catch (Exception e) {
             assertFalse(true);
@@ -109,13 +110,13 @@ public class UserHandlerTest {
     @Test
     public void handleExecuteForImport() {
         try {
-            String testInput = "5\n\n"+ UserUtil.getPathForUserData()+"\n";
+            String testInput = "5\n\n"+ CategoryUtil.getPathForCategoryData()+"\n";
             InputStream inputStream = new ByteArrayInputStream(testInput.getBytes());
             Scanner scanner = new Scanner(inputStream);
             AppUtil.setCurrentUser(DataManager.getUserData().get(1));
-            UserHandler userHandler = new UserHandler(scanner);
-            userHandler.setCanRunAgain(false);
-            userHandler.execute();
+            CategoryHandler categoryHandler = new CategoryHandler(scanner);
+            categoryHandler.setCanRunAgain(false);
+            categoryHandler.execute();
             assertTrue("Import SuccessFul", true);
         }
         catch (Exception e) {
@@ -132,10 +133,10 @@ public class UserHandlerTest {
             String testInput = "6\n";
             System.setIn(new ByteArrayInputStream(testInput.getBytes()));
             AppUtil.setCurrentUser(DataManager.getUserData().get(1));
-            addTestUser();
-            UserHandler userHandler = new UserHandler();
-            userHandler.setCanRunAgain(false);
-            userHandler.execute();
+            addTestCategory();
+            CategoryHandler categoryHandler = new CategoryHandler();
+            categoryHandler.setCanRunAgain(false);
+            categoryHandler.execute();
             assertTrue("Export SuccessFul", true);
         }
         catch (Exception e) {
@@ -153,9 +154,9 @@ public class UserHandlerTest {
             InputStream inputStream = new ByteArrayInputStream(testInput.getBytes());
             Scanner scanner = new Scanner(inputStream);
             AppUtil.setCurrentUser(DataManager.getUserData().get(1));
-            UserHandler userHandler = new UserHandler(scanner);
-            userHandler.setCanRunAgain(false);
-            userHandler.execute();
+            CategoryHandler categoryHandler = new CategoryHandler(scanner);
+            categoryHandler.setCanRunAgain(false);
+            categoryHandler.execute();
             assertTrue("Exited Successfully", true);
         }
         catch (Exception e) {
@@ -173,9 +174,9 @@ public class UserHandlerTest {
             InputStream inputStream = new ByteArrayInputStream(testInput.getBytes());
             Scanner scanner = new Scanner(inputStream);
             AppUtil.setCurrentUser(DataManager.getUserData().get(1));
-            UserHandler userHandler = new UserHandler(scanner);
-            userHandler.setCanRunAgain(false);
-            userHandler.execute();
+            CategoryHandler categoryHandler = new CategoryHandler(scanner);
+            categoryHandler.setCanRunAgain(false);
+            categoryHandler.execute();
             assertTrue("Exited Successfully", true);
         }
         catch (Exception e) {
@@ -187,16 +188,15 @@ public class UserHandlerTest {
     }
 
     @Test
-    public void handleExecuteForExportAssetManager() {
+    public void handleExecuteForAssetManagerViewCreate() {
         try {
-            String testInput = "2\n";
-            System.setIn(new ByteArrayInputStream(testInput.getBytes()));
+            String testInput = "1\nMobile Phone\nMobile Phone Description\n";
+            InputStream inputStream = new ByteArrayInputStream(testInput.getBytes());
+            Scanner scanner = new Scanner(inputStream);
             AppUtil.setCurrentUser(DataManager.getUserData().get(3));
-            addTestUser();
-            UserHandler userHandler = new UserHandler();
-            userHandler.setCanRunAgain(false);
-            userHandler.execute();
-            assertTrue("Export SuccessFul", true);
+            CategoryHandler categoryHandler = new CategoryHandler(scanner);
+            categoryHandler.setCanRunAgain(false);
+            categoryHandler.execute();
         }
         catch (Exception e) {
             assertFalse(true);
@@ -206,17 +206,13 @@ public class UserHandlerTest {
         }
     }
 
-    private User addTestUser() throws Exception{
-        User user = new User();
-        user.setUserID(1);
-        user.setName("Leo");
-        user.setEmailID("leo@gmail.com");
-        user.setUserRole(UserRole.ADMIN);
-        user.setDescription("Role description");
-        user.setJobTitle("Manager");
-        UserInterface userInterface = new UserFactoryImpl().createUser();
-        userInterface.add(user);
-        return user;
+    private Category addTestCategory() {
+        Category category = new Category();
+        category.setCategoryID(1);
+        category.setCategoryName("Mobile Phone");
+        category.setCategoryDescription("Mobile Phone Description");
+        CategoryInterface categoryInterface = new CategoryFactoryImpl().createCategory();
+        categoryInterface.add(category);
+        return category;
     }
-
 }

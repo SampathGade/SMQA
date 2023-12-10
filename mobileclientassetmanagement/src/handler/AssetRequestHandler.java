@@ -81,7 +81,7 @@ public class AssetRequestHandler implements Handler {
                 else if(assetRequestHandlerMap.get(option).startsWith("Approve Asset Request")) {
                     approveAssetRequest();
                 }
-                else if(assetRequestHandlerMap.get(option).startsWith("Approve Asset Request")) {
+                else if(assetRequestHandlerMap.get(option).startsWith("Reject Asset Request")) {
                     rejectAssetRequest();
                 }
                 else if(assetRequestHandlerMap.get(option).startsWith("Comment on Asset Request")) {

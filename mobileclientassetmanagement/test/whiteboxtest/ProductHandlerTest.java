@@ -1,24 +1,24 @@
 package whiteboxtest;
 
-import mobileclientassetmanagement.src.dbmanager.DataManager;
-import mobileclientassetmanagement.src.entity.role.UserRole;
-import mobileclientassetmanagement.src.entity.useraccount.User;
-import mobileclientassetmanagement.src.entity.useraccount.UserFactoryImpl;
-import mobileclientassetmanagement.src.entity.useraccount.UserInterface;
-import mobileclientassetmanagement.src.entity.useraccount.UserUtil;
-import mobileclientassetmanagement.src.handler.UserHandler;
 
+import mobileclientassetmanagement.src.dbmanager.DataManager;
+import mobileclientassetmanagement.src.entity.product.Product;
+import mobileclientassetmanagement.src.entity.product.ProductFactoryImpl;
+import mobileclientassetmanagement.src.entity.product.ProductInterface;
+import mobileclientassetmanagement.src.entity.product.ProductUtil;
+import mobileclientassetmanagement.src.entity.useraccount.UserUtil;
+import mobileclientassetmanagement.src.handler.ProductHandler;
+import mobileclientassetmanagement.src.util.AppUtil;
 import org.junit.Before;
 import org.junit.Test;
-import mobileclientassetmanagement.src.util.AppUtil;
-
 import java.io.ByteArrayInputStream;
 import java.io.InputStream;
+import java.math.BigDecimal;
 import java.util.Scanner;
 
 import static org.junit.Assert.*;
 
-public class UserHandlerTest {
+public class ProductHandlerTest {
     @Before
     public void setUp() {
         AppUtil.setIsFromTest(true);
@@ -29,13 +29,13 @@ public class UserHandlerTest {
     @Test
     public void handleExecuteForCreate() {
         try {
-            String testInput = "1\nLeo\nleo@email.com\n1\nmanager\ndescription test";
+            String testInput = "1\nPrinter\nHigh-speed printer for office use\n300\n";
             InputStream inputStream = new ByteArrayInputStream(testInput.getBytes());
             Scanner scanner = new Scanner(inputStream);
             AppUtil.setCurrentUser(DataManager.getUserData().get(1));
-            UserHandler userHandler = new UserHandler(scanner);
-            userHandler.setCanRunAgain(false);
-            userHandler.execute();
+            ProductHandler productHandler = new ProductHandler(scanner);
+            productHandler.setCanRunAgain(false);
+            productHandler.execute();
         }
         catch (Exception e) {
             assertFalse(true);
@@ -52,10 +52,11 @@ public class UserHandlerTest {
             InputStream inputStream = new ByteArrayInputStream(testInput.getBytes());
             Scanner scanner = new Scanner(inputStream);
             AppUtil.setCurrentUser(DataManager.getUserData().get(1));
-            addTestUser();
-            UserHandler userHandler = new UserHandler(scanner);
-            userHandler.setCanRunAgain(false);
-            userHandler.execute();
+            Product product = addTestProduct();
+            ProductHandler productHandler = new ProductHandler(scanner);
+            productHandler.setCanRunAgain(false);
+            productHandler.execute();
+            assertNotNull(product);
         }
         catch (Exception e) {
             assertFalse(true);
@@ -72,10 +73,10 @@ public class UserHandlerTest {
             InputStream inputStream = new ByteArrayInputStream(testInput.getBytes());
             Scanner scanner = new Scanner(inputStream);
             AppUtil.setCurrentUser(DataManager.getUserData().get(1));
-            addTestUser();
-            UserHandler userHandler = new UserHandler(scanner);
-            userHandler.setCanRunAgain(false);
-            userHandler.execute();
+            addTestProduct();
+            ProductHandler productHandler = new ProductHandler(scanner);
+            productHandler.setCanRunAgain(false);
+            productHandler.execute();
         }
         catch (Exception e) {
             assertFalse(true);
@@ -92,11 +93,11 @@ public class UserHandlerTest {
             InputStream inputStream = new ByteArrayInputStream(testInput.getBytes());
             Scanner scanner = new Scanner(inputStream);
             AppUtil.setCurrentUser(DataManager.getUserData().get(1));
-            User user = addTestUser();
-            UserHandler userHandler = new UserHandler(scanner);
-            userHandler.setCanRunAgain(false);
-            userHandler.execute();
-            assertFalse(user.getUserID() == null);
+            Product product = addTestProduct();
+            ProductHandler productHandler = new ProductHandler(scanner);
+            productHandler.setCanRunAgain(false);
+            productHandler.execute();
+            assertFalse( product.getProductID() == null);
         }
         catch (Exception e) {
             assertFalse(true);
@@ -109,13 +110,13 @@ public class UserHandlerTest {
     @Test
     public void handleExecuteForImport() {
         try {
-            String testInput = "5\n\n"+ UserUtil.getPathForUserData()+"\n";
+            String testInput = "5\n\n"+ ProductUtil.getPathForProductData() +"\n";
             InputStream inputStream = new ByteArrayInputStream(testInput.getBytes());
             Scanner scanner = new Scanner(inputStream);
             AppUtil.setCurrentUser(DataManager.getUserData().get(1));
-            UserHandler userHandler = new UserHandler(scanner);
-            userHandler.setCanRunAgain(false);
-            userHandler.execute();
+            ProductHandler productHandler = new ProductHandler(scanner);
+            productHandler.setCanRunAgain(false);
+            productHandler.execute();
             assertTrue("Import SuccessFul", true);
         }
         catch (Exception e) {
@@ -132,10 +133,10 @@ public class UserHandlerTest {
             String testInput = "6\n";
             System.setIn(new ByteArrayInputStream(testInput.getBytes()));
             AppUtil.setCurrentUser(DataManager.getUserData().get(1));
-            addTestUser();
-            UserHandler userHandler = new UserHandler();
-            userHandler.setCanRunAgain(false);
-            userHandler.execute();
+            addTestProduct();
+            ProductHandler productHandler = new ProductHandler();
+            productHandler.setCanRunAgain(false);
+            productHandler.execute();
             assertTrue("Export SuccessFul", true);
         }
         catch (Exception e) {
@@ -153,9 +154,9 @@ public class UserHandlerTest {
             InputStream inputStream = new ByteArrayInputStream(testInput.getBytes());
             Scanner scanner = new Scanner(inputStream);
             AppUtil.setCurrentUser(DataManager.getUserData().get(1));
-            UserHandler userHandler = new UserHandler(scanner);
-            userHandler.setCanRunAgain(false);
-            userHandler.execute();
+            ProductHandler productHandler = new ProductHandler(scanner);
+            productHandler.setCanRunAgain(false);
+            productHandler.execute();
             assertTrue("Exited Successfully", true);
         }
         catch (Exception e) {
@@ -173,9 +174,9 @@ public class UserHandlerTest {
             InputStream inputStream = new ByteArrayInputStream(testInput.getBytes());
             Scanner scanner = new Scanner(inputStream);
             AppUtil.setCurrentUser(DataManager.getUserData().get(1));
-            UserHandler userHandler = new UserHandler(scanner);
-            userHandler.setCanRunAgain(false);
-            userHandler.execute();
+            ProductHandler productHandler = new ProductHandler(scanner);
+            productHandler.setCanRunAgain(false);
+            productHandler.execute();
             assertTrue("Exited Successfully", true);
         }
         catch (Exception e) {
@@ -186,37 +187,14 @@ public class UserHandlerTest {
         }
     }
 
-    @Test
-    public void handleExecuteForExportAssetManager() {
-        try {
-            String testInput = "2\n";
-            System.setIn(new ByteArrayInputStream(testInput.getBytes()));
-            AppUtil.setCurrentUser(DataManager.getUserData().get(3));
-            addTestUser();
-            UserHandler userHandler = new UserHandler();
-            userHandler.setCanRunAgain(false);
-            userHandler.execute();
-            assertTrue("Export SuccessFul", true);
-        }
-        catch (Exception e) {
-            assertFalse(true);
-        }
-        finally {
-            System.setIn(System.in);
-        }
+    private Product addTestProduct() {
+        Product product = new Product();
+        product.setProductID(1);
+        product.setProductName("Printer");
+        product.setProductDescription("High-speed printer for office use");
+        product.setProductCost(new BigDecimal(300));
+        ProductInterface productInterface = new ProductFactoryImpl().createProduct();
+        productInterface.add(product);
+        return product;
     }
-
-    private User addTestUser() throws Exception{
-        User user = new User();
-        user.setUserID(1);
-        user.setName("Leo");
-        user.setEmailID("leo@gmail.com");
-        user.setUserRole(UserRole.ADMIN);
-        user.setDescription("Role description");
-        user.setJobTitle("Manager");
-        UserInterface userInterface = new UserFactoryImpl().createUser();
-        userInterface.add(user);
-        return user;
-    }
-
 }

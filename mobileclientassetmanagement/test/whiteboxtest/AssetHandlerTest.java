@@ -1,4 +1,4 @@
-package handler;
+package whiteboxtest;
 
 
 import mobileclientassetmanagement.src.dbmanager.DataManager;
