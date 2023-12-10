@@ -1,5 +1,6 @@
 package mobileclientassetmanagement.src.dbmanager;
 
+import mobileclientassetmanagement.src.entity.asset.Asset;
 import mobileclientassetmanagement.src.entity.assetrequest.AssetRequest;
 import mobileclientassetmanagement.src.entity.category.Category;
 import mobileclientassetmanagement.src.entity.location.Location;
@@ -21,12 +22,14 @@ public class DataManager
     private static Map<Integer, Product> productDataMap = new HashMap<>();
     private static Map<Integer, Category> categoryDataMap = new HashMap<>();
     private static Map<Integer, PurchaseOrder> purchaseOrderDataMap = new HashMap<>();
+    private static Map<Integer, Asset> assetDataMap = new HashMap<>();
 
     public static Map<Integer, User> getUserData(){
         return userDataMap;
     }
     public static Map<Integer, Category> getCategoryData(){return categoryDataMap;}
     public static Map<Integer, Location> getLocationData() {return locationDataMap;}
+    public static Map<Integer, Asset> getAssetData() {return assetDataMap;}
 
     public static Map<Integer, Project> getProjectData() {return projectDataMap;}
     public static Map<Integer, Product> getProductData() {return productDataMap;}

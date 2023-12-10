@@ -1,32 +1,31 @@
 package mobileclientassetmanagement.src.entity.asset;
 
 
+import mobileclientassetmanagement.src.dbmanager.DataManager;
+
 import java.util.List;
+import java.util.Map;
 
 public class AssetImpl implements AssetInterface{
 
-    @Override
-    public Asset get(Integer assetID) {
-        return null;
+    private Map<Integer, Asset> assetData;
+
+    AssetImpl() {
+        this.assetData = DataManager.getAssetData();
     }
 
     @Override
     public void add(Asset asset) {
-
+        assetData.put(asset.getAssetID(), asset);
     }
 
     @Override
     public void update(Integer assetID, Asset asset) {
-
+        assetData.put(assetID, asset);
     }
 
     @Override
     public void delete(Integer assetID) {
-
-    }
-
-    @Override
-    public List<Asset> getAll() {
-        return null;
+        assetData.remove(assetID);
     }
 }
