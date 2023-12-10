@@ -1,9 +1,6 @@
-package entity.purchaseorder;
+package mobileclientassetmanagement.src.entity.purchaseorder;
+import mobileclientassetmanagement.src.dbmanager.DataManager;
 
-import dbmanager.DataManager;
-
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Map;
 
 public class PurchaseOrderImpl implements PurchaseOrderInterface{

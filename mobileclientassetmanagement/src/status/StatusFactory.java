@@ -1,5 +1,7 @@
 package mobileclientassetmanagement.src.status;
 import mobileclientassetmanagement.src.entity.asset.AssetStatusImpl;
+import mobileclientassetmanagement.src.entity.maintenancerequest.MaintenanceRequestStatusImpl;
+import mobileclientassetmanagement.src.entity.purchaseorder.PurchaseOrderStatusImpl;
 
 public class StatusFactory {
     public static StatusInterface getObject(int objectType) {

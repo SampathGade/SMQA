@@ -1,5 +1,15 @@
 package mobileclientassetmanagement.src.entity.maintenancerequest;
 
+import mobileclientassetmanagement.src.dbmanager.DataManager;
+import mobileclientassetmanagement.src.util.AppUtil;
+import mobileclientassetmanagement.src.util.Constants;
+
+import java.io.ByteArrayInputStream;
+import java.util.Arrays;
+import java.util.List;
+import java.util.Map;
+import java.util.Scanner;
+
 public class MaintenanceRequestUtil {
     public static final Integer OPEN = 0;
     public static final Integer CLOSED = 1;

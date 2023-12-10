@@ -1,7 +1,6 @@
-package entity.purchaseorder;
+package mobileclientassetmanagement.src.entity.purchaseorder;
 
-import entity.vendor.Vendor;
-
+import mobileclientassetmanagement.src.entity.vendor.Vendor;
 import java.math.BigDecimal;
 import java.util.Date;
 import java.util.List;

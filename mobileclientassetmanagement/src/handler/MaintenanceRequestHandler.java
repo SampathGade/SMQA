@@ -1,15 +1,13 @@
-package handler;
+package mobileclientassetmanagement.src.handler;
 
-import dbmanager.DataManager;
-import entity.asset.Asset;
-import entity.assetrequest.AssetRequest;
-import entity.assetrequest.AssetRequestUtil;
-import entity.maintenancerequest.*;
-import entity.useraccount.User;
-import status.StatusFactory;
-import util.AccessUtil;
-import util.AppUtil;
-import util.Constants;
+import mobileclientassetmanagement.src.dbmanager.DataManager;
+import mobileclientassetmanagement.src.entity.asset.Asset;
+import mobileclientassetmanagement.src.entity.maintenancerequest.*;
+import mobileclientassetmanagement.src.entity.useraccount.User;
+import mobileclientassetmanagement.src.status.StatusFactory;
+import mobileclientassetmanagement.src.util.AccessUtil;
+import mobileclientassetmanagement.src.util.AppUtil;
+import mobileclientassetmanagement.src.util.Constants;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.ParameterizedType;

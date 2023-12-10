@@ -1,15 +1,15 @@
-package handler;
+package mobileclientassetmanagement.src.handler;
 
-import dbmanager.DataManager;
-import entity.product.Product;
-import entity.project.ProjectUtil;
-import entity.purchaseorder.*;
-import entity.useraccount.User;
-import entity.vendor.Vendor;
-import status.StatusFactory;
-import util.AccessUtil;
-import util.AppUtil;
-import util.Constants;
+
+import mobileclientassetmanagement.src.dbmanager.DataManager;
+import mobileclientassetmanagement.src.entity.product.Product;
+import mobileclientassetmanagement.src.entity.purchaseorder.*;
+import mobileclientassetmanagement.src.entity.useraccount.User;
+import mobileclientassetmanagement.src.entity.vendor.Vendor;
+import mobileclientassetmanagement.src.status.StatusFactory;
+import mobileclientassetmanagement.src.util.AccessUtil;
+import mobileclientassetmanagement.src.util.AppUtil;
+import mobileclientassetmanagement.src.util.Constants;
 
 import java.lang.reflect.Field;
 import java.math.BigDecimal;

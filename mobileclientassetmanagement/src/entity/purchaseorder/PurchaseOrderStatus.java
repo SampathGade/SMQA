@@ -1,4 +1,4 @@
-package entity.purchaseorder;
+package mobileclientassetmanagement.src.entity.purchaseorder;
 
 
 public enum PurchaseOrderStatus {

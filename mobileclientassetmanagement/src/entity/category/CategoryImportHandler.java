@@ -1,10 +1,9 @@
-package entity.category;
+package mobileclientassetmanagement.src.entity.category;
 
 import com.opencsv.CSVReader;
-import dbmanager.DataManager;
-import util.imports.ImportInterface;
+import mobileclientassetmanagement.src.dbmanager.DataManager;
+import mobileclientassetmanagement.src.util.imports.ImportInterface;
 
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.util.List;
 import java.util.Map;

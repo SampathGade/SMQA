@@ -1,11 +1,10 @@
-package entity.purchaseorder;
+package mobileclientassetmanagement.src.entity.purchaseorder;
 
-
-import entity.asset.Asset;
-import entity.asset.AssetFactoryImpl;
-import entity.asset.AssetInterface;
-import entity.asset.AssetUtil;
-import status.Status;
+import mobileclientassetmanagement.src.entity.asset.Asset;
+import mobileclientassetmanagement.src.entity.asset.AssetFactoryImpl;
+import mobileclientassetmanagement.src.entity.asset.AssetInterface;
+import mobileclientassetmanagement.src.entity.asset.AssetUtil;
+import mobileclientassetmanagement.src.status.Status;
 
 public class PurchaseOrderStatusImpl extends Status {
     @Override

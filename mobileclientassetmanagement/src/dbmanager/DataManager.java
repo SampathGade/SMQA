@@ -4,10 +4,12 @@ import mobileclientassetmanagement.src.entity.asset.Asset;
 import mobileclientassetmanagement.src.entity.assetrequest.AssetRequest;
 import mobileclientassetmanagement.src.entity.category.Category;
 import mobileclientassetmanagement.src.entity.location.Location;
+import mobileclientassetmanagement.src.entity.maintenancerequest.MaintenanceRequest;
 import mobileclientassetmanagement.src.entity.product.Product;
 import mobileclientassetmanagement.src.entity.project.Project;
 import mobileclientassetmanagement.src.entity.purchaseorder.PurchaseOrder;
 import mobileclientassetmanagement.src.entity.useraccount.User;
+import mobileclientassetmanagement.src.entity.vendor.Vendor;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -24,6 +26,7 @@ public class DataManager
     private static Map<Integer, PurchaseOrder> purchaseOrderDataMap = new HashMap<>();
     private static Map<Integer, Asset> assetDataMap = new HashMap<>();
     private static Map<Integer, MaintenanceRequest> maintenanceRequestDataMap = new HashMap<>();
+    private static Map<Integer, Vendor> vendorDataMap = new HashMap<>();
 
     public static Map<Integer, User> getUserData(){
         return userDataMap;
@@ -36,6 +39,14 @@ public class DataManager
     public static Map<Integer, Product> getProductData() {return productDataMap;}
     public static Map<Integer, AssetRequest> getAssetRequestData() {return assetRequestDataMap;}
     public static Map<Integer, PurchaseOrder> getPurchaseOrderData(){return purchaseOrderDataMap;}
+    public static Map<Integer, Vendor> getVendorData() {return vendorDataMap; }
+    public static Map<Integer, PurchaseOrder> getPurchaseOrderData(Integer status) {
+        return getPurchaseOrderData().entrySet().stream()
+                .filter(entry -> {PurchaseOrder purchaseOrder = entry.getValue();
+                    return purchaseOrder.getStatus().equals(status);})
+                .collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
+    }
+
 
     public static Map<Integer, AssetRequest> getAssetRequestData(String requesterName) {
         return assetRequestDataMap.entrySet().stream()

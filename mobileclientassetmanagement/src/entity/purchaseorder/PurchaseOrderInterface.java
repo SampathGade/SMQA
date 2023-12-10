@@ -1,4 +1,6 @@
-package entity.purchaseorder;
+package mobileclientassetmanagement.src.entity.purchaseorder;
+
+import mobileclientassetmanagement.src.entity.purchaseorder.PurchaseOrder;
 
 import java.util.List;
 

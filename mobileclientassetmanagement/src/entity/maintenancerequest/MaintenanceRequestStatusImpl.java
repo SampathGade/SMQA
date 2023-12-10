@@ -1,6 +1,6 @@
-package entity.maintenancerequest;
+package mobileclientassetmanagement.src.entity.maintenancerequest;
 
-import status.Status;
+import mobileclientassetmanagement.src.status.Status;
 
 public class MaintenanceRequestStatusImpl extends Status {
     @Override
