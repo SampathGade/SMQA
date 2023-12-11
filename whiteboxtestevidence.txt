@@ -1,0 +1,7541 @@
+/Users/ajaykumar/UOL/SMQA/mobileclientassetmanagement
+Running tests for class: handler.AssetHandlerTest
+JUnit version 4.13.2
+.
+
+1. Create New Asset
+2. Retrieve Asset By ID
+3. Update Existing Asset
+4. Delete Asset
+5. Import Asset
+6. Export Asset
+7. Move Asset
+8. Tag Asset By User
+9. Tag Asset By Project
+10. Mark Asset As Expired
+11. Mark Asset as Decommission
+12. Exit
+Displaying All Assets:
+1:	AssetID: 1, AssetName: Dell Monitor, AssetCategory: Monitors, AssetModel: 1250, AssetDescription: Dell Monitor Description, AssetLocation: Main Office, AssetStatus: 0, AssetStatus Formatted: UnAssigned, AssetOwner (User) :John, AssetAcquisitionDate: 2023-12-12, AssetExpiryDate: 2025-12-12
+You have chosen the following Asset
+
+Asset details:
+AssetID: 1
+AssetName: Dell Monitor
+AssetCategory: Monitors
+AssetModel: 1250
+AssetDescription: Dell Monitor Description
+AssetLocation: Main Office
+AssetStatus: 0
+AssetStatus Formatted: UnAssigned
+AssetOwner (User) :John
+AssetAcquisitionDate: 2023-12-12
+AssetExpiryDate: 2025-12-12
+.
+
+1. Create New Asset
+2. Retrieve Asset By ID
+3. Update Existing Asset
+4. Delete Asset
+5. Import Asset
+6. Export Asset
+7. Move Asset
+8. Tag Asset By User
+9. Tag Asset By Project
+10. Mark Asset As Expired
+11. Mark Asset as Decommission
+12. Exit
+Displaying All Assets:
+1:	AssetID: 1, AssetName: Dell Monitor, AssetCategory: Monitors, AssetModel: 1250, AssetDescription: Dell Monitor Description, AssetLocation: Main Office, AssetStatus: 0, AssetStatus Formatted: UnAssigned, AssetOwner (User) :John, AssetAcquisitionDate: 2023-12-12, AssetExpiryDate: 2025-12-12
+You have chosen the following Asset
+
+Asset details:
+AssetID: 1
+AssetName: Dell Monitor
+AssetCategory: Monitors
+AssetModel: 1250
+AssetDescription: Dell Monitor Description
+AssetLocation: Main Office
+AssetStatus: 0
+AssetStatus Formatted: UnAssigned
+AssetOwner (User) :John
+AssetAcquisitionDate: 2023-12-12
+AssetExpiryDate: 2025-12-12
+Marked As Decommissioned!
+.
+
+1. Create New Asset
+2. Retrieve Asset By ID
+3. Update Existing Asset
+4. Delete Asset
+5. Import Asset
+6. Export Asset
+7. Move Asset
+8. Tag Asset By User
+9. Tag Asset By Project
+10. Mark Asset As Expired
+11. Mark Asset as Decommission
+12. Exit
+Displaying All Assets:
+1:	AssetID: 1, AssetName: Dell Monitor, AssetCategory: Monitors, AssetModel: 1250, AssetDescription: Dell Monitor Description, AssetLocation: Main Office, AssetStatus: 0, AssetStatus Formatted: UnAssigned, AssetOwner (User) :John, AssetAcquisitionDate: 2023-12-12, AssetExpiryDate: 2025-12-12
+You have chosen the following Asset
+
+Asset details:
+AssetID: 1
+AssetName: Dell Monitor
+AssetCategory: Monitors
+AssetModel: 1250
+AssetDescription: Dell Monitor Description
+AssetLocation: Main Office
+AssetStatus: 0
+AssetStatus Formatted: UnAssigned
+AssetOwner (User) :John
+AssetAcquisitionDate: 2023-12-12
+AssetExpiryDate: 2025-12-12
+Displaying All Locations
+1.Main Office
+2.IT Department
+3.Data Center
+4.Office Floor 1
+5.Server Room
+6.Software Repository
+7.Security Room
+8.Employees' Homes
+9.Training Room
+10.Office Cubicles
+11.Conference Rooms
+12.Cloud Platform
+13.Main Office
+14.IT Department
+15.Data Center
+16.Office Floor 1
+17.Server Room
+18.Software Repository
+19.Security Room
+20.Employees' Homes
+21.Training Room
+22.Office Cubicles
+23.Conference Rooms
+24.Cloud Platform
+25.Main Office
+26.IT Department
+27.Data Center
+28.Office Floor 1
+29.Server Room
+30.Software Repository
+31.Security Room
+32.Employees' Homes
+33.Training Room
+34.Office Cubicles
+35.Conference Rooms
+36.Cloud Platform
+Choose Location
+Asset Moved to Location Main Office successfully!
+.
+
+1. Create New Asset
+2. Retrieve Asset By ID
+3. Update Existing Asset
+4. Delete Asset
+5. Import Asset
+6. Export Asset
+7. Move Asset
+8. Tag Asset By User
+9. Tag Asset By Project
+10. Mark Asset As Expired
+11. Mark Asset as Decommission
+12. Exit
+Displaying All Assets:
+1:	AssetID: 1, AssetName: Dell Monitor, AssetCategory: Monitors, AssetModel: 1250, AssetDescription: Dell Monitor Description, AssetLocation: Main Office, AssetStatus: 0, AssetStatus Formatted: UnAssigned, AssetOwner (User) :John, AssetAcquisitionDate: 2023-12-12, AssetExpiryDate: 2025-12-12
+You have chosen the following Asset
+
+Asset details:
+AssetID: 1
+AssetName: Dell Monitor
+AssetCategory: Monitors
+AssetModel: 1250
+AssetDescription: Dell Monitor Description
+AssetLocation: Main Office
+AssetStatus: 0
+AssetStatus Formatted: UnAssigned
+AssetOwner (User) :John
+AssetAcquisitionDate: 2023-12-12
+AssetExpiryDate: 2025-12-12
+Displaying All Projets
+1.Website Redesign
+2.Database Migration
+3.Mobile App Development
+4.Network Security Upgrade
+5.Cloud Integration
+6.Website Redesign
+7.Database Migration
+8.Mobile App Development
+9.Network Security Upgrade
+10.Cloud Integration
+11.Website Redesign
+12.Database Migration
+13.Mobile App Development
+14.Network Security Upgrade
+15.Cloud Integration
+16.Website Redesign
+17.Database Migration
+18.Mobile App Development
+19.Network Security Upgrade
+20.Cloud Integration
+Choose Project
+Asset Assigned to project Website Redesign Successfully
+.
+
+1. Create New Asset
+2. Retrieve Asset By ID
+3. Update Existing Asset
+4. Delete Asset
+5. Import Asset
+6. Export Asset
+7. Move Asset
+8. Tag Asset By User
+9. Tag Asset By Project
+10. Mark Asset As Expired
+11. Exit
+New Asset Creation....
+Enter assetName:
+Enter assetCategory:
+Displaying All Category
+1.Laptops
+2.Desktops
+3.Servers
+4.Printers
+5.NetworkDevices
+6.SoftwareLicenses
+7.Accessories
+8.SecurityEquipment
+9.MobileDevices
+10.DataStorage
+11.Monitors
+12.ConferenceRoomEquipment
+13.VirtualizationInfrastructure
+14.ITTrainingMaterials
+15.BackupSystems
+16.CloudServices
+17.Workstations
+18.DataCenterHardware
+19.UPS
+20.VoIPPhones
+21.Laptops
+22.Desktops
+23.Servers
+24.Printers
+25.NetworkDevices
+26.SoftwareLicenses
+27.Accessories
+28.SecurityEquipment
+29.MobileDevices
+30.DataStorage
+31.Monitors
+32.ConferenceRoomEquipment
+33.VirtualizationInfrastructure
+34.ITTrainingMaterials
+35.BackupSystems
+36.CloudServices
+37.Workstations
+38.DataCenterHardware
+39.UPS
+40.VoIPPhones
+41.Laptops
+42.Desktops
+43.Servers
+44.Printers
+45.NetworkDevices
+46.SoftwareLicenses
+47.Accessories
+48.SecurityEquipment
+49.MobileDevices
+50.DataStorage
+51.Monitors
+52.ConferenceRoomEquipment
+53.VirtualizationInfrastructure
+54.ITTrainingMaterials
+55.BackupSystems
+56.CloudServices
+57.Workstations
+58.DataCenterHardware
+59.UPS
+60.VoIPPhones
+61.Laptops
+62.Desktops
+63.Servers
+64.Printers
+65.NetworkDevices
+66.SoftwareLicenses
+67.Accessories
+68.SecurityEquipment
+69.MobileDevices
+70.DataStorage
+71.Monitors
+72.ConferenceRoomEquipment
+73.VirtualizationInfrastructure
+74.ITTrainingMaterials
+75.BackupSystems
+76.CloudServices
+77.Workstations
+78.DataCenterHardware
+79.UPS
+80.VoIPPhones
+81.Laptops
+82.Desktops
+83.Servers
+84.Printers
+85.NetworkDevices
+86.SoftwareLicenses
+87.Accessories
+88.SecurityEquipment
+89.MobileDevices
+90.DataStorage
+91.Monitors
+92.ConferenceRoomEquipment
+93.VirtualizationInfrastructure
+94.ITTrainingMaterials
+95.BackupSystems
+96.CloudServices
+97.Workstations
+98.DataCenterHardware
+99.UPS
+100.VoIPPhones
+Choose Category
+Enter assetModel:
+Enter assetDescription:
+Enter assetLocation:
+Displaying All Locations
+1.Main Office
+2.IT Department
+3.Data Center
+4.Office Floor 1
+5.Server Room
+6.Software Repository
+7.Security Room
+8.Employees' Homes
+9.Training Room
+10.Office Cubicles
+11.Conference Rooms
+12.Cloud Platform
+13.Main Office
+14.IT Department
+15.Data Center
+16.Office Floor 1
+17.Server Room
+18.Software Repository
+19.Security Room
+20.Employees' Homes
+21.Training Room
+22.Office Cubicles
+23.Conference Rooms
+24.Cloud Platform
+25.Main Office
+26.IT Department
+27.Data Center
+28.Office Floor 1
+29.Server Room
+30.Software Repository
+31.Security Room
+32.Employees' Homes
+33.Training Room
+34.Office Cubicles
+35.Conference Rooms
+36.Cloud Platform
+37.Main Office
+38.IT Department
+39.Data Center
+40.Office Floor 1
+41.Server Room
+42.Software Repository
+43.Security Room
+44.Employees' Homes
+45.Training Room
+46.Office Cubicles
+47.Conference Rooms
+48.Cloud Platform
+49.Main Office
+50.IT Department
+51.Data Center
+52.Office Floor 1
+53.Server Room
+54.Software Repository
+55.Security Room
+56.Employees' Homes
+57.Training Room
+58.Office Cubicles
+59.Conference Rooms
+60.Cloud Platform
+Choose Location
+Enter expiryDate:
+Enter date format in (yyyy-MM-dd):
+Asset Created Successfully!!!!
+
+Asset details:
+AssetID: 2
+AssetName: Dell Monitor
+AssetCategory: Monitors
+AssetModel: 1250
+AssetDescription: Dell Monitor Description
+AssetLocation: Main Office
+AssetStatus: 0
+AssetStatus Formatted: UnAssigned
+AssetAcquisitionDate: 2023-12-11
+AssetExpiryDate: 2025-12-12
+.
+
+1. Retrieve Asset By ID
+2. Export Asset
+3. Exit
+Displaying All Assets:
+1:	AssetID: 1, AssetName: Dell Monitor, AssetCategory: Monitors, AssetModel: 1250, AssetDescription: Dell Monitor Description, AssetLocation: Main Office, AssetStatus: 0, AssetStatus Formatted: UnAssigned, AssetOwner (User) :John, AssetAcquisitionDate: 2023-12-12, AssetExpiryDate: 2025-12-12
+2:	AssetID: 2, AssetName: Dell Monitor, AssetCategory: Monitors, AssetModel: 1250, AssetDescription: Dell Monitor Description, AssetLocation: Main Office, AssetStatus: 0, AssetStatus Formatted: UnAssigned, AssetAcquisitionDate: 2023-12-11, AssetExpiryDate: 2025-12-12
+You have chosen the following Asset
+
+Asset details:
+AssetID: 1
+AssetName: Dell Monitor
+AssetCategory: Monitors
+AssetModel: 1250
+AssetDescription: Dell Monitor Description
+AssetLocation: Main Office
+AssetStatus: 0
+AssetStatus Formatted: UnAssigned
+AssetOwner (User) :John
+AssetAcquisitionDate: 2023-12-12
+AssetExpiryDate: 2025-12-12
+.
+
+1. Create New Asset
+2. Retrieve Asset By ID
+3. Update Existing Asset
+4. Delete Asset
+5. Import Asset
+6. Export Asset
+7. Move Asset
+8. Tag Asset By User
+9. Tag Asset By Project
+10. Mark Asset As Expired
+11. Mark Asset as Decommission
+12. Exit
+.
+
+1. Create New Asset
+2. Retrieve Asset By ID
+3. Update Existing Asset
+4. Delete Asset
+5. Import Asset
+6. Export Asset
+7. Move Asset
+8. Tag Asset By User
+9. Tag Asset By Project
+10. Mark Asset As Expired
+11. Mark Asset as Decommission
+12. Exit
+Displaying All Assets:
+1:	AssetID: 1, AssetName: Dell Monitor, AssetCategory: Monitors, AssetModel: 1250, AssetDescription: Dell Monitor Description, AssetLocation: Main Office, AssetStatus: 0, AssetStatus Formatted: UnAssigned, AssetOwner (User) :John, AssetAcquisitionDate: 2023-12-12, AssetExpiryDate: 2025-12-12
+2:	AssetID: 2, AssetName: Dell Monitor, AssetCategory: Monitors, AssetModel: 1250, AssetDescription: Dell Monitor Description, AssetLocation: Main Office, AssetStatus: 0, AssetStatus Formatted: UnAssigned, AssetAcquisitionDate: 2023-12-11, AssetExpiryDate: 2025-12-12
+You have chosen the following Asset
+
+Asset details:
+AssetID: 1
+AssetName: Dell Monitor
+AssetCategory: Monitors
+AssetModel: 1250
+AssetDescription: Dell Monitor Description
+AssetLocation: Main Office
+AssetStatus: 0
+AssetStatus Formatted: UnAssigned
+AssetOwner (User) :John
+AssetAcquisitionDate: 2023-12-12
+AssetExpiryDate: 2025-12-12
+Displaying All Users
+1.John
+2.Jane Smith
+3.Bob Johnson
+4.Alice Williams
+5.Charlie Brown
+6.Eva Davis
+7.Frank Miller
+8.Grace Turner
+9.Henry White
+10.Isabel Garcia
+11.Alice Johnson
+12.Bob Smith
+13.Charlie Davis
+14.Diana Garcia
+15.Eric Miller
+16.John
+17.Jane Smith
+18.Bob Johnson
+19.Alice Williams
+20.Charlie Brown
+21.Eva Davis
+22.Frank Miller
+23.Grace Turner
+24.Henry White
+25.Isabel Garcia
+26.John
+27.Jane Smith
+28.Bob Johnson
+29.Alice Williams
+30.Charlie Brown
+31.Eva Davis
+32.Frank Miller
+33.Grace Turner
+34.Henry White
+35.Isabel Garcia
+36.John
+37.Jane Smith
+38.Bob Johnson
+39.Alice Williams
+40.Charlie Brown
+41.Eva Davis
+42.Frank Miller
+43.Grace Turner
+44.Henry White
+45.Isabel Garcia
+46.John
+47.Jane Smith
+48.Bob Johnson
+49.Alice Williams
+50.Charlie Brown
+51.Eva Davis
+52.Frank Miller
+53.Grace Turner
+54.Henry White
+55.Isabel Garcia
+56.John
+57.Jane Smith
+58.Bob Johnson
+59.Alice Williams
+60.Charlie Brown
+61.Eva Davis
+62.Frank Miller
+63.Grace Turner
+64.Henry White
+65.Isabel Garcia
+66.John
+67.Jane Smith
+68.Bob Johnson
+69.Alice Williams
+70.Charlie Brown
+71.Eva Davis
+72.Frank Miller
+73.Grace Turner
+74.Henry White
+75.Isabel Garcia
+76.John
+77.Jane Smith
+78.Bob Johnson
+79.Alice Williams
+80.Charlie Brown
+81.Eva Davis
+82.Frank Miller
+83.Grace Turner
+84.Henry White
+85.Isabel Garcia
+Choose User
+Asset Assigned to userJohn Successfully
+.
+
+1. Create New Asset
+2. Retrieve Asset By ID
+3. Update Existing Asset
+4. Delete Asset
+5. Import Asset
+6. Export Asset
+7. Move Asset
+8. Tag Asset By User
+9. Tag Asset By Project
+10. Mark Asset As Expired
+11. Mark Asset as Decommission
+12. Exit
+Please Select Valid Option
+.
+
+1. Create New Asset
+2. Retrieve Asset By ID
+3. Update Existing Asset
+4. Delete Asset
+5. Import Asset
+6. Export Asset
+7. Move Asset
+8. Tag Asset By User
+9. Tag Asset By Project
+10. Mark Asset As Expired
+11. Mark Asset as Decommission
+12. Exit
+New Asset Creation....
+Enter assetName:
+Enter assetCategory:
+Displaying All Category
+1.Laptops
+2.Desktops
+3.Servers
+4.Printers
+5.NetworkDevices
+6.SoftwareLicenses
+7.Accessories
+8.SecurityEquipment
+9.MobileDevices
+10.DataStorage
+11.Monitors
+12.ConferenceRoomEquipment
+13.VirtualizationInfrastructure
+14.ITTrainingMaterials
+15.BackupSystems
+16.CloudServices
+17.Workstations
+18.DataCenterHardware
+19.UPS
+20.VoIPPhones
+21.Laptops
+22.Desktops
+23.Servers
+24.Printers
+25.NetworkDevices
+26.SoftwareLicenses
+27.Accessories
+28.SecurityEquipment
+29.MobileDevices
+30.DataStorage
+31.Monitors
+32.ConferenceRoomEquipment
+33.VirtualizationInfrastructure
+34.ITTrainingMaterials
+35.BackupSystems
+36.CloudServices
+37.Workstations
+38.DataCenterHardware
+39.UPS
+40.VoIPPhones
+41.Laptops
+42.Desktops
+43.Servers
+44.Printers
+45.NetworkDevices
+46.SoftwareLicenses
+47.Accessories
+48.SecurityEquipment
+49.MobileDevices
+50.DataStorage
+51.Monitors
+52.ConferenceRoomEquipment
+53.VirtualizationInfrastructure
+54.ITTrainingMaterials
+55.BackupSystems
+56.CloudServices
+57.Workstations
+58.DataCenterHardware
+59.UPS
+60.VoIPPhones
+61.Laptops
+62.Desktops
+63.Servers
+64.Printers
+65.NetworkDevices
+66.SoftwareLicenses
+67.Accessories
+68.SecurityEquipment
+69.MobileDevices
+70.DataStorage
+71.Monitors
+72.ConferenceRoomEquipment
+73.VirtualizationInfrastructure
+74.ITTrainingMaterials
+75.BackupSystems
+76.CloudServices
+77.Workstations
+78.DataCenterHardware
+79.UPS
+80.VoIPPhones
+81.Laptops
+82.Desktops
+83.Servers
+84.Printers
+85.NetworkDevices
+86.SoftwareLicenses
+87.Accessories
+88.SecurityEquipment
+89.MobileDevices
+90.DataStorage
+91.Monitors
+92.ConferenceRoomEquipment
+93.VirtualizationInfrastructure
+94.ITTrainingMaterials
+95.BackupSystems
+96.CloudServices
+97.Workstations
+98.DataCenterHardware
+99.UPS
+100.VoIPPhones
+101.Laptops
+102.Desktops
+103.Servers
+104.Printers
+105.NetworkDevices
+106.SoftwareLicenses
+107.Accessories
+108.SecurityEquipment
+109.MobileDevices
+110.DataStorage
+111.Monitors
+112.ConferenceRoomEquipment
+113.VirtualizationInfrastructure
+114.ITTrainingMaterials
+115.BackupSystems
+116.CloudServices
+117.Workstations
+118.DataCenterHardware
+119.UPS
+120.VoIPPhones
+121.Laptops
+122.Desktops
+123.Servers
+124.Printers
+125.NetworkDevices
+126.SoftwareLicenses
+127.Accessories
+128.SecurityEquipment
+129.MobileDevices
+130.DataStorage
+131.Monitors
+132.ConferenceRoomEquipment
+133.VirtualizationInfrastructure
+134.ITTrainingMaterials
+135.BackupSystems
+136.CloudServices
+137.Workstations
+138.DataCenterHardware
+139.UPS
+140.VoIPPhones
+141.Laptops
+142.Desktops
+143.Servers
+144.Printers
+145.NetworkDevices
+146.SoftwareLicenses
+147.Accessories
+148.SecurityEquipment
+149.MobileDevices
+150.DataStorage
+151.Monitors
+152.ConferenceRoomEquipment
+153.VirtualizationInfrastructure
+154.ITTrainingMaterials
+155.BackupSystems
+156.CloudServices
+157.Workstations
+158.DataCenterHardware
+159.UPS
+160.VoIPPhones
+161.Laptops
+162.Desktops
+163.Servers
+164.Printers
+165.NetworkDevices
+166.SoftwareLicenses
+167.Accessories
+168.SecurityEquipment
+169.MobileDevices
+170.DataStorage
+171.Monitors
+172.ConferenceRoomEquipment
+173.VirtualizationInfrastructure
+174.ITTrainingMaterials
+175.BackupSystems
+176.CloudServices
+177.Workstations
+178.DataCenterHardware
+179.UPS
+180.VoIPPhones
+181.Laptops
+182.Desktops
+183.Servers
+184.Printers
+185.NetworkDevices
+186.SoftwareLicenses
+187.Accessories
+188.SecurityEquipment
+189.MobileDevices
+190.DataStorage
+191.Monitors
+192.ConferenceRoomEquipment
+193.VirtualizationInfrastructure
+194.ITTrainingMaterials
+195.BackupSystems
+196.CloudServices
+197.Workstations
+198.DataCenterHardware
+199.UPS
+200.VoIPPhones
+Choose Category
+Enter assetModel:
+Enter assetDescription:
+Enter assetLocation:
+Displaying All Locations
+1.Main Office
+2.IT Department
+3.Data Center
+4.Office Floor 1
+5.Server Room
+6.Software Repository
+7.Security Room
+8.Employees' Homes
+9.Training Room
+10.Office Cubicles
+11.Conference Rooms
+12.Cloud Platform
+13.Main Office
+14.IT Department
+15.Data Center
+16.Office Floor 1
+17.Server Room
+18.Software Repository
+19.Security Room
+20.Employees' Homes
+21.Training Room
+22.Office Cubicles
+23.Conference Rooms
+24.Cloud Platform
+25.Main Office
+26.IT Department
+27.Data Center
+28.Office Floor 1
+29.Server Room
+30.Software Repository
+31.Security Room
+32.Employees' Homes
+33.Training Room
+34.Office Cubicles
+35.Conference Rooms
+36.Cloud Platform
+37.Main Office
+38.IT Department
+39.Data Center
+40.Office Floor 1
+41.Server Room
+42.Software Repository
+43.Security Room
+44.Employees' Homes
+45.Training Room
+46.Office Cubicles
+47.Conference Rooms
+48.Cloud Platform
+49.Main Office
+50.IT Department
+51.Data Center
+52.Office Floor 1
+53.Server Room
+54.Software Repository
+55.Security Room
+56.Employees' Homes
+57.Training Room
+58.Office Cubicles
+59.Conference Rooms
+60.Cloud Platform
+61.Main Office
+62.IT Department
+63.Data Center
+64.Office Floor 1
+65.Server Room
+66.Software Repository
+67.Security Room
+68.Employees' Homes
+69.Training Room
+70.Office Cubicles
+71.Conference Rooms
+72.Cloud Platform
+73.Main Office
+74.IT Department
+75.Data Center
+76.Office Floor 1
+77.Server Room
+78.Software Repository
+79.Security Room
+80.Employees' Homes
+81.Training Room
+82.Office Cubicles
+83.Conference Rooms
+84.Cloud Platform
+85.Main Office
+86.IT Department
+87.Data Center
+88.Office Floor 1
+89.Server Room
+90.Software Repository
+91.Security Room
+92.Employees' Homes
+93.Training Room
+94.Office Cubicles
+95.Conference Rooms
+96.Cloud Platform
+97.Main Office
+98.IT Department
+99.Data Center
+100.Office Floor 1
+101.Server Room
+102.Software Repository
+103.Security Room
+104.Employees' Homes
+105.Training Room
+106.Office Cubicles
+107.Conference Rooms
+108.Cloud Platform
+109.Main Office
+110.IT Department
+111.Data Center
+112.Office Floor 1
+113.Server Room
+114.Software Repository
+115.Security Room
+116.Employees' Homes
+117.Training Room
+118.Office Cubicles
+119.Conference Rooms
+120.Cloud Platform
+Choose Location
+Enter expiryDate:
+Enter date format in (yyyy-MM-dd):
+Asset Created Successfully!!!!
+
+Asset details:
+AssetID: 3
+AssetName: Dell Monitor
+AssetCategory: Monitors
+AssetModel: 1250
+AssetDescription: Dell Monitor Description
+AssetLocation: Main Office
+AssetStatus: 0
+AssetStatus Formatted: UnAssigned
+AssetAcquisitionDate: 2023-12-11
+AssetExpiryDate: 2025-12-12
+.
+
+1. Create New Asset
+2. Retrieve Asset By ID
+3. Update Existing Asset
+4. Delete Asset
+5. Import Asset
+6. Export Asset
+7. Move Asset
+8. Tag Asset By User
+9. Tag Asset By Project
+10. Mark Asset As Expired
+11. Mark Asset as Decommission
+12. Exit
+Displaying All Assets:
+1:	AssetID: 1, AssetName: Dell Monitor, AssetCategory: Monitors, AssetModel: 1250, AssetDescription: Dell Monitor Description, AssetLocation: Main Office, AssetStatus: 0, AssetStatus Formatted: UnAssigned, AssetOwner (User) :John, AssetAcquisitionDate: 2023-12-12, AssetExpiryDate: 2025-12-12
+2:	AssetID: 2, AssetName: Dell Monitor, AssetCategory: Monitors, AssetModel: 1250, AssetDescription: Dell Monitor Description, AssetLocation: Main Office, AssetStatus: 0, AssetStatus Formatted: UnAssigned, AssetAcquisitionDate: 2023-12-11, AssetExpiryDate: 2025-12-12
+3:	AssetID: 3, AssetName: Dell Monitor, AssetCategory: Monitors, AssetModel: 1250, AssetDescription: Dell Monitor Description, AssetLocation: Main Office, AssetStatus: 0, AssetStatus Formatted: UnAssigned, AssetAcquisitionDate: 2023-12-11, AssetExpiryDate: 2025-12-12
+You have chosen the following Asset
+
+Asset details:
+AssetID: 1
+AssetName: Dell Monitor
+AssetCategory: Monitors
+AssetModel: 1250
+AssetDescription: Dell Monitor Description
+AssetLocation: Main Office
+AssetStatus: 0
+AssetStatus Formatted: UnAssigned
+AssetOwner (User) :John
+AssetAcquisitionDate: 2023-12-12
+AssetExpiryDate: 2025-12-12
+Asset Deleted Successfully!!!!
+.
+
+1. Create New Asset
+2. Retrieve Asset By ID
+3. Update Existing Asset
+4. Delete Asset
+5. Import Asset
+6. Export Asset
+7. Move Asset
+8. Tag Asset By User
+9. Tag Asset By Project
+10. Mark Asset As Expired
+11. Mark Asset as Decommission
+12. Exit
+CSV Exported Successfully
+Export Completed
+.
+
+1. Create New Asset
+2. Retrieve Asset By ID
+3. Update Existing Asset
+4. Delete Asset
+5. Import Asset
+6. Export Asset
+7. Move Asset
+8. Tag Asset By User
+9. Tag Asset By Project
+10. Mark Asset As Expired
+11. Mark Asset as Decommission
+12. Exit
+Please provide Absolute Path to Import
+Import Successfully Completed
+.
+
+1. Retrieve Asset By ID
+2. Exit
+Displaying All Assets:
+1:	AssetID: 1, AssetName: Dell Monitor, AssetCategory: Monitors, AssetModel: 1250, AssetDescription: Dell Monitor Description, AssetLocation: Main Office, AssetStatus: 0, AssetStatus Formatted: UnAssigned, AssetOwner (User) :John, AssetAcquisitionDate: 2023-12-12, AssetExpiryDate: 2025-12-12
+2:	AssetID: 2, AssetName: Dell Monitor, AssetCategory: Monitors, AssetModel: 1250, AssetDescription: Dell Monitor Description, AssetLocation: Main Office, AssetStatus: 0, AssetStatus Formatted: UnAssigned, AssetAcquisitionDate: 2023-12-11, AssetExpiryDate: 2025-12-12
+3:	AssetID: 3, AssetName: Dell Monitor, AssetCategory: Monitors, AssetModel: 1250, AssetDescription: Dell Monitor Description, AssetLocation: Main Office, AssetStatus: 0, AssetStatus Formatted: UnAssigned, AssetAcquisitionDate: 2023-12-11, AssetExpiryDate: 2025-12-12
+4:	AssetID: 4, AssetName: Laptop, AssetCategory: Laptop, AssetModel: ModelABC, AssetDescription: High-performance laptop, AssetLocation: Room101, AssetStatus: 0, AssetStatus Formatted: UnAssigned, AssetAcquisitionDate: 2022-01-01, AssetExpiryDate: 2024-01-01
+5:	AssetID: 5, AssetName: Printer, AssetCategory: Printer, AssetModel: ModelXYZ, AssetDescription: Fast color printer, AssetLocation: Room102, AssetStatus: 0, AssetStatus Formatted: UnAssigned, AssetAcquisitionDate: 2022-02-01, AssetExpiryDate: 2024-02-01
+6:	AssetID: 6, AssetName: Desktop, AssetCategory: Desktop, AssetModel: Model123, AssetDescription: Powerful desktop computer, AssetLocation: Room103, AssetStatus: 0, AssetStatus Formatted: UnAssigned, AssetAcquisitionDate: 2022-03-01, AssetExpiryDate: 2024-03-01
+7:	AssetID: 7, AssetName: Monitor, AssetCategory: Monitor, AssetModel: Model456, AssetDescription: High-resolution monitor, AssetLocation: Room104, AssetStatus: 0, AssetStatus Formatted: UnAssigned, AssetAcquisitionDate: 2022-04-01, AssetExpiryDate: 2024-04-01
+8:	AssetID: 8, AssetName: Projector, AssetCategory: Projector, AssetModel: Model789, AssetDescription: HD projector for presentations, AssetLocation: Room105, AssetStatus: 0, AssetStatus Formatted: UnAssigned, AssetAcquisitionDate: 2022-05-01, AssetExpiryDate: 2024-05-01
+9:	AssetID: 9, AssetName: Scanner, AssetCategory: Scanner, AssetModel: ModelDEF, AssetDescription: Document scanner, AssetLocation: Room106, AssetStatus: 0, AssetStatus Formatted: UnAssigned, AssetAcquisitionDate: 2022-06-01, AssetExpiryDate: 2024-06-01
+10:	AssetID: 10, AssetName: Phone, AssetCategory: Phone, AssetModel: ModelGHI, AssetDescription: Smartphone with advanced features, AssetLocation: Room107, AssetStatus: 0, AssetStatus Formatted: UnAssigned, AssetAcquisitionDate: 2022-07-01, AssetExpiryDate: 2024-07-01
+11:	AssetID: 11, AssetName: Tablet, AssetCategory: Tablet, AssetModel: ModelJKL, AssetDescription: Portable tablet device, AssetLocation: Room108, AssetStatus: 0, AssetStatus Formatted: UnAssigned, AssetAcquisitionDate: 2022-08-01, AssetExpiryDate: 2024-08-01
+12:	AssetID: 12, AssetName: Server, AssetCategory: Server, AssetModel: ModelMNO, AssetDescription: Enterprise-grade server, AssetLocation: Room109, AssetStatus: 0, AssetStatus Formatted: UnAssigned, AssetAcquisitionDate: 2022-09-01, AssetExpiryDate: 2024-09-01
+13:	AssetID: 13, AssetName: Camera, AssetCategory: Camera, AssetModel: ModelPQR, AssetDescription: Professional-grade camera, AssetLocation: Room110, AssetStatus: 0, AssetStatus Formatted: UnAssigned, AssetAcquisitionDate: 2022-10-01, AssetExpiryDate: 2024-10-01
+You have chosen the following Asset
+
+Asset details:
+AssetID: 1
+AssetName: Dell Monitor
+AssetCategory: Monitors
+AssetModel: 1250
+AssetDescription: Dell Monitor Description
+AssetLocation: Main Office
+AssetStatus: 0
+AssetStatus Formatted: UnAssigned
+AssetOwner (User) :John
+AssetAcquisitionDate: 2023-12-12
+AssetExpiryDate: 2025-12-12
+.
+
+1. Create New Asset
+2. Retrieve Asset By ID
+3. Update Existing Asset
+4. Delete Asset
+5. Import Asset
+6. Export Asset
+7. Move Asset
+8. Tag Asset By User
+9. Tag Asset By Project
+10. Mark Asset As Expired
+11. Mark Asset as Decommission
+12. Exit
+Displaying All Assets:
+1:	AssetID: 1, AssetName: Dell Monitor, AssetCategory: Monitors, AssetModel: 1250, AssetDescription: Dell Monitor Description, AssetLocation: Main Office, AssetStatus: 0, AssetStatus Formatted: UnAssigned, AssetOwner (User) :John, AssetAcquisitionDate: 2023-12-12, AssetExpiryDate: 2025-12-12
+2:	AssetID: 2, AssetName: Dell Monitor, AssetCategory: Monitors, AssetModel: 1250, AssetDescription: Dell Monitor Description, AssetLocation: Main Office, AssetStatus: 0, AssetStatus Formatted: UnAssigned, AssetAcquisitionDate: 2023-12-11, AssetExpiryDate: 2025-12-12
+3:	AssetID: 3, AssetName: Dell Monitor, AssetCategory: Monitors, AssetModel: 1250, AssetDescription: Dell Monitor Description, AssetLocation: Main Office, AssetStatus: 0, AssetStatus Formatted: UnAssigned, AssetAcquisitionDate: 2023-12-11, AssetExpiryDate: 2025-12-12
+4:	AssetID: 4, AssetName: Laptop, AssetCategory: Laptop, AssetModel: ModelABC, AssetDescription: High-performance laptop, AssetLocation: Room101, AssetStatus: 0, AssetStatus Formatted: UnAssigned, AssetAcquisitionDate: 2022-01-01, AssetExpiryDate: 2024-01-01
+5:	AssetID: 5, AssetName: Printer, AssetCategory: Printer, AssetModel: ModelXYZ, AssetDescription: Fast color printer, AssetLocation: Room102, AssetStatus: 0, AssetStatus Formatted: UnAssigned, AssetAcquisitionDate: 2022-02-01, AssetExpiryDate: 2024-02-01
+6:	AssetID: 6, AssetName: Desktop, AssetCategory: Desktop, AssetModel: Model123, AssetDescription: Powerful desktop computer, AssetLocation: Room103, AssetStatus: 0, AssetStatus Formatted: UnAssigned, AssetAcquisitionDate: 2022-03-01, AssetExpiryDate: 2024-03-01
+7:	AssetID: 7, AssetName: Monitor, AssetCategory: Monitor, AssetModel: Model456, AssetDescription: High-resolution monitor, AssetLocation: Room104, AssetStatus: 0, AssetStatus Formatted: UnAssigned, AssetAcquisitionDate: 2022-04-01, AssetExpiryDate: 2024-04-01
+8:	AssetID: 8, AssetName: Projector, AssetCategory: Projector, AssetModel: Model789, AssetDescription: HD projector for presentations, AssetLocation: Room105, AssetStatus: 0, AssetStatus Formatted: UnAssigned, AssetAcquisitionDate: 2022-05-01, AssetExpiryDate: 2024-05-01
+9:	AssetID: 9, AssetName: Scanner, AssetCategory: Scanner, AssetModel: ModelDEF, AssetDescription: Document scanner, AssetLocation: Room106, AssetStatus: 0, AssetStatus Formatted: UnAssigned, AssetAcquisitionDate: 2022-06-01, AssetExpiryDate: 2024-06-01
+10:	AssetID: 10, AssetName: Phone, AssetCategory: Phone, AssetModel: ModelGHI, AssetDescription: Smartphone with advanced features, AssetLocation: Room107, AssetStatus: 0, AssetStatus Formatted: UnAssigned, AssetAcquisitionDate: 2022-07-01, AssetExpiryDate: 2024-07-01
+11:	AssetID: 11, AssetName: Tablet, AssetCategory: Tablet, AssetModel: ModelJKL, AssetDescription: Portable tablet device, AssetLocation: Room108, AssetStatus: 0, AssetStatus Formatted: UnAssigned, AssetAcquisitionDate: 2022-08-01, AssetExpiryDate: 2024-08-01
+12:	AssetID: 12, AssetName: Server, AssetCategory: Server, AssetModel: ModelMNO, AssetDescription: Enterprise-grade server, AssetLocation: Room109, AssetStatus: 0, AssetStatus Formatted: UnAssigned, AssetAcquisitionDate: 2022-09-01, AssetExpiryDate: 2024-09-01
+13:	AssetID: 13, AssetName: Camera, AssetCategory: Camera, AssetModel: ModelPQR, AssetDescription: Professional-grade camera, AssetLocation: Room110, AssetStatus: 0, AssetStatus Formatted: UnAssigned, AssetAcquisitionDate: 2022-10-01, AssetExpiryDate: 2024-10-01
+You have chosen the following Asset
+
+Asset details:
+AssetID: 1
+AssetName: Dell Monitor
+AssetCategory: Monitors
+AssetModel: 1250
+AssetDescription: Dell Monitor Description
+AssetLocation: Main Office
+AssetStatus: 0
+AssetStatus Formatted: UnAssigned
+AssetOwner (User) :John
+AssetAcquisitionDate: 2023-12-12
+AssetExpiryDate: 2025-12-12
+Enter assetName:
+Enter assetCategory:
+Displaying All Category
+1.Laptops
+2.Desktops
+3.Servers
+4.Printers
+5.NetworkDevices
+6.SoftwareLicenses
+7.Accessories
+8.SecurityEquipment
+9.MobileDevices
+10.DataStorage
+11.Monitors
+12.ConferenceRoomEquipment
+13.VirtualizationInfrastructure
+14.ITTrainingMaterials
+15.BackupSystems
+16.CloudServices
+17.Workstations
+18.DataCenterHardware
+19.UPS
+20.VoIPPhones
+21.Laptops
+22.Desktops
+23.Servers
+24.Printers
+25.NetworkDevices
+26.SoftwareLicenses
+27.Accessories
+28.SecurityEquipment
+29.MobileDevices
+30.DataStorage
+31.Monitors
+32.ConferenceRoomEquipment
+33.VirtualizationInfrastructure
+34.ITTrainingMaterials
+35.BackupSystems
+36.CloudServices
+37.Workstations
+38.DataCenterHardware
+39.UPS
+40.VoIPPhones
+41.Laptops
+42.Desktops
+43.Servers
+44.Printers
+45.NetworkDevices
+46.SoftwareLicenses
+47.Accessories
+48.SecurityEquipment
+49.MobileDevices
+50.DataStorage
+51.Monitors
+52.ConferenceRoomEquipment
+53.VirtualizationInfrastructure
+54.ITTrainingMaterials
+55.BackupSystems
+56.CloudServices
+57.Workstations
+58.DataCenterHardware
+59.UPS
+60.VoIPPhones
+61.Laptops
+62.Desktops
+63.Servers
+64.Printers
+65.NetworkDevices
+66.SoftwareLicenses
+67.Accessories
+68.SecurityEquipment
+69.MobileDevices
+70.DataStorage
+71.Monitors
+72.ConferenceRoomEquipment
+73.VirtualizationInfrastructure
+74.ITTrainingMaterials
+75.BackupSystems
+76.CloudServices
+77.Workstations
+78.DataCenterHardware
+79.UPS
+80.VoIPPhones
+81.Laptops
+82.Desktops
+83.Servers
+84.Printers
+85.NetworkDevices
+86.SoftwareLicenses
+87.Accessories
+88.SecurityEquipment
+89.MobileDevices
+90.DataStorage
+91.Monitors
+92.ConferenceRoomEquipment
+93.VirtualizationInfrastructure
+94.ITTrainingMaterials
+95.BackupSystems
+96.CloudServices
+97.Workstations
+98.DataCenterHardware
+99.UPS
+100.VoIPPhones
+101.Laptops
+102.Desktops
+103.Servers
+104.Printers
+105.NetworkDevices
+106.SoftwareLicenses
+107.Accessories
+108.SecurityEquipment
+109.MobileDevices
+110.DataStorage
+111.Monitors
+112.ConferenceRoomEquipment
+113.VirtualizationInfrastructure
+114.ITTrainingMaterials
+115.BackupSystems
+116.CloudServices
+117.Workstations
+118.DataCenterHardware
+119.UPS
+120.VoIPPhones
+121.Laptops
+122.Desktops
+123.Servers
+124.Printers
+125.NetworkDevices
+126.SoftwareLicenses
+127.Accessories
+128.SecurityEquipment
+129.MobileDevices
+130.DataStorage
+131.Monitors
+132.ConferenceRoomEquipment
+133.VirtualizationInfrastructure
+134.ITTrainingMaterials
+135.BackupSystems
+136.CloudServices
+137.Workstations
+138.DataCenterHardware
+139.UPS
+140.VoIPPhones
+141.Laptops
+142.Desktops
+143.Servers
+144.Printers
+145.NetworkDevices
+146.SoftwareLicenses
+147.Accessories
+148.SecurityEquipment
+149.MobileDevices
+150.DataStorage
+151.Monitors
+152.ConferenceRoomEquipment
+153.VirtualizationInfrastructure
+154.ITTrainingMaterials
+155.BackupSystems
+156.CloudServices
+157.Workstations
+158.DataCenterHardware
+159.UPS
+160.VoIPPhones
+161.Laptops
+162.Desktops
+163.Servers
+164.Printers
+165.NetworkDevices
+166.SoftwareLicenses
+167.Accessories
+168.SecurityEquipment
+169.MobileDevices
+170.DataStorage
+171.Monitors
+172.ConferenceRoomEquipment
+173.VirtualizationInfrastructure
+174.ITTrainingMaterials
+175.BackupSystems
+176.CloudServices
+177.Workstations
+178.DataCenterHardware
+179.UPS
+180.VoIPPhones
+181.Laptops
+182.Desktops
+183.Servers
+184.Printers
+185.NetworkDevices
+186.SoftwareLicenses
+187.Accessories
+188.SecurityEquipment
+189.MobileDevices
+190.DataStorage
+191.Monitors
+192.ConferenceRoomEquipment
+193.VirtualizationInfrastructure
+194.ITTrainingMaterials
+195.BackupSystems
+196.CloudServices
+197.Workstations
+198.DataCenterHardware
+199.UPS
+200.VoIPPhones
+201.Laptops
+202.Desktops
+203.Servers
+204.Printers
+205.NetworkDevices
+206.SoftwareLicenses
+207.Accessories
+208.SecurityEquipment
+209.MobileDevices
+210.DataStorage
+211.Monitors
+212.ConferenceRoomEquipment
+213.VirtualizationInfrastructure
+214.ITTrainingMaterials
+215.BackupSystems
+216.CloudServices
+217.Workstations
+218.DataCenterHardware
+219.UPS
+220.VoIPPhones
+221.Laptops
+222.Desktops
+223.Servers
+224.Printers
+225.NetworkDevices
+226.SoftwareLicenses
+227.Accessories
+228.SecurityEquipment
+229.MobileDevices
+230.DataStorage
+231.Monitors
+232.ConferenceRoomEquipment
+233.VirtualizationInfrastructure
+234.ITTrainingMaterials
+235.BackupSystems
+236.CloudServices
+237.Workstations
+238.DataCenterHardware
+239.UPS
+240.VoIPPhones
+241.Laptops
+242.Desktops
+243.Servers
+244.Printers
+245.NetworkDevices
+246.SoftwareLicenses
+247.Accessories
+248.SecurityEquipment
+249.MobileDevices
+250.DataStorage
+251.Monitors
+252.ConferenceRoomEquipment
+253.VirtualizationInfrastructure
+254.ITTrainingMaterials
+255.BackupSystems
+256.CloudServices
+257.Workstations
+258.DataCenterHardware
+259.UPS
+260.VoIPPhones
+261.Laptop
+262.Printer
+263.Desktop
+264.Monitor
+265.Projector
+266.Scanner
+267.Phone
+268.Tablet
+269.Server
+270.Camera
+271.Laptops
+272.Desktops
+273.Servers
+274.Printers
+275.NetworkDevices
+276.SoftwareLicenses
+277.Accessories
+278.SecurityEquipment
+279.MobileDevices
+280.DataStorage
+281.Monitors
+282.ConferenceRoomEquipment
+283.VirtualizationInfrastructure
+284.ITTrainingMaterials
+285.BackupSystems
+286.CloudServices
+287.Workstations
+288.DataCenterHardware
+289.UPS
+290.VoIPPhones
+291.Laptops
+292.Desktops
+293.Servers
+294.Printers
+295.NetworkDevices
+296.SoftwareLicenses
+297.Accessories
+298.SecurityEquipment
+299.MobileDevices
+300.DataStorage
+301.Monitors
+302.ConferenceRoomEquipment
+303.VirtualizationInfrastructure
+304.ITTrainingMaterials
+305.BackupSystems
+306.CloudServices
+307.Workstations
+308.DataCenterHardware
+309.UPS
+310.VoIPPhones
+Choose Category
+Enter assetModel:
+Enter assetDescription:
+Enter assetLocation:
+Displaying All Locations
+1.Main Office
+2.IT Department
+3.Data Center
+4.Office Floor 1
+5.Server Room
+6.Software Repository
+7.Security Room
+8.Employees' Homes
+9.Training Room
+10.Office Cubicles
+11.Conference Rooms
+12.Cloud Platform
+13.Main Office
+14.IT Department
+15.Data Center
+16.Office Floor 1
+17.Server Room
+18.Software Repository
+19.Security Room
+20.Employees' Homes
+21.Training Room
+22.Office Cubicles
+23.Conference Rooms
+24.Cloud Platform
+25.Main Office
+26.IT Department
+27.Data Center
+28.Office Floor 1
+29.Server Room
+30.Software Repository
+31.Security Room
+32.Employees' Homes
+33.Training Room
+34.Office Cubicles
+35.Conference Rooms
+36.Cloud Platform
+37.Main Office
+38.IT Department
+39.Data Center
+40.Office Floor 1
+41.Server Room
+42.Software Repository
+43.Security Room
+44.Employees' Homes
+45.Training Room
+46.Office Cubicles
+47.Conference Rooms
+48.Cloud Platform
+49.Main Office
+50.IT Department
+51.Data Center
+52.Office Floor 1
+53.Server Room
+54.Software Repository
+55.Security Room
+56.Employees' Homes
+57.Training Room
+58.Office Cubicles
+59.Conference Rooms
+60.Cloud Platform
+61.Main Office
+62.IT Department
+63.Data Center
+64.Office Floor 1
+65.Server Room
+66.Software Repository
+67.Security Room
+68.Employees' Homes
+69.Training Room
+70.Office Cubicles
+71.Conference Rooms
+72.Cloud Platform
+73.Main Office
+74.IT Department
+75.Data Center
+76.Office Floor 1
+77.Server Room
+78.Software Repository
+79.Security Room
+80.Employees' Homes
+81.Training Room
+82.Office Cubicles
+83.Conference Rooms
+84.Cloud Platform
+85.Main Office
+86.IT Department
+87.Data Center
+88.Office Floor 1
+89.Server Room
+90.Software Repository
+91.Security Room
+92.Employees' Homes
+93.Training Room
+94.Office Cubicles
+95.Conference Rooms
+96.Cloud Platform
+97.Main Office
+98.IT Department
+99.Data Center
+100.Office Floor 1
+101.Server Room
+102.Software Repository
+103.Security Room
+104.Employees' Homes
+105.Training Room
+106.Office Cubicles
+107.Conference Rooms
+108.Cloud Platform
+109.Main Office
+110.IT Department
+111.Data Center
+112.Office Floor 1
+113.Server Room
+114.Software Repository
+115.Security Room
+116.Employees' Homes
+117.Training Room
+118.Office Cubicles
+119.Conference Rooms
+120.Cloud Platform
+121.Main Office
+122.IT Department
+123.Data Center
+124.Office Floor 1
+125.Server Room
+126.Software Repository
+127.Security Room
+128.Employees' Homes
+129.Training Room
+130.Office Cubicles
+131.Conference Rooms
+132.Cloud Platform
+133.Main Office
+134.IT Department
+135.Data Center
+136.Office Floor 1
+137.Server Room
+138.Software Repository
+139.Security Room
+140.Employees' Homes
+141.Training Room
+142.Office Cubicles
+143.Conference Rooms
+144.Cloud Platform
+145.Main Office
+146.IT Department
+147.Data Center
+148.Office Floor 1
+149.Server Room
+150.Software Repository
+151.Security Room
+152.Employees' Homes
+153.Training Room
+154.Office Cubicles
+155.Conference Rooms
+156.Cloud Platform
+157.Room101
+158.Room102
+159.Room103
+160.Room104
+161.Room105
+162.Room106
+163.Room107
+164.Room108
+165.Room109
+166.Room110
+167.Main Office
+168.IT Department
+169.Data Center
+170.Office Floor 1
+171.Server Room
+172.Software Repository
+173.Security Room
+174.Employees' Homes
+175.Training Room
+176.Office Cubicles
+177.Conference Rooms
+178.Cloud Platform
+179.Main Office
+180.IT Department
+181.Data Center
+182.Office Floor 1
+183.Server Room
+184.Software Repository
+185.Security Room
+186.Employees' Homes
+187.Training Room
+188.Office Cubicles
+189.Conference Rooms
+190.Cloud Platform
+Choose Location
+Enter expiryDate:
+Enter date format in (yyyy-MM-dd):
+Asset Updated Successfully!!!!
+
+Asset details:
+AssetID: 1
+AssetName: HP Monitor
+AssetCategory: Monitors
+AssetModel: 1250
+AssetDescription: HP Monitor Description
+AssetLocation: Main Office
+AssetStatus: 0
+AssetStatus Formatted: UnAssigned
+AssetOwner (User) :John
+AssetAcquisitionDate: 2023-12-12
+AssetExpiryDate: 2025-12-12
+.
+
+1. Create New Asset
+2. Retrieve Asset By ID
+3. Update Existing Asset
+4. Delete Asset
+5. Import Asset
+6. Export Asset
+7. Move Asset
+8. Tag Asset By User
+9. Tag Asset By Project
+10. Mark Asset As Expired
+11. Mark Asset as Decommission
+12. Exit
+Displaying All Assets:
+1:	AssetID: 1, AssetName: Dell Monitor, AssetCategory: Monitors, AssetModel: 1250, AssetDescription: Dell Monitor Description, AssetLocation: Main Office, AssetStatus: 0, AssetStatus Formatted: UnAssigned, AssetOwner (Project) :Website Redesign, AssetAcquisitionDate: 2023-12-12, AssetExpiryDate: 2025-12-12
+2:	AssetID: 2, AssetName: Dell Monitor, AssetCategory: Monitors, AssetModel: 1250, AssetDescription: Dell Monitor Description, AssetLocation: Main Office, AssetStatus: 0, AssetStatus Formatted: UnAssigned, AssetAcquisitionDate: 2023-12-11, AssetExpiryDate: 2025-12-12
+3:	AssetID: 3, AssetName: Dell Monitor, AssetCategory: Monitors, AssetModel: 1250, AssetDescription: Dell Monitor Description, AssetLocation: Main Office, AssetStatus: 0, AssetStatus Formatted: UnAssigned, AssetAcquisitionDate: 2023-12-11, AssetExpiryDate: 2025-12-12
+4:	AssetID: 4, AssetName: Laptop, AssetCategory: Laptop, AssetModel: ModelABC, AssetDescription: High-performance laptop, AssetLocation: Room101, AssetStatus: 0, AssetStatus Formatted: UnAssigned, AssetAcquisitionDate: 2022-01-01, AssetExpiryDate: 2024-01-01
+5:	AssetID: 5, AssetName: Printer, AssetCategory: Printer, AssetModel: ModelXYZ, AssetDescription: Fast color printer, AssetLocation: Room102, AssetStatus: 0, AssetStatus Formatted: UnAssigned, AssetAcquisitionDate: 2022-02-01, AssetExpiryDate: 2024-02-01
+6:	AssetID: 6, AssetName: Desktop, AssetCategory: Desktop, AssetModel: Model123, AssetDescription: Powerful desktop computer, AssetLocation: Room103, AssetStatus: 0, AssetStatus Formatted: UnAssigned, AssetAcquisitionDate: 2022-03-01, AssetExpiryDate: 2024-03-01
+7:	AssetID: 7, AssetName: Monitor, AssetCategory: Monitor, AssetModel: Model456, AssetDescription: High-resolution monitor, AssetLocation: Room104, AssetStatus: 0, AssetStatus Formatted: UnAssigned, AssetAcquisitionDate: 2022-04-01, AssetExpiryDate: 2024-04-01
+8:	AssetID: 8, AssetName: Projector, AssetCategory: Projector, AssetModel: Model789, AssetDescription: HD projector for presentations, AssetLocation: Room105, AssetStatus: 0, AssetStatus Formatted: UnAssigned, AssetAcquisitionDate: 2022-05-01, AssetExpiryDate: 2024-05-01
+9:	AssetID: 9, AssetName: Scanner, AssetCategory: Scanner, AssetModel: ModelDEF, AssetDescription: Document scanner, AssetLocation: Room106, AssetStatus: 0, AssetStatus Formatted: UnAssigned, AssetAcquisitionDate: 2022-06-01, AssetExpiryDate: 2024-06-01
+10:	AssetID: 10, AssetName: Phone, AssetCategory: Phone, AssetModel: ModelGHI, AssetDescription: Smartphone with advanced features, AssetLocation: Room107, AssetStatus: 0, AssetStatus Formatted: UnAssigned, AssetAcquisitionDate: 2022-07-01, AssetExpiryDate: 2024-07-01
+11:	AssetID: 11, AssetName: Tablet, AssetCategory: Tablet, AssetModel: ModelJKL, AssetDescription: Portable tablet device, AssetLocation: Room108, AssetStatus: 0, AssetStatus Formatted: UnAssigned, AssetAcquisitionDate: 2022-08-01, AssetExpiryDate: 2024-08-01
+12:	AssetID: 12, AssetName: Server, AssetCategory: Server, AssetModel: ModelMNO, AssetDescription: Enterprise-grade server, AssetLocation: Room109, AssetStatus: 0, AssetStatus Formatted: UnAssigned, AssetAcquisitionDate: 2022-09-01, AssetExpiryDate: 2024-09-01
+13:	AssetID: 13, AssetName: Camera, AssetCategory: Camera, AssetModel: ModelPQR, AssetDescription: Professional-grade camera, AssetLocation: Room110, AssetStatus: 0, AssetStatus Formatted: UnAssigned, AssetAcquisitionDate: 2022-10-01, AssetExpiryDate: 2024-10-01
+You have chosen the following Asset
+
+Asset details:
+AssetID: 1
+AssetName: Dell Monitor
+AssetCategory: Monitors
+AssetModel: 1250
+AssetDescription: Dell Monitor Description
+AssetLocation: Main Office
+AssetStatus: 0
+AssetStatus Formatted: UnAssigned
+AssetOwner (Project) :Website Redesign
+AssetAcquisitionDate: 2023-12-12
+AssetExpiryDate: 2025-12-12
+Marked As Expired!
+
+Time: 0.08
+
+OK (16 tests)
+
+No of Tests present in the class AssetHandlerTest: 16
+No of Test Cases Executed Successfully For the class AssetHandlerTest: 16
+Running tests for class: handler.AssetRequestHandlerTest
+JUnit version 4.13.2
+.
+
+1. Create New Asset Request
+2. Retrieve Request By ID
+3. Update Asset Request
+4. Delete Asset Request
+5. View Open Asset Request (All Open Asset Request) 
+6. View All Asset Request
+7. Approve Asset Request
+8. Reject Asset Request
+9. Comment on Asset Request
+10. Exit
+1:	Asset RequestID : 1, Request Date: 2023-12-12, Request Status: 0, Request Status Formatted: Open, Request Description: Asset Request Description, Asset Info: [{AssetName: Laptop, AssetCategory: Laptop, AssetModel: ModelABC, AssetDescription: High-performance laptop}{AssetName: Printer, AssetCategory: Printer, AssetModel: ModelXYZ, AssetDescription: Fast color printer}], Requester Assignee: John, Comment: [{John:Test Comment 1}]Requester Name: JohnYou have chosen the following Request
+
+AssetRequest details:
+Asset RequestID : 1
+Request Date: 2023-12-12
+Request Status: 0
+Request Status Formatted: Open
+Request Description: Asset Request Description
+Asset Info: 
+[{
+AssetName: Laptop
+AssetCategory: Laptop
+AssetModel: ModelABC
+AssetDescription: High-performance laptop
+}
+{
+AssetName: Printer
+AssetCategory: Printer
+AssetModel: ModelXYZ
+AssetDescription: Fast color printer
+}
+]
+Requester Name: John
+Requester Assignee: John
+Comment: 
+[
+{
+John:Test Comment 1
+}
+]
+.
+
+1. Create New Asset Request
+2. Retrieve Request By ID
+3. Update Asset Request
+4. Delete Asset Request
+5. View Open Asset Request (All Open Asset Request) 
+6. View All Asset Request
+7. Approve Asset Request
+8. Reject Asset Request
+9. Comment on Asset Request
+10. Exit
+1:	Asset RequestID : 1, Request Date: 2023-12-12, Request Status: 0, Request Status Formatted: Open, Request Description: Asset Request Description, Asset Info: [{AssetName: Laptop, AssetCategory: Laptop, AssetModel: ModelABC, AssetDescription: High-performance laptop}{AssetName: Printer, AssetCategory: Printer, AssetModel: ModelXYZ, AssetDescription: Fast color printer}], Requester Assignee: John, Comment: [{John:Test Comment 1}]Requester Name: JohnRequest Rejected!
+.
+
+1. Create New Asset Request
+2. Retrieve Request By ID
+3. Update Asset Request
+4. Delete Asset Request
+5. View Open Asset Request (All Open Asset Request) 
+6. View All Asset Request
+7. Approve Asset Request
+8. Reject Asset Request
+9. Comment on Asset Request
+10. Exit
+1:	Asset RequestID : 1, Request Date: 2023-12-12, Request Status: 0, Request Status Formatted: Open, Request Description: Asset Request Description, Asset Info: [{AssetName: Laptop, AssetCategory: Laptop, AssetModel: ModelABC, AssetDescription: High-performance laptop}{AssetName: Printer, AssetCategory: Printer, AssetModel: ModelXYZ, AssetDescription: Fast color printer}], Requester Assignee: John, Comment: [{John:Test Comment 1}]Requester Name: John
+Enter Comment
+.
+
+1. Create New Asset Request
+2. Retrieve Request By ID
+3. Update Asset Request
+4. Delete Asset Request
+5. View Open Asset Request (All Open Asset Request) 
+6. View All Asset Request
+7. Approve Asset Request
+8. Reject Asset Request
+9. Comment on Asset Request
+10. Exit
+Displaying Request:
+1:	Asset RequestID : 1, Request Date: 2023-12-12, Request Status: 0, Request Status Formatted: Open, Request Description: Asset Request Description, Asset Info: [{AssetName: Laptop, AssetCategory: Laptop, AssetModel: ModelABC, AssetDescription: High-performance laptop}{AssetName: Printer, AssetCategory: Printer, AssetModel: ModelXYZ, AssetDescription: Fast color printer}], Requester Assignee: John, Comment: [{John:Test Comment 1}]Requester Name: John.
+
+1. Create New Asset Request
+2. Retrieve Request By ID
+3. Update Asset Request
+4. Delete Asset Request
+5. View Open Asset Request (All Open Asset Request) 
+6. View All Asset Request
+7. Approve Asset Request
+8. Reject Asset Request
+9. Comment on Asset Request
+10. Exit
+1:	Asset RequestID : 1, Request Date: 2023-12-12, Request Status: 0, Request Status Formatted: Open, Request Description: Asset Request Description, Asset Info: [{AssetName: Laptop, AssetCategory: Laptop, AssetModel: ModelABC, AssetDescription: High-performance laptop}{AssetName: Printer, AssetCategory: Printer, AssetModel: ModelXYZ, AssetDescription: Fast color printer}], Requester Assignee: John, Comment: [{John:Test Comment 1}]Requester Name: JohnRequest Approved Successfully!!!
+.
+
+1. Create New Asset Request
+2. Retrieve Request By ID
+3. Update Asset Request
+4. Delete Asset Request
+5. View Open Asset Request (All Open Asset Request) 
+6. View All Asset Request
+7. Approve Asset Request
+8. Reject Asset Request
+9. Comment on Asset Request
+10. Exit
+.
+
+1. Create New Asset Request
+2. Retrieve Request By ID
+3. Update Asset Request
+4. Delete Asset Request
+5. View Open Asset Request (All Open Asset Request) 
+6. View All Asset Request
+7. Approve Asset Request
+8. Reject Asset Request
+9. Comment on Asset Request
+10. Exit
+Asset RequestID : 1, Request Date: 2023-12-12, Request Status: 0, Request Status Formatted: Open, Request Description: Asset Request Description, Asset Info: [{AssetName: Laptop, AssetCategory: Laptop, AssetModel: ModelABC, AssetDescription: High-performance laptop}{AssetName: Printer, AssetCategory: Printer, AssetModel: ModelXYZ, AssetDescription: Fast color printer}], Requester Assignee: John, Comment: [{John:Test Comment 1}]Requester Name: John.
+
+1. Create New Asset Request
+2. Retrieve Request By ID
+3. Update Asset Request
+4. Delete Asset Request
+5. View Open Asset Request (All Open Asset Request) 
+6. View All Asset Request
+7. Approve Asset Request
+8. Reject Asset Request
+9. Comment on Asset Request
+10. Exit
+Please Select Valid Option
+.
+
+1. Create New Asset Request
+2. Retrieve Request By ID
+3. Update Asset Request
+4. Delete Asset Request
+5. View Open Asset Request (My Open Asset Request)
+6. Comment on Asset Request
+7. Exit
+New Request Creation....
+Enter requestDescription:
+Enter assetList:
+Select Asset to Add in the Request
+Press -1 to End
+1.Laptop
+2.Printer
+3.Desktop
+4.Monitor
+5.Projector
+6.Scanner
+7.Phone
+8.Tablet
+9.Server
+10.Camera
+11.Laptop
+12.Printer
+13.Desktop
+14.Monitor
+15.Projector
+16.Scanner
+17.Phone
+18.Tablet
+19.Server
+20.Camera
+21.Laptop
+22.Printer
+23.Desktop
+24.Monitor
+25.Projector
+26.Scanner
+27.Phone
+28.Tablet
+29.Server
+30.Camera
+31.Laptop
+32.Printer
+33.Desktop
+34.Monitor
+35.Projector
+36.Scanner
+37.Phone
+38.Tablet
+39.Server
+40.Camera
+41.Laptop
+42.Printer
+43.Desktop
+44.Monitor
+45.Projector
+46.Scanner
+47.Phone
+48.Tablet
+49.Server
+50.Camera
+51.Laptop
+52.Printer
+53.Desktop
+54.Monitor
+55.Projector
+56.Scanner
+57.Phone
+58.Tablet
+59.Server
+60.Camera
+61.Laptop
+62.Printer
+63.Desktop
+64.Monitor
+65.Projector
+66.Scanner
+67.Phone
+68.Tablet
+69.Server
+70.Camera
+71.Laptop
+72.Printer
+73.Desktop
+74.Monitor
+75.Projector
+76.Scanner
+77.Phone
+78.Tablet
+79.Server
+80.Camera
+81.Laptop
+82.Printer
+83.Desktop
+84.Monitor
+85.Projector
+86.Scanner
+87.Phone
+88.Tablet
+89.Server
+90.Camera
+1.Laptop
+2.Printer
+3.Desktop
+4.Monitor
+5.Projector
+6.Scanner
+7.Phone
+8.Tablet
+9.Server
+10.Camera
+11.Laptop
+12.Printer
+13.Desktop
+14.Monitor
+15.Projector
+16.Scanner
+17.Phone
+18.Tablet
+19.Server
+20.Camera
+21.Laptop
+22.Printer
+23.Desktop
+24.Monitor
+25.Projector
+26.Scanner
+27.Phone
+28.Tablet
+29.Server
+30.Camera
+31.Laptop
+32.Printer
+33.Desktop
+34.Monitor
+35.Projector
+36.Scanner
+37.Phone
+38.Tablet
+39.Server
+40.Camera
+41.Laptop
+42.Printer
+43.Desktop
+44.Monitor
+45.Projector
+46.Scanner
+47.Phone
+48.Tablet
+49.Server
+50.Camera
+51.Laptop
+52.Printer
+53.Desktop
+54.Monitor
+55.Projector
+56.Scanner
+57.Phone
+58.Tablet
+59.Server
+60.Camera
+61.Laptop
+62.Printer
+63.Desktop
+64.Monitor
+65.Projector
+66.Scanner
+67.Phone
+68.Tablet
+69.Server
+70.Camera
+71.Laptop
+72.Printer
+73.Desktop
+74.Monitor
+75.Projector
+76.Scanner
+77.Phone
+78.Tablet
+79.Server
+80.Camera
+81.Laptop
+82.Printer
+83.Desktop
+84.Monitor
+85.Projector
+86.Scanner
+87.Phone
+88.Tablet
+89.Server
+90.Camera
+1.Laptop
+2.Printer
+3.Desktop
+4.Monitor
+5.Projector
+6.Scanner
+7.Phone
+8.Tablet
+9.Server
+10.Camera
+11.Laptop
+12.Printer
+13.Desktop
+14.Monitor
+15.Projector
+16.Scanner
+17.Phone
+18.Tablet
+19.Server
+20.Camera
+21.Laptop
+22.Printer
+23.Desktop
+24.Monitor
+25.Projector
+26.Scanner
+27.Phone
+28.Tablet
+29.Server
+30.Camera
+31.Laptop
+32.Printer
+33.Desktop
+34.Monitor
+35.Projector
+36.Scanner
+37.Phone
+38.Tablet
+39.Server
+40.Camera
+41.Laptop
+42.Printer
+43.Desktop
+44.Monitor
+45.Projector
+46.Scanner
+47.Phone
+48.Tablet
+49.Server
+50.Camera
+51.Laptop
+52.Printer
+53.Desktop
+54.Monitor
+55.Projector
+56.Scanner
+57.Phone
+58.Tablet
+59.Server
+60.Camera
+61.Laptop
+62.Printer
+63.Desktop
+64.Monitor
+65.Projector
+66.Scanner
+67.Phone
+68.Tablet
+69.Server
+70.Camera
+71.Laptop
+72.Printer
+73.Desktop
+74.Monitor
+75.Projector
+76.Scanner
+77.Phone
+78.Tablet
+79.Server
+80.Camera
+81.Laptop
+82.Printer
+83.Desktop
+84.Monitor
+85.Projector
+86.Scanner
+87.Phone
+88.Tablet
+89.Server
+90.Camera
+Asset Request Created Successfully!!!!
+
+AssetRequest details:
+Asset RequestID : 2
+Request Date: 2023-12-11
+Request Status: 0
+Request Status Formatted: Open
+Request Description: Asset Request Description
+Asset Info: 
+[{
+AssetName: Laptop
+AssetCategory: Laptop
+AssetModel: ModelABC
+AssetDescription: High-performance laptop
+}
+{
+AssetName: Printer
+AssetCategory: Printer
+AssetModel: ModelXYZ
+AssetDescription: Fast color printer
+}
+]
+Requester Name: Alice Williams
+.
+
+1. Create New Asset Request
+2. Retrieve Request By ID
+3. Update Asset Request
+4. Delete Asset Request
+5. View Open Asset Request (All Open Asset Request) 
+6. View All Asset Request
+7. Approve Asset Request
+8. Reject Asset Request
+9. Comment on Asset Request
+10. Exit
+New Request Creation....
+Enter requestDescription:
+Enter assetList:
+Select Asset to Add in the Request
+Press -1 to End
+1.Laptop
+2.Printer
+3.Desktop
+4.Monitor
+5.Projector
+6.Scanner
+7.Phone
+8.Tablet
+9.Server
+10.Camera
+11.Laptop
+12.Printer
+13.Desktop
+14.Monitor
+15.Projector
+16.Scanner
+17.Phone
+18.Tablet
+19.Server
+20.Camera
+21.Laptop
+22.Printer
+23.Desktop
+24.Monitor
+25.Projector
+26.Scanner
+27.Phone
+28.Tablet
+29.Server
+30.Camera
+31.Laptop
+32.Printer
+33.Desktop
+34.Monitor
+35.Projector
+36.Scanner
+37.Phone
+38.Tablet
+39.Server
+40.Camera
+41.Laptop
+42.Printer
+43.Desktop
+44.Monitor
+45.Projector
+46.Scanner
+47.Phone
+48.Tablet
+49.Server
+50.Camera
+51.Laptop
+52.Printer
+53.Desktop
+54.Monitor
+55.Projector
+56.Scanner
+57.Phone
+58.Tablet
+59.Server
+60.Camera
+61.Laptop
+62.Printer
+63.Desktop
+64.Monitor
+65.Projector
+66.Scanner
+67.Phone
+68.Tablet
+69.Server
+70.Camera
+71.Laptop
+72.Printer
+73.Desktop
+74.Monitor
+75.Projector
+76.Scanner
+77.Phone
+78.Tablet
+79.Server
+80.Camera
+81.Laptop
+82.Printer
+83.Desktop
+84.Monitor
+85.Projector
+86.Scanner
+87.Phone
+88.Tablet
+89.Server
+90.Camera
+91.Laptop
+92.Printer
+93.Desktop
+94.Monitor
+95.Projector
+96.Scanner
+97.Phone
+98.Tablet
+99.Server
+100.Camera
+1.Laptop
+2.Printer
+3.Desktop
+4.Monitor
+5.Projector
+6.Scanner
+7.Phone
+8.Tablet
+9.Server
+10.Camera
+11.Laptop
+12.Printer
+13.Desktop
+14.Monitor
+15.Projector
+16.Scanner
+17.Phone
+18.Tablet
+19.Server
+20.Camera
+21.Laptop
+22.Printer
+23.Desktop
+24.Monitor
+25.Projector
+26.Scanner
+27.Phone
+28.Tablet
+29.Server
+30.Camera
+31.Laptop
+32.Printer
+33.Desktop
+34.Monitor
+35.Projector
+36.Scanner
+37.Phone
+38.Tablet
+39.Server
+40.Camera
+41.Laptop
+42.Printer
+43.Desktop
+44.Monitor
+45.Projector
+46.Scanner
+47.Phone
+48.Tablet
+49.Server
+50.Camera
+51.Laptop
+52.Printer
+53.Desktop
+54.Monitor
+55.Projector
+56.Scanner
+57.Phone
+58.Tablet
+59.Server
+60.Camera
+61.Laptop
+62.Printer
+63.Desktop
+64.Monitor
+65.Projector
+66.Scanner
+67.Phone
+68.Tablet
+69.Server
+70.Camera
+71.Laptop
+72.Printer
+73.Desktop
+74.Monitor
+75.Projector
+76.Scanner
+77.Phone
+78.Tablet
+79.Server
+80.Camera
+81.Laptop
+82.Printer
+83.Desktop
+84.Monitor
+85.Projector
+86.Scanner
+87.Phone
+88.Tablet
+89.Server
+90.Camera
+91.Laptop
+92.Printer
+93.Desktop
+94.Monitor
+95.Projector
+96.Scanner
+97.Phone
+98.Tablet
+99.Server
+100.Camera
+1.Laptop
+2.Printer
+3.Desktop
+4.Monitor
+5.Projector
+6.Scanner
+7.Phone
+8.Tablet
+9.Server
+10.Camera
+11.Laptop
+12.Printer
+13.Desktop
+14.Monitor
+15.Projector
+16.Scanner
+17.Phone
+18.Tablet
+19.Server
+20.Camera
+21.Laptop
+22.Printer
+23.Desktop
+24.Monitor
+25.Projector
+26.Scanner
+27.Phone
+28.Tablet
+29.Server
+30.Camera
+31.Laptop
+32.Printer
+33.Desktop
+34.Monitor
+35.Projector
+36.Scanner
+37.Phone
+38.Tablet
+39.Server
+40.Camera
+41.Laptop
+42.Printer
+43.Desktop
+44.Monitor
+45.Projector
+46.Scanner
+47.Phone
+48.Tablet
+49.Server
+50.Camera
+51.Laptop
+52.Printer
+53.Desktop
+54.Monitor
+55.Projector
+56.Scanner
+57.Phone
+58.Tablet
+59.Server
+60.Camera
+61.Laptop
+62.Printer
+63.Desktop
+64.Monitor
+65.Projector
+66.Scanner
+67.Phone
+68.Tablet
+69.Server
+70.Camera
+71.Laptop
+72.Printer
+73.Desktop
+74.Monitor
+75.Projector
+76.Scanner
+77.Phone
+78.Tablet
+79.Server
+80.Camera
+81.Laptop
+82.Printer
+83.Desktop
+84.Monitor
+85.Projector
+86.Scanner
+87.Phone
+88.Tablet
+89.Server
+90.Camera
+91.Laptop
+92.Printer
+93.Desktop
+94.Monitor
+95.Projector
+96.Scanner
+97.Phone
+98.Tablet
+99.Server
+100.Camera
+Asset Request Created Successfully!!!!
+
+AssetRequest details:
+Asset RequestID : 3
+Request Date: 2023-12-11
+Request Status: 0
+Request Status Formatted: Open
+Request Description: Asset Request Description
+Asset Info: 
+[{
+AssetName: Laptop
+AssetCategory: Laptop
+AssetModel: ModelABC
+AssetDescription: High-performance laptop
+}
+{
+AssetName: Printer
+AssetCategory: Printer
+AssetModel: ModelXYZ
+AssetDescription: Fast color printer
+}
+]
+Requester Name: John
+.
+
+1. Create New Asset Request
+2. Retrieve Request By ID
+3. Update Asset Request
+4. Delete Asset Request
+5. View Open Asset Request (All Open Asset Request) 
+6. View All Asset Request
+7. Approve Asset Request
+8. Reject Asset Request
+9. Comment on Asset Request
+10. Exit
+1:	Asset RequestID : 1, Request Date: 2023-12-12, Request Status: 0, Request Status Formatted: Open, Request Description: Asset Request Description, Asset Info: [{AssetName: Laptop, AssetCategory: Laptop, AssetModel: ModelABC, AssetDescription: High-performance laptop}{AssetName: Printer, AssetCategory: Printer, AssetModel: ModelXYZ, AssetDescription: Fast color printer}], Requester Assignee: John, Comment: [{John:Test Comment 1}]Requester Name: John3:	Asset RequestID : 3, Request Date: 2023-12-11, Request Status: 0, Request Status Formatted: Open, Request Description: Asset Request Description, Asset Info: [{AssetName: Laptop, AssetCategory: Laptop, AssetModel: ModelABC, AssetDescription: High-performance laptop}{AssetName: Printer, AssetCategory: Printer, AssetModel: ModelXYZ, AssetDescription: Fast color printer}], Requester Name: JohnYou have chosen the following Request
+
+AssetRequest details:
+Asset RequestID : 1
+Request Date: 2023-12-12
+Request Status: 0
+Request Status Formatted: Open
+Request Description: Asset Request Description
+Asset Info: 
+[{
+AssetName: Laptop
+AssetCategory: Laptop
+AssetModel: ModelABC
+AssetDescription: High-performance laptop
+}
+{
+AssetName: Printer
+AssetCategory: Printer
+AssetModel: ModelXYZ
+AssetDescription: Fast color printer
+}
+]
+Requester Name: John
+Requester Assignee: John
+Comment: 
+[
+{
+John:Test Comment 1
+}
+]
+Request Deleted Successfully!!!!
+.
+
+1. Create New Asset Request
+2. Retrieve Request By ID
+3. Update Asset Request
+4. Delete Asset Request
+5. View Open Asset Request (My Open Asset Request)
+6. Comment on Asset Request
+7. Exit
+New Request Creation....
+Enter requestDescription:
+Enter assetList:
+Select Asset to Add in the Request
+Press -1 to End
+1.Laptop
+2.Printer
+3.Desktop
+4.Monitor
+5.Projector
+6.Scanner
+7.Phone
+8.Tablet
+9.Server
+10.Camera
+11.Laptop
+12.Printer
+13.Desktop
+14.Monitor
+15.Projector
+16.Scanner
+17.Phone
+18.Tablet
+19.Server
+20.Camera
+21.Laptop
+22.Printer
+23.Desktop
+24.Monitor
+25.Projector
+26.Scanner
+27.Phone
+28.Tablet
+29.Server
+30.Camera
+31.Laptop
+32.Printer
+33.Desktop
+34.Monitor
+35.Projector
+36.Scanner
+37.Phone
+38.Tablet
+39.Server
+40.Camera
+41.Laptop
+42.Printer
+43.Desktop
+44.Monitor
+45.Projector
+46.Scanner
+47.Phone
+48.Tablet
+49.Server
+50.Camera
+51.Laptop
+52.Printer
+53.Desktop
+54.Monitor
+55.Projector
+56.Scanner
+57.Phone
+58.Tablet
+59.Server
+60.Camera
+61.Laptop
+62.Printer
+63.Desktop
+64.Monitor
+65.Projector
+66.Scanner
+67.Phone
+68.Tablet
+69.Server
+70.Camera
+71.Laptop
+72.Printer
+73.Desktop
+74.Monitor
+75.Projector
+76.Scanner
+77.Phone
+78.Tablet
+79.Server
+80.Camera
+81.Laptop
+82.Printer
+83.Desktop
+84.Monitor
+85.Projector
+86.Scanner
+87.Phone
+88.Tablet
+89.Server
+90.Camera
+91.Laptop
+92.Printer
+93.Desktop
+94.Monitor
+95.Projector
+96.Scanner
+97.Phone
+98.Tablet
+99.Server
+100.Camera
+101.Laptop
+102.Printer
+103.Desktop
+104.Monitor
+105.Projector
+106.Scanner
+107.Phone
+108.Tablet
+109.Server
+110.Camera
+111.Laptop
+112.Printer
+113.Desktop
+114.Monitor
+115.Projector
+116.Scanner
+117.Phone
+118.Tablet
+119.Server
+120.Camera
+1.Laptop
+2.Printer
+3.Desktop
+4.Monitor
+5.Projector
+6.Scanner
+7.Phone
+8.Tablet
+9.Server
+10.Camera
+11.Laptop
+12.Printer
+13.Desktop
+14.Monitor
+15.Projector
+16.Scanner
+17.Phone
+18.Tablet
+19.Server
+20.Camera
+21.Laptop
+22.Printer
+23.Desktop
+24.Monitor
+25.Projector
+26.Scanner
+27.Phone
+28.Tablet
+29.Server
+30.Camera
+31.Laptop
+32.Printer
+33.Desktop
+34.Monitor
+35.Projector
+36.Scanner
+37.Phone
+38.Tablet
+39.Server
+40.Camera
+41.Laptop
+42.Printer
+43.Desktop
+44.Monitor
+45.Projector
+46.Scanner
+47.Phone
+48.Tablet
+49.Server
+50.Camera
+51.Laptop
+52.Printer
+53.Desktop
+54.Monitor
+55.Projector
+56.Scanner
+57.Phone
+58.Tablet
+59.Server
+60.Camera
+61.Laptop
+62.Printer
+63.Desktop
+64.Monitor
+65.Projector
+66.Scanner
+67.Phone
+68.Tablet
+69.Server
+70.Camera
+71.Laptop
+72.Printer
+73.Desktop
+74.Monitor
+75.Projector
+76.Scanner
+77.Phone
+78.Tablet
+79.Server
+80.Camera
+81.Laptop
+82.Printer
+83.Desktop
+84.Monitor
+85.Projector
+86.Scanner
+87.Phone
+88.Tablet
+89.Server
+90.Camera
+91.Laptop
+92.Printer
+93.Desktop
+94.Monitor
+95.Projector
+96.Scanner
+97.Phone
+98.Tablet
+99.Server
+100.Camera
+101.Laptop
+102.Printer
+103.Desktop
+104.Monitor
+105.Projector
+106.Scanner
+107.Phone
+108.Tablet
+109.Server
+110.Camera
+111.Laptop
+112.Printer
+113.Desktop
+114.Monitor
+115.Projector
+116.Scanner
+117.Phone
+118.Tablet
+119.Server
+120.Camera
+1.Laptop
+2.Printer
+3.Desktop
+4.Monitor
+5.Projector
+6.Scanner
+7.Phone
+8.Tablet
+9.Server
+10.Camera
+11.Laptop
+12.Printer
+13.Desktop
+14.Monitor
+15.Projector
+16.Scanner
+17.Phone
+18.Tablet
+19.Server
+20.Camera
+21.Laptop
+22.Printer
+23.Desktop
+24.Monitor
+25.Projector
+26.Scanner
+27.Phone
+28.Tablet
+29.Server
+30.Camera
+31.Laptop
+32.Printer
+33.Desktop
+34.Monitor
+35.Projector
+36.Scanner
+37.Phone
+38.Tablet
+39.Server
+40.Camera
+41.Laptop
+42.Printer
+43.Desktop
+44.Monitor
+45.Projector
+46.Scanner
+47.Phone
+48.Tablet
+49.Server
+50.Camera
+51.Laptop
+52.Printer
+53.Desktop
+54.Monitor
+55.Projector
+56.Scanner
+57.Phone
+58.Tablet
+59.Server
+60.Camera
+61.Laptop
+62.Printer
+63.Desktop
+64.Monitor
+65.Projector
+66.Scanner
+67.Phone
+68.Tablet
+69.Server
+70.Camera
+71.Laptop
+72.Printer
+73.Desktop
+74.Monitor
+75.Projector
+76.Scanner
+77.Phone
+78.Tablet
+79.Server
+80.Camera
+81.Laptop
+82.Printer
+83.Desktop
+84.Monitor
+85.Projector
+86.Scanner
+87.Phone
+88.Tablet
+89.Server
+90.Camera
+91.Laptop
+92.Printer
+93.Desktop
+94.Monitor
+95.Projector
+96.Scanner
+97.Phone
+98.Tablet
+99.Server
+100.Camera
+101.Laptop
+102.Printer
+103.Desktop
+104.Monitor
+105.Projector
+106.Scanner
+107.Phone
+108.Tablet
+109.Server
+110.Camera
+111.Laptop
+112.Printer
+113.Desktop
+114.Monitor
+115.Projector
+116.Scanner
+117.Phone
+118.Tablet
+119.Server
+120.Camera
+Asset Request Created Successfully!!!!
+
+AssetRequest details:
+Asset RequestID : 4
+Request Date: 2023-12-11
+Request Status: 0
+Request Status Formatted: Open
+Request Description: Asset Request Description
+Asset Info: 
+[{
+AssetName: Laptop
+AssetCategory: Laptop
+AssetModel: ModelABC
+AssetDescription: High-performance laptop
+}
+{
+AssetName: Printer
+AssetCategory: Printer
+AssetModel: ModelXYZ
+AssetDescription: Fast color printer
+}
+]
+Requester Name: Jane Smith
+.
+
+1. Create New Asset Request
+2. Retrieve Request By ID
+3. Update Asset Request
+4. Delete Asset Request
+5. View Open Asset Request (All Open Asset Request) 
+6. View All Asset Request
+7. Approve Asset Request
+8. Reject Asset Request
+9. Comment on Asset Request
+10. Exit
+New Request Creation....
+Enter requestDescription:
+Enter assetList:
+Select Asset to Add in the Request
+Press -1 to End
+1.Laptop
+2.Printer
+3.Desktop
+4.Monitor
+5.Projector
+6.Scanner
+7.Phone
+8.Tablet
+9.Server
+10.Camera
+11.Laptop
+12.Printer
+13.Desktop
+14.Monitor
+15.Projector
+16.Scanner
+17.Phone
+18.Tablet
+19.Server
+20.Camera
+21.Laptop
+22.Printer
+23.Desktop
+24.Monitor
+25.Projector
+26.Scanner
+27.Phone
+28.Tablet
+29.Server
+30.Camera
+31.Laptop
+32.Printer
+33.Desktop
+34.Monitor
+35.Projector
+36.Scanner
+37.Phone
+38.Tablet
+39.Server
+40.Camera
+41.Laptop
+42.Printer
+43.Desktop
+44.Monitor
+45.Projector
+46.Scanner
+47.Phone
+48.Tablet
+49.Server
+50.Camera
+51.Laptop
+52.Printer
+53.Desktop
+54.Monitor
+55.Projector
+56.Scanner
+57.Phone
+58.Tablet
+59.Server
+60.Camera
+61.Laptop
+62.Printer
+63.Desktop
+64.Monitor
+65.Projector
+66.Scanner
+67.Phone
+68.Tablet
+69.Server
+70.Camera
+71.Laptop
+72.Printer
+73.Desktop
+74.Monitor
+75.Projector
+76.Scanner
+77.Phone
+78.Tablet
+79.Server
+80.Camera
+81.Laptop
+82.Printer
+83.Desktop
+84.Monitor
+85.Projector
+86.Scanner
+87.Phone
+88.Tablet
+89.Server
+90.Camera
+91.Laptop
+92.Printer
+93.Desktop
+94.Monitor
+95.Projector
+96.Scanner
+97.Phone
+98.Tablet
+99.Server
+100.Camera
+101.Laptop
+102.Printer
+103.Desktop
+104.Monitor
+105.Projector
+106.Scanner
+107.Phone
+108.Tablet
+109.Server
+110.Camera
+111.Laptop
+112.Printer
+113.Desktop
+114.Monitor
+115.Projector
+116.Scanner
+117.Phone
+118.Tablet
+119.Server
+120.Camera
+121.Laptop
+122.Printer
+123.Desktop
+124.Monitor
+125.Projector
+126.Scanner
+127.Phone
+128.Tablet
+129.Server
+130.Camera
+1.Laptop
+2.Printer
+3.Desktop
+4.Monitor
+5.Projector
+6.Scanner
+7.Phone
+8.Tablet
+9.Server
+10.Camera
+11.Laptop
+12.Printer
+13.Desktop
+14.Monitor
+15.Projector
+16.Scanner
+17.Phone
+18.Tablet
+19.Server
+20.Camera
+21.Laptop
+22.Printer
+23.Desktop
+24.Monitor
+25.Projector
+26.Scanner
+27.Phone
+28.Tablet
+29.Server
+30.Camera
+31.Laptop
+32.Printer
+33.Desktop
+34.Monitor
+35.Projector
+36.Scanner
+37.Phone
+38.Tablet
+39.Server
+40.Camera
+41.Laptop
+42.Printer
+43.Desktop
+44.Monitor
+45.Projector
+46.Scanner
+47.Phone
+48.Tablet
+49.Server
+50.Camera
+51.Laptop
+52.Printer
+53.Desktop
+54.Monitor
+55.Projector
+56.Scanner
+57.Phone
+58.Tablet
+59.Server
+60.Camera
+61.Laptop
+62.Printer
+63.Desktop
+64.Monitor
+65.Projector
+66.Scanner
+67.Phone
+68.Tablet
+69.Server
+70.Camera
+71.Laptop
+72.Printer
+73.Desktop
+74.Monitor
+75.Projector
+76.Scanner
+77.Phone
+78.Tablet
+79.Server
+80.Camera
+81.Laptop
+82.Printer
+83.Desktop
+84.Monitor
+85.Projector
+86.Scanner
+87.Phone
+88.Tablet
+89.Server
+90.Camera
+91.Laptop
+92.Printer
+93.Desktop
+94.Monitor
+95.Projector
+96.Scanner
+97.Phone
+98.Tablet
+99.Server
+100.Camera
+101.Laptop
+102.Printer
+103.Desktop
+104.Monitor
+105.Projector
+106.Scanner
+107.Phone
+108.Tablet
+109.Server
+110.Camera
+111.Laptop
+112.Printer
+113.Desktop
+114.Monitor
+115.Projector
+116.Scanner
+117.Phone
+118.Tablet
+119.Server
+120.Camera
+121.Laptop
+122.Printer
+123.Desktop
+124.Monitor
+125.Projector
+126.Scanner
+127.Phone
+128.Tablet
+129.Server
+130.Camera
+1.Laptop
+2.Printer
+3.Desktop
+4.Monitor
+5.Projector
+6.Scanner
+7.Phone
+8.Tablet
+9.Server
+10.Camera
+11.Laptop
+12.Printer
+13.Desktop
+14.Monitor
+15.Projector
+16.Scanner
+17.Phone
+18.Tablet
+19.Server
+20.Camera
+21.Laptop
+22.Printer
+23.Desktop
+24.Monitor
+25.Projector
+26.Scanner
+27.Phone
+28.Tablet
+29.Server
+30.Camera
+31.Laptop
+32.Printer
+33.Desktop
+34.Monitor
+35.Projector
+36.Scanner
+37.Phone
+38.Tablet
+39.Server
+40.Camera
+41.Laptop
+42.Printer
+43.Desktop
+44.Monitor
+45.Projector
+46.Scanner
+47.Phone
+48.Tablet
+49.Server
+50.Camera
+51.Laptop
+52.Printer
+53.Desktop
+54.Monitor
+55.Projector
+56.Scanner
+57.Phone
+58.Tablet
+59.Server
+60.Camera
+61.Laptop
+62.Printer
+63.Desktop
+64.Monitor
+65.Projector
+66.Scanner
+67.Phone
+68.Tablet
+69.Server
+70.Camera
+71.Laptop
+72.Printer
+73.Desktop
+74.Monitor
+75.Projector
+76.Scanner
+77.Phone
+78.Tablet
+79.Server
+80.Camera
+81.Laptop
+82.Printer
+83.Desktop
+84.Monitor
+85.Projector
+86.Scanner
+87.Phone
+88.Tablet
+89.Server
+90.Camera
+91.Laptop
+92.Printer
+93.Desktop
+94.Monitor
+95.Projector
+96.Scanner
+97.Phone
+98.Tablet
+99.Server
+100.Camera
+101.Laptop
+102.Printer
+103.Desktop
+104.Monitor
+105.Projector
+106.Scanner
+107.Phone
+108.Tablet
+109.Server
+110.Camera
+111.Laptop
+112.Printer
+113.Desktop
+114.Monitor
+115.Projector
+116.Scanner
+117.Phone
+118.Tablet
+119.Server
+120.Camera
+121.Laptop
+122.Printer
+123.Desktop
+124.Monitor
+125.Projector
+126.Scanner
+127.Phone
+128.Tablet
+129.Server
+130.Camera
+Asset Request Created Successfully!!!!
+
+AssetRequest details:
+Asset RequestID : 5
+Request Date: 2023-12-11
+Request Status: 0
+Request Status Formatted: Open
+Request Description: Asset Request Description
+Asset Info: 
+[{
+AssetName: Laptop
+AssetCategory: Laptop
+AssetModel: ModelABC
+AssetDescription: High-performance laptop
+}
+{
+AssetName: Printer
+AssetCategory: Printer
+AssetModel: ModelXYZ
+AssetDescription: Fast color printer
+}
+]
+Requester Name: Bob Johnson
+.
+
+1. Create New Asset Request
+2. Retrieve Request By ID
+3. Update Asset Request
+4. Delete Asset Request
+5. View Open Asset Request (All Open Asset Request) 
+6. View All Asset Request
+7. Approve Asset Request
+8. Reject Asset Request
+9. Comment on Asset Request
+10. Exit
+1:	Asset RequestID : 1, Request Date: 2023-12-12, Request Status: 0, Request Status Formatted: Open, Request Description: Asset Request Description, Asset Info: [{AssetName: Laptop, AssetCategory: Laptop, AssetModel: ModelABC, AssetDescription: High-performance laptop}{AssetName: Printer, AssetCategory: Printer, AssetModel: ModelXYZ, AssetDescription: Fast color printer}], Requester Assignee: John, Comment: [{John:Test Comment 1}]Requester Name: John3:	Asset RequestID : 3, Request Date: 2023-12-11, Request Status: 0, Request Status Formatted: Open, Request Description: Asset Request Description, Asset Info: [{AssetName: Laptop, AssetCategory: Laptop, AssetModel: ModelABC, AssetDescription: High-performance laptop}{AssetName: Printer, AssetCategory: Printer, AssetModel: ModelXYZ, AssetDescription: Fast color printer}], Requester Name: JohnYou have chosen the following Request
+
+AssetRequest details:
+Asset RequestID : 1
+Request Date: 2023-12-12
+Request Status: 0
+Request Status Formatted: Open
+Request Description: Asset Request Description
+Asset Info: 
+[{
+AssetName: Laptop
+AssetCategory: Laptop
+AssetModel: ModelABC
+AssetDescription: High-performance laptop
+}
+{
+AssetName: Printer
+AssetCategory: Printer
+AssetModel: ModelXYZ
+AssetDescription: Fast color printer
+}
+]
+Requester Name: John
+Requester Assignee: John
+Comment: 
+[
+{
+John:Test Comment 1
+}
+]
+Enter requestDescription:
+Enter assetList:
+Select Asset to Add in the Request
+Press -1 to End
+1.Laptop
+2.Printer
+3.Desktop
+4.Monitor
+5.Projector
+6.Scanner
+7.Phone
+8.Tablet
+9.Server
+10.Camera
+11.Laptop
+12.Printer
+13.Desktop
+14.Monitor
+15.Projector
+16.Scanner
+17.Phone
+18.Tablet
+19.Server
+20.Camera
+21.Laptop
+22.Printer
+23.Desktop
+24.Monitor
+25.Projector
+26.Scanner
+27.Phone
+28.Tablet
+29.Server
+30.Camera
+31.Laptop
+32.Printer
+33.Desktop
+34.Monitor
+35.Projector
+36.Scanner
+37.Phone
+38.Tablet
+39.Server
+40.Camera
+41.Laptop
+42.Printer
+43.Desktop
+44.Monitor
+45.Projector
+46.Scanner
+47.Phone
+48.Tablet
+49.Server
+50.Camera
+51.Laptop
+52.Printer
+53.Desktop
+54.Monitor
+55.Projector
+56.Scanner
+57.Phone
+58.Tablet
+59.Server
+60.Camera
+61.Laptop
+62.Printer
+63.Desktop
+64.Monitor
+65.Projector
+66.Scanner
+67.Phone
+68.Tablet
+69.Server
+70.Camera
+71.Laptop
+72.Printer
+73.Desktop
+74.Monitor
+75.Projector
+76.Scanner
+77.Phone
+78.Tablet
+79.Server
+80.Camera
+81.Laptop
+82.Printer
+83.Desktop
+84.Monitor
+85.Projector
+86.Scanner
+87.Phone
+88.Tablet
+89.Server
+90.Camera
+91.Laptop
+92.Printer
+93.Desktop
+94.Monitor
+95.Projector
+96.Scanner
+97.Phone
+98.Tablet
+99.Server
+100.Camera
+101.Laptop
+102.Printer
+103.Desktop
+104.Monitor
+105.Projector
+106.Scanner
+107.Phone
+108.Tablet
+109.Server
+110.Camera
+111.Laptop
+112.Printer
+113.Desktop
+114.Monitor
+115.Projector
+116.Scanner
+117.Phone
+118.Tablet
+119.Server
+120.Camera
+121.Laptop
+122.Printer
+123.Desktop
+124.Monitor
+125.Projector
+126.Scanner
+127.Phone
+128.Tablet
+129.Server
+130.Camera
+131.Laptop
+132.Printer
+133.Desktop
+134.Monitor
+135.Projector
+136.Scanner
+137.Phone
+138.Tablet
+139.Server
+140.Camera
+1.Laptop
+2.Printer
+3.Desktop
+4.Monitor
+5.Projector
+6.Scanner
+7.Phone
+8.Tablet
+9.Server
+10.Camera
+11.Laptop
+12.Printer
+13.Desktop
+14.Monitor
+15.Projector
+16.Scanner
+17.Phone
+18.Tablet
+19.Server
+20.Camera
+21.Laptop
+22.Printer
+23.Desktop
+24.Monitor
+25.Projector
+26.Scanner
+27.Phone
+28.Tablet
+29.Server
+30.Camera
+31.Laptop
+32.Printer
+33.Desktop
+34.Monitor
+35.Projector
+36.Scanner
+37.Phone
+38.Tablet
+39.Server
+40.Camera
+41.Laptop
+42.Printer
+43.Desktop
+44.Monitor
+45.Projector
+46.Scanner
+47.Phone
+48.Tablet
+49.Server
+50.Camera
+51.Laptop
+52.Printer
+53.Desktop
+54.Monitor
+55.Projector
+56.Scanner
+57.Phone
+58.Tablet
+59.Server
+60.Camera
+61.Laptop
+62.Printer
+63.Desktop
+64.Monitor
+65.Projector
+66.Scanner
+67.Phone
+68.Tablet
+69.Server
+70.Camera
+71.Laptop
+72.Printer
+73.Desktop
+74.Monitor
+75.Projector
+76.Scanner
+77.Phone
+78.Tablet
+79.Server
+80.Camera
+81.Laptop
+82.Printer
+83.Desktop
+84.Monitor
+85.Projector
+86.Scanner
+87.Phone
+88.Tablet
+89.Server
+90.Camera
+91.Laptop
+92.Printer
+93.Desktop
+94.Monitor
+95.Projector
+96.Scanner
+97.Phone
+98.Tablet
+99.Server
+100.Camera
+101.Laptop
+102.Printer
+103.Desktop
+104.Monitor
+105.Projector
+106.Scanner
+107.Phone
+108.Tablet
+109.Server
+110.Camera
+111.Laptop
+112.Printer
+113.Desktop
+114.Monitor
+115.Projector
+116.Scanner
+117.Phone
+118.Tablet
+119.Server
+120.Camera
+121.Laptop
+122.Printer
+123.Desktop
+124.Monitor
+125.Projector
+126.Scanner
+127.Phone
+128.Tablet
+129.Server
+130.Camera
+131.Laptop
+132.Printer
+133.Desktop
+134.Monitor
+135.Projector
+136.Scanner
+137.Phone
+138.Tablet
+139.Server
+140.Camera
+1.Laptop
+2.Printer
+3.Desktop
+4.Monitor
+5.Projector
+6.Scanner
+7.Phone
+8.Tablet
+9.Server
+10.Camera
+11.Laptop
+12.Printer
+13.Desktop
+14.Monitor
+15.Projector
+16.Scanner
+17.Phone
+18.Tablet
+19.Server
+20.Camera
+21.Laptop
+22.Printer
+23.Desktop
+24.Monitor
+25.Projector
+26.Scanner
+27.Phone
+28.Tablet
+29.Server
+30.Camera
+31.Laptop
+32.Printer
+33.Desktop
+34.Monitor
+35.Projector
+36.Scanner
+37.Phone
+38.Tablet
+39.Server
+40.Camera
+41.Laptop
+42.Printer
+43.Desktop
+44.Monitor
+45.Projector
+46.Scanner
+47.Phone
+48.Tablet
+49.Server
+50.Camera
+51.Laptop
+52.Printer
+53.Desktop
+54.Monitor
+55.Projector
+56.Scanner
+57.Phone
+58.Tablet
+59.Server
+60.Camera
+61.Laptop
+62.Printer
+63.Desktop
+64.Monitor
+65.Projector
+66.Scanner
+67.Phone
+68.Tablet
+69.Server
+70.Camera
+71.Laptop
+72.Printer
+73.Desktop
+74.Monitor
+75.Projector
+76.Scanner
+77.Phone
+78.Tablet
+79.Server
+80.Camera
+81.Laptop
+82.Printer
+83.Desktop
+84.Monitor
+85.Projector
+86.Scanner
+87.Phone
+88.Tablet
+89.Server
+90.Camera
+91.Laptop
+92.Printer
+93.Desktop
+94.Monitor
+95.Projector
+96.Scanner
+97.Phone
+98.Tablet
+99.Server
+100.Camera
+101.Laptop
+102.Printer
+103.Desktop
+104.Monitor
+105.Projector
+106.Scanner
+107.Phone
+108.Tablet
+109.Server
+110.Camera
+111.Laptop
+112.Printer
+113.Desktop
+114.Monitor
+115.Projector
+116.Scanner
+117.Phone
+118.Tablet
+119.Server
+120.Camera
+121.Laptop
+122.Printer
+123.Desktop
+124.Monitor
+125.Projector
+126.Scanner
+127.Phone
+128.Tablet
+129.Server
+130.Camera
+131.Laptop
+132.Printer
+133.Desktop
+134.Monitor
+135.Projector
+136.Scanner
+137.Phone
+138.Tablet
+139.Server
+140.Camera
+Request Updated Successfully!!!!
+
+AssetRequest details:
+Asset RequestID : 1
+Request Date: 2023-12-12
+Request Status: 0
+Request Status Formatted: Open
+Request Description: Asset Request Description Update Test
+Asset Info: 
+[{
+AssetName: Laptop
+AssetCategory: Laptop
+AssetModel: ModelABC
+AssetDescription: High-performance laptop
+}
+{
+AssetName: Printer
+AssetCategory: Printer
+AssetModel: ModelXYZ
+AssetDescription: Fast color printer
+}
+]
+Requester Name: John
+Requester Assignee: John
+Comment: 
+[
+{
+John:Test Comment 1
+}
+]
+
+Time: 0.077
+
+OK (14 tests)
+
+No of Tests present in the class AssetRequestHandlerTest: 14
+No of Test Cases Executed Successfully For the class AssetRequestHandlerTest: 14
+Running tests for class: handler.CategoryHandlerTest
+JUnit version 4.13.2
+.
+
+1. Create New Category
+2. Retrieve Category By ID
+3. Update Existing Category
+4. Delete Category
+5. Import Category
+6. Export Category
+7. Exit
+Displaying All Categories:
+1
+CategoryID: 1, CategoryName: Mobile Phone, CategoryDescription: Mobile Phone DescriptionYou have chosen the following Category
+
+Category details:
+CategoryID: 1
+CategoryName: Mobile Phone
+CategoryDescription: Mobile Phone Description
+.
+
+1. Create New Category
+2. Retrieve Category By ID
+3. Update Existing Category
+4. Delete Category
+5. Import Category
+6. Export Category
+7. Exit
+New Category Creation....
+Enter categoryName:
+Enter categoryDescription:
+Category Created Successfully!!!!
+
+Category details:
+CategoryID: 2
+CategoryName: Mobile Phone
+CategoryDescription: Mobile Phone Description
+.
+
+1. Create New Category
+2. Retrieve Category By ID
+3. Update Existing Category
+4. Delete Category
+5. Import Category
+6. Export Category
+7. Exit
+.
+
+1. Create New Category
+2. Retrieve Category By ID
+3. Update Existing Category
+4. Delete Category
+5. Import Category
+6. Export Category
+7. Exit
+Please Select Valid Option
+.
+
+1. Create New Category
+2. Retrieve Category By ID
+3. Update Existing Category
+4. Delete Category
+5. Import Category
+6. Export Category
+7. Exit
+New Category Creation....
+Enter categoryName:
+Enter categoryDescription:
+Category Created Successfully!!!!
+
+Category details:
+CategoryID: 3
+CategoryName: Mobile Phone
+CategoryDescription: Mobile Phone Description
+.
+
+1. Create New Category
+2. Retrieve Category By ID
+3. Update Existing Category
+4. Delete Category
+5. Import Category
+6. Export Category
+7. Exit
+Displaying All Categories:
+1
+CategoryID: 1, CategoryName: Mobile Phone, CategoryDescription: Mobile Phone Description2
+CategoryID: 2, CategoryName: Mobile Phone, CategoryDescription: Mobile Phone Description3
+CategoryID: 3, CategoryName: Mobile Phone, CategoryDescription: Mobile Phone DescriptionYou have chosen the following Category
+
+Category details:
+CategoryID: 1
+CategoryName: Mobile Phone
+CategoryDescription: Mobile Phone Description
+Category Deleted Successfully!!!!
+.
+
+1. Create New Category
+2. Retrieve Category By ID
+3. Update Existing Category
+4. Delete Category
+5. Import Category
+6. Export Category
+7. Exit
+CSV Exported Successfully
+Export Completed
+.
+
+1. Create New Category
+2. Retrieve Category By ID
+3. Update Existing Category
+4. Delete Category
+5. Import Category
+6. Export Category
+7. Exit
+Please provide Absolute Path to Import
+Import Successfully Completed
+.
+
+1. Create New Category
+2. Retrieve Category By ID
+3. Update Existing Category
+4. Delete Category
+5. Import Category
+6. Export Category
+7. Exit
+Displaying All Categories:
+1
+CategoryID: 1, CategoryName: Mobile Phone, CategoryDescription: Mobile Phone Description2
+CategoryID: 2, CategoryName: Mobile Phone, CategoryDescription: Mobile Phone Description3
+CategoryID: 3, CategoryName: Mobile Phone, CategoryDescription: Mobile Phone Description4
+CategoryID: 4, CategoryName: Laptops, CategoryDescription: Assets related to laptop devices for employees5
+CategoryID: 5, CategoryName: Desktops, CategoryDescription: Assets related to desktop computers in the office6
+CategoryID: 6, CategoryName: Servers, CategoryDescription: Assets related to server machines hosting critical applications7
+CategoryID: 7, CategoryName: Printers, CategoryDescription: Assets related to printers and scanners for printing and scanning tasks8
+CategoryID: 8, CategoryName: NetworkDevices, CategoryDescription: Assets related to network devices such as routers and switches for connectivity9
+CategoryID: 9, CategoryName: SoftwareLicenses, CategoryDescription: Assets related to software licenses for various applications10
+CategoryID: 10, CategoryName: Accessories, CategoryDescription: Assets related to computer accessories like mice11
+CategoryID: 11, CategoryName: SecurityEquipment, CategoryDescription: Assets related to security equipment including cameras and access control systems12
+CategoryID: 12, CategoryName: MobileDevices, CategoryDescription: Assets related to mobile devices such as phones and tablets for remote work13
+CategoryID: 13, CategoryName: DataStorage, CategoryDescription: Assets related to data storage devices including hard drives and SSDs14
+CategoryID: 14, CategoryName: Monitors, CategoryDescription: Assets related to computer monitors for display purposes15
+CategoryID: 15, CategoryName: ConferenceRoomEquipment, CategoryDescription: Assets related to conference room equipment like projectors and audio systems16
+CategoryID: 16, CategoryName: VirtualizationInfrastructure, CategoryDescription: Assets related to virtualization infrastructure for efficient resource management17
+CategoryID: 17, CategoryName: ITTrainingMaterials, CategoryDescription: Assets related to IT training materials and resources18
+CategoryID: 18, CategoryName: BackupSystems, CategoryDescription: Assets related to backup systems for data protection19
+CategoryID: 19, CategoryName: CloudServices, CategoryDescription: Assets related to cloud services and subscriptions20
+CategoryID: 20, CategoryName: Workstations, CategoryDescription: Assets related to individual workstations for employees21
+CategoryID: 21, CategoryName: DataCenterHardware, CategoryDescription: Assets related to hardware in the data center22
+CategoryID: 22, CategoryName: UPS, CategoryDescription: Assets related to uninterruptible power supply (UPS) for power backup23
+CategoryID: 23, CategoryName: VoIPPhones, CategoryDescription: Assets related to Voice over Internet Protocol (VoIP) phones for communicationYou have chosen the following Category
+
+Category details:
+CategoryID: 1
+CategoryName: Mobile Phone
+CategoryDescription: Mobile Phone Description
+Enter categoryName:
+Enter categoryDescription:
+Category Updated Successfully!!!!
+
+Category details:
+CategoryID: 1
+CategoryName: Mobile Phone
+CategoryDescription: Mobile Phone Description
+
+Time: 0.032
+
+OK (9 tests)
+
+No of Tests present in the class CategoryHandlerTest: 9
+No of Test Cases Executed Successfully For the class CategoryHandlerTest: 9
+Running tests for class: handler.LocationHandlerTest
+JUnit version 4.13.2
+.
+
+1. Create New Location
+2. Retrieve Location By ID
+3. Update Existing Location
+4. Delete Location
+5. Import Location
+6. Export Location
+7. Exit
+Displaying All Locations:
+1
+LocationID: 1, LocationName: London, You have chosen the following Location
+
+Location details:
+LocationID: 1
+LocationName: London
+.
+
+1. Create New Location
+2. Retrieve Location By ID
+3. Update Existing Location
+4. Delete Location
+5. Import Location
+6. Export Location
+7. Exit
+New Location Creation....
+Enter locationName:
+Location Created Successfully!!!!
+
+Location details:
+LocationID: 2
+LocationName: London
+.
+
+1. Create New Location
+2. Retrieve Location By ID
+3. Update Existing Location
+4. Delete Location
+5. Import Location
+6. Export Location
+7. Exit
+.
+
+1. Create New Location
+2. Retrieve Location By ID
+3. Update Existing Location
+4. Delete Location
+5. Import Location
+6. Export Location
+7. Exit
+Please Select Valid Option
+.
+
+1. Create New Location
+2. Retrieve Location By ID
+3. Update Existing Location
+4. Delete Location
+5. Import Location
+6. Export Location
+7. Exit
+New Location Creation....
+Enter locationName:
+Location Created Successfully!!!!
+
+Location details:
+LocationID: 3
+LocationName: London
+.
+
+1. Create New Location
+2. Retrieve Location By ID
+3. Update Existing Location
+4. Delete Location
+5. Import Location
+6. Export Location
+7. Exit
+Displaying All Locations:
+1
+LocationID: 1, LocationName: London, 2
+LocationID: 2, LocationName: London, 3
+LocationID: 3, LocationName: London, You have chosen the following Location
+
+Location details:
+LocationID: 1
+LocationName: London
+Location Deleted Successfully!!!!
+.
+
+1. Create New Location
+2. Retrieve Location By ID
+3. Update Existing Location
+4. Delete Location
+5. Import Location
+6. Export Location
+7. Exit
+CSV Exported Successfully
+Export Completed
+.
+
+1. Create New Location
+2. Retrieve Location By ID
+3. Update Existing Location
+4. Delete Location
+5. Import Location
+6. Export Location
+7. Exit
+Please provide Absolute Path to Import
+Import Successfully Completed
+.
+
+1. Retrieve Location By ID
+2. Export Location
+3. Exit
+Displaying All Locations:
+1
+LocationID: 1, LocationName: London, 2
+LocationID: 2, LocationName: London, 3
+LocationID: 3, LocationName: London, 4
+LocationID: 4, LocationName: Main Office, 5
+LocationID: 5, LocationName: IT Department, 6
+LocationID: 6, LocationName: Data Center, 7
+LocationID: 7, LocationName: Office Floor 1, 8
+LocationID: 8, LocationName: Server Room, 9
+LocationID: 9, LocationName: Software Repository, 10
+LocationID: 10, LocationName: Security Room, 11
+LocationID: 11, LocationName: Employees' Homes, 12
+LocationID: 12, LocationName: Training Room, 13
+LocationID: 13, LocationName: Office Cubicles, 14
+LocationID: 14, LocationName: Conference Rooms, 15
+LocationID: 15, LocationName: Cloud Platform, You have chosen the following Location
+
+Location details:
+LocationID: 1
+LocationName: London
+.
+
+1. Create New Location
+2. Retrieve Location By ID
+3. Update Existing Location
+4. Delete Location
+5. Import Location
+6. Export Location
+7. Exit
+Displaying All Locations:
+1
+LocationID: 1, LocationName: London, 2
+LocationID: 2, LocationName: London, 3
+LocationID: 3, LocationName: London, 4
+LocationID: 4, LocationName: Main Office, 5
+LocationID: 5, LocationName: IT Department, 6
+LocationID: 6, LocationName: Data Center, 7
+LocationID: 7, LocationName: Office Floor 1, 8
+LocationID: 8, LocationName: Server Room, 9
+LocationID: 9, LocationName: Software Repository, 10
+LocationID: 10, LocationName: Security Room, 11
+LocationID: 11, LocationName: Employees' Homes, 12
+LocationID: 12, LocationName: Training Room, 13
+LocationID: 13, LocationName: Office Cubicles, 14
+LocationID: 14, LocationName: Conference Rooms, 15
+LocationID: 15, LocationName: Cloud Platform, You have chosen the following Location
+
+Location details:
+LocationID: 1
+LocationName: London
+Enter locationName:
+Location Updated Successfully!!!!
+
+Location details:
+LocationID: 1
+LocationName: Leicester
+
+Time: 0.032
+
+OK (10 tests)
+
+No of Tests present in the class LocationHandlerTest: 10
+No of Test Cases Executed Successfully For the class LocationHandlerTest: 10
+Running tests for class: handler.MaintenanceRequestHandlerTest
+JUnit version 4.13.2
+.
+
+1. Create New Maintenance Request
+2. Retrieve Request By ID
+3. Update Maintenance Request
+4. Delete Maintenance Request
+5. View Open Maintenance Request (All Open Asset Request) 
+6. View All Maintenance Request
+7. Close Maintenance Request
+8. Comment on Maintenance Request
+9. Exit
+1:	Maintenance RequestID : 1, Request Date: 2023-12-12, Request Status: 0, Request Status Formatted: Open, Request Description: Maintenance Request Description, Affected Asset Info: [{AssetName: Laptop, AssetCategory: Laptop, AssetModel: ModelABC, AssetDescription: High-performance laptop}{AssetName: Printer, AssetCategory: Printer, AssetModel: ModelXYZ, AssetDescription: Fast color printer}], Requester Assignee: John, Comment: [{John:Test Comment 1}]Requester Name: JohnYou have chosen the following Request
+
+MaintenanceRequest details:
+Maintenance RequestID : 1
+Request Date: 2023-12-12
+Request Status: 0
+Request Status Formatted: Open
+Request Description: Maintenance Request Description
+Affected Asset Info: 
+[{
+AssetName: Laptop
+AssetCategory: Laptop
+AssetModel: ModelABC
+AssetDescription: High-performance laptop
+}
+{
+AssetName: Printer
+AssetCategory: Printer
+AssetModel: ModelXYZ
+AssetDescription: Fast color printer
+}
+]
+Requester Name: John
+Requester Assignee: John
+Comment: 
+[
+{
+John:Test Comment 1
+}
+]
+.
+
+1. Create New Maintenance Request
+2. Retrieve Request By ID
+3. Update Maintenance Request
+4. Delete Maintenance Request
+5. View Open Maintenance Request (All Open Asset Request) 
+6. View All Maintenance Request
+7. Close Maintenance Request
+8. Comment on Maintenance Request
+9. Exit
+1:	Maintenance RequestID : 1, Request Date: 2023-12-12, Request Status: 0, Request Status Formatted: Open, Request Description: Maintenance Request Description, Affected Asset Info: [{AssetName: Laptop, AssetCategory: Laptop, AssetModel: ModelABC, AssetDescription: High-performance laptop}{AssetName: Printer, AssetCategory: Printer, AssetModel: ModelXYZ, AssetDescription: Fast color printer}], Requester Assignee: John, Comment: [{John:Test Comment 1}]Requester Name: JohnRequest Closed !!!
+.
+
+1. Create New Maintenance Request
+2. Retrieve Request By ID
+3. Update Maintenance Request
+4. Delete Maintenance Request
+5. View Open Maintenance Request (All Open Asset Request) 
+6. View All Maintenance Request
+7. Close Maintenance Request
+8. Comment on Maintenance Request
+9. Exit
+.
+
+1. Create New Maintenance Request
+2. Retrieve Request By ID
+3. Update Maintenance Request
+4. Delete Maintenance Request
+5. View Open Maintenance Request (All Open Asset Request) 
+6. View All Maintenance Request
+7. Close Maintenance Request
+8. Comment on Maintenance Request
+9. Exit
+Maintenance RequestID : 1, Request Date: 2023-12-12, Request Status: 0, Request Status Formatted: Open, Request Description: Maintenance Request Description, Affected Asset Info: [{AssetName: Laptop, AssetCategory: Laptop, AssetModel: ModelABC, AssetDescription: High-performance laptop}{AssetName: Printer, AssetCategory: Printer, AssetModel: ModelXYZ, AssetDescription: Fast color printer}], Requester Assignee: John, Comment: [{John:Test Comment 1}]Requester Name: John.
+
+1. Create New Maintenance Request
+2. Retrieve Request By ID
+3. Update Maintenance Request
+4. Delete Maintenance Request
+5. View Open Maintenance Request (All Open Asset Request) 
+6. View All Maintenance Request
+7. Close Maintenance Request
+8. Comment on Maintenance Request
+9. Exit
+Please Select Valid Option
+.
+
+1. Create New Maintenance Request
+2. Retrieve Request By ID
+3. Update Maintenance Request
+4. Delete Maintenance Request
+5. View Open Maintenance Request (All Open Asset Request) 
+6. View All Maintenance Request
+7. Close Maintenance Request
+8. Comment on Maintenance Request
+9. Exit
+Displaying Request:
+1:	Maintenance RequestID : 1, Request Date: 2023-12-12, Request Status: 0, Request Status Formatted: Open, Request Description: Maintenance Request Description, Affected Asset Info: [{AssetName: Laptop, AssetCategory: Laptop, AssetModel: ModelABC, AssetDescription: High-performance laptop}{AssetName: Printer, AssetCategory: Printer, AssetModel: ModelXYZ, AssetDescription: Fast color printer}], Requester Assignee: John, Comment: [{John:Test Comment 1}]Requester Name: John.
+
+1. Create New Maintenance Request
+2. Retrieve Request By ID
+3. Update Maintenance Request
+4. Delete Maintenance Request
+5. View Open Maintenance Request (All Open Asset Request) 
+6. View All Maintenance Request
+7. Close Maintenance Request
+8. Comment on Maintenance Request
+9. Exit
+New Request Creation....
+Enter requestDescription:
+Enter assetAffected:
+Select Asset to Add in the Request
+Press -1 to End
+1.Laptop
+2.Printer
+3.Desktop
+4.Monitor
+5.Projector
+6.Scanner
+7.Phone
+8.Tablet
+9.Server
+10.Camera
+11.Laptop
+12.Printer
+13.Desktop
+14.Monitor
+15.Projector
+16.Scanner
+17.Phone
+18.Tablet
+19.Server
+20.Camera
+21.Laptop
+22.Printer
+23.Desktop
+24.Monitor
+25.Projector
+26.Scanner
+27.Phone
+28.Tablet
+29.Server
+30.Camera
+31.Laptop
+32.Printer
+33.Desktop
+34.Monitor
+35.Projector
+36.Scanner
+37.Phone
+38.Tablet
+39.Server
+40.Camera
+41.Laptop
+42.Printer
+43.Desktop
+44.Monitor
+45.Projector
+46.Scanner
+47.Phone
+48.Tablet
+49.Server
+50.Camera
+51.Laptop
+52.Printer
+53.Desktop
+54.Monitor
+55.Projector
+56.Scanner
+57.Phone
+58.Tablet
+59.Server
+60.Camera
+61.Laptop
+62.Printer
+63.Desktop
+64.Monitor
+65.Projector
+66.Scanner
+67.Phone
+68.Tablet
+69.Server
+70.Camera
+1.Laptop
+2.Printer
+3.Desktop
+4.Monitor
+5.Projector
+6.Scanner
+7.Phone
+8.Tablet
+9.Server
+10.Camera
+11.Laptop
+12.Printer
+13.Desktop
+14.Monitor
+15.Projector
+16.Scanner
+17.Phone
+18.Tablet
+19.Server
+20.Camera
+21.Laptop
+22.Printer
+23.Desktop
+24.Monitor
+25.Projector
+26.Scanner
+27.Phone
+28.Tablet
+29.Server
+30.Camera
+31.Laptop
+32.Printer
+33.Desktop
+34.Monitor
+35.Projector
+36.Scanner
+37.Phone
+38.Tablet
+39.Server
+40.Camera
+41.Laptop
+42.Printer
+43.Desktop
+44.Monitor
+45.Projector
+46.Scanner
+47.Phone
+48.Tablet
+49.Server
+50.Camera
+51.Laptop
+52.Printer
+53.Desktop
+54.Monitor
+55.Projector
+56.Scanner
+57.Phone
+58.Tablet
+59.Server
+60.Camera
+61.Laptop
+62.Printer
+63.Desktop
+64.Monitor
+65.Projector
+66.Scanner
+67.Phone
+68.Tablet
+69.Server
+70.Camera
+1.Laptop
+2.Printer
+3.Desktop
+4.Monitor
+5.Projector
+6.Scanner
+7.Phone
+8.Tablet
+9.Server
+10.Camera
+11.Laptop
+12.Printer
+13.Desktop
+14.Monitor
+15.Projector
+16.Scanner
+17.Phone
+18.Tablet
+19.Server
+20.Camera
+21.Laptop
+22.Printer
+23.Desktop
+24.Monitor
+25.Projector
+26.Scanner
+27.Phone
+28.Tablet
+29.Server
+30.Camera
+31.Laptop
+32.Printer
+33.Desktop
+34.Monitor
+35.Projector
+36.Scanner
+37.Phone
+38.Tablet
+39.Server
+40.Camera
+41.Laptop
+42.Printer
+43.Desktop
+44.Monitor
+45.Projector
+46.Scanner
+47.Phone
+48.Tablet
+49.Server
+50.Camera
+51.Laptop
+52.Printer
+53.Desktop
+54.Monitor
+55.Projector
+56.Scanner
+57.Phone
+58.Tablet
+59.Server
+60.Camera
+61.Laptop
+62.Printer
+63.Desktop
+64.Monitor
+65.Projector
+66.Scanner
+67.Phone
+68.Tablet
+69.Server
+70.Camera
+Maintenance Request Created Successfully!!!!
+
+MaintenanceRequest details:
+Maintenance RequestID : 2
+Request Date: 2023-12-11
+Request Status: 0
+Request Status Formatted: Open
+Request Description: Asset Request Description
+Affected Asset Info: 
+[{
+AssetName: Laptop
+AssetCategory: Laptop
+AssetModel: ModelABC
+AssetDescription: High-performance laptop
+}
+{
+AssetName: Printer
+AssetCategory: Printer
+AssetModel: ModelXYZ
+AssetDescription: Fast color printer
+}
+]
+Requester Name: Alice Williams
+.
+
+1. Create New Maintenance Request
+2. Retrieve Request By ID
+3. Update Maintenance Request
+4. Delete Maintenance Request
+5. View Open Maintenance Request (All Open Asset Request) 
+6. View All Maintenance Request
+7. Close Maintenance Request
+8. Comment on Maintenance Request
+9. Exit
+New Request Creation....
+Enter requestDescription:
+Enter assetAffected:
+Select Asset to Add in the Request
+Press -1 to End
+1.Laptop
+2.Printer
+3.Desktop
+4.Monitor
+5.Projector
+6.Scanner
+7.Phone
+8.Tablet
+9.Server
+10.Camera
+11.Laptop
+12.Printer
+13.Desktop
+14.Monitor
+15.Projector
+16.Scanner
+17.Phone
+18.Tablet
+19.Server
+20.Camera
+21.Laptop
+22.Printer
+23.Desktop
+24.Monitor
+25.Projector
+26.Scanner
+27.Phone
+28.Tablet
+29.Server
+30.Camera
+31.Laptop
+32.Printer
+33.Desktop
+34.Monitor
+35.Projector
+36.Scanner
+37.Phone
+38.Tablet
+39.Server
+40.Camera
+41.Laptop
+42.Printer
+43.Desktop
+44.Monitor
+45.Projector
+46.Scanner
+47.Phone
+48.Tablet
+49.Server
+50.Camera
+51.Laptop
+52.Printer
+53.Desktop
+54.Monitor
+55.Projector
+56.Scanner
+57.Phone
+58.Tablet
+59.Server
+60.Camera
+61.Laptop
+62.Printer
+63.Desktop
+64.Monitor
+65.Projector
+66.Scanner
+67.Phone
+68.Tablet
+69.Server
+70.Camera
+71.Laptop
+72.Printer
+73.Desktop
+74.Monitor
+75.Projector
+76.Scanner
+77.Phone
+78.Tablet
+79.Server
+80.Camera
+1.Laptop
+2.Printer
+3.Desktop
+4.Monitor
+5.Projector
+6.Scanner
+7.Phone
+8.Tablet
+9.Server
+10.Camera
+11.Laptop
+12.Printer
+13.Desktop
+14.Monitor
+15.Projector
+16.Scanner
+17.Phone
+18.Tablet
+19.Server
+20.Camera
+21.Laptop
+22.Printer
+23.Desktop
+24.Monitor
+25.Projector
+26.Scanner
+27.Phone
+28.Tablet
+29.Server
+30.Camera
+31.Laptop
+32.Printer
+33.Desktop
+34.Monitor
+35.Projector
+36.Scanner
+37.Phone
+38.Tablet
+39.Server
+40.Camera
+41.Laptop
+42.Printer
+43.Desktop
+44.Monitor
+45.Projector
+46.Scanner
+47.Phone
+48.Tablet
+49.Server
+50.Camera
+51.Laptop
+52.Printer
+53.Desktop
+54.Monitor
+55.Projector
+56.Scanner
+57.Phone
+58.Tablet
+59.Server
+60.Camera
+61.Laptop
+62.Printer
+63.Desktop
+64.Monitor
+65.Projector
+66.Scanner
+67.Phone
+68.Tablet
+69.Server
+70.Camera
+71.Laptop
+72.Printer
+73.Desktop
+74.Monitor
+75.Projector
+76.Scanner
+77.Phone
+78.Tablet
+79.Server
+80.Camera
+1.Laptop
+2.Printer
+3.Desktop
+4.Monitor
+5.Projector
+6.Scanner
+7.Phone
+8.Tablet
+9.Server
+10.Camera
+11.Laptop
+12.Printer
+13.Desktop
+14.Monitor
+15.Projector
+16.Scanner
+17.Phone
+18.Tablet
+19.Server
+20.Camera
+21.Laptop
+22.Printer
+23.Desktop
+24.Monitor
+25.Projector
+26.Scanner
+27.Phone
+28.Tablet
+29.Server
+30.Camera
+31.Laptop
+32.Printer
+33.Desktop
+34.Monitor
+35.Projector
+36.Scanner
+37.Phone
+38.Tablet
+39.Server
+40.Camera
+41.Laptop
+42.Printer
+43.Desktop
+44.Monitor
+45.Projector
+46.Scanner
+47.Phone
+48.Tablet
+49.Server
+50.Camera
+51.Laptop
+52.Printer
+53.Desktop
+54.Monitor
+55.Projector
+56.Scanner
+57.Phone
+58.Tablet
+59.Server
+60.Camera
+61.Laptop
+62.Printer
+63.Desktop
+64.Monitor
+65.Projector
+66.Scanner
+67.Phone
+68.Tablet
+69.Server
+70.Camera
+71.Laptop
+72.Printer
+73.Desktop
+74.Monitor
+75.Projector
+76.Scanner
+77.Phone
+78.Tablet
+79.Server
+80.Camera
+Maintenance Request Created Successfully!!!!
+
+MaintenanceRequest details:
+Maintenance RequestID : 3
+Request Date: 2023-12-11
+Request Status: 0
+Request Status Formatted: Open
+Request Description: Maintenance Request Description
+Affected Asset Info: 
+[{
+AssetName: Laptop
+AssetCategory: Laptop
+AssetModel: ModelABC
+AssetDescription: High-performance laptop
+}
+{
+AssetName: Printer
+AssetCategory: Printer
+AssetModel: ModelXYZ
+AssetDescription: Fast color printer
+}
+]
+Requester Name: John
+.
+
+1. Create New Maintenance Request
+2. Retrieve Request By ID
+3. Update Maintenance Request
+4. Delete Maintenance Request
+5. View Open Maintenance Request (All Open Asset Request) 
+6. View All Maintenance Request
+7. Close Maintenance Request
+8. Comment on Maintenance Request
+9. Exit
+1:	Maintenance RequestID : 1, Request Date: 2023-12-12, Request Status: 0, Request Status Formatted: Open, Request Description: Maintenance Request Description, Affected Asset Info: [{AssetName: Laptop, AssetCategory: Laptop, AssetModel: ModelABC, AssetDescription: High-performance laptop}{AssetName: Printer, AssetCategory: Printer, AssetModel: ModelXYZ, AssetDescription: Fast color printer}], Requester Assignee: John, Comment: [{John:Test Comment 1}]Requester Name: John3:	Maintenance RequestID : 3, Request Date: 2023-12-11, Request Status: 0, Request Status Formatted: Open, Request Description: Maintenance Request Description, Affected Asset Info: [{AssetName: Laptop, AssetCategory: Laptop, AssetModel: ModelABC, AssetDescription: High-performance laptop}{AssetName: Printer, AssetCategory: Printer, AssetModel: ModelXYZ, AssetDescription: Fast color printer}], Requester Name: JohnYou have chosen the following Request
+
+MaintenanceRequest details:
+Maintenance RequestID : 1
+Request Date: 2023-12-12
+Request Status: 0
+Request Status Formatted: Open
+Request Description: Maintenance Request Description
+Affected Asset Info: 
+[{
+AssetName: Laptop
+AssetCategory: Laptop
+AssetModel: ModelABC
+AssetDescription: High-performance laptop
+}
+{
+AssetName: Printer
+AssetCategory: Printer
+AssetModel: ModelXYZ
+AssetDescription: Fast color printer
+}
+]
+Requester Name: John
+Requester Assignee: John
+Comment: 
+[
+{
+John:Test Comment 1
+}
+]
+Request Deleted Successfully!!!!
+.
+
+1. Create New Maintenance Request
+2. Retrieve Request By ID
+3. Update Maintenance Request
+4. Delete MaintenanceRequest
+5. View Open Maintenance Request (My Open Maintenance Request)
+6. Comment on Maintenance Request
+7. Exit
+New Request Creation....
+Enter requestDescription:
+Enter assetAffected:
+Select Asset to Add in the Request
+Press -1 to End
+1.Laptop
+2.Printer
+3.Desktop
+4.Monitor
+5.Projector
+6.Scanner
+7.Phone
+8.Tablet
+9.Server
+10.Camera
+11.Laptop
+12.Printer
+13.Desktop
+14.Monitor
+15.Projector
+16.Scanner
+17.Phone
+18.Tablet
+19.Server
+20.Camera
+21.Laptop
+22.Printer
+23.Desktop
+24.Monitor
+25.Projector
+26.Scanner
+27.Phone
+28.Tablet
+29.Server
+30.Camera
+31.Laptop
+32.Printer
+33.Desktop
+34.Monitor
+35.Projector
+36.Scanner
+37.Phone
+38.Tablet
+39.Server
+40.Camera
+41.Laptop
+42.Printer
+43.Desktop
+44.Monitor
+45.Projector
+46.Scanner
+47.Phone
+48.Tablet
+49.Server
+50.Camera
+51.Laptop
+52.Printer
+53.Desktop
+54.Monitor
+55.Projector
+56.Scanner
+57.Phone
+58.Tablet
+59.Server
+60.Camera
+61.Laptop
+62.Printer
+63.Desktop
+64.Monitor
+65.Projector
+66.Scanner
+67.Phone
+68.Tablet
+69.Server
+70.Camera
+71.Laptop
+72.Printer
+73.Desktop
+74.Monitor
+75.Projector
+76.Scanner
+77.Phone
+78.Tablet
+79.Server
+80.Camera
+81.Laptop
+82.Printer
+83.Desktop
+84.Monitor
+85.Projector
+86.Scanner
+87.Phone
+88.Tablet
+89.Server
+90.Camera
+91.Laptop
+92.Printer
+93.Desktop
+94.Monitor
+95.Projector
+96.Scanner
+97.Phone
+98.Tablet
+99.Server
+100.Camera
+1.Laptop
+2.Printer
+3.Desktop
+4.Monitor
+5.Projector
+6.Scanner
+7.Phone
+8.Tablet
+9.Server
+10.Camera
+11.Laptop
+12.Printer
+13.Desktop
+14.Monitor
+15.Projector
+16.Scanner
+17.Phone
+18.Tablet
+19.Server
+20.Camera
+21.Laptop
+22.Printer
+23.Desktop
+24.Monitor
+25.Projector
+26.Scanner
+27.Phone
+28.Tablet
+29.Server
+30.Camera
+31.Laptop
+32.Printer
+33.Desktop
+34.Monitor
+35.Projector
+36.Scanner
+37.Phone
+38.Tablet
+39.Server
+40.Camera
+41.Laptop
+42.Printer
+43.Desktop
+44.Monitor
+45.Projector
+46.Scanner
+47.Phone
+48.Tablet
+49.Server
+50.Camera
+51.Laptop
+52.Printer
+53.Desktop
+54.Monitor
+55.Projector
+56.Scanner
+57.Phone
+58.Tablet
+59.Server
+60.Camera
+61.Laptop
+62.Printer
+63.Desktop
+64.Monitor
+65.Projector
+66.Scanner
+67.Phone
+68.Tablet
+69.Server
+70.Camera
+71.Laptop
+72.Printer
+73.Desktop
+74.Monitor
+75.Projector
+76.Scanner
+77.Phone
+78.Tablet
+79.Server
+80.Camera
+81.Laptop
+82.Printer
+83.Desktop
+84.Monitor
+85.Projector
+86.Scanner
+87.Phone
+88.Tablet
+89.Server
+90.Camera
+91.Laptop
+92.Printer
+93.Desktop
+94.Monitor
+95.Projector
+96.Scanner
+97.Phone
+98.Tablet
+99.Server
+100.Camera
+1.Laptop
+2.Printer
+3.Desktop
+4.Monitor
+5.Projector
+6.Scanner
+7.Phone
+8.Tablet
+9.Server
+10.Camera
+11.Laptop
+12.Printer
+13.Desktop
+14.Monitor
+15.Projector
+16.Scanner
+17.Phone
+18.Tablet
+19.Server
+20.Camera
+21.Laptop
+22.Printer
+23.Desktop
+24.Monitor
+25.Projector
+26.Scanner
+27.Phone
+28.Tablet
+29.Server
+30.Camera
+31.Laptop
+32.Printer
+33.Desktop
+34.Monitor
+35.Projector
+36.Scanner
+37.Phone
+38.Tablet
+39.Server
+40.Camera
+41.Laptop
+42.Printer
+43.Desktop
+44.Monitor
+45.Projector
+46.Scanner
+47.Phone
+48.Tablet
+49.Server
+50.Camera
+51.Laptop
+52.Printer
+53.Desktop
+54.Monitor
+55.Projector
+56.Scanner
+57.Phone
+58.Tablet
+59.Server
+60.Camera
+61.Laptop
+62.Printer
+63.Desktop
+64.Monitor
+65.Projector
+66.Scanner
+67.Phone
+68.Tablet
+69.Server
+70.Camera
+71.Laptop
+72.Printer
+73.Desktop
+74.Monitor
+75.Projector
+76.Scanner
+77.Phone
+78.Tablet
+79.Server
+80.Camera
+81.Laptop
+82.Printer
+83.Desktop
+84.Monitor
+85.Projector
+86.Scanner
+87.Phone
+88.Tablet
+89.Server
+90.Camera
+91.Laptop
+92.Printer
+93.Desktop
+94.Monitor
+95.Projector
+96.Scanner
+97.Phone
+98.Tablet
+99.Server
+100.Camera
+Maintenance Request Created Successfully!!!!
+
+MaintenanceRequest details:
+Maintenance RequestID : 4
+Request Date: 2023-12-11
+Request Status: 0
+Request Status Formatted: Open
+Request Description: Maintenance Request Description
+Affected Asset Info: 
+[{
+AssetName: Laptop
+AssetCategory: Laptop
+AssetModel: ModelABC
+AssetDescription: High-performance laptop
+}
+{
+AssetName: Printer
+AssetCategory: Printer
+AssetModel: ModelXYZ
+AssetDescription: Fast color printer
+}
+]
+Requester Name: Jane Smith
+.
+
+1. Create New Maintenance Request
+2. Retrieve Request By ID
+3. Update Maintenance Request
+4. Delete MaintenanceRequest
+5. View Open Maintenance Request (My Open Maintenance Request)
+6. Comment on Maintenance Request
+7. Exit
+New Request Creation....
+Enter requestDescription:
+Enter assetAffected:
+Select Asset to Add in the Request
+Press -1 to End
+1.Laptop
+2.Printer
+3.Desktop
+4.Monitor
+5.Projector
+6.Scanner
+7.Phone
+8.Tablet
+9.Server
+10.Camera
+11.Laptop
+12.Printer
+13.Desktop
+14.Monitor
+15.Projector
+16.Scanner
+17.Phone
+18.Tablet
+19.Server
+20.Camera
+21.Laptop
+22.Printer
+23.Desktop
+24.Monitor
+25.Projector
+26.Scanner
+27.Phone
+28.Tablet
+29.Server
+30.Camera
+31.Laptop
+32.Printer
+33.Desktop
+34.Monitor
+35.Projector
+36.Scanner
+37.Phone
+38.Tablet
+39.Server
+40.Camera
+41.Laptop
+42.Printer
+43.Desktop
+44.Monitor
+45.Projector
+46.Scanner
+47.Phone
+48.Tablet
+49.Server
+50.Camera
+51.Laptop
+52.Printer
+53.Desktop
+54.Monitor
+55.Projector
+56.Scanner
+57.Phone
+58.Tablet
+59.Server
+60.Camera
+61.Laptop
+62.Printer
+63.Desktop
+64.Monitor
+65.Projector
+66.Scanner
+67.Phone
+68.Tablet
+69.Server
+70.Camera
+71.Laptop
+72.Printer
+73.Desktop
+74.Monitor
+75.Projector
+76.Scanner
+77.Phone
+78.Tablet
+79.Server
+80.Camera
+81.Laptop
+82.Printer
+83.Desktop
+84.Monitor
+85.Projector
+86.Scanner
+87.Phone
+88.Tablet
+89.Server
+90.Camera
+91.Laptop
+92.Printer
+93.Desktop
+94.Monitor
+95.Projector
+96.Scanner
+97.Phone
+98.Tablet
+99.Server
+100.Camera
+101.Laptop
+102.Printer
+103.Desktop
+104.Monitor
+105.Projector
+106.Scanner
+107.Phone
+108.Tablet
+109.Server
+110.Camera
+1.Laptop
+2.Printer
+3.Desktop
+4.Monitor
+5.Projector
+6.Scanner
+7.Phone
+8.Tablet
+9.Server
+10.Camera
+11.Laptop
+12.Printer
+13.Desktop
+14.Monitor
+15.Projector
+16.Scanner
+17.Phone
+18.Tablet
+19.Server
+20.Camera
+21.Laptop
+22.Printer
+23.Desktop
+24.Monitor
+25.Projector
+26.Scanner
+27.Phone
+28.Tablet
+29.Server
+30.Camera
+31.Laptop
+32.Printer
+33.Desktop
+34.Monitor
+35.Projector
+36.Scanner
+37.Phone
+38.Tablet
+39.Server
+40.Camera
+41.Laptop
+42.Printer
+43.Desktop
+44.Monitor
+45.Projector
+46.Scanner
+47.Phone
+48.Tablet
+49.Server
+50.Camera
+51.Laptop
+52.Printer
+53.Desktop
+54.Monitor
+55.Projector
+56.Scanner
+57.Phone
+58.Tablet
+59.Server
+60.Camera
+61.Laptop
+62.Printer
+63.Desktop
+64.Monitor
+65.Projector
+66.Scanner
+67.Phone
+68.Tablet
+69.Server
+70.Camera
+71.Laptop
+72.Printer
+73.Desktop
+74.Monitor
+75.Projector
+76.Scanner
+77.Phone
+78.Tablet
+79.Server
+80.Camera
+81.Laptop
+82.Printer
+83.Desktop
+84.Monitor
+85.Projector
+86.Scanner
+87.Phone
+88.Tablet
+89.Server
+90.Camera
+91.Laptop
+92.Printer
+93.Desktop
+94.Monitor
+95.Projector
+96.Scanner
+97.Phone
+98.Tablet
+99.Server
+100.Camera
+101.Laptop
+102.Printer
+103.Desktop
+104.Monitor
+105.Projector
+106.Scanner
+107.Phone
+108.Tablet
+109.Server
+110.Camera
+1.Laptop
+2.Printer
+3.Desktop
+4.Monitor
+5.Projector
+6.Scanner
+7.Phone
+8.Tablet
+9.Server
+10.Camera
+11.Laptop
+12.Printer
+13.Desktop
+14.Monitor
+15.Projector
+16.Scanner
+17.Phone
+18.Tablet
+19.Server
+20.Camera
+21.Laptop
+22.Printer
+23.Desktop
+24.Monitor
+25.Projector
+26.Scanner
+27.Phone
+28.Tablet
+29.Server
+30.Camera
+31.Laptop
+32.Printer
+33.Desktop
+34.Monitor
+35.Projector
+36.Scanner
+37.Phone
+38.Tablet
+39.Server
+40.Camera
+41.Laptop
+42.Printer
+43.Desktop
+44.Monitor
+45.Projector
+46.Scanner
+47.Phone
+48.Tablet
+49.Server
+50.Camera
+51.Laptop
+52.Printer
+53.Desktop
+54.Monitor
+55.Projector
+56.Scanner
+57.Phone
+58.Tablet
+59.Server
+60.Camera
+61.Laptop
+62.Printer
+63.Desktop
+64.Monitor
+65.Projector
+66.Scanner
+67.Phone
+68.Tablet
+69.Server
+70.Camera
+71.Laptop
+72.Printer
+73.Desktop
+74.Monitor
+75.Projector
+76.Scanner
+77.Phone
+78.Tablet
+79.Server
+80.Camera
+81.Laptop
+82.Printer
+83.Desktop
+84.Monitor
+85.Projector
+86.Scanner
+87.Phone
+88.Tablet
+89.Server
+90.Camera
+91.Laptop
+92.Printer
+93.Desktop
+94.Monitor
+95.Projector
+96.Scanner
+97.Phone
+98.Tablet
+99.Server
+100.Camera
+101.Laptop
+102.Printer
+103.Desktop
+104.Monitor
+105.Projector
+106.Scanner
+107.Phone
+108.Tablet
+109.Server
+110.Camera
+Maintenance Request Created Successfully!!!!
+
+MaintenanceRequest details:
+Maintenance RequestID : 5
+Request Date: 2023-12-11
+Request Status: 0
+Request Status Formatted: Open
+Request Description: Maintenance Request Description
+Affected Asset Info: 
+[{
+AssetName: Laptop
+AssetCategory: Laptop
+AssetModel: ModelABC
+AssetDescription: High-performance laptop
+}
+{
+AssetName: Printer
+AssetCategory: Printer
+AssetModel: ModelXYZ
+AssetDescription: Fast color printer
+}
+]
+Requester Name: Bob Johnson
+.
+
+1. Create New Maintenance Request
+2. Retrieve Request By ID
+3. Update Maintenance Request
+4. Delete Maintenance Request
+5. View Open Maintenance Request (All Open Asset Request) 
+6. View All Maintenance Request
+7. Close Maintenance Request
+8. Comment on Maintenance Request
+9. Exit
+1:	Maintenance RequestID : 1, Request Date: 2023-12-12, Request Status: 0, Request Status Formatted: Open, Request Description: Maintenance Request Description, Affected Asset Info: [{AssetName: Laptop, AssetCategory: Laptop, AssetModel: ModelABC, AssetDescription: High-performance laptop}{AssetName: Printer, AssetCategory: Printer, AssetModel: ModelXYZ, AssetDescription: Fast color printer}], Requester Assignee: John, Comment: [{John:Test Comment 1}]Requester Name: John2:	Maintenance RequestID : 2, Request Date: 2023-12-11, Request Status: 0, Request Status Formatted: Open, Request Description: Asset Request Description, Affected Asset Info: [{AssetName: Laptop, AssetCategory: Laptop, AssetModel: ModelABC, AssetDescription: High-performance laptop}{AssetName: Printer, AssetCategory: Printer, AssetModel: ModelXYZ, AssetDescription: Fast color printer}], Requester Name: Alice Williams3:	Maintenance RequestID : 3, Request Date: 2023-12-11, Request Status: 0, Request Status Formatted: Open, Request Description: Maintenance Request Description, Affected Asset Info: [{AssetName: Laptop, AssetCategory: Laptop, AssetModel: ModelABC, AssetDescription: High-performance laptop}{AssetName: Printer, AssetCategory: Printer, AssetModel: ModelXYZ, AssetDescription: Fast color printer}], Requester Name: John4:	Maintenance RequestID : 4, Request Date: 2023-12-11, Request Status: 0, Request Status Formatted: Open, Request Description: Maintenance Request Description, Affected Asset Info: [{AssetName: Laptop, AssetCategory: Laptop, AssetModel: ModelABC, AssetDescription: High-performance laptop}{AssetName: Printer, AssetCategory: Printer, AssetModel: ModelXYZ, AssetDescription: Fast color printer}], Requester Name: Jane Smith5:	Maintenance RequestID : 5, Request Date: 2023-12-11, Request Status: 0, Request Status Formatted: Open, Request Description: Maintenance Request Description, Affected Asset Info: [{AssetName: Laptop, AssetCategory: Laptop, AssetModel: ModelABC, AssetDescription: High-performance laptop}{AssetName: Printer, AssetCategory: Printer, AssetModel: ModelXYZ, AssetDescription: Fast color printer}], Requester Name: Bob Johnson
+Enter Comment
+.
+
+1. Create New Maintenance Request
+2. Retrieve Request By ID
+3. Update Maintenance Request
+4. Delete Maintenance Request
+5. View Open Maintenance Request (All Open Asset Request) 
+6. View All Maintenance Request
+7. Close Maintenance Request
+8. Comment on Maintenance Request
+9. Exit
+1:	Maintenance RequestID : 1, Request Date: 2023-12-12, Request Status: 0, Request Status Formatted: Open, Request Description: Maintenance Request Description, Affected Asset Info: [{AssetName: Laptop, AssetCategory: Laptop, AssetModel: ModelABC, AssetDescription: High-performance laptop}{AssetName: Printer, AssetCategory: Printer, AssetModel: ModelXYZ, AssetDescription: Fast color printer}], Requester Assignee: John, Comment: [{John:Test Comment 1}]Requester Name: John3:	Maintenance RequestID : 3, Request Date: 2023-12-11, Request Status: 0, Request Status Formatted: Open, Request Description: Maintenance Request Description, Affected Asset Info: [{AssetName: Laptop, AssetCategory: Laptop, AssetModel: ModelABC, AssetDescription: High-performance laptop}{AssetName: Printer, AssetCategory: Printer, AssetModel: ModelXYZ, AssetDescription: Fast color printer}], Requester Name: JohnYou have chosen the following Request
+
+MaintenanceRequest details:
+Maintenance RequestID : 1
+Request Date: 2023-12-12
+Request Status: 0
+Request Status Formatted: Open
+Request Description: Maintenance Request Description
+Affected Asset Info: 
+[{
+AssetName: Laptop
+AssetCategory: Laptop
+AssetModel: ModelABC
+AssetDescription: High-performance laptop
+}
+{
+AssetName: Printer
+AssetCategory: Printer
+AssetModel: ModelXYZ
+AssetDescription: Fast color printer
+}
+]
+Requester Name: John
+Requester Assignee: John
+Comment: 
+[
+{
+John:Test Comment 1
+}
+]
+Enter requestDescription:
+Enter assetAffected:
+Select Asset to Add in the Request
+Press -1 to End
+1.Laptop
+2.Printer
+3.Desktop
+4.Monitor
+5.Projector
+6.Scanner
+7.Phone
+8.Tablet
+9.Server
+10.Camera
+11.Laptop
+12.Printer
+13.Desktop
+14.Monitor
+15.Projector
+16.Scanner
+17.Phone
+18.Tablet
+19.Server
+20.Camera
+21.Laptop
+22.Printer
+23.Desktop
+24.Monitor
+25.Projector
+26.Scanner
+27.Phone
+28.Tablet
+29.Server
+30.Camera
+31.Laptop
+32.Printer
+33.Desktop
+34.Monitor
+35.Projector
+36.Scanner
+37.Phone
+38.Tablet
+39.Server
+40.Camera
+41.Laptop
+42.Printer
+43.Desktop
+44.Monitor
+45.Projector
+46.Scanner
+47.Phone
+48.Tablet
+49.Server
+50.Camera
+51.Laptop
+52.Printer
+53.Desktop
+54.Monitor
+55.Projector
+56.Scanner
+57.Phone
+58.Tablet
+59.Server
+60.Camera
+61.Laptop
+62.Printer
+63.Desktop
+64.Monitor
+65.Projector
+66.Scanner
+67.Phone
+68.Tablet
+69.Server
+70.Camera
+71.Laptop
+72.Printer
+73.Desktop
+74.Monitor
+75.Projector
+76.Scanner
+77.Phone
+78.Tablet
+79.Server
+80.Camera
+81.Laptop
+82.Printer
+83.Desktop
+84.Monitor
+85.Projector
+86.Scanner
+87.Phone
+88.Tablet
+89.Server
+90.Camera
+91.Laptop
+92.Printer
+93.Desktop
+94.Monitor
+95.Projector
+96.Scanner
+97.Phone
+98.Tablet
+99.Server
+100.Camera
+101.Laptop
+102.Printer
+103.Desktop
+104.Monitor
+105.Projector
+106.Scanner
+107.Phone
+108.Tablet
+109.Server
+110.Camera
+111.Laptop
+112.Printer
+113.Desktop
+114.Monitor
+115.Projector
+116.Scanner
+117.Phone
+118.Tablet
+119.Server
+120.Camera
+121.Laptop
+122.Printer
+123.Desktop
+124.Monitor
+125.Projector
+126.Scanner
+127.Phone
+128.Tablet
+129.Server
+130.Camera
+1.Laptop
+2.Printer
+3.Desktop
+4.Monitor
+5.Projector
+6.Scanner
+7.Phone
+8.Tablet
+9.Server
+10.Camera
+11.Laptop
+12.Printer
+13.Desktop
+14.Monitor
+15.Projector
+16.Scanner
+17.Phone
+18.Tablet
+19.Server
+20.Camera
+21.Laptop
+22.Printer
+23.Desktop
+24.Monitor
+25.Projector
+26.Scanner
+27.Phone
+28.Tablet
+29.Server
+30.Camera
+31.Laptop
+32.Printer
+33.Desktop
+34.Monitor
+35.Projector
+36.Scanner
+37.Phone
+38.Tablet
+39.Server
+40.Camera
+41.Laptop
+42.Printer
+43.Desktop
+44.Monitor
+45.Projector
+46.Scanner
+47.Phone
+48.Tablet
+49.Server
+50.Camera
+51.Laptop
+52.Printer
+53.Desktop
+54.Monitor
+55.Projector
+56.Scanner
+57.Phone
+58.Tablet
+59.Server
+60.Camera
+61.Laptop
+62.Printer
+63.Desktop
+64.Monitor
+65.Projector
+66.Scanner
+67.Phone
+68.Tablet
+69.Server
+70.Camera
+71.Laptop
+72.Printer
+73.Desktop
+74.Monitor
+75.Projector
+76.Scanner
+77.Phone
+78.Tablet
+79.Server
+80.Camera
+81.Laptop
+82.Printer
+83.Desktop
+84.Monitor
+85.Projector
+86.Scanner
+87.Phone
+88.Tablet
+89.Server
+90.Camera
+91.Laptop
+92.Printer
+93.Desktop
+94.Monitor
+95.Projector
+96.Scanner
+97.Phone
+98.Tablet
+99.Server
+100.Camera
+101.Laptop
+102.Printer
+103.Desktop
+104.Monitor
+105.Projector
+106.Scanner
+107.Phone
+108.Tablet
+109.Server
+110.Camera
+111.Laptop
+112.Printer
+113.Desktop
+114.Monitor
+115.Projector
+116.Scanner
+117.Phone
+118.Tablet
+119.Server
+120.Camera
+121.Laptop
+122.Printer
+123.Desktop
+124.Monitor
+125.Projector
+126.Scanner
+127.Phone
+128.Tablet
+129.Server
+130.Camera
+1.Laptop
+2.Printer
+3.Desktop
+4.Monitor
+5.Projector
+6.Scanner
+7.Phone
+8.Tablet
+9.Server
+10.Camera
+11.Laptop
+12.Printer
+13.Desktop
+14.Monitor
+15.Projector
+16.Scanner
+17.Phone
+18.Tablet
+19.Server
+20.Camera
+21.Laptop
+22.Printer
+23.Desktop
+24.Monitor
+25.Projector
+26.Scanner
+27.Phone
+28.Tablet
+29.Server
+30.Camera
+31.Laptop
+32.Printer
+33.Desktop
+34.Monitor
+35.Projector
+36.Scanner
+37.Phone
+38.Tablet
+39.Server
+40.Camera
+41.Laptop
+42.Printer
+43.Desktop
+44.Monitor
+45.Projector
+46.Scanner
+47.Phone
+48.Tablet
+49.Server
+50.Camera
+51.Laptop
+52.Printer
+53.Desktop
+54.Monitor
+55.Projector
+56.Scanner
+57.Phone
+58.Tablet
+59.Server
+60.Camera
+61.Laptop
+62.Printer
+63.Desktop
+64.Monitor
+65.Projector
+66.Scanner
+67.Phone
+68.Tablet
+69.Server
+70.Camera
+71.Laptop
+72.Printer
+73.Desktop
+74.Monitor
+75.Projector
+76.Scanner
+77.Phone
+78.Tablet
+79.Server
+80.Camera
+81.Laptop
+82.Printer
+83.Desktop
+84.Monitor
+85.Projector
+86.Scanner
+87.Phone
+88.Tablet
+89.Server
+90.Camera
+91.Laptop
+92.Printer
+93.Desktop
+94.Monitor
+95.Projector
+96.Scanner
+97.Phone
+98.Tablet
+99.Server
+100.Camera
+101.Laptop
+102.Printer
+103.Desktop
+104.Monitor
+105.Projector
+106.Scanner
+107.Phone
+108.Tablet
+109.Server
+110.Camera
+111.Laptop
+112.Printer
+113.Desktop
+114.Monitor
+115.Projector
+116.Scanner
+117.Phone
+118.Tablet
+119.Server
+120.Camera
+121.Laptop
+122.Printer
+123.Desktop
+124.Monitor
+125.Projector
+126.Scanner
+127.Phone
+128.Tablet
+129.Server
+130.Camera
+Request Updated Successfully!!!!
+
+MaintenanceRequest details:
+Maintenance RequestID : 1
+Request Date: 2023-12-12
+Request Status: 0
+Request Status Formatted: Open
+Request Description: Maintenance Request Test Description
+Affected Asset Info: 
+[{
+AssetName: Laptop
+AssetCategory: Laptop
+AssetModel: ModelABC
+AssetDescription: High-performance laptop
+}
+{
+AssetName: Printer
+AssetCategory: Printer
+AssetModel: ModelXYZ
+AssetDescription: Fast color printer
+}
+]
+Requester Name: John
+Requester Assignee: John
+Comment: 
+[
+{
+John:Test Comment 1
+}
+]
+
+Time: 0.084
+
+OK (13 tests)
+
+No of Tests present in the class MaintenanceRequestHandlerTest: 13
+No of Test Cases Executed Successfully For the class MaintenanceRequestHandlerTest: 13
+Running tests for class: handler.ModuleHandlerTest
+JUnit version 4.13.2
+.
+
+1. Asset
+2. Asset Request
+3. Maintenance Request
+4. Location
+5. About Me
+6. Logout
+7. Exit
+
+
+1. Retrieve Asset By ID
+2. Export Asset
+3. Exit
+.
+
+1. User
+2. Asset
+3. Asset Request
+4. Maintenance Request
+5. Category
+6. Location
+7. Project
+8. About Me
+9. Logout
+10. Exit
+
+
+1. Create New Asset
+2. Retrieve Asset By ID
+3. Update Existing Asset
+4. Delete Asset
+5. Import Asset
+6. Export Asset
+7. Move Asset
+8. Tag Asset By User
+9. Tag Asset By Project
+10. Mark Asset As Expired
+11. Exit
+.
+
+1. User
+2. Asset
+3. Asset Request
+4. Maintenance Request
+5. Category
+6. Location
+7. Purchase Order
+8. Vendor
+9. Product
+10. Project
+11. About Me
+12. Logout
+13. Exit
+
+
+1. Create New Asset
+2. Retrieve Asset By ID
+3. Update Existing Asset
+4. Delete Asset
+5. Import Asset
+6. Export Asset
+7. Move Asset
+8. Tag Asset By User
+9. Tag Asset By Project
+10. Mark Asset As Expired
+11. Mark Asset as Decommission
+12. Exit
+.
+
+1. User
+2. Asset
+3. Asset Request
+4. Maintenance Request
+5. Category
+6. Location
+7. Purchase Order
+8. Vendor
+9. Product
+10. Project
+11. About Me
+12. Logout
+13. Exit
+.
+
+1. Asset
+2. Asset Request
+3. Maintenance Request
+4. About Me
+5. Logout
+6. Exit
+
+
+1. Retrieve Asset By ID
+2. Exit
+.
+
+1. User
+2. Asset
+3. Asset Request
+4. Maintenance Request
+5. Category
+6. Location
+7. Purchase Order
+8. Vendor
+9. Product
+10. Project
+11. About Me
+12. Logout
+13. Exit
+Please Select Valid Option
+.
+
+1. User
+2. Asset
+3. Asset Request
+4. Maintenance Request
+5. Category
+6. Location
+7. Purchase Order
+8. Vendor
+9. Product
+10. Project
+11. About Me
+12. Logout
+13. Exit
+
+
+Time: 0.024
+
+OK (7 tests)
+
+No of Tests present in the class ModuleHandlerTest: 7
+No of Test Cases Executed Successfully For the class ModuleHandlerTest: 7
+Running tests for class: handler.ProductHandlerTest
+JUnit version 4.13.2
+.
+
+1. Create New Product
+2. Retrieve Product By ID
+3. Update Existing Product
+4. Delete Product
+5. Import Product
+6. Export Product
+7. Exit
+Displaying All Products:
+1
+ProductID: 1, ProductName: Printer, ProductDescription: High-speed printer for office use, ProductCost: 300You have chosen the following Location
+
+Product details:
+ProductID: 1
+ProductName: Printer
+ProductDescription: High-speed printer for office use
+ProductCost: 300
+.
+
+1. Create New Product
+2. Retrieve Product By ID
+3. Update Existing Product
+4. Delete Product
+5. Import Product
+6. Export Product
+7. Exit
+.
+
+1. Create New Product
+2. Retrieve Product By ID
+3. Update Existing Product
+4. Delete Product
+5. Import Product
+6. Export Product
+7. Exit
+Please Select Valid Option
+.
+
+1. Create New Product
+2. Retrieve Product By ID
+3. Update Existing Product
+4. Delete Product
+5. Import Product
+6. Export Product
+7. Exit
+New Product Creation....
+Enter productName:
+Enter productDescription:
+Enter productCost:
+Product Created Successfully!!!!
+
+Product details:
+ProductID: 2
+ProductName: Printer
+ProductDescription: High-speed printer for office use
+ProductCost: 300
+.
+
+1. Create New Product
+2. Retrieve Product By ID
+3. Update Existing Product
+4. Delete Product
+5. Import Product
+6. Export Product
+7. Exit
+Displaying All Products:
+1
+ProductID: 1, ProductName: Printer, ProductDescription: High-speed printer for office use, ProductCost: 3002
+ProductID: 2, ProductName: Printer, ProductDescription: High-speed printer for office use, ProductCost: 300You have chosen the following Location
+
+Product details:
+ProductID: 1
+ProductName: Printer
+ProductDescription: High-speed printer for office use
+ProductCost: 300
+Product Deleted Successfully!!!!
+.
+
+1. Create New Product
+2. Retrieve Product By ID
+3. Update Existing Product
+4. Delete Product
+5. Import Product
+6. Export Product
+7. Exit
+CSV Exported Successfully
+Export Completed
+.
+
+1. Create New Product
+2. Retrieve Product By ID
+3. Update Existing Product
+4. Delete Product
+5. Import Product
+6. Export Product
+7. Exit
+Please provide Absolute Path to Import
+Import Successfully Completed
+.
+
+1. Create New Product
+2. Retrieve Product By ID
+3. Update Existing Product
+4. Delete Product
+5. Import Product
+6. Export Product
+7. Exit
+Displaying All Products:
+1
+ProductID: 1, ProductName: Printer, ProductDescription: High-speed printer for office use, ProductCost: 3002
+ProductID: 2, ProductName: Printer, ProductDescription: High-speed printer for office use, ProductCost: 3003
+ProductID: 3, ProductName: Laptop, ProductDescription: High-performance laptop for employees, ProductCost: 1200.004
+ProductID: 4, ProductName: Desktop, ProductDescription: Standard office desktop computer, ProductCost: 900.005
+ProductID: 5, ProductName: Server, ProductDescription: Enterprise-grade server for critical applications, ProductCost: 5000.006
+ProductID: 6, ProductName: Printer, ProductDescription: High-speed printer for office use, ProductCost: 300.007
+ProductID: 7, ProductName: Network Switch, ProductDescription: Managed network switch for connectivity, ProductCost: 800.008
+ProductID: 8, ProductName: Software License, ProductDescription: Operating system license, ProductCost: 150.009
+ProductID: 9, ProductName: Keyboard, ProductDescription: Standard ergonomic keyboard, ProductCost: 30.0010
+ProductID: 10, ProductName: Security Camera, ProductDescription: HD security camera for surveillance, ProductCost: 200.0011
+ProductID: 11, ProductName: Smartphone, ProductDescription: Company-issued smartphone for employees, ProductCost: 700.0012
+ProductID: 12, ProductName: Hard Drive, ProductDescription: 1TB internal hard drive, ProductCost: 80.0013
+ProductID: 13, ProductName: Monitor, ProductDescription: 27-inch widescreen monitor, ProductCost: 250.0014
+ProductID: 14, ProductName: Projector, ProductDescription: HD projector for presentations, ProductCost: 600.0015
+ProductID: 15, ProductName: Virtualization Software, ProductDescription: Virtualization solution for efficient resource management, ProductCost: 1000.0016
+ProductID: 16, ProductName: Training Materials, ProductDescription: IT training materials and resources, ProductCost: 50.0017
+ProductID: 17, ProductName: Backup System, ProductDescription: Automated backup system for data protection, ProductCost: 400.0018
+ProductID: 18, ProductName: Cloud Subscription, ProductDescription: Monthly subscription for cloud services, ProductCost: 50.0019
+ProductID: 19, ProductName: Office Workstation, ProductDescription: Complete workstation setup for employees, ProductCost: 1500.0020
+ProductID: 20, ProductName: Data Center Hardware, ProductDescription: Hardware infrastructure for the data center, ProductCost: 10000.0021
+ProductID: 21, ProductName: UPS, ProductDescription: Uninterruptible power supply for power backup, ProductCost: 150.0022
+ProductID: 22, ProductName: VoIP Phone, ProductDescription: Voice over Internet Protocol (VoIP) phone, ProductCost: 120.00You have chosen the following Location
+
+Product details:
+ProductID: 1
+ProductName: Printer
+ProductDescription: High-speed printer for office use
+ProductCost: 300
+Enter productName:
+Enter productDescription:
+Enter productCost:
+Product Updated Successfully!!!!
+
+Product details:
+ProductID: 1
+ProductName: Printer Test 
+ProductDescription: High-speed printer for office use Test
+ProductCost: 350
+
+Time: 0.035
+
+OK (8 tests)
+
+No of Tests present in the class ProductHandlerTest: 8
+No of Test Cases Executed Successfully For the class ProductHandlerTest: 8
+Running tests for class: handler.ProfileHandlerTest
+JUnit version 4.13.2
+.
+ About Me
+UserID: 1
+Name: John
+EmailID: john@email.com
+UserRole: ADMIN
+JobTitle: IT Asset Manager
+Description: Responsible for managing IT assets and inventory
+
+Time: 0.007
+
+OK (1 test)
+
+No of Tests present in the class ProfileHandlerTest: 1
+No of Test Cases Executed Successfully For the class ProfileHandlerTest: 1
+Running tests for class: handler.ProjectHandlerTest
+JUnit version 4.13.2
+.
+
+1. Create New Project
+2. Retrieve Project By ID
+3. Update Existing Project
+4. Delete Project
+5. Import Project
+6. Export Project
+7. Exit
+Displaying All Projects
+1
+ProjectID: 1, ProjectName: HSGC Bank, ProjectDescription: HSGC Bank Description, ProjectOwner: JohnYou have chosen the following Project
+
+Project details:
+ProjectID: 1
+ProjectName: HSGC Bank
+ProjectDescription: HSGC Bank Description
+ProjectOwner: John
+.
+
+1. Retrieve Project By ID
+2. Export Project
+3. Exit
+Displaying All Projects
+1
+ProjectID: 1, ProjectName: HSGC Bank, ProjectDescription: HSGC Bank Description, ProjectOwner: JohnInvalid input, Please provide valid Integer
+.
+
+1. Create New Project
+2. Retrieve Project By ID
+3. Update Existing Project
+4. Delete Project
+5. Import Project
+6. Export Project
+7. Exit
+.
+
+1. Create New Project
+2. Retrieve Project By ID
+3. Update Existing Project
+4. Delete Project
+5. Import Project
+6. Export Project
+7. Exit
+Please Select Valid Option
+.
+
+1. Create New Project
+2. Retrieve Project By ID
+3. Update Existing Project
+4. Delete Project
+5. Import Project
+6. Export Project
+7. Exit
+New Project Creation....
+Enter projectName:
+Enter projectDescription:
+Enter projectOwner:
+Displaying All Users
+1.John
+2.Jane Smith
+3.Bob Johnson
+4.Alice Williams
+5.Charlie Brown
+6.Eva Davis
+7.Frank Miller
+8.Grace Turner
+9.Henry White
+10.Isabel Garcia
+11.John
+12.Jane Smith
+13.Bob Johnson
+14.Alice Williams
+15.Charlie Brown
+16.Eva Davis
+17.Frank Miller
+18.Grace Turner
+19.Henry White
+20.Isabel Garcia
+21.John
+22.Jane Smith
+23.Bob Johnson
+24.Alice Williams
+25.Charlie Brown
+26.Eva Davis
+27.Frank Miller
+28.Grace Turner
+29.Henry White
+30.Isabel Garcia
+31.John
+32.Jane Smith
+33.Bob Johnson
+34.Alice Williams
+35.Charlie Brown
+36.Eva Davis
+37.Frank Miller
+38.Grace Turner
+39.Henry White
+40.Isabel Garcia
+41.John
+42.Jane Smith
+43.Bob Johnson
+44.Alice Williams
+45.Charlie Brown
+46.Eva Davis
+47.Frank Miller
+48.Grace Turner
+49.Henry White
+50.Isabel Garcia
+Choose User
+Project Created Successfully!!!!
+
+Project details:
+ProjectID: 2
+ProjectName: HSGC Bank
+ProjectDescription: HSGC Bank Description
+ProjectOwner: Frank Miller
+.
+
+1. Create New Project
+2. Retrieve Project By ID
+3. Update Existing Project
+4. Delete Project
+5. Import Project
+6. Export Project
+7. Exit
+Displaying All Projects
+1
+ProjectID: 1, ProjectName: HSGC Bank, ProjectDescription: HSGC Bank Description, ProjectOwner: John2
+ProjectID: 2, ProjectName: HSGC Bank, ProjectDescription: HSGC Bank Description, ProjectOwner: Frank MillerYou have chosen the following Project
+
+Project details:
+ProjectID: 1
+ProjectName: HSGC Bank
+ProjectDescription: HSGC Bank Description
+ProjectOwner: John
+Project Deleted Successfully!!!!
+.
+
+1. Create New Project
+2. Retrieve Project By ID
+3. Update Existing Project
+4. Delete Project
+5. Import Project
+6. Export Project
+7. Exit
+CSV Exported Successfully
+Export Completed
+.
+
+1. Create New Project
+2. Retrieve Project By ID
+3. Update Existing Project
+4. Delete Project
+5. Import Project
+6. Export Project
+7. Exit
+Please provide Absolute Path to Import
+Import Successfully Completed
+.
+
+1. Create New Project
+2. Retrieve Project By ID
+3. Update Existing Project
+4. Delete Project
+5. Import Project
+6. Export Project
+7. Exit
+Displaying All Projects
+1
+ProjectID: 1, ProjectName: HSGC Bank, ProjectDescription: HSGC Bank Description, ProjectOwner: John2
+ProjectID: 2, ProjectName: HSGC Bank, ProjectDescription: HSGC Bank Description, ProjectOwner: Frank Miller3
+ProjectID: 3, ProjectName: Website Redesign, ProjectDescription: Revamping the company website for better user experience, ProjectOwner: Alice Johnson4
+ProjectID: 4, ProjectName: Database Migration, ProjectDescription: Migrating the database to a more scalable solution, ProjectOwner: Bob Smith5
+ProjectID: 5, ProjectName: Mobile App Development, ProjectDescription: Creating a mobile app for both iOS and Android platforms, ProjectOwner: Charlie Davis6
+ProjectID: 6, ProjectName: Network Security Upgrade, ProjectDescription: Enhancing the network security infrastructure, ProjectOwner: Diana Garcia7
+ProjectID: 7, ProjectName: Cloud Integration, ProjectDescription: Integrating cloud services for improved scalability and accessibility, ProjectOwner: Eric MillerYou have chosen the following Project
+
+Project details:
+ProjectID: 1
+ProjectName: HSGC Bank
+ProjectDescription: HSGC Bank Description
+ProjectOwner: John
+Enter projectName:
+Enter projectDescription:
+Enter projectOwner:
+Displaying All Users
+1.John
+2.Jane Smith
+3.Bob Johnson
+4.Alice Williams
+5.Charlie Brown
+6.Eva Davis
+7.Frank Miller
+8.Grace Turner
+9.Henry White
+10.Isabel Garcia
+11.John
+12.Jane Smith
+13.Bob Johnson
+14.Alice Williams
+15.Charlie Brown
+16.Eva Davis
+17.Frank Miller
+18.Grace Turner
+19.Henry White
+20.Isabel Garcia
+21.John
+22.Jane Smith
+23.Bob Johnson
+24.Alice Williams
+25.Charlie Brown
+26.Eva Davis
+27.Frank Miller
+28.Grace Turner
+29.Henry White
+30.Isabel Garcia
+31.John
+32.Jane Smith
+33.Bob Johnson
+34.Alice Williams
+35.Charlie Brown
+36.Eva Davis
+37.Frank Miller
+38.Grace Turner
+39.Henry White
+40.Isabel Garcia
+41.John
+42.Jane Smith
+43.Bob Johnson
+44.Alice Williams
+45.Charlie Brown
+46.Eva Davis
+47.Frank Miller
+48.Grace Turner
+49.Henry White
+50.Isabel Garcia
+51.John
+52.Jane Smith
+53.Bob Johnson
+54.Alice Williams
+55.Charlie Brown
+56.Eva Davis
+57.Frank Miller
+58.Grace Turner
+59.Henry White
+60.Isabel Garcia
+61.John
+62.Jane Smith
+63.Bob Johnson
+64.Alice Williams
+65.Charlie Brown
+66.Eva Davis
+67.Frank Miller
+68.Grace Turner
+69.Henry White
+70.Isabel Garcia
+71.John
+72.Jane Smith
+73.Bob Johnson
+74.Alice Williams
+75.Charlie Brown
+76.Eva Davis
+77.Frank Miller
+78.Grace Turner
+79.Henry White
+80.Isabel Garcia
+81.Alice Johnson
+82.Bob Smith
+83.Charlie Davis
+84.Diana Garcia
+85.Eric Miller
+86.John
+87.Jane Smith
+88.Bob Johnson
+89.Alice Williams
+90.Charlie Brown
+91.Eva Davis
+92.Frank Miller
+93.Grace Turner
+94.Henry White
+95.Isabel Garcia
+Choose User
+Project Updated Successfully!!!!
+
+Project details:
+ProjectID: 1
+ProjectName: CI Bank
+ProjectDescription: CI Bank Description
+ProjectOwner: John
+
+Time: 0.034
+
+OK (9 tests)
+
+No of Tests present in the class ProjectHandlerTest: 9
+No of Test Cases Executed Successfully For the class ProjectHandlerTest: 9
+Running tests for class: handler.PurchaseOrderHandlerTest
+JUnit version 4.13.2
+.
+
+1. Create New Purchase Order
+2. Retrieve PurchaseOrder By ID
+3. Update Existing Order
+4. Delete Order
+5. Mark As Paid
+6. Push Item To Asset
+7. Exit
+Displaying All Orders:
+1
+PurchaseOrderID: 1, PurchaseOrderDate: 2023-12-12, BillingAddress: Victoria Avenue, VendorName: ABC Electronics, OrderItems: [{ItemName: Laptop, ItemQuantity: 1, ItemPrice: 1200.00}], OrderStatus: OpenTotal: 1200You have chosen the following Order
+
+PurchaseOrder details:
+PurchaseOrderID: 1
+PurchaseOrderDate: 2023-12-12
+BillingAddress: Victoria Avenue
+VendorName: ABC Electronics
+OrderItems: 
+[{
+ItemName: Laptop
+ItemQuantity: 1
+ItemPrice: 1200.00
+}]
+OrderStatus: Open
+Total: 1200
+.
+
+1. Create New Purchase Order
+2. Retrieve PurchaseOrder By ID
+3. Update Existing Order
+4. Delete Order
+5. Mark As Paid
+6. Push Item To Asset
+7. Exit
+1:	PurchaseOrderID: 1, PurchaseOrderDate: 2023-12-12, BillingAddress: Victoria Avenue, VendorName: ABC Electronics, OrderItems: [{ItemName: Laptop, ItemQuantity: 1, ItemPrice: 1200.00}], OrderStatus: OpenTotal: 1200Order Paid Successfully!!!
+.
+
+1. Create New Purchase Order
+2. Retrieve PurchaseOrder By ID
+3. Update Existing Order
+4. Delete Order
+5. Mark As Paid
+6. Push Item To Asset
+7. Exit
+.
+
+1. Create New Purchase Order
+2. Retrieve PurchaseOrder By ID
+3. Update Existing Order
+4. Delete Order
+5. Mark As Paid
+6. Push Item To Asset
+7. Exit
+1:	PurchaseOrderID: 1, PurchaseOrderDate: 2023-12-12, BillingAddress: Victoria Avenue, VendorName: ABC Electronics, OrderItems: [{ItemName: Laptop, ItemQuantity: 1, ItemPrice: 1200.00}], OrderStatus: PaidTotal: 1200Item Pushed Successfully!!!
+.
+
+1. Create New Purchase Order
+2. Retrieve PurchaseOrder By ID
+3. Update Existing Order
+4. Delete Order
+5. Mark As Paid
+6. Push Item To Asset
+7. Exit
+Please Select Valid Option
+.
+
+1. Create New Purchase Order
+2. Retrieve PurchaseOrder By ID
+3. Update Existing Order
+4. Delete Order
+5. Mark As Paid
+6. Push Item To Asset
+7. Exit
+New Purchase Order Creation....
+Enter orderDate:
+Enter date format in (yyyy-MM-dd):
+Enter billingAddress:
+Enter orderVendor:
+Displaying All Vendors
+1.ABC Electronics
+2.XYZ Solutions
+3.Global Printers
+4.Security Systems Inc
+5.Cloud Services Co
+6.ABC Electronics
+7.XYZ Solutions
+8.Global Printers
+9.Security Systems Inc
+10.Cloud Services Co
+11.ABC Electronics
+12.XYZ Solutions
+13.Global Printers
+14.Security Systems Inc
+15.Cloud Services Co
+16.ABC Electronics
+17.XYZ Solutions
+18.Global Printers
+19.Security Systems Inc
+20.Cloud Services Co
+21.ABC Electronics
+22.XYZ Solutions
+23.Global Printers
+24.Security Systems Inc
+25.Cloud Services Co
+26.ABC Electronics
+27.XYZ Solutions
+28.Global Printers
+29.Security Systems Inc
+30.Cloud Services Co
+Choose Vendor
+Select Products
+Enter -1 to complete adding products
+1.Laptop
+2.Desktop
+Enter Quantity for the Item
+1.Laptop
+2.Desktop
+PurchaseOrder Created Successfully!!!!
+
+PurchaseOrder details:
+PurchaseOrderID: 2
+PurchaseOrderDate: 2023-12-12
+BillingAddress: Victoria Avenue
+VendorName: ABC Electronics
+OrderItems: 
+[{
+ItemName: Laptop
+ItemQuantity: 1
+ItemPrice: 1200.00
+}]
+OrderStatus: Open
+Total: 1200.00
+.
+
+1. Create New Purchase Order
+2. Retrieve PurchaseOrder By ID
+3. Update Existing Order
+4. Delete Order
+5. Mark As Paid
+6. Push Item To Asset
+7. Exit
+Displaying All Orders:
+1
+PurchaseOrderID: 1, PurchaseOrderDate: 2023-12-12, BillingAddress: Victoria Avenue, VendorName: ABC Electronics, OrderItems: [{ItemName: Laptop, ItemQuantity: 1, ItemPrice: 1200.00}], OrderStatus: OpenTotal: 12002
+PurchaseOrderID: 2, PurchaseOrderDate: 2023-12-12, BillingAddress: Victoria Avenue, VendorName: ABC Electronics, OrderItems: [{ItemName: Laptop, ItemQuantity: 1, ItemPrice: 1200.00}], OrderStatus: OpenTotal: 1200.00You have chosen the following Order
+
+PurchaseOrder details:
+PurchaseOrderID: 1
+PurchaseOrderDate: 2023-12-12
+BillingAddress: Victoria Avenue
+VendorName: ABC Electronics
+OrderItems: 
+[{
+ItemName: Laptop
+ItemQuantity: 1
+ItemPrice: 1200.00
+}]
+OrderStatus: Open
+Total: 1200
+Product Deleted Successfully!!!!
+.
+
+1. Create New Purchase Order
+2. Retrieve PurchaseOrder By ID
+3. Update Existing Order
+4. Delete Order
+5. Mark As Paid
+6. Push Item To Asset
+7. Exit
+Displaying All Orders:
+1
+PurchaseOrderID: 1, PurchaseOrderDate: 2023-12-12, BillingAddress: Victoria Avenue, VendorName: ABC Electronics, OrderItems: [{ItemName: Laptop, ItemQuantity: 1, ItemPrice: 1200.00}], OrderStatus: OpenTotal: 12002
+PurchaseOrderID: 2, PurchaseOrderDate: 2023-12-12, BillingAddress: Victoria Avenue, VendorName: ABC Electronics, OrderItems: [{ItemName: Laptop, ItemQuantity: 1, ItemPrice: 1200.00}], OrderStatus: OpenTotal: 1200.00You have chosen the following Order
+
+PurchaseOrder details:
+PurchaseOrderID: 1
+PurchaseOrderDate: 2023-12-12
+BillingAddress: Victoria Avenue
+VendorName: ABC Electronics
+OrderItems: 
+[{
+ItemName: Laptop
+ItemQuantity: 1
+ItemPrice: 1200.00
+}]
+OrderStatus: Open
+Total: 1200
+Enter orderDate:
+Enter date format in (yyyy-MM-dd):
+Enter billingAddress:
+Enter orderVendor:
+Displaying All Vendors
+1.ABC Electronics
+2.XYZ Solutions
+3.Global Printers
+4.Security Systems Inc
+5.Cloud Services Co
+6.ABC Electronics
+7.XYZ Solutions
+8.Global Printers
+9.Security Systems Inc
+10.Cloud Services Co
+11.ABC Electronics
+12.XYZ Solutions
+13.Global Printers
+14.Security Systems Inc
+15.Cloud Services Co
+16.ABC Electronics
+17.XYZ Solutions
+18.Global Printers
+19.Security Systems Inc
+20.Cloud Services Co
+21.ABC Electronics
+22.XYZ Solutions
+23.Global Printers
+24.Security Systems Inc
+25.Cloud Services Co
+26.ABC Electronics
+27.XYZ Solutions
+28.Global Printers
+29.Security Systems Inc
+30.Cloud Services Co
+31.ABC Electronics
+32.XYZ Solutions
+33.Global Printers
+34.Security Systems Inc
+35.Cloud Services Co
+36.ABC Electronics
+37.XYZ Solutions
+38.Global Printers
+39.Security Systems Inc
+40.Cloud Services Co
+Choose Vendor
+Select Products
+Enter -1 to complete adding products
+1.Laptop
+Enter Quantity for the Item
+1.Laptop
+PurchaseOrder Updated Successfully!!!!
+
+PurchaseOrder details:
+PurchaseOrderID: 1
+PurchaseOrderDate: 2023-12-15
+BillingAddress: Victoria Avenue Test
+VendorName: ABC Electronics
+OrderItems: 
+[{
+ItemName: Laptop
+ItemQuantity: 1
+ItemPrice: 1200.00
+}]
+OrderStatus: Open
+Total: 1200
+
+Time: 0.058
+
+OK (8 tests)
+
+No of Tests present in the class PurchaseOrderHandlerTest: 8
+No of Test Cases Executed Successfully For the class PurchaseOrderHandlerTest: 8
+Running tests for class: handler.UserHandlerTest
+JUnit version 4.13.2
+.
+
+1. Create New User
+2. Retrieve User By ID
+3. Update Existing User
+4. Delete User
+5. Import User
+6. Export User
+7. Exit
+Displaying All Users:
+1
+UserID: 1, Name: Leo, EmailID: leo@gmail.com, UserRole: ADMIN, JobTitle: Manager, Description: Role description2
+UserID: 2, Name: Jane Smith, EmailID: jane.smith@email.com, UserRole: ASSET_USER, JobTitle: Data Analyst, Description: Analyzing and interpreting complex data sets3
+UserID: 3, Name: Bob Johnson, EmailID: bob.johnson@email.com, UserRole: ASSET_MANAGER, JobTitle: Project Manager, Description: Leading project teams and ensuring project success4
+UserID: 4, Name: Alice Williams, EmailID: alice.williams@email.com, UserRole: TECHNICIAN, JobTitle: Network Administrator, Description: Managing and maintaining network infrastructure5
+UserID: 5, Name: Charlie Brown, EmailID: charlie.brown@email.com, UserRole: ASSET_USER, JobTitle: Graphic Designer, Description: Creating visually appealing graphics and designs6
+UserID: 6, Name: Eva Davis, EmailID: eva.davis@email.com, UserRole: ASSET_USER, JobTitle: Marketing Specialist, Description: Developing and implementing marketing strategies7
+UserID: 7, Name: Frank Miller, EmailID: frank.miller@email.com, UserRole: ADMIN, JobTitle: Systems Analyst, Description: Analyzing and optimizing computer systems8
+UserID: 8, Name: Grace Turner, EmailID: grace.turner@email.com, UserRole: ASSET_USER, JobTitle: HR Coordinator, Description: Managing human resources activities9
+UserID: 9, Name: Henry White, EmailID: henry.white@email.com, UserRole: ASSET_USER, JobTitle: Financial Analyst, Description: Analyzing financial data and providing insights10
+UserID: 10, Name: Isabel Garcia, EmailID: isabel.garcia@email.com, UserRole: ADMIN, JobTitle: Database Administrator, Description: Managing and optimizing databasesYou have chosen the following User
+
+User details:
+UserID: 1
+Name: Leo
+EmailID: leo@gmail.com
+UserRole: ADMIN
+JobTitle: Manager
+Description: Role description
+.
+
+1. Retrieve User By ID
+2. Export User
+3. Exit
+CSV Exported Successfully
+.
+
+1. Create New User
+2. Retrieve User By ID
+3. Update Existing User
+4. Delete User
+5. Import User
+6. Export User
+7. Exit
+.
+
+1. Create New User
+2. Retrieve User By ID
+3. Update Existing User
+4. Delete User
+5. Import User
+6. Export User
+7. Exit
+Please Select Valid Option
+.
+
+1. Create New User
+2. Retrieve User By ID
+3. Update Existing User
+4. Delete User
+5. Import User
+6. Export User
+7. Exit
+New User Creation....
+Enter name:
+Enter emailID:
+Enter userRole:
+Valid UserRoles: 
+1.Admin
+2.Asset Manager
+3.Asset User
+4.Technician
+choose Role Number
+Enter jobTitle:
+Enter description:
+User Created Successfully!!!!
+
+User details:
+UserID: 51
+Name: Leo
+EmailID: leo@email.com
+UserRole: ADMIN
+JobTitle: manager
+Description: description
+.
+
+1. Create New User
+2. Retrieve User By ID
+3. Update Existing User
+4. Delete User
+5. Import User
+6. Export User
+7. Exit
+Displaying All Users:
+1
+UserID: 1, Name: Leo, EmailID: leo@gmail.com, UserRole: ADMIN, JobTitle: Manager, Description: Role description2
+UserID: 2, Name: Jane Smith, EmailID: jane.smith@email.com, UserRole: ASSET_USER, JobTitle: Data Analyst, Description: Analyzing and interpreting complex data sets3
+UserID: 3, Name: Bob Johnson, EmailID: bob.johnson@email.com, UserRole: ASSET_MANAGER, JobTitle: Project Manager, Description: Leading project teams and ensuring project success4
+UserID: 4, Name: Alice Williams, EmailID: alice.williams@email.com, UserRole: TECHNICIAN, JobTitle: Network Administrator, Description: Managing and maintaining network infrastructure5
+UserID: 5, Name: Charlie Brown, EmailID: charlie.brown@email.com, UserRole: ASSET_USER, JobTitle: Graphic Designer, Description: Creating visually appealing graphics and designs6
+UserID: 6, Name: Eva Davis, EmailID: eva.davis@email.com, UserRole: ASSET_USER, JobTitle: Marketing Specialist, Description: Developing and implementing marketing strategies7
+UserID: 7, Name: Frank Miller, EmailID: frank.miller@email.com, UserRole: ADMIN, JobTitle: Systems Analyst, Description: Analyzing and optimizing computer systems8
+UserID: 8, Name: Grace Turner, EmailID: grace.turner@email.com, UserRole: ASSET_USER, JobTitle: HR Coordinator, Description: Managing human resources activities9
+UserID: 9, Name: Henry White, EmailID: henry.white@email.com, UserRole: ASSET_USER, JobTitle: Financial Analyst, Description: Analyzing financial data and providing insights10
+UserID: 10, Name: Isabel Garcia, EmailID: isabel.garcia@email.com, UserRole: ADMIN, JobTitle: Database Administrator, Description: Managing and optimizing databases11
+UserID: 11, Name: John, EmailID: john@email.com, UserRole: ADMIN, JobTitle: IT Asset Manager, Description: Responsible for managing IT assets and inventory12
+UserID: 12, Name: Jane Smith, EmailID: jane.smith@email.com, UserRole: ASSET_USER, JobTitle: Data Analyst, Description: Analyzing and interpreting complex data sets13
+UserID: 13, Name: Bob Johnson, EmailID: bob.johnson@email.com, UserRole: ASSET_MANAGER, JobTitle: Project Manager, Description: Leading project teams and ensuring project success14
+UserID: 14, Name: Alice Williams, EmailID: alice.williams@email.com, UserRole: TECHNICIAN, JobTitle: Network Administrator, Description: Managing and maintaining network infrastructure15
+UserID: 15, Name: Charlie Brown, EmailID: charlie.brown@email.com, UserRole: ASSET_USER, JobTitle: Graphic Designer, Description: Creating visually appealing graphics and designs16
+UserID: 16, Name: Eva Davis, EmailID: eva.davis@email.com, UserRole: ASSET_USER, JobTitle: Marketing Specialist, Description: Developing and implementing marketing strategies17
+UserID: 17, Name: Frank Miller, EmailID: frank.miller@email.com, UserRole: ADMIN, JobTitle: Systems Analyst, Description: Analyzing and optimizing computer systems18
+UserID: 18, Name: Grace Turner, EmailID: grace.turner@email.com, UserRole: ASSET_USER, JobTitle: HR Coordinator, Description: Managing human resources activities19
+UserID: 19, Name: Henry White, EmailID: henry.white@email.com, UserRole: ASSET_USER, JobTitle: Financial Analyst, Description: Analyzing financial data and providing insights20
+UserID: 20, Name: Isabel Garcia, EmailID: isabel.garcia@email.com, UserRole: ADMIN, JobTitle: Database Administrator, Description: Managing and optimizing databases21
+UserID: 21, Name: John, EmailID: john@email.com, UserRole: ADMIN, JobTitle: IT Asset Manager, Description: Responsible for managing IT assets and inventory22
+UserID: 22, Name: Jane Smith, EmailID: jane.smith@email.com, UserRole: ASSET_USER, JobTitle: Data Analyst, Description: Analyzing and interpreting complex data sets23
+UserID: 23, Name: Bob Johnson, EmailID: bob.johnson@email.com, UserRole: ASSET_MANAGER, JobTitle: Project Manager, Description: Leading project teams and ensuring project success24
+UserID: 24, Name: Alice Williams, EmailID: alice.williams@email.com, UserRole: TECHNICIAN, JobTitle: Network Administrator, Description: Managing and maintaining network infrastructure25
+UserID: 25, Name: Charlie Brown, EmailID: charlie.brown@email.com, UserRole: ASSET_USER, JobTitle: Graphic Designer, Description: Creating visually appealing graphics and designs26
+UserID: 26, Name: Eva Davis, EmailID: eva.davis@email.com, UserRole: ASSET_USER, JobTitle: Marketing Specialist, Description: Developing and implementing marketing strategies27
+UserID: 27, Name: Frank Miller, EmailID: frank.miller@email.com, UserRole: ADMIN, JobTitle: Systems Analyst, Description: Analyzing and optimizing computer systems28
+UserID: 28, Name: Grace Turner, EmailID: grace.turner@email.com, UserRole: ASSET_USER, JobTitle: HR Coordinator, Description: Managing human resources activities29
+UserID: 29, Name: Henry White, EmailID: henry.white@email.com, UserRole: ASSET_USER, JobTitle: Financial Analyst, Description: Analyzing financial data and providing insights30
+UserID: 30, Name: Isabel Garcia, EmailID: isabel.garcia@email.com, UserRole: ADMIN, JobTitle: Database Administrator, Description: Managing and optimizing databases31
+UserID: 31, Name: John, EmailID: john@email.com, UserRole: ADMIN, JobTitle: IT Asset Manager, Description: Responsible for managing IT assets and inventory32
+UserID: 32, Name: Jane Smith, EmailID: jane.smith@email.com, UserRole: ASSET_USER, JobTitle: Data Analyst, Description: Analyzing and interpreting complex data sets33
+UserID: 33, Name: Bob Johnson, EmailID: bob.johnson@email.com, UserRole: ASSET_MANAGER, JobTitle: Project Manager, Description: Leading project teams and ensuring project success34
+UserID: 34, Name: Alice Williams, EmailID: alice.williams@email.com, UserRole: TECHNICIAN, JobTitle: Network Administrator, Description: Managing and maintaining network infrastructure35
+UserID: 35, Name: Charlie Brown, EmailID: charlie.brown@email.com, UserRole: ASSET_USER, JobTitle: Graphic Designer, Description: Creating visually appealing graphics and designs36
+UserID: 36, Name: Eva Davis, EmailID: eva.davis@email.com, UserRole: ASSET_USER, JobTitle: Marketing Specialist, Description: Developing and implementing marketing strategies37
+UserID: 37, Name: Frank Miller, EmailID: frank.miller@email.com, UserRole: ADMIN, JobTitle: Systems Analyst, Description: Analyzing and optimizing computer systems38
+UserID: 38, Name: Grace Turner, EmailID: grace.turner@email.com, UserRole: ASSET_USER, JobTitle: HR Coordinator, Description: Managing human resources activities39
+UserID: 39, Name: Henry White, EmailID: henry.white@email.com, UserRole: ASSET_USER, JobTitle: Financial Analyst, Description: Analyzing financial data and providing insights40
+UserID: 40, Name: Isabel Garcia, EmailID: isabel.garcia@email.com, UserRole: ADMIN, JobTitle: Database Administrator, Description: Managing and optimizing databases41
+UserID: 41, Name: John, EmailID: john@email.com, UserRole: ADMIN, JobTitle: IT Asset Manager, Description: Responsible for managing IT assets and inventory42
+UserID: 42, Name: Jane Smith, EmailID: jane.smith@email.com, UserRole: ASSET_USER, JobTitle: Data Analyst, Description: Analyzing and interpreting complex data sets43
+UserID: 43, Name: Bob Johnson, EmailID: bob.johnson@email.com, UserRole: ASSET_MANAGER, JobTitle: Project Manager, Description: Leading project teams and ensuring project success44
+UserID: 44, Name: Alice Williams, EmailID: alice.williams@email.com, UserRole: TECHNICIAN, JobTitle: Network Administrator, Description: Managing and maintaining network infrastructure45
+UserID: 45, Name: Charlie Brown, EmailID: charlie.brown@email.com, UserRole: ASSET_USER, JobTitle: Graphic Designer, Description: Creating visually appealing graphics and designs46
+UserID: 46, Name: Eva Davis, EmailID: eva.davis@email.com, UserRole: ASSET_USER, JobTitle: Marketing Specialist, Description: Developing and implementing marketing strategies47
+UserID: 47, Name: Frank Miller, EmailID: frank.miller@email.com, UserRole: ADMIN, JobTitle: Systems Analyst, Description: Analyzing and optimizing computer systems48
+UserID: 48, Name: Grace Turner, EmailID: grace.turner@email.com, UserRole: ASSET_USER, JobTitle: HR Coordinator, Description: Managing human resources activities49
+UserID: 49, Name: Henry White, EmailID: henry.white@email.com, UserRole: ASSET_USER, JobTitle: Financial Analyst, Description: Analyzing financial data and providing insights50
+UserID: 50, Name: Isabel Garcia, EmailID: isabel.garcia@email.com, UserRole: ADMIN, JobTitle: Database Administrator, Description: Managing and optimizing databases51
+UserID: 51, Name: Leo, EmailID: leo@email.com, UserRole: ADMIN, JobTitle: manager, Description: description52
+UserID: 52, Name: John, EmailID: john@email.com, UserRole: ADMIN, JobTitle: IT Asset Manager, Description: Responsible for managing IT assets and inventory53
+UserID: 53, Name: Jane Smith, EmailID: jane.smith@email.com, UserRole: ASSET_USER, JobTitle: Data Analyst, Description: Analyzing and interpreting complex data sets54
+UserID: 54, Name: Bob Johnson, EmailID: bob.johnson@email.com, UserRole: ASSET_MANAGER, JobTitle: Project Manager, Description: Leading project teams and ensuring project success55
+UserID: 55, Name: Alice Williams, EmailID: alice.williams@email.com, UserRole: TECHNICIAN, JobTitle: Network Administrator, Description: Managing and maintaining network infrastructure56
+UserID: 56, Name: Charlie Brown, EmailID: charlie.brown@email.com, UserRole: ASSET_USER, JobTitle: Graphic Designer, Description: Creating visually appealing graphics and designs57
+UserID: 57, Name: Eva Davis, EmailID: eva.davis@email.com, UserRole: ASSET_USER, JobTitle: Marketing Specialist, Description: Developing and implementing marketing strategies58
+UserID: 58, Name: Frank Miller, EmailID: frank.miller@email.com, UserRole: ADMIN, JobTitle: Systems Analyst, Description: Analyzing and optimizing computer systems59
+UserID: 59, Name: Grace Turner, EmailID: grace.turner@email.com, UserRole: ASSET_USER, JobTitle: HR Coordinator, Description: Managing human resources activities60
+UserID: 60, Name: Henry White, EmailID: henry.white@email.com, UserRole: ASSET_USER, JobTitle: Financial Analyst, Description: Analyzing financial data and providing insights61
+UserID: 61, Name: Isabel Garcia, EmailID: isabel.garcia@email.com, UserRole: ADMIN, JobTitle: Database Administrator, Description: Managing and optimizing databasesYou have chosen the following User
+
+User details:
+UserID: 1
+Name: Leo
+EmailID: leo@gmail.com
+UserRole: ADMIN
+JobTitle: Manager
+Description: Role description
+User Deleted Successfully!!!!
+.
+
+1. Create New User
+2. Retrieve User By ID
+3. Update Existing User
+4. Delete User
+5. Import User
+6. Export User
+7. Exit
+CSV Exported Successfully
+.
+
+1. Create New User
+2. Retrieve User By ID
+3. Update Existing User
+4. Delete User
+5. Import User
+6. Export User
+7. Exit
+Please provide Absolute Path to Import
+Import Successfully Completed
+.
+
+1. Create New User
+2. Retrieve User By ID
+3. Update Existing User
+4. Delete User
+5. Import User
+6. Export User
+7. Exit
+Displaying All Users:
+1
+UserID: 1, Name: Leo, EmailID: leo@gmail.com, UserRole: ADMIN, JobTitle: Manager, Description: Role description2
+UserID: 2, Name: Jane Smith, EmailID: jane.smith@email.com, UserRole: ASSET_USER, JobTitle: Data Analyst, Description: Analyzing and interpreting complex data sets3
+UserID: 3, Name: Bob Johnson, EmailID: bob.johnson@email.com, UserRole: ASSET_MANAGER, JobTitle: Project Manager, Description: Leading project teams and ensuring project success4
+UserID: 4, Name: Alice Williams, EmailID: alice.williams@email.com, UserRole: TECHNICIAN, JobTitle: Network Administrator, Description: Managing and maintaining network infrastructure5
+UserID: 5, Name: Charlie Brown, EmailID: charlie.brown@email.com, UserRole: ASSET_USER, JobTitle: Graphic Designer, Description: Creating visually appealing graphics and designs6
+UserID: 6, Name: Eva Davis, EmailID: eva.davis@email.com, UserRole: ASSET_USER, JobTitle: Marketing Specialist, Description: Developing and implementing marketing strategies7
+UserID: 7, Name: Frank Miller, EmailID: frank.miller@email.com, UserRole: ADMIN, JobTitle: Systems Analyst, Description: Analyzing and optimizing computer systems8
+UserID: 8, Name: Grace Turner, EmailID: grace.turner@email.com, UserRole: ASSET_USER, JobTitle: HR Coordinator, Description: Managing human resources activities9
+UserID: 9, Name: Henry White, EmailID: henry.white@email.com, UserRole: ASSET_USER, JobTitle: Financial Analyst, Description: Analyzing financial data and providing insights10
+UserID: 10, Name: Isabel Garcia, EmailID: isabel.garcia@email.com, UserRole: ADMIN, JobTitle: Database Administrator, Description: Managing and optimizing databases11
+UserID: 11, Name: John, EmailID: john@email.com, UserRole: ADMIN, JobTitle: IT Asset Manager, Description: Responsible for managing IT assets and inventory12
+UserID: 12, Name: Jane Smith, EmailID: jane.smith@email.com, UserRole: ASSET_USER, JobTitle: Data Analyst, Description: Analyzing and interpreting complex data sets13
+UserID: 13, Name: Bob Johnson, EmailID: bob.johnson@email.com, UserRole: ASSET_MANAGER, JobTitle: Project Manager, Description: Leading project teams and ensuring project success14
+UserID: 14, Name: Alice Williams, EmailID: alice.williams@email.com, UserRole: TECHNICIAN, JobTitle: Network Administrator, Description: Managing and maintaining network infrastructure15
+UserID: 15, Name: Charlie Brown, EmailID: charlie.brown@email.com, UserRole: ASSET_USER, JobTitle: Graphic Designer, Description: Creating visually appealing graphics and designs16
+UserID: 16, Name: Eva Davis, EmailID: eva.davis@email.com, UserRole: ASSET_USER, JobTitle: Marketing Specialist, Description: Developing and implementing marketing strategies17
+UserID: 17, Name: Frank Miller, EmailID: frank.miller@email.com, UserRole: ADMIN, JobTitle: Systems Analyst, Description: Analyzing and optimizing computer systems18
+UserID: 18, Name: Grace Turner, EmailID: grace.turner@email.com, UserRole: ASSET_USER, JobTitle: HR Coordinator, Description: Managing human resources activities19
+UserID: 19, Name: Henry White, EmailID: henry.white@email.com, UserRole: ASSET_USER, JobTitle: Financial Analyst, Description: Analyzing financial data and providing insights20
+UserID: 20, Name: Isabel Garcia, EmailID: isabel.garcia@email.com, UserRole: ADMIN, JobTitle: Database Administrator, Description: Managing and optimizing databases21
+UserID: 21, Name: John, EmailID: john@email.com, UserRole: ADMIN, JobTitle: IT Asset Manager, Description: Responsible for managing IT assets and inventory22
+UserID: 22, Name: Jane Smith, EmailID: jane.smith@email.com, UserRole: ASSET_USER, JobTitle: Data Analyst, Description: Analyzing and interpreting complex data sets23
+UserID: 23, Name: Bob Johnson, EmailID: bob.johnson@email.com, UserRole: ASSET_MANAGER, JobTitle: Project Manager, Description: Leading project teams and ensuring project success24
+UserID: 24, Name: Alice Williams, EmailID: alice.williams@email.com, UserRole: TECHNICIAN, JobTitle: Network Administrator, Description: Managing and maintaining network infrastructure25
+UserID: 25, Name: Charlie Brown, EmailID: charlie.brown@email.com, UserRole: ASSET_USER, JobTitle: Graphic Designer, Description: Creating visually appealing graphics and designs26
+UserID: 26, Name: Eva Davis, EmailID: eva.davis@email.com, UserRole: ASSET_USER, JobTitle: Marketing Specialist, Description: Developing and implementing marketing strategies27
+UserID: 27, Name: Frank Miller, EmailID: frank.miller@email.com, UserRole: ADMIN, JobTitle: Systems Analyst, Description: Analyzing and optimizing computer systems28
+UserID: 28, Name: Grace Turner, EmailID: grace.turner@email.com, UserRole: ASSET_USER, JobTitle: HR Coordinator, Description: Managing human resources activities29
+UserID: 29, Name: Henry White, EmailID: henry.white@email.com, UserRole: ASSET_USER, JobTitle: Financial Analyst, Description: Analyzing financial data and providing insights30
+UserID: 30, Name: Isabel Garcia, EmailID: isabel.garcia@email.com, UserRole: ADMIN, JobTitle: Database Administrator, Description: Managing and optimizing databases31
+UserID: 31, Name: John, EmailID: john@email.com, UserRole: ADMIN, JobTitle: IT Asset Manager, Description: Responsible for managing IT assets and inventory32
+UserID: 32, Name: Jane Smith, EmailID: jane.smith@email.com, UserRole: ASSET_USER, JobTitle: Data Analyst, Description: Analyzing and interpreting complex data sets33
+UserID: 33, Name: Bob Johnson, EmailID: bob.johnson@email.com, UserRole: ASSET_MANAGER, JobTitle: Project Manager, Description: Leading project teams and ensuring project success34
+UserID: 34, Name: Alice Williams, EmailID: alice.williams@email.com, UserRole: TECHNICIAN, JobTitle: Network Administrator, Description: Managing and maintaining network infrastructure35
+UserID: 35, Name: Charlie Brown, EmailID: charlie.brown@email.com, UserRole: ASSET_USER, JobTitle: Graphic Designer, Description: Creating visually appealing graphics and designs36
+UserID: 36, Name: Eva Davis, EmailID: eva.davis@email.com, UserRole: ASSET_USER, JobTitle: Marketing Specialist, Description: Developing and implementing marketing strategies37
+UserID: 37, Name: Frank Miller, EmailID: frank.miller@email.com, UserRole: ADMIN, JobTitle: Systems Analyst, Description: Analyzing and optimizing computer systems38
+UserID: 38, Name: Grace Turner, EmailID: grace.turner@email.com, UserRole: ASSET_USER, JobTitle: HR Coordinator, Description: Managing human resources activities39
+UserID: 39, Name: Henry White, EmailID: henry.white@email.com, UserRole: ASSET_USER, JobTitle: Financial Analyst, Description: Analyzing financial data and providing insights40
+UserID: 40, Name: Isabel Garcia, EmailID: isabel.garcia@email.com, UserRole: ADMIN, JobTitle: Database Administrator, Description: Managing and optimizing databases41
+UserID: 41, Name: John, EmailID: john@email.com, UserRole: ADMIN, JobTitle: IT Asset Manager, Description: Responsible for managing IT assets and inventory42
+UserID: 42, Name: Jane Smith, EmailID: jane.smith@email.com, UserRole: ASSET_USER, JobTitle: Data Analyst, Description: Analyzing and interpreting complex data sets43
+UserID: 43, Name: Bob Johnson, EmailID: bob.johnson@email.com, UserRole: ASSET_MANAGER, JobTitle: Project Manager, Description: Leading project teams and ensuring project success44
+UserID: 44, Name: Alice Williams, EmailID: alice.williams@email.com, UserRole: TECHNICIAN, JobTitle: Network Administrator, Description: Managing and maintaining network infrastructure45
+UserID: 45, Name: Charlie Brown, EmailID: charlie.brown@email.com, UserRole: ASSET_USER, JobTitle: Graphic Designer, Description: Creating visually appealing graphics and designs46
+UserID: 46, Name: Eva Davis, EmailID: eva.davis@email.com, UserRole: ASSET_USER, JobTitle: Marketing Specialist, Description: Developing and implementing marketing strategies47
+UserID: 47, Name: Frank Miller, EmailID: frank.miller@email.com, UserRole: ADMIN, JobTitle: Systems Analyst, Description: Analyzing and optimizing computer systems48
+UserID: 48, Name: Grace Turner, EmailID: grace.turner@email.com, UserRole: ASSET_USER, JobTitle: HR Coordinator, Description: Managing human resources activities49
+UserID: 49, Name: Henry White, EmailID: henry.white@email.com, UserRole: ASSET_USER, JobTitle: Financial Analyst, Description: Analyzing financial data and providing insights50
+UserID: 50, Name: Isabel Garcia, EmailID: isabel.garcia@email.com, UserRole: ADMIN, JobTitle: Database Administrator, Description: Managing and optimizing databases51
+UserID: 51, Name: Leo, EmailID: leo@email.com, UserRole: ADMIN, JobTitle: manager, Description: description52
+UserID: 52, Name: John, EmailID: john@email.com, UserRole: ADMIN, JobTitle: IT Asset Manager, Description: Responsible for managing IT assets and inventory53
+UserID: 53, Name: Jane Smith, EmailID: jane.smith@email.com, UserRole: ASSET_USER, JobTitle: Data Analyst, Description: Analyzing and interpreting complex data sets54
+UserID: 54, Name: Bob Johnson, EmailID: bob.johnson@email.com, UserRole: ASSET_MANAGER, JobTitle: Project Manager, Description: Leading project teams and ensuring project success55
+UserID: 55, Name: Alice Williams, EmailID: alice.williams@email.com, UserRole: TECHNICIAN, JobTitle: Network Administrator, Description: Managing and maintaining network infrastructure56
+UserID: 56, Name: Charlie Brown, EmailID: charlie.brown@email.com, UserRole: ASSET_USER, JobTitle: Graphic Designer, Description: Creating visually appealing graphics and designs57
+UserID: 57, Name: Eva Davis, EmailID: eva.davis@email.com, UserRole: ASSET_USER, JobTitle: Marketing Specialist, Description: Developing and implementing marketing strategies58
+UserID: 58, Name: Frank Miller, EmailID: frank.miller@email.com, UserRole: ADMIN, JobTitle: Systems Analyst, Description: Analyzing and optimizing computer systems59
+UserID: 59, Name: Grace Turner, EmailID: grace.turner@email.com, UserRole: ASSET_USER, JobTitle: HR Coordinator, Description: Managing human resources activities60
+UserID: 60, Name: Henry White, EmailID: henry.white@email.com, UserRole: ASSET_USER, JobTitle: Financial Analyst, Description: Analyzing financial data and providing insights61
+UserID: 61, Name: Isabel Garcia, EmailID: isabel.garcia@email.com, UserRole: ADMIN, JobTitle: Database Administrator, Description: Managing and optimizing databases62
+UserID: 62, Name: John, EmailID: john@email.com, UserRole: ADMIN, JobTitle: IT Asset Manager, Description: Responsible for managing IT assets and inventory63
+UserID: 63, Name: Jane Smith, EmailID: jane.smith@email.com, UserRole: ASSET_USER, JobTitle: Data Analyst, Description: Analyzing and interpreting complex data sets64
+UserID: 64, Name: Bob Johnson, EmailID: bob.johnson@email.com, UserRole: ASSET_MANAGER, JobTitle: Project Manager, Description: Leading project teams and ensuring project success65
+UserID: 65, Name: Alice Williams, EmailID: alice.williams@email.com, UserRole: TECHNICIAN, JobTitle: Network Administrator, Description: Managing and maintaining network infrastructure66
+UserID: 66, Name: Charlie Brown, EmailID: charlie.brown@email.com, UserRole: ASSET_USER, JobTitle: Graphic Designer, Description: Creating visually appealing graphics and designs67
+UserID: 67, Name: Eva Davis, EmailID: eva.davis@email.com, UserRole: ASSET_USER, JobTitle: Marketing Specialist, Description: Developing and implementing marketing strategies68
+UserID: 68, Name: Frank Miller, EmailID: frank.miller@email.com, UserRole: ADMIN, JobTitle: Systems Analyst, Description: Analyzing and optimizing computer systems69
+UserID: 69, Name: Grace Turner, EmailID: grace.turner@email.com, UserRole: ASSET_USER, JobTitle: HR Coordinator, Description: Managing human resources activities70
+UserID: 70, Name: Henry White, EmailID: henry.white@email.com, UserRole: ASSET_USER, JobTitle: Financial Analyst, Description: Analyzing financial data and providing insights71
+UserID: 71, Name: Isabel Garcia, EmailID: isabel.garcia@email.com, UserRole: ADMIN, JobTitle: Database Administrator, Description: Managing and optimizing databases72
+UserID: 72, Name: John, EmailID: john@email.com, UserRole: ADMIN, JobTitle: IT Asset Manager, Description: Responsible for managing IT assets and inventory73
+UserID: 73, Name: Jane Smith, EmailID: jane.smith@email.com, UserRole: ASSET_USER, JobTitle: Data Analyst, Description: Analyzing and interpreting complex data sets74
+UserID: 74, Name: Bob Johnson, EmailID: bob.johnson@email.com, UserRole: ASSET_MANAGER, JobTitle: Project Manager, Description: Leading project teams and ensuring project success75
+UserID: 75, Name: Alice Williams, EmailID: alice.williams@email.com, UserRole: TECHNICIAN, JobTitle: Network Administrator, Description: Managing and maintaining network infrastructure76
+UserID: 76, Name: Charlie Brown, EmailID: charlie.brown@email.com, UserRole: ASSET_USER, JobTitle: Graphic Designer, Description: Creating visually appealing graphics and designs77
+UserID: 77, Name: Eva Davis, EmailID: eva.davis@email.com, UserRole: ASSET_USER, JobTitle: Marketing Specialist, Description: Developing and implementing marketing strategies78
+UserID: 78, Name: Frank Miller, EmailID: frank.miller@email.com, UserRole: ADMIN, JobTitle: Systems Analyst, Description: Analyzing and optimizing computer systems79
+UserID: 79, Name: Grace Turner, EmailID: grace.turner@email.com, UserRole: ASSET_USER, JobTitle: HR Coordinator, Description: Managing human resources activities80
+UserID: 80, Name: Henry White, EmailID: henry.white@email.com, UserRole: ASSET_USER, JobTitle: Financial Analyst, Description: Analyzing financial data and providing insights81
+UserID: 81, Name: Isabel Garcia, EmailID: isabel.garcia@email.com, UserRole: ADMIN, JobTitle: Database Administrator, Description: Managing and optimizing databases82
+UserID: 82, Name: John, EmailID: john@email.com, UserRole: ADMIN, JobTitle: IT Asset Manager, Description: Responsible for managing IT assets and inventory83
+UserID: 83, Name: Jane Smith, EmailID: jane.smith@email.com, UserRole: ASSET_USER, JobTitle: Data Analyst, Description: Analyzing and interpreting complex data sets84
+UserID: 84, Name: Bob Johnson, EmailID: bob.johnson@email.com, UserRole: ASSET_MANAGER, JobTitle: Project Manager, Description: Leading project teams and ensuring project success85
+UserID: 85, Name: Alice Williams, EmailID: alice.williams@email.com, UserRole: TECHNICIAN, JobTitle: Network Administrator, Description: Managing and maintaining network infrastructure86
+UserID: 86, Name: Charlie Brown, EmailID: charlie.brown@email.com, UserRole: ASSET_USER, JobTitle: Graphic Designer, Description: Creating visually appealing graphics and designs87
+UserID: 87, Name: Eva Davis, EmailID: eva.davis@email.com, UserRole: ASSET_USER, JobTitle: Marketing Specialist, Description: Developing and implementing marketing strategies88
+UserID: 88, Name: Frank Miller, EmailID: frank.miller@email.com, UserRole: ADMIN, JobTitle: Systems Analyst, Description: Analyzing and optimizing computer systems89
+UserID: 89, Name: Grace Turner, EmailID: grace.turner@email.com, UserRole: ASSET_USER, JobTitle: HR Coordinator, Description: Managing human resources activities90
+UserID: 90, Name: Henry White, EmailID: henry.white@email.com, UserRole: ASSET_USER, JobTitle: Financial Analyst, Description: Analyzing financial data and providing insights91
+UserID: 91, Name: Isabel Garcia, EmailID: isabel.garcia@email.com, UserRole: ADMIN, JobTitle: Database Administrator, Description: Managing and optimizing databases92
+UserID: 92, Name: John, EmailID: john@email.com, UserRole: ADMIN, JobTitle: IT Asset Manager, Description: Responsible for managing IT assets and inventory93
+UserID: 93, Name: Jane Smith, EmailID: jane.smith@email.com, UserRole: ASSET_USER, JobTitle: Data Analyst, Description: Analyzing and interpreting complex data sets94
+UserID: 94, Name: Bob Johnson, EmailID: bob.johnson@email.com, UserRole: ASSET_MANAGER, JobTitle: Project Manager, Description: Leading project teams and ensuring project success95
+UserID: 95, Name: Alice Williams, EmailID: alice.williams@email.com, UserRole: TECHNICIAN, JobTitle: Network Administrator, Description: Managing and maintaining network infrastructure96
+UserID: 96, Name: Charlie Brown, EmailID: charlie.brown@email.com, UserRole: ASSET_USER, JobTitle: Graphic Designer, Description: Creating visually appealing graphics and designs97
+UserID: 97, Name: Eva Davis, EmailID: eva.davis@email.com, UserRole: ASSET_USER, JobTitle: Marketing Specialist, Description: Developing and implementing marketing strategies98
+UserID: 98, Name: Frank Miller, EmailID: frank.miller@email.com, UserRole: ADMIN, JobTitle: Systems Analyst, Description: Analyzing and optimizing computer systems99
+UserID: 99, Name: Grace Turner, EmailID: grace.turner@email.com, UserRole: ASSET_USER, JobTitle: HR Coordinator, Description: Managing human resources activities100
+UserID: 100, Name: Henry White, EmailID: henry.white@email.com, UserRole: ASSET_USER, JobTitle: Financial Analyst, Description: Analyzing financial data and providing insights101
+UserID: 101, Name: Isabel Garcia, EmailID: isabel.garcia@email.com, UserRole: ADMIN, JobTitle: Database Administrator, Description: Managing and optimizing databasesYou have chosen the following User
+
+User details:
+UserID: 1
+Name: Leo
+EmailID: leo@gmail.com
+UserRole: ADMIN
+JobTitle: Manager
+Description: Role description
+Enter name:
+Enter emailID:
+Enter userRole:
+Valid UserRoles: 
+1.Admin
+2.Asset Manager
+3.Asset User
+4.Technician
+choose Role Number
+Enter jobTitle:
+Enter description:
+User Updated Successfully!!!!
+
+User details:
+UserID: 1
+Name: Leo
+EmailID: leo@email.com
+UserRole: ADMIN
+JobTitle: manager
+Description: description
+
+Time: 0.052
+
+OK (9 tests)
+
+No of Tests present in the class UserHandlerTest: 9
+No of Test Cases Executed Successfully For the class UserHandlerTest: 9
+Running tests for class: handler.VendorHandlerTest
+JUnit version 4.13.2
+.
+
+1. Create New Vendor
+2. Retrieve Vendor By ID
+3. Update Existing Vendor
+4. Delete Vendor
+5. Import Vendor
+6. Export Vendor
+7. Associate Product
+8. Exit
+Displaying All Vendors:
+1
+VendorID: 1, VendorName: XYZ Solutions, VendorEmail: xyz@example.com, Associated Product: [{1.Laptop}{2.Desktop}], VendorAddress: 456 Tech AvenueYou have chosen the following Category
+
+Vendor details:
+VendorID: 1
+VendorName: XYZ Solutions
+VendorEmail: xyz@example.com
+VendorAddress: 456 Tech Avenue
+Associated Product: 
+[
+{
+1.Laptop
+}
+{
+2.Desktop
+}
+]
+.
+
+1. Create New Vendor
+2. Retrieve Vendor By ID
+3. Update Existing Vendor
+4. Delete Vendor
+5. Import Vendor
+6. Export Vendor
+7. Associate Product
+8. Exit
+.
+
+1. Create New Vendor
+2. Retrieve Vendor By ID
+3. Update Existing Vendor
+4. Delete Vendor
+5. Import Vendor
+6. Export Vendor
+7. Associate Product
+8. Exit
+Select the vendor to Associate with product
+Displaying All Vendors:
+1
+VendorID: 1, VendorName: XYZ Solutions, VendorEmail: xyz@example.com, Associated Product: [{1.Laptop}{2.Desktop}], VendorAddress: 456 Tech AvenueYou have chosen the following Category
+
+Vendor details:
+VendorID: 1
+VendorName: XYZ Solutions
+VendorEmail: xyz@example.com
+VendorAddress: 456 Tech Avenue
+Associated Product: 
+[
+{
+1.Laptop
+}
+{
+2.Desktop
+}
+]
+Displaying All Products:
+Press -1 to End
+1.Laptop
+2.Desktop
+3.Server
+4.Printer
+5.Network Switch
+6.Software License
+7.Keyboard
+8.Security Camera
+9.Smartphone
+10.Hard Drive
+11.Monitor
+12.Projector
+13.Virtualization Software
+14.Training Materials
+15.Backup System
+16.Cloud Subscription
+17.Office Workstation
+18.Data Center Hardware
+19.UPS
+20.VoIP Phone
+21.Laptop
+22.Desktop
+23.Server
+24.Printer
+25.Network Switch
+26.Software License
+27.Keyboard
+28.Security Camera
+29.Smartphone
+30.Hard Drive
+31.Monitor
+32.Projector
+33.Virtualization Software
+34.Training Materials
+35.Backup System
+36.Cloud Subscription
+37.Office Workstation
+38.Data Center Hardware
+39.UPS
+40.VoIP Phone
+41.Laptop
+42.Desktop
+43.Server
+44.Printer
+45.Network Switch
+46.Software License
+47.Keyboard
+48.Security Camera
+49.Smartphone
+50.Hard Drive
+51.Monitor
+52.Projector
+53.Virtualization Software
+54.Training Materials
+55.Backup System
+56.Cloud Subscription
+57.Office Workstation
+58.Data Center Hardware
+59.UPS
+60.VoIP Phone
+Displaying All Products:
+Press -1 to End
+1.Laptop
+2.Desktop
+3.Server
+4.Printer
+5.Network Switch
+6.Software License
+7.Keyboard
+8.Security Camera
+9.Smartphone
+10.Hard Drive
+11.Monitor
+12.Projector
+13.Virtualization Software
+14.Training Materials
+15.Backup System
+16.Cloud Subscription
+17.Office Workstation
+18.Data Center Hardware
+19.UPS
+20.VoIP Phone
+21.Laptop
+22.Desktop
+23.Server
+24.Printer
+25.Network Switch
+26.Software License
+27.Keyboard
+28.Security Camera
+29.Smartphone
+30.Hard Drive
+31.Monitor
+32.Projector
+33.Virtualization Software
+34.Training Materials
+35.Backup System
+36.Cloud Subscription
+37.Office Workstation
+38.Data Center Hardware
+39.UPS
+40.VoIP Phone
+41.Laptop
+42.Desktop
+43.Server
+44.Printer
+45.Network Switch
+46.Software License
+47.Keyboard
+48.Security Camera
+49.Smartphone
+50.Hard Drive
+51.Monitor
+52.Projector
+53.Virtualization Software
+54.Training Materials
+55.Backup System
+56.Cloud Subscription
+57.Office Workstation
+58.Data Center Hardware
+59.UPS
+60.VoIP Phone
+.
+
+1. Create New Vendor
+2. Retrieve Vendor By ID
+3. Update Existing Vendor
+4. Delete Vendor
+5. Import Vendor
+6. Export Vendor
+7. Associate Product
+8. Exit
+Please Select Valid Option
+.
+
+1. Create New Vendor
+2. Retrieve Vendor By ID
+3. Update Existing Vendor
+4. Delete Vendor
+5. Import Vendor
+6. Export Vendor
+7. Associate Product
+8. Exit
+New Vendor Creation....
+Enter vendorName:
+Enter vendorEmail:
+Enter vendorAddress:
+Vendor Created Successfully!!!!
+
+Vendor details:
+VendorID: 2
+VendorName: XYZ Solutions
+VendorEmail: xyz@example.com
+VendorAddress: 456 Tech Avenue
+.
+
+1. Create New Vendor
+2. Retrieve Vendor By ID
+3. Update Existing Vendor
+4. Delete Vendor
+5. Import Vendor
+6. Export Vendor
+7. Associate Product
+8. Exit
+Displaying All Vendors:
+1
+VendorID: 1, VendorName: XYZ Solutions, VendorEmail: xyz@example.com, Associated Product: [{1.Laptop}{2.Desktop}], VendorAddress: 456 Tech Avenue2
+VendorID: 2, VendorName: XYZ Solutions, VendorEmail: xyz@example.com, VendorAddress: 456 Tech AvenueYou have chosen the following Category
+
+Vendor details:
+VendorID: 1
+VendorName: XYZ Solutions
+VendorEmail: xyz@example.com
+VendorAddress: 456 Tech Avenue
+Associated Product: 
+[
+{
+1.Laptop
+}
+{
+2.Desktop
+}
+]
+Vendor Deleted Successfully!!!!
+.
+
+1. Create New Vendor
+2. Retrieve Vendor By ID
+3. Update Existing Vendor
+4. Delete Vendor
+5. Import Vendor
+6. Export Vendor
+7. Associate Product
+8. Exit
+CSV Exported Successfully
+Export Completed
+.
+
+1. Create New Vendor
+2. Retrieve Vendor By ID
+3. Update Existing Vendor
+4. Delete Vendor
+5. Import Vendor
+6. Export Vendor
+7. Associate Product
+8. Exit
+Please provide Absolute Path to Import
+Import Successfully Completed
+.
+
+1. Create New Vendor
+2. Retrieve Vendor By ID
+3. Update Existing Vendor
+4. Delete Vendor
+5. Import Vendor
+6. Export Vendor
+7. Associate Product
+8. Exit
+Displaying All Vendors:
+1
+VendorID: 1, VendorName: XYZ Solutions, VendorEmail: xyz@example.com, Associated Product: [{1.Laptop}{2.Desktop}], VendorAddress: 456 Tech Avenue2
+VendorID: 2, VendorName: XYZ Solutions, VendorEmail: xyz@example.com, VendorAddress: 456 Tech Avenue3
+VendorID: 3, VendorName: ABC Electronics, VendorEmail: abc@example.com, VendorAddress: 123 Tech Street4
+VendorID: 4, VendorName: XYZ Solutions, VendorEmail: xyz@example.com, VendorAddress: 456 Tech Avenue5
+VendorID: 5, VendorName: Global Printers, VendorEmail: printers@example.com, VendorAddress: 789 Tech Boulevard6
+VendorID: 6, VendorName: Security Systems Inc, VendorEmail: security@example.com, VendorAddress: 101 Secure Lane7
+VendorID: 7, VendorName: Cloud Services Co, VendorEmail: cloud@example.com, VendorAddress: 202 Cloud StreetYou have chosen the following Category
+
+Vendor details:
+VendorID: 1
+VendorName: XYZ Solutions
+VendorEmail: xyz@example.com
+VendorAddress: 456 Tech Avenue
+Associated Product: 
+[
+{
+1.Laptop
+}
+{
+2.Desktop
+}
+]
+Enter vendorName:
+Enter vendorEmail:
+Enter vendorAddress:
+Vendor Updated Successfully!!!!
+
+Vendor details:
+VendorID: 1
+VendorName: XYZ Solutions Test
+VendorEmail: xyztest@example.com
+VendorAddress: 456 Tech Avenue test
+Associated Product: 
+[
+{
+1.Laptop
+}
+{
+2.Desktop
+}
+]
+
+Time: 0.037
+
+OK (9 tests)
+
+No of Tests present in the class VendorHandlerTest: 9
+No of Test Cases Executed Successfully For the class VendorHandlerTest: 9
+
+
+Total Test Cases Present:  113
+Total Test Cases Executed:  113
+

@@ -1,0 +1,518 @@
+/Users/ajaykumar/UOL/SMQA/mobileclientassetmanagement
+Running tests for class: handler.RegressionTest0_AssetHandler
+JUnit version 4.13.2
+.
+
+1. Create New Asset
+2. Retrieve Asset By ID
+3. Update Existing Asset
+4. Delete Asset
+5. Import Asset
+6. Export Asset
+7. Move Asset
+8. Tag Asset By User
+9. Tag Asset By Project
+10. Mark Asset As Expired
+11. Mark Asset as Decommission
+12. Exit
+New Asset Creation....
+Enter assetName:
+Enter assetCategory:
+Displaying All Category
+1.Laptops
+2.Desktops
+3.Servers
+4.Printers
+5.NetworkDevices
+6.SoftwareLicenses
+7.Accessories
+8.SecurityEquipment
+9.MobileDevices
+10.DataStorage
+11.Monitors
+12.ConferenceRoomEquipment
+13.VirtualizationInfrastructure
+14.ITTrainingMaterials
+15.BackupSystems
+16.CloudServices
+17.Workstations
+18.DataCenterHardware
+19.UPS
+20.VoIPPhones
+Choose Category
+Enter assetModel:
+Enter assetDescription:
+Enter assetLocation:
+Displaying All Locations
+1.Main Office
+2.IT Department
+3.Data Center
+4.Office Floor 1
+5.Server Room
+6.Software Repository
+7.Security Room
+8.Employees' Homes
+9.Training Room
+10.Office Cubicles
+11.Conference Rooms
+12.Cloud Platform
+Choose Location
+Enter expiryDate:
+Enter date format in (yyyy-MM-dd):
+Asset Created Successfully!!!!
+
+Asset details:
+AssetID: 1
+AssetName: Dell Monitor
+AssetCategory: Monitors
+AssetModel: 1250
+AssetDescription: Dell Monitor Description
+AssetLocation: Main Office
+AssetStatus: 0
+AssetStatus Formatted: UnAssigned
+AssetAcquisitionDate: 2023-12-11
+AssetExpiryDate: 2025-12-12
+.
+
+1. Create New Asset
+2. Retrieve Asset By ID
+3. Update Existing Asset
+4. Delete Asset
+5. Import Asset
+6. Export Asset
+7. Move Asset
+8. Tag Asset By User
+9. Tag Asset By Project
+10. Mark Asset As Expired
+11. Mark Asset as Decommission
+12. Exit
+
+Time: 0.042
+
+OK (2 tests)
+
+No of Tests present in the class RegressionTest0_AssetHandler: 2
+No of Test Cases Executed Successfully For the class RegressionTest0_AssetHandler: 2
+Running tests for class: handler.RegressionTest0_AssetRequestHandler
+JUnit version 4.13.2
+.
+
+1. Create New Asset Request
+2. Retrieve Request By ID
+3. Update Asset Request
+4. Delete Asset Request
+5. View Open Asset Request (All Open Asset Request) 
+6. View All Asset Request
+7. Approve Asset Request
+8. Reject Asset Request
+9. Comment on Asset Request
+10. Exit
+New Request Creation....
+Enter requestDescription:
+Enter assetList:
+Select Asset to Add in the Request
+Press -1 to End
+1.Laptop
+2.Printer
+3.Desktop
+4.Monitor
+5.Projector
+6.Scanner
+7.Phone
+8.Tablet
+9.Server
+10.Camera
+1.Laptop
+2.Printer
+3.Desktop
+4.Monitor
+5.Projector
+6.Scanner
+7.Phone
+8.Tablet
+9.Server
+10.Camera
+1.Laptop
+2.Printer
+3.Desktop
+4.Monitor
+5.Projector
+6.Scanner
+7.Phone
+8.Tablet
+9.Server
+10.Camera
+Asset Request Created Successfully!!!!
+
+AssetRequest details:
+Asset RequestID : 1
+Request Date: 2023-12-11
+Request Status: 0
+Request Status Formatted: Open
+Request Description: Asset Request Description
+Asset Info: 
+[{
+AssetName: Laptop
+AssetCategory: Laptop
+AssetModel: ModelABC
+AssetDescription: High-performance laptop
+}
+{
+AssetName: Printer
+AssetCategory: Printer
+AssetModel: ModelXYZ
+AssetDescription: Fast color printer
+}
+]
+Requester Name: John
+.
+
+1. Create New Asset Request
+2. Retrieve Request By ID
+3. Update Asset Request
+4. Delete Asset Request
+5. View Open Asset Request (All Open Asset Request) 
+6. View All Asset Request
+7. Approve Asset Request
+8. Reject Asset Request
+9. Comment on Asset Request
+10. Exit
+
+Time: 0.044
+
+OK (2 tests)
+
+No of Tests present in the class RegressionTest0_AssetRequestHandler: 2
+No of Test Cases Executed Successfully For the class RegressionTest0_AssetRequestHandler: 2
+Running tests for class: handler.RegressionTest0_CategoryHandler
+JUnit version 4.13.2
+....
+
+1. Create New Category
+2. Retrieve Category By ID
+3. Update Existing Category
+4. Delete Category
+5. Import Category
+6. Export Category
+7. Exit
+New Category Creation....
+Enter categoryName:
+Enter categoryDescription:
+Category Created Successfully!!!!
+
+Category details:
+CategoryID: 1
+CategoryName: 
+CategoryDescription: Mobile Phone
+.
+
+1. Create New Category
+2. Retrieve Category By ID
+3. Update Existing Category
+4. Delete Category
+5. Import Category
+6. Export Category
+7. Exit
+
+Time: 0.02
+
+OK (5 tests)
+
+No of Tests present in the class RegressionTest0_CategoryHandler: 5
+No of Test Cases Executed Successfully For the class RegressionTest0_CategoryHandler: 5
+Running tests for class: handler.RegressionTest0_LocationHandler
+JUnit version 4.13.2
+..
+
+1. Create New Location
+2. Retrieve Location By ID
+3. Update Existing Location
+4. Delete Location
+5. Import Location
+6. Export Location
+7. Exit
+New Location Creation....
+Enter locationName:
+Location Created Successfully!!!!
+
+Location details:
+LocationID: 1
+LocationName: 
+...
+
+1. Create New Location
+2. Retrieve Location By ID
+3. Update Existing Location
+4. Delete Location
+5. Import Location
+6. Export Location
+7. Exit
+
+Time: 0.02
+
+OK (5 tests)
+
+No of Tests present in the class RegressionTest0_LocationHandler: 5
+No of Test Cases Executed Successfully For the class RegressionTest0_LocationHandler: 5
+Running tests for class: handler.RegressionTest0_MaintenanceRequestHandler
+JUnit version 4.13.2
+..
+
+1. Create New Maintenance Request
+2. Retrieve Request By ID
+3. Update Maintenance Request
+4. Delete Maintenance Request
+5. View Open Maintenance Request (All Open Asset Request) 
+6. View All Maintenance Request
+7. Close Maintenance Request
+8. Comment on Maintenance Request
+9. Exit
+
+
+1. Create New Maintenance Request
+2. Retrieve Request By ID
+3. Update Maintenance Request
+4. Delete Maintenance Request
+5. View Open Maintenance Request (All Open Asset Request) 
+6. View All Maintenance Request
+7. Close Maintenance Request
+8. Comment on Maintenance Request
+9. Exit
+Invalid input, Please provide valid Integer
+
+Time: 0.017
+
+OK (2 tests)
+
+No of Tests present in the class RegressionTest0_MaintenanceRequestHandler: 2
+No of Test Cases Executed Successfully For the class RegressionTest0_MaintenanceRequestHandler: 2
+Running tests for class: handler.RegressionTest0_ModuleHandler
+JUnit version 4.13.2
+..
+
+1. User
+2. Asset
+3. Asset Request
+4. Maintenance Request
+5. Category
+6. Location
+7. Purchase Order
+8. Vendor
+9. Product
+10. Project
+11. About Me
+12. Logout
+13. Exit
+
+
+1. Create New Asset
+2. Retrieve Asset By ID
+3. Update Existing Asset
+4. Delete Asset
+5. Import Asset
+6. Export Asset
+7. Move Asset
+8. Tag Asset By User
+9. Tag Asset By Project
+10. Mark Asset As Expired
+11. Mark Asset as Decommission
+12. Exit
+
+Time: 0.017
+
+OK (2 tests)
+
+No of Tests present in the class RegressionTest0_ModuleHandler: 2
+No of Test Cases Executed Successfully For the class RegressionTest0_ModuleHandler: 2
+Running tests for class: handler.RegressionTest0_ProductHandler
+JUnit version 4.13.2
+..
+
+1. Create New Product
+2. Retrieve Product By ID
+3. Update Existing Product
+4. Delete Product
+5. Import Product
+6. Export Product
+7. Exit
+
+Time: 0.017
+
+OK (2 tests)
+
+No of Tests present in the class RegressionTest0_ProductHandler: 2
+No of Test Cases Executed Successfully For the class RegressionTest0_ProductHandler: 2
+Running tests for class: handler.RegressionTest0_ProjectHandler
+JUnit version 4.13.2
+.
+
+1. Create New Project
+2. Retrieve Project By ID
+3. Update Existing Project
+4. Delete Project
+5. Import Project
+6. Export Project
+7. Exit
+New Project Creation....
+Enter projectName:
+Enter projectDescription:
+Enter projectOwner:
+Displaying All Users
+1.John
+2.Jane Smith
+3.Bob Johnson
+4.Alice Williams
+5.Charlie Brown
+6.Eva Davis
+7.Frank Miller
+8.Grace Turner
+9.Henry White
+10.Isabel Garcia
+Choose User
+Project Created Successfully!!!!
+
+Project details:
+ProjectID: 1
+ProjectName: HSGC Bank
+ProjectDescription: HSGC Bank Description
+ProjectOwner: Frank Miller
+....
+
+1. Create New Project
+2. Retrieve Project By ID
+3. Update Existing Project
+4. Delete Project
+5. Import Project
+6. Export Project
+7. Exit
+
+Time: 0.025
+
+OK (5 tests)
+
+No of Tests present in the class RegressionTest0_ProjectHandler: 5
+No of Test Cases Executed Successfully For the class RegressionTest0_ProjectHandler: 5
+Running tests for class: handler.RegressionTest0_PurchaseOrderHandler
+JUnit version 4.13.2
+.
+
+1. Create New Purchase Order
+2. Retrieve PurchaseOrder By ID
+3. Update Existing Order
+4. Delete Order
+5. Mark As Paid
+6. Push Item To Asset
+7. Exit
+New Purchase Order Creation....
+Enter orderDate:
+Enter date format in (yyyy-MM-dd):
+Enter billingAddress:
+Enter orderVendor:
+Displaying All Vendors
+1.ABC Electronics
+2.XYZ Solutions
+3.Global Printers
+4.Security Systems Inc
+5.Cloud Services Co
+Choose Vendor
+Select Products
+Enter -1 to complete adding products
+1.Laptop
+2.Desktop
+Enter Quantity for the Item
+1.Laptop
+2.Desktop
+PurchaseOrder Created Successfully!!!!
+
+PurchaseOrder details:
+PurchaseOrderID: 1
+PurchaseOrderDate: 2023-12-12
+BillingAddress: Victoria Avenue
+VendorName: ABC Electronics
+OrderItems: 
+[{
+ItemName: Laptop
+ItemQuantity: 1
+ItemPrice: 1200.00
+}]
+OrderStatus: Open
+Total: 1200.00
+
+
+1. Create New Purchase Order
+2. Retrieve PurchaseOrder By ID
+3. Update Existing Order
+4. Delete Order
+5. Mark As Paid
+6. Push Item To Asset
+7. Exit
+Invalid input, Please provide valid Integer
+....
+
+1. Create New Purchase Order
+2. Retrieve PurchaseOrder By ID
+3. Update Existing Order
+4. Delete Order
+5. Mark As Paid
+6. Push Item To Asset
+7. Exit
+
+Time: 0.04
+
+OK (5 tests)
+
+No of Tests present in the class RegressionTest0_PurchaseOrderHandler: 5
+No of Test Cases Executed Successfully For the class RegressionTest0_PurchaseOrderHandler: 5
+Running tests for class: handler.RegressionTest0_UserHandler
+JUnit version 4.13.2
+..
+
+1. Create New User
+2. Retrieve User By ID
+3. Update Existing User
+4. Delete User
+5. Import User
+6. Export User
+7. Exit
+New User Creation....
+Enter name:
+Enter emailID:
+Enter userRole:
+Valid UserRoles: 
+1.Admin
+2.Asset Manager
+3.Asset User
+4.Technician
+choose Role Number
+Enter jobTitle:
+Enter description:
+User Created Successfully!!!!
+
+User details:
+UserID: 1
+Name: Leo
+EmailID: leo@email.com
+UserRole: ADMIN
+JobTitle: manager
+Description: description
+
+Time: 0.023
+
+OK (2 tests)
+
+No of Tests present in the class RegressionTest0_UserHandler: 2
+No of Test Cases Executed Successfully For the class RegressionTest0_UserHandler: 2
+Running tests for class: handler.RegressionTest0_VendorHandler
+JUnit version 4.13.2
+..
+Time: 0.012
+
+OK (2 tests)
+
+No of Tests present in the class RegressionTest0_VendorHandler: 2
+No of Test Cases Executed Successfully For the class RegressionTest0_VendorHandler: 2
+
+
+Total Test Cases Present:  34
+Total Test Cases Executed:  34
+
